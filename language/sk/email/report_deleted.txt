@@ -1,0 +1,8 @@
+Subject: Hlásenie zmazané — “{POST_SUBJECT}”
+
+Vážený/á {USERNAME},
+
+Obdržali ste túto správu, pretože hlásenie, ktoré ste podali na príspevok “{POST_SUBJECT}” v “{TOPIC_TITLE}” na “{SITENAME}” bolo zmazané moderátorom, alebo administrátorom.
+
+
+{EMAIL_SIG}
