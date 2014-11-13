@@ -68,6 +68,9 @@ $lang = array_merge($lang, array(
 	'IP_UNBAN_EXPLAIN'			=> 'Môžete zrušiť vylúčenie (alebo zrušiť vyňatie) viacerých IP adries naraz správnym použitím kombinácie myši a klávesnice na Vašom PC a prehliadači. Vyňaté IP adresy majú označené pozadie.',
 
 	'LENGTH_BAN_INVALID'		=> 'Dátum musí mať formát <kbd>RRRR-MM-DD</kbd>.',
+	
+	'OPTIONS_BANNED'			=> 'Zabanovaný',
+	'OPTIONS_EXCLUDED'			=> 'Vyňatý',
 
 	'PERMANENT'		=> 'Trvalé',
 

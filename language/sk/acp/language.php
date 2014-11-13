@@ -59,6 +59,7 @@ $lang = array_merge($lang, array(
 	'LANGUAGE_PACK_DELETED'				=> 'Jazykový balík <strong>%s</strong> bol úspešne vymazaný. Všetkým užívateľom, ktorý používali tento jazykový balík bol nastavený predvolený balík.',
 	'LANGUAGE_PACK_DETAILS'				=> 'Detaily jazykového balíka',
 	'LANGUAGE_PACK_INSTALLED'			=> 'Jazykový balík <strong>%s</strong> bol úspešne nainštalovaný.',
+	'LANGUAGE_PACK_CPF_UPDATE'		=> 'Jazykové reťazce vlastného pola v profile boli skopírované zo základného jazyka. V prípade potreby ich upravte.',
 	'LANGUAGE_PACK_ISO'					=> 'ISO',
 	'LANGUAGE_PACK_LOCALNAME'			=> 'Miestny názov',
 	'LANGUAGE_PACK_NAME'				=> 'Názov',

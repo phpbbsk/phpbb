@@ -8,7 +8,7 @@ Obdržali ste novú súkromnú správu od “{AUTHOR_NAME}” na Vašom účte n
 
 Ak si prajete zobraziť správu, navštívte nasledujúci odkaz:
 
-{U_INBOX}
+{U_VIEW_MESSAGE}
 
 Požiadali ste, aby ste na túto udalosť boli upozornení. Nezabúdajte, že upozornenia na nové správy si môžete zrušiť v nastaveniach vo Vašom profile.
 

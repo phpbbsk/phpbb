@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 	'SYSTEM_TIMEZONE'				=> 'Časové pásmo hostí',
 	'SYSTEM_TIMEZONE_EXPLAIN'			=> 'Časové pásmo použité pre zobrazovanie časov pre užívateľov, ktorí nie sú prihlásení (hostia, roboty). Prihlásený užívatelia si nastavujú svoje časové pásmo pri registrácii a je možné ho zmeniť v ich ovládacom paneli užívateľa.',
 	'WARNINGS_EXPIRE'				=> 'Trvanie varovania',
-	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Počet dní, ktoré musia uplynúť, než sa varovanie automaticky odstráni z užívateľského profilu.',
+	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Počet dní, ktoré musia uplynúť, než sa varovanie automaticky odstráni z užívateľského profilu. Pre trvalé varovanie nastavte hodnotu na 0.',
 ));
 
 // Board Features
@@ -174,7 +174,7 @@ $lang = array_merge($lang, array(
 	'MAX_POST_URLS'					=> 'Maximálny počet odkazov v príspevku',
 	'MAX_POST_URLS_EXPLAIN'			=> 'Najvyšší povolený počet odkazov v príspevku. Zadajte 0 pre nastavenie bez obmedzenia počtu odkazov.',
 	'MIN_CHAR_LIMIT'							=> 'Minimálny počet znakov v správe',
-	'MIN_CHAR_LIMIT_EXPLAIN'			=> 'Užívatelia nemôžu zadať menej ako tento počet znakov v správe, aby bola odoslaná. Toto nastavenie je vhodné k obmedzeniu spamových a jednoslovných správ.',
+	'MIN_CHAR_LIMIT_EXPLAIN'			=> 'Užívatelia nemôžu zadať menej ako tento počet znakov v správe, aby bola odoslaná. Toto nastavenie je vhodné k obmedzeniu spamových a jednoslovných správ. Minimum pre toto nastavenie je 1.',
 	'POSTING'						=> 'Odosielanie',
 	'POSTS_PER_PAGE'				=> 'Príspevkov na stranu',
 	'QUOTE_DEPTH_LIMIT'				=> 'Maximálny počet vnorených citácií',

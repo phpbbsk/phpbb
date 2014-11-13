@@ -59,6 +59,7 @@ $lang = array_merge($lang, array(
 
 	'RESTORE_FAILURE'		=> 'Súbor so zálohou môže byť poškodený.',
 	'RESTORE_OPTIONS'		=> 'Možnosti obnovy',
+	'RESTORE_SELECTED_BACKUP'	=> 'Naozaj chcete obnoviť zvolenú zálohu databázy?',
 	'RESTORE_SUCCESS'		=> 'Databáza bola úspešne obnovená.<br /><br />Vaše fórum by malo byť v stave, v ktorom bola táto záloha vytvorená.',
 
 	'SELECT_ALL'			=> 'Označiť všetko',

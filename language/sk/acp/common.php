@@ -323,6 +323,16 @@ $lang = array_merge($lang, array(
 
 	'DATABASE_SERVER_INFO'	=> 'Databázový server',
 	'DATABASE_SIZE'			=> 'Veľkosť databázy',
+	
+	// Enviroment configuration checks, mbstring related
+	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'Funkcia zaťaženia nie je nastavená správne.',
+	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> musí byť nastavené na 0 alebo 4. Aktuálne hodnoty môžete skontrolovať na stránke s <samp>PHP informáciami</samp>.',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'Transparentné kódovanie znakov nie je nastavené správne.',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> musí byť nastavené na 0. Aktuálne hodnoty môžete skontrolovať na stránke s <samp>PHP informáciami</samp>.',
+	'ERROR_MBSTRING_HTTP_INPUT'						=> 'Konverzia vstupných HTTP znakov nie je nastavené správne.',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> musí byť nastavené na <samp>pass</samp>. Aktuálne hodnoty môžete skontrolovať na stránke s <samp>PHP informáciami</samp>.',
+	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'Konverzia výstupných HTTP znakov nie je nastavené správne.',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> musí byť nastavené na <samp>pass</samp>. Aktuálne hodnoty môžete skontrolovať na stránke s <samp>PHP informáciami</samp>.',
 
 	'FILES_PER_DAY'		=> 'Príloh za deň',
 	'FORUM_STATS'		=> 'Štatistiky fóra',

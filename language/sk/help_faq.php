@@ -60,7 +60,7 @@ $help = array(
 	),
 	array(
 		0 => 'V minulosti som sa zaregistroval, avšak teraz sa nemôžem prihlásiť!',
-		1 => 'Najpravdepodobnejšie dôvody: zadali ste chybné užívateľské meno alebo heslo (skontrolujte e-mail, ktorý ste obdržali pri registrácií) alebo administrátor z nejakého dôvodu zmazal Váš účet. Pokiaľ je to ten druhý prípad, potom ste možno nevložili žiadny príspevok. Je to bežné, že sa pravidelne odstraňujú užívatelia, ktorí ničím neprispeli, aby sa zmenšila veľkosť databázy. Skúste sa zaregistrovať znova a zapojte sa do diskusií.'
+		1 => 'Najpravdepodobnejšie dôvody: zadali ste chybné užívateľské meno alebo heslo (skontrolujte e-mail, ktorý ste obdržali pri registrácií). Je bežné, že sa pravidelne odstraňujú užívatelia, ktorí ničím neprispeli, aby sa zmenšila veľkosť databázy. Skúste sa zaregistrovať znova a zapojte sa do diskusie.'
 	),
 	array(
 		0 => 'Čo znamená COPPA?',

@@ -72,7 +72,7 @@ $lang = array_merge($lang, array(
 	'ENABLE_TOPIC_ICONS'			=> 'Povoliť ikonky témy',
 
 	'FORUM_ADMIN'						=> 'Administrácia fór',
-	'FORUM_ADMIN_EXPLAIN'				=> 'V phpBB3 neexistujú kategórie, všetko je založené na fórach. Každé fórum môže mať neobmedzený počet sub-fór a môžete určiť, či je možné do fóra prispievať (t.j. bude sa správať ako kategória). Okrem ďalších akcií tu môžete pridávať, upravovať, odstraňovať, zamykať, alebo odomykať jednotlivé fóra. Pokiaľ sú vaše príspevky a témy nesynchrónne a objavujú sa chyby, môžete tiež fóra resynchronizovať. <strong>Pre zobrazenie novovytvorených fór, musíte prekopírovať alebo nastaviť náležité oprávnenia.</strong>',
+	'FORUM_ADMIN_EXPLAIN'				=> 'V phpBB3 je všetko založené na fórach. Kategória je iba špeciálny typ fóra. Každé fórum môže mať neobmedzený počet sub-fór a môžete určiť, či je možné do fóra prispievať (t.j. bude sa správať ako kategória). Okrem ďalších akcií tu môžete pridávať, upravovať, odstraňovať, zamykať, alebo odomykať jednotlivé fóra. Pokiaľ sú vaše príspevky a témy nesynchrónne a objavujú sa chyby, môžete tiež fóra resynchronizovať. <strong>Pre zobrazenie novovytvorených fór, musíte prekopírovať alebo nastaviť náležité oprávnenia.</strong>',
 	'FORUM_AUTO_PRUNE'					=> 'Zapnúť automatické prečisťovanie',
 	'FORUM_AUTO_PRUNE_EXPLAIN'			=> 'Automaticky prečistí fórum od starých tém, nastavte frekvenciu nižšie.',
 	'FORUM_CREATED'						=> 'Fórum úspešne vytvorené.',

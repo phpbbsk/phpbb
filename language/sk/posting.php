@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_A_HELP'				=> 'Nahraná príloha: [attachment=]filename.ext[/attachment]',
 	'BBCODE_B_HELP'				=> 'Tučné: [b]text[/b]  (alt+b)',
 	'BBCODE_C_HELP'				=> 'Kód: [code]kód[/code]  (alt+c)',
-	'BBCODE_E_HELP'				=> 'Zoznam: Pridať časť zoznamu',
+	'BBCODE_D_HELP'				=> 'Flash: [flash=šírka,výška]http://url[/flash] (alt+d)',
 	'BBCODE_F_HELP'				=> 'Veľkosť písma: [size=85]malé písmo[/size]',
 	'BBCODE_IS_OFF'				=> '%sBBCode%s je <em>OFF</em>',
 	'BBCODE_IS_ON'				=> '%sBBCode%s je <em>ON</em>',
@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_S_HELP'				=> 'Farba písma: [color=red]text[/color]  Tip: môžete použiť taktiež color=#FF0000',
 	'BBCODE_U_HELP'				=> 'Podčiarknuté: [u]text[/u]  (alt+u)',
 	'BBCODE_W_HELP'				=> 'Vložiť odkaz: [url]http://odkaz[/url] alebo [url=http://odkaz]text[/url]  (alt+w)',
-	'BBCODE_D_HELP'				=> 'Flash: [flash=šírka,výška]http://url[/flash]  (alt+d)',
+	'BBCODE_Y_HELP'				=> 'Zoznam: Pridať časť zoznamu',
 	'BUMP_ERROR'				=> 'Nemôžete odoslať nový príspevok tak skoro po predchádzajúcom príspevku, chvíľu počkajte a skúste to znova.',
 
 	'CANNOT_DELETE_REPLIED'		=> 'Prepáčte, ale môžete odstraňovať iba príspevky, na ktoré ešte nebola zaslaná odpoveď.',

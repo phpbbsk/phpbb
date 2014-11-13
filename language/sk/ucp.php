@@ -137,6 +137,7 @@ $lang = array_merge($lang, array(
 	'CURRENT_IMAGE'				=> 'Súčasný obraz',
 	'CURRENT_PASSWORD'			=> 'Súčasné heslo',
 	'CURRENT_PASSWORD_EXPLAIN'	=> 'Musíte svoje súčasné heslo potvrdiť, ak ho chcete zmeniť, alebo zmeniť e-mailovú adresu či užívateľské meno.',
+	'CUR_PASSWORD_EMPTY'		=> 'Nezadali ste súčastné heslo.',
 	'CUR_PASSWORD_ERROR'		=> 'Súčasné heslo, ktoré ste zadali je nesprávne.',
 	'CUSTOM_DATEFORMAT'			=> 'Voliteľné…',
 
@@ -267,9 +268,11 @@ $lang = array_merge($lang, array(
 	'MOVE_TO_FOLDER'				=> 'Presunúť do zložky',
 	'MOVE_UP'						=> 'Presunúť nahor',
 
+  'NEW_EMAIL_CONFIRM_EMPTY'		=> 'Nezadali ste vašu e-mailovú adresu pre jej potvrdenie.',
 	'NEW_EMAIL_ERROR'				=> 'E-mailová adresy, ktoré ste zadali sa nezhodujú.',
 	'NEW_FOLDER_NAME'				=> 'Názov novej zložky',
 	'NEW_PASSWORD'					=> 'Nové heslo',
+	'NEW_PASSWORD_CONFIRM_EMPTY'	=> 'Nezadali ste vaše heslo pre jeho potvrdenie.',
 	'NEW_PASSWORD_ERROR'			=> 'Heslá, ktoré ste zadali sa nezhodujú.',
 	'NOTIFY_METHOD'					=> 'Metóda upozorňovania',
 	'NOTIFY_METHOD_BOTH'			=> 'Obidve',
