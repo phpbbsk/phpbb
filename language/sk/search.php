@@ -77,6 +77,7 @@ $lang = array_merge($lang, array(
 
 	'SEARCHED_FOR'			=> 'Text vyhľadávania',
 	'SEARCHED_TOPIC'		=> 'Prehľadávaná téma',
+	'SEARCHED_QUERY'			=> 'Hľadaný výraz',
 	'SEARCH_ALL_TERMS'		=> 'Hľadať so všetkými podmienkami alebo text vyhľadávania presne tak, ako bol zadaný',
 	'SEARCH_ANY_TERMS'		=> 'Hľadať so všetkými podmienkami',
 	'SEARCH_AUTHOR'			=> 'Vyhľadať autora',

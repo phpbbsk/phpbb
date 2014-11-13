@@ -115,7 +115,6 @@ $lang = array_merge($lang, array(
 	'VISIT_WEBSITE'			=> 'WWW',
 	'VOTE_SUBMITTED'		=> 'Váš hlas bol prijatý',
   'VOTE_CONVERTED'		=> 'Zmena v hlasovaní nie je podporovaná pre konvertované hlasovanie.',
-	'WROTE'					=> 'píše',
 ));
 
 ?>

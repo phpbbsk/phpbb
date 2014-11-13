@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 
 		<br />
 
-		<p>Pre ďalšie informácie o nastavení a správe oprávnení na vašom phpBB3 fóre, prosíme, pozrite sa do <a href="http://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">Kapitoly 1.5 Sprievodca pre rýchly začiatok</a>.</p>
+		<p>Pre ďalšie informácie o nastavení a správe oprávnení na vašom phpBB3 fóre, prosíme, pozrite sa do <a href="https://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">Kapitoly 1.5 Sprievodca pre rýchly začiatok</a>.</p>
 	',
 
 	'ACL_NEVER'				=> 'Nikdy',
@@ -196,7 +196,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_FORUM_POLLS'			=> 'Rovnaké ako Bežný prístup, ale môže zakladať hlasovania.',
 	'ROLE_DESCRIPTION_FORUM_READONLY'		=> 'Môže čítať témy na fóre, ale nemôže vytvárať nové témy alebo odosielať odpovede.',
 	'ROLE_DESCRIPTION_FORUM_STANDARD'		=> 'Môže využívať väčšinu funkcií fóra vrátane príloh a mazania vlastných tém, ale nemôže zamykať vlastné témy a nemôže vytvárať hlasovania.',
-	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> 'Role pre skupinu novo registrovaných užívateľov; obsahuje oprávnenie typu <samp> NIKDY </ samp> pre obmedzenie možností pre nových užívateľov.',
+	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> 'Role pre skupinu novo registrovaných užívateľov; obsahuje oprávnenie typu <samp> NIKDY </samp> pre obmedzenie možností pre nových užívateľov.',
   'ROLE_DESCRIPTION_MOD_FULL'				=> 'Môže využívať všetky možnosti moderátora, vrátane banovania.',
 	'ROLE_DESCRIPTION_MOD_QUEUE'			=> 'Môže využiť zoznam príspevkov ku schváleniu pre schvaľovanie a úpravu príspevkov, ale nič iného.',
 	'ROLE_DESCRIPTION_MOD_SIMPLE'			=> 'Môže využívať len základné operácie s témami. Nemôže udeľovať varovania alebo používať zoznam príspevkov ku schváleniu.',

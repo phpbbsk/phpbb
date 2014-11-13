@@ -92,7 +92,7 @@ $help = array(
 	),
 	array(
 		0 => 'Môj jazyk nie je na zozname!',
-		1 => 'Pravdepodobne administrátor nenainštaloval tento jazyk, alebo ho nikto do tohto jazyka zatiaľ nepreložil. Kontaktujte administrátora, prípadne si preklad vytvorte sami. Pre viac informácií navštívte stránky <a href="http://www.phpbb.com/" target="_blank">phpBB Group</a>.'
+		1 => 'Pravdepodobne administrátor nenainštaloval tento jazyk, alebo ho nikto do tohto jazyka zatiaľ nepreložil. Kontaktujte administrátora, prípadne si preklad vytvorte sami. Pre viac informácií navštívte stránky <a href="https://www.phpbb.com/" target="_blank">phpBB Group</a>.'
 	),
 	array(
 		0 => 'Ako zobrazím obrázok pri užívateľskom mene?',
@@ -329,7 +329,7 @@ $help = array(
 	),
 	array(
 		0 => 'Kto napísal tento program?',
-		1 => 'Tento software (v jeho nemodifikované forme) je vytvorený, zverejnený a chránený autorskými právami <a href="http://www.phpbb.com/" rel="external">phpBB Group</a>. Je dostupný pod the GNU General Public Licence a môže byť voľne šíriteľný. Pre viac informácií kliknite <a href="http://www.phpbb.com/" rel="external">sem</a>.'
+		1 => 'Tento software (v jeho nemodifikované forme) je vytvorený, zverejnený a chránený autorskými právami <a href="https://www.phpbb.com/" rel="external">phpBB Group</a>. Je dostupný pod the GNU General Public Licence a môže byť voľne šíriteľný. Pre viac informácií kliknite <a href="https://www.phpbb.com/" rel="external">sem</a>.'
 	),
 	array(
 		0 => 'Prečo nie je k dispozícii funkcia X?',

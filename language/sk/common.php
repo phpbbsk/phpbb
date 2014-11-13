@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> 'Slovenský preklad: <a href="http://www.senky.net/">Senky</a> & <a href="http://phpbb3hacks.com/">Kamahl</a>.',
+	'TRANSLATION_INFO'	=> 'Slovenský preklad vytvoril <a href="http://phpbb3hacks.com/phpbb_services.php?lang=sk">Kamahl</a>.',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'USER_LANG'			=> 'sk',
@@ -160,6 +160,7 @@ $lang = array_merge($lang, array(
 	'EDIT_POST'							=> 'Editovať príspevok',
 	'EMAIL'								=> 'E-mail',
 	'EMAIL_ADDRESS'						=> 'E-mailová adresa',
+	'EMAIL_INVALID_EMAIL'				=> 'E-mailová adresa je neplatná.',
 	'EMAIL_SMTP_ERROR_RESPONSE'			=> 'Posielanie e-mailu zlyhalo na <strong>riadku %1$s</strong>. Odozva: %2$s',
 	'EMPTY_SUBJECT'						=> 'Pri zakladaní novej témy, musíte uviesť názov témy.',
 	'EMPTY_MESSAGE_SUBJECT'				=> 'Musíte uviesť predmet pri písaní novej správy.',
@@ -375,6 +376,7 @@ $lang = array_merge($lang, array(
 	'NO_EMAIL_SUBJECT'			=> 'Chýbajúci subjekt e-mailu.',
 	'NO_FEED_ENABLED'		=> 'Exporty nie sú povolené na tomto fóre.',
 	'NO_FEED'						=> 'Zvolený export nie je dostupný.',
+	'NO_STYLE_DATA'				=> 'Nemôže načítať dáta vzhľadu',
 	'NO_FORUM'					=> 'Zvolené fórum neexistuje.',
 	'NO_FORUMS'					=> 'Na tejto stránke nie sú žiadne fóra.',
 	'NO_GROUP'					=> 'Zvolená skupina neexistuje.',
@@ -568,10 +570,12 @@ $lang = array_merge($lang, array(
 	'SUBFORUMS'					=> 'Sub-fóra',
 	'SUBJECT'					=> 'Predmet',
 	'SUBMIT'					=> 'Odoslať',
+	'TB'				=> 'TB',
 
 	'TERMS_USE'			=> 'Pravidlá pre používanie',
 	'TEST_CONNECTION'	=> 'Testovať pripojenie',
 	'THE_TEAM'			=> 'Tím',
+	'TIB'				=> 'TiB',
 	'TIME'				=> 'Čas',
 	'TOO_LARGE'						=> 'Zadaná hodnota je príliš veľká.',
 	'TOO_LARGE_MAX_RECIPIENTS'		=> 'Hodnota <strong>Maximálny počet povolených príjemcov súkromnej správy</strong> ktorú ste zadali, je príliš veľká.',
@@ -713,6 +717,7 @@ $lang = array_merge($lang, array(
 	'WHOIS'				=> 'Kto je to',
 	'WHO_IS_ONLINE'		=> 'Kto je on-line',
 	'WRONG_PASSWORD'	=> 'Zadali ste neplatné heslo.',
+	'WRONG_DATA_COLOUR'			=> 'Farba, ktorú ste vložili je neplatná.',
 
 
 	'WRONG_DATA_ICQ'			=> 'Zadané číslo nie je správne číslo ICQ.',

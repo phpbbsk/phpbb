@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'TERMS_OF_USE_CONTENT'	=> 'Vstupom na “%1$s” (ďalej len “my”, “nás”, “náš”, “%1$s”, “%2$s”), súhlasíte s právnym vymedzením nasledujúcich podmienok. Ak nesúhlasíte s právnym vymedzením všetkých nasledujúcich podmienok, potom, prosím, nevstupujte a/alebo nepoužívajte “%1$s”. Tieto podmienky môžme kedykoľvek zmeniť a my spravíme všetko preto, aby sme Vás informovali o týchto zmenách, avšak bude rozumné, ak tieto podmienky budete pravidelne kontrolovať počas pravidelného používania “%1$s”, pretože musíte súhlasiť s každou zmenou týchto podmienok, ktoré budú aktualizované a/alebo upravené.<br />
 	<br />
-	Naše fórum beží na systéme phpBB (ďalej len “oni”, “im”, “ich”, “phpBB software”, “www.phpbb.com”, “phpBB Group”, “phpBB tímy”), čo je elektronický konferenčný systém vydávaný pod “<a href="http://www.gnu.org/licenses/gpl-license.php">General Public License</a>” (ďalej len “GPL”) a ktorý môže byť stiahnutý z <a href="http://www.phpbb.com/">www.phpbb.com</a>. Softvér phpBB  umožňuje internetové diskusie a GPL mu striktne zakazuje určovať čo môžme a/alebo nemôžme v rámci povoleného obsahu a/alebo správy. Pre ďalšie informácie o phpBB, navštívte, prosím: <a href="http://www.phpbb.com/">http://www.phpbb.com/</a>.<br />
+	Naše fórum beží na systéme phpBB (ďalej len “oni”, “im”, “ich”, “phpBB software”, “www.phpbb.com”, “phpBB Group”, “phpBB tímy”), čo je elektronický konferenčný systém vydávaný pod “<a href="http://www.gnu.org/licenses/gpl-license.php">General Public License</a>” (ďalej len “GPL”) a ktorý môže byť stiahnutý z <a href="https://www.phpbb.com/">www.phpbb.com</a>. Softvér phpBB  umožňuje internetové diskusie a GPL mu striktne zakazuje určovať čo môžme a/alebo nemôžme v rámci povoleného obsahu a/alebo správy. Pre ďalšie informácie o phpBB, navštívte, prosím: <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.<br />
 	<br />
 	Súhlasíte s tým, že nebudete odosielať žiadne urážlivé, obscénne, vulgárne, ohováracie, nenávistné, výhražné, sexuálne orientované príspevky alebo posielať akýkoľvek iný materiál, ktorý môže porušovať ktorékoľvek zákony krajiny, v ktorej sa nachádzate Vy či v ktorej sa nachádza “%1$s” alebo medzinárodné právo. Takéto konanie môže viesť k okamžitému a trvalému vylúčeniu, s upozornením Vášho poskytovateľa internetového pripojenia, ak sa budeme domnievať, že to bude od nás požadované. IP adresa všetkých Vašich príspevkov je zaznamenávaná na pomoc vo vymožiteľnosti týchto podmienok. Súhlasíte s tým, že “%1$s” má právo kedykoľvek odstrániť, upraviť, presunúť alebo uzamknúť ktorúkoľvek tému, ktorá by porušovala tieto podmienky. Ako užívateľ, súhlasíte s ukladaním do databázy akejkoľvek informácie, ktorú vložíte. Hoci táto informácia nebude zverejnená/poskytnutá žiadnej tretej strane bez Vášho súhlasu, ani “%1$s” ani phpBB nenesú zodpovednosť za akýkoľvek pokus o prienik (hacking), ktorý môže viesť k zneužitiu týchto údajov.
 	',
@@ -175,7 +175,6 @@ $lang = array_merge($lang, array(
 
 	'EDIT_DRAFT_EXPLAIN'		=> 'Tu môžete upraviť Váš koncept. Koncepty neobsahujú prílohu a anketu.',
 	'EMAIL_BANNED_EMAIL'		=> 'Nie je možné použiť zadanú e-mailovú adresu.',
-	'EMAIL_INVALID_EMAIL'		=> 'Zadaná e-mailová adresa je neplatná.',
 	'EMAIL_REMIND'				=> 'Musíte zadať e-mailovú adresu, ktorú máte nastavenú v profile. Ak ste si ju nemenili, tak je to adresa, ktorú ste zadali pri registrácii.',
 	'EMAIL_TAKEN_EMAIL'			=> 'Zadaná e-mailová adresa je už používaná',
 	'EMPTY_DRAFT'				=> 'Musíte vložiť správu pre potvrdenie Vašich zmien',
@@ -256,8 +255,9 @@ $lang = array_merge($lang, array(
 	'MESSAGE_BY_AUTHOR'				=> 'od',
 	'MESSAGE_COLOURS'				=> 'Farby správy',
 	'MESSAGE_DELETED'				=> 'Správa bola úspešne zmazaná',
+	'MESSAGE_EDITED'				=> 'Správa bola úspešne upravená',
 	'MESSAGE_HISTORY'				=> 'História správ',
-	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Táto správa bola odstránená jej autorom ešte pred jej doručením',
+	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Táto správa bola odstránená jej autorom',
 	'MESSAGE_SENT_ON'				=> 'dňa',
 	'MESSAGE_STORED'				=> 'Vaša správa bola úspešne odoslaná',
 	'MESSAGE_TO'					=> 'Komu',

@@ -3,7 +3,7 @@ Vážený/á {TO_USERNAME},
 
 Nasledujúcu správu ste obdržali od {FROM_USERNAME} na Vašom účte na “{SITENAME}”. Ak túto správu považujete za spam, obsahuje poznámky, ktoré sa Vám zdajú byť neprístojné, alebo Vás istým spôsbom uráža, prosím kontaktujte webmastera fóra na nasledujúcej adrese:
 
-{BOARD_EMAIL}
+{BOARD_CONTACT}
 
 Nezabudnite priložiť aj túto celú správu. Prosím, berte na vedomie, že adresa odosielateľa bola uložená na IM účte fóra.
 

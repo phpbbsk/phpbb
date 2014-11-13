@@ -14,6 +14,8 @@ URL fóra: {U_BOARD}
 ----------------------------
 
 Za účelom bezpečnosti fóra, odporúčame držať krok s vývojom softvéru, čo ľahko dosiahnete prihlásením sa na prijímanie emailu týkajuceho sa phpBB.
-Prihlásiť sa môťete na - http://www.phpbb.com/support/    prípadne českej podpory - http://www.phpbb.cz   slovenskej podpory -  http://www.phpbb3.sk 
+Prihlásiť sa môťete na - https://www.phpbb.com/support/
+
+V prípade záujmu o vytvorenie nového vzhľadu, modifikácie alebo akejkoľvek úpravy phpBB systému, sa môžete obrátiť na http://phpbb3hacks.com/phpbb_services.php?lang=sk
 
 {EMAIL_SIG}

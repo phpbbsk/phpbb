@@ -2,7 +2,7 @@ Subject: Nový príspevok v téme “{TOPIC_TITLE}”
 
 Vážený/á {USERNAME},
 
-Obdržali ste túto správu, pretože sledujete tému - “{TOPIC_TITLE}” na “{SITENAME}”. V tejto téme pribudli nové príspevky od Vašej poslednej návštevy. Ďalšia správa oznamujúca nové príspevky Vám bude poslaná, až po Vašej návšteve tejto témy.
+Obdržali ste túto správu, pretože sledujete tému - “{TOPIC_TITLE}” na “{SITENAME}”. V tejto téme pribudli nové príspevky<!-- IF AUTHOR_NAME !== '' --> od autora {AUTHOR_NAME}<!-- ENDIF --> od Vašej poslednej návštevy. Ďalšia správa oznamujúca nové príspevky Vám bude poslaná, až po Vašej návšteve tejto témy.
 
 Ak si prajete zobraziť najnovšie príspevky od Vašej poslednej návštevy, navštívte nasledujúci odkaz:
 {U_NEWEST_POST}

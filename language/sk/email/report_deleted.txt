@@ -1,7 +1,8 @@
-Subject: Hlásenie zmazané — "{PM_SUBJECT}"
+Subject: Hlásenie zmazané — "{POST_SUBJECT}"
 
 Vážený/á {USERNAME},
 
-Hlásenie o správe "{PM_SUBJECT}", které ste odeslali na "{SITENAME}" bolo odstranené moderátorom.
+Nahlásenie príspevku "{POST_SUBJECT}" v "{TOPIC_TITLE}" na "{SITENAME}" bolo zmazané moderátorom alebo administrátorom.
+
 
 {EMAIL_SIG}

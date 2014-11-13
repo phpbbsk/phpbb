@@ -2,7 +2,7 @@ Subject: Bola založená nová téma — “{FORUM_NAME}”
 
 Vážený/á {USERNAME},
 
-Obdržali ste túto správu, pretože sledujete fórum, “{FORUM_NAME}” na “{SITENAME}”. Od Vašej poslednej návštevy, bola v tomto fóre založená nová téma, “{TOPIC_TITLE}”. Najbližší oznam Vám bude poslaný, až po Vašej návšteve daného fóra.
+Obdržali ste túto správu, pretože sledujete fórum, “{FORUM_NAME}” na “{SITENAME}”. Od Vašej poslednej návštevy, bola v tomto fóre založená nová téma<!-- IF AUTHOR_NAME !== '' --> od autora {AUTHOR_NAME}<!-- ENDIF -->, “{TOPIC_TITLE}”. Najbližší oznam Vám bude poslaný, až po Vašej návšteve daného fóra.
 
 {U_FORUM}
 

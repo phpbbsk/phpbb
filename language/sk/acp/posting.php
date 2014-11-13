@@ -83,7 +83,8 @@ $lang = array_merge($lang, array(
 		'NUMBER'		=> 'Akákoľvek rada číslic',
 		'EMAIL'			=> 'Platná e-mailová adresa',
 		'URL'			=> 'Platná URL, používajúca akýkoľvek protokol (http, ftp, atď... nedá sa zneužiť pre JavaScriptové útoky). Pokiaľ nie je zvolený žiadny, protokol „http://“ je pripojený na začiatok reťazca.',
-		'LOCAL_URL'		=> 'Lokálna URL adresa. Zadaná URL musí byť relatívna k stránke s témou a nesmie obsahovať definíciu protokolu, alebo názov servera.',
+		'LOCAL_URL'		=> 'Lokálna URL adresa. Zadaná URL musí byť relatívna k stránke s témou a nesmie obsahovať definíciu protokolu alebo názov servera, pretože adresy majú prefix “%s”',
+		'RELATIVE_URL'	=> 'Relatívna adresa. Môžete ju použiť ale buďťe opatrný: celá adresa je valídna relatívna adresa. Ak chcete použiť relatívnu adresu fóra, použite token LOCAL_URL.',
 		'COLOR'			=> 'HTML farba, buď v číselnom formáte <samp>#FF1234</samp> alebo ako <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS farba</a> ako <samp>fuchsia</samp> alebo <samp>InactiveBorder</samp>'
 	)
 ));

@@ -294,7 +294,7 @@ $lang = array_merge($lang, array(
 
 // PHP info
 $lang = array_merge($lang, array(
-	'ACP_PHP_INFO_EXPLAIN'	=> 'Tato stránka vypisuje informácie o verzii PHP inštalovanej na tomto serveri. Obsahuje detaily o načítaných moduloch, dostupných premenných a predvolených nastaveniach. Tieto informácie môžu byť užitočné pri riešení problémov. Berte na vedomie, že niektoré hostingy môžu z bezpečnostných dôvodov obmedzovať informácie, ktoré sa vám zobrazia. Odporúčame vám, aby ste nikde nezverejňovali zobrazené informácie. Zverejnite ich, iba ak sa na ne pýtajú <a href="http://www.phpbb.com/about/team/">oficiálni členovia tímu</a> na poradných fórach.',
+	'ACP_PHP_INFO_EXPLAIN'	=> 'Tato stránka vypisuje informácie o verzii PHP inštalovanej na tomto serveri. Obsahuje detaily o načítaných moduloch, dostupných premenných a predvolených nastaveniach. Tieto informácie môžu byť užitočné pri riešení problémov. Berte na vedomie, že niektoré hostingy môžu z bezpečnostných dôvodov obmedzovať informácie, ktoré sa vám zobrazia. Odporúčame vám, aby ste nikde nezverejňovali zobrazené informácie. Zverejnite ich, iba ak sa na ne pýtajú <a href="https://www.phpbb.com/about/team/">oficiálni členovia tímu</a> na poradných fórach.',
 
 	'NO_PHPINFO_AVAILABLE'	=> 'Nedajú sa zistiť informácie o PHP. Funkcia phpinfo() je vypnutá z bezpečnostných dôvodov.',
 ));
