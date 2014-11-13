@@ -4,7 +4,7 @@
 * help_faq [Slovak]
 *
 * @package language
-* @version $Id: help_faq.php,v 1.42 2007/10/15 00:00:00 Tom@S Exp $
+* @version $Id: help_faq.php,v 1.42 2010/01/05 23:00:00 phpbb3.sk Exp $
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -30,16 +30,6 @@ if (!defined('IN_PHPBB'))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $help = array(
-	array(
-		0 => '--',
-		1 => 'Autori prekladu'
-	),
-	array(
-		0 => '<font color="red">Kto je autorom slovenského prekladu na phpBB 3?</font>',
-		1 => 'O preklad sa stará koordinátorská skupina <a href="http://www.phpbb3.sk">www.phpBB3.sk</a> <strong>Shaggy, Tom@S,<a href="mailto:djsucho@centrum.sk">sucho</a>,<a href="mailto:myjuska@gmail.com">myjka</a>,bax</strong>.<br />Podporu k prekladu nájdete vždy na stránke:<a href="http://www.phpbb3.sk/forum">www.phpbb3.sk/forum</a> a taktiež <a href="http://www.phpbb3.sk/download.php">download vždy aktuálnej verzie slovenčiny na phpbb</a><br><br>
-		Sponzormi prekladu sú internetové obchody: www.ProGamingShop.sk zameraný na <a href="http://www.progamingshop.sk">predaj hier</a>, <a href="http://www.progamingshop.sk/hracky-c-631.html">hračky</a> a <a href="http://www.progamingshop.sk/gadgets-darceky-c-765.html">darčeky</a>. Obchod PreAuto.sk - <a href="http://www.preauto.sk">predaj pneumatík</a> a <a href="http://www.preauto.sk/hlinikove-disky-c-183.html">hliníkových diskov</a> a obchod <a href="http://www.mp3.sk">MP3.sk</a> kde okrem <a href="http://www.mp3.sk/mp3-prehravace-c-649.html">mp3 prehrávačov</a> nájdete i najnovšie <a href="http://www.mp3.sk/mobilne-telefony-c-692.html">mobilné telefóny</a> značiek <a href="http://www.mp3.sk/mobilne-telefony-nokia-c-692_693.html">Nokia</a>, <a href="http://www.mp3.sk/mobilne-telefony-samsung-c-692_694.html">Samsung</a> či <a href="http://www.mp3.sk/mobilne-telefony-sony-ericsson-c-692_696.html">Sony Ericsson</a>.
-		'	
-	),
 	array(
 		0 => '--',
 		1 => 'Registrácia a prihlásenie'
@@ -211,6 +201,11 @@ $help = array(
 	array(
 		0 => 'Čo sú ikony tém?',
 		1 => 'Ikony tém sú obrázky, ktoré môžu byť spojené s príspevkom pre vyjadrenie jeho obsahu. Ikony môžete používať iba vtedy pokiaľ vám nastavil administrátor príslušné oprávnenie.'
+	),
+		// This block will switch the FAQ-Questions to the second template column
+	array(
+		0 => '--',
+		1 => '--'
 	),
 	array(
 		0 => '--',

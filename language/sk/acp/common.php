@@ -4,7 +4,7 @@
 * acp common [Slovak]
 *
 * @package language
-* @version $Id: common.php,v 1.120 2007/10/15 00:00:00 shaggy Exp $
+* @version $Id: common.php,v 1.120 2010/01/05 23:00:00 phpbb3.sk Exp $
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -82,12 +82,16 @@ $lang = array_merge($lang, array(
 
 	'ACP_EMAIL_SETTINGS'		=> 'Nastavenie e-mailov',
 	'ACP_EXTENSION_GROUPS'		=> 'Spravovať skupiny typov súborov',
+	
+	'ACP_FEED'					=> 'Exporty ATOM',
+	'ACP_FEED_SETTINGS'			=> 'Nastavenie exportov',
 
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Oprávnenia založená na fórach',
 	'ACP_FORUM_LOGS'				=> 'Log fór',
 	'ACP_FORUM_MANAGEMENT'			=> 'Správa fór',
 	'ACP_FORUM_MODERATORS'			=> 'Moderátori fór',
 	'ACP_FORUM_PERMISSIONS'			=> 'Oprávnenie fór',
+	'ACP_FORUM_PERMISSIONS_COPY'	=> 'Kopírovať oprávnenie fóra',
 	'ACP_FORUM_ROLES'				=> 'Rola fór',
 
 	'ACP_GENERAL_CONFIGURATION'		=> 'Všeobecná konfigurácia',
@@ -151,6 +155,7 @@ $lang = array_merge($lang, array(
 	'ACP_SEARCH_SETTINGS'		=> 'Nastavenie vyhľadávania',
 
 	'ACP_SECURITY_SETTINGS'		=> 'Nastavenie zabezpečenia',
+	'ACP_SEND_STATISTICS'		=> 'Odoslať štatistickú správu',
 	'ACP_SERVER_CONFIGURATION'	=> 'Konfigurácia servera',
 	'ACP_SERVER_SETTINGS'		=> 'Nastavenie servera',
 	'ACP_SIGNATURE_SETTINGS'	=> 'Nastavenie podpisov',
@@ -158,6 +163,8 @@ $lang = array_merge($lang, array(
 	'ACP_STYLE_COMPONENTS'		=> 'Komponenty štýlov',
 	'ACP_STYLE_MANAGEMENT'		=> 'Správa štýlov',
 	'ACP_STYLES'				=> 'Štýly',
+	
+	'ACP_SUBMIT_CHANGES'		=> 'Odoslať zmeny',
 
 	'ACP_TEMPLATES'				=> 'Templaty',
 	'ACP_THEMES'				=> 'Skiny',
@@ -179,8 +186,9 @@ $lang = array_merge($lang, array(
 	'ACP_USER_ROLES'				=> 'Užívateľské role',
 	'ACP_USER_SECURITY'				=> 'Bezpečnosť užívateľa',
 	'ACP_USER_SIG'					=> 'Podpis',
+  'ACP_USER_WARNINGS' => 'Varovania',
 
-	'ACP_VC_SETTINGS'					=> 'Nastavenie vizuálneho overovania',
+	'ACP_VC_SETTINGS'					=> 'Nastavenia modulov CAPTCHA',
 	'ACP_VC_CAPTCHA_DISPLAY'			=> 'Náhľad obrázku CAPTCHA',
 	'ACP_VERSION_CHECK'					=> 'Skontrolovať aktualizácie',
 	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'Zobraziť administračné oprávnenia',
@@ -239,6 +247,10 @@ $lang = array_merge($lang, array(
 
 	'MANAGE'				=> 'Spravovať',
 	'MENU_TOGGLE'			=> 'Zobraziť, alebo skryť postranné menu',
+	
+	'MORE'					=> 'Viac',			// Not used at the moment
+	'MORE_INFORMATION'		=> 'Viac informácií »',
+	
 	'MOVE_DOWN'				=> 'Posunúť dolu',
 	'MOVE_UP'				=> 'Posunúť hore',
 
@@ -264,10 +276,12 @@ $lang = array_merge($lang, array(
 
 	'SELECT_ANONYMOUS'		=> 'Vybrať anonymného užívateľa',
 	'SELECT_OPTION'			=> 'Vybrať možnosť',
-  'SETTING_TOO_LOW'		=> 'Vložená hodnota pre nastavenie “%1$s” je príliž malá. Minimálna povolená hodnota je %2$d.',
-	'SETTING_TOO_BIG'		=> 'Vložená hodnota pre nastavenie “%1$s” is too big. Maximálna povolená hodnota je %2$d.',	
-	'SETTING_TOO_LONG'		=> 'Vložená hodnota pre nastavenie “%1$s” is too long. Maximálna povolená dĺžka je %2$d.',
-	'SETTING_TOO_SHORT'		=> 'Vložená hodnota pre nastavenie “%1$s” is not long enough. Minimálna povolená dĺžka je %2$d.',
+ 	'SETTING_TOO_LOW'			=> 'Vložená hodnota pre nastavenie „%1$s“ je príliš malá. Minimálna povolená hodnota je %2$d.',
+	'SETTING_TOO_BIG'			=> 'Vložená hodnota pre nastavenie „%1$s“ je príliš vysoká. Najväčšia povolená hodnota je %2$d.',
+	'SETTING_TOO_LONG'		=> 'Vložená hodnota pre nastavenie „%1$s“ je príliš dlhá. Najväčšia povolená dĺžka je %2$d.',
+	'SETTING_TOO_SHORT'		=> 'Vložená hodnota pre nastavenie „%1$s“ nieje dost dlhá. Minimálna povolená dĺžka je %2$d.',
+
+	'SHOW_ALL_OPERATIONS'	=> 'Ukázať všetky operácie',
 	'UCP'					=> 'Užívateľský ovládací panel',
 	'USERNAMES_EXPLAIN'		=> 'Vložte každé užívateľské meno na nový riadok',
 	'USER_CONTROL_PANEL'	=> 'Užívateľský ovládací panel',
@@ -329,6 +343,11 @@ $lang = array_merge($lang, array(
 	'PURGE_CACHE'			=> 'Prečistiť cache',
 	'PURGE_CACHE_CONFIRM'	=> 'Naozaj chcete prečistiť celú cache?',
 	'PURGE_CACHE_EXPLAIN'	=> 'Prečistí všetky uložené súbory v cache ako napríklad šablóny, alebo dotazy.',
+	
+	'PURGE_SESSIONS'			=> 'Prečistiť všetky sessions',
+	'PURGE_SESSIONS_CONFIRM'	=> 'Naozaj chcete zmazať všetky sessions? Zmazaním odhlásite všetkych užívateľov.',
+	'PURGE_SESSIONS_EXPLAIN'	=> 'Odstráni všetky sessions a odhlási všetkych užívateľov prečistením ich databázovej tabuľky. Toto sa hodí pri nekontrolovanom náraste počtu sessions.',
+
 
 	'RESET_DATE'			=> 'Resetovať dátum',
 	'RESET_DATE_CONFIRM'			=> 'Naozaj chcete vynulovať dátum založenia fóra?',
@@ -354,6 +373,8 @@ $lang = array_merge($lang, array(
 	'USERS_PER_DAY'		=> 'Užívateľov za deň',
 
 	'VALUE'					=> 'Hodnota',
+	'VERSIONCHECK_FAIL'			=> 'Nepodarilo sa zistiť informácie o poslednej verzii.',
+	'VERSIONCHECK_FORCE_UPDATE'	=> 'Znovu zkontrolovať verziu',
 	'VIEW_ADMIN_LOG'		=> 'Zobraziť administrátorský log',
 	'VIEW_INACTIVE_USERS'	=> 'Zobraziť neaktívnych užívateľov',
 
@@ -380,8 +401,22 @@ $lang = array_merge($lang, array(
 	'SORT_LAST_VISIT'	=> 'Posledná návšteva',
 	'SORT_REASON'		=> 'Dôvod',
 	'SORT_REG_DATE'		=> 'Dátum registrácie',
+	'SORT_LAST_REMINDER'=> 'Naposledy upozornený',
+	'SORT_REMINDER'		=> 'Pripomenutie odoslané',
 
 	'USER_IS_INACTIVE'		=> 'Užívateľ je neaktívny',
+));
+
+// Send statistics page
+$lang = array_merge($lang, array(
+	'EXPLAIN_SEND_STATISTICS'	=> 'Budeme radi, keď na servery phpBB odošlite štatistické informácie o nastavení vášho servera a fóra. Všetky dáta, ktoré by mohli identifikovať vaše fórum alebo stránky boli odstránené, informácie sú úplne <strong> anonymné </strong>. Na základe zaslaných podrobností môžeme lepšie rozhodovať o budúcnosti a vývoji phpBB. Štatistiky budú zobrazené verejne a budú tiež zdieľané s vývojármi PHP, programovacím jazykom, v ktorom je phpBB napísané.',
+	'EXPLAIN_SHOW_STATISTICS'	=> 'Kliknite na nasledujúce tlačítko pre zobrazenie náhľadu odoslaných informácií.',
+	'DONT_SEND_STATISTICS'		=> 'Vráťte sa do administrácie, ak nechcete zaslať žiadne informácie.',
+	'GO_ACP_MAIN'							=> 'Prejsť na hlavnú stránku administrácie',
+	'HIDE_STATISTICS'					=> 'Skryť podrobnosti',
+	'SEND_STATISTICS'					=> 'Odoslať informácie',
+	'SHOW_STATISTICS'					=> 'Zobraziť podrobnosti',
+	'THANKS_SEND_STATISTICS'	=> 'Ďakujeme za odoslanie informácií, budú využité k lepšiemu vývoju phpBB.',
 ));
 
 // Log Entries
@@ -461,6 +496,7 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_POST'			=> '<strong>Zmena nastavenia príspevkov</strong>',
 	'LOG_CONFIG_REGISTRATION'	=> '<strong>Zmena nastavenia registrácie</strong>',
 	'LOG_CONFIG_SEARCH'			=> '<strong>Zmena nastavenia vyhľadávania</strong>',
+	'LOG_CONFIG_FEED'				=> '<strong>Zmena nastavenia exportov ATOM</strong>',
 	'LOG_CONFIG_SECURITY'		=> '<strong>Zmena nastavenia bezpečnosti</strong>',
 	'LOG_CONFIG_SERVER'			=> '<strong>Zmena nastavenia servera</strong>',
 	'LOG_CONFIG_SETTINGS'		=> '<strong>Zmena nastavenia fóra</strong>',
@@ -477,6 +513,8 @@ $lang = array_merge($lang, array(
 	'LOG_LOCK_POST'				=> '<strong>Zamknutý príspevok</strong><br />» %s',
 	'LOG_MERGE'					=> '<strong>Spojené príspevky</strong> v tému<br />» %s',
 	'LOG_MOVE'					=> '<strong>Presunutá téma</strong><br />» z %1$s do %2$s',
+	'LOG_PM_REPORT_CLOSED'		=> '<strong>Uzavreté nahlásenie SS</strong><br />» %s',
+	'LOG_PM_REPORT_DELETED'		=> '<strong>Odstranené nahlásenie SS</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Schválený príspevok</strong><br />» %s',
 	'LOG_POST_DISAPPROVED'		=> '<strong>Odmietnutý príspevok “%1$s” z nasledujúceho dôvodu</strong><br />» %2$s',
 	'LOG_POST_EDITED'			=> '<strong>Upravený príspevok “%1$s” od</strong><br />» %2$s',
@@ -507,6 +545,7 @@ $lang = array_merge($lang, array(
 	'LOG_ERROR_EMAIL'		=> '<strong>Chyba v e-maile</strong><br />» %s',
 
 	'LOG_FORUM_ADD'							=> '<strong>Vytvorené nové fórum</strong><br />» %s',
+	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Skopírované oprávnenie fóra</strong> z %1$s<br />» %2$s',
 	'LOG_FORUM_DEL_FORUM'					=> '<strong>Odstránené fórum</strong><br />» %s',
 	'LOG_FORUM_DEL_FORUMS'					=> '<strong>Odstránené fórum a jeho sub-fóra</strong><br />» %s',
 	'LOG_FORUM_DEL_MOVE_FORUMS'				=> '<strong>Odstránené fórum a jeho sub-fóra presunuté</strong> do %1$s<br />» %2$s',
@@ -520,6 +559,7 @@ $lang = array_merge($lang, array(
 	'LOG_FORUM_MOVE_DOWN'					=> '<strong>Presunuté fórum</strong> %1$s <strong>dole</strong> %2$s',
 	'LOG_FORUM_MOVE_UP'						=> '<strong>Presunuté fórum</strong> %1$s <strong>hore</strong> %2$s',
 	'LOG_FORUM_SYNC'						=> '<strong>Resynchronizácia fóra</strong><br />» %s',
+	'LOG_GENERAL_ERROR'	=> '<strong>Vyskytla sa všeobecná chyba</strong>: %1$s <br />» %2$s',
 
 	'LOG_GROUP_CREATED'		=> '<strong>Vytvorená nová užívateľská skupina</strong><br />» %s',
 	'LOG_GROUP_DEFAULTS'	=> '<strong>Skupina %1$s nastavená ako prednastavená pre užívateľa</strong><br />» %2$s',
@@ -530,7 +570,10 @@ $lang = array_merge($lang, array(
 	'LOG_GROUP_UPDATED'		=> '<strong>Upravené detaily o skupine</strong><br />» %s',
 	'LOG_MODS_ADDED'		=> '<strong>Pridaní noví moderátori skupiny</strong> %1$s<br />» %2$s',
 	'LOG_USERS_APPROVED'	=> '<strong>Užívatelia prijatí do skupiny</strong> %1$s<br />» %2$s',
-	'LOG_USERS_ADDED'		=> '<strong>Pridaní noví užívatelia do skupiny</strong> %1$s<br />» %2$s',
+	'LOG_USERS_ADDED'			=> '<strong>Pridaní noví užívatelia do skupiny</strong> %1$s<br />» %2$s',
+	'LOG_USERS_PENDING'		=> '<strong>Uživatelia zažiadali o vstup do skupiny „%1$s“ a musia byť schválení</strong><br />» %2$s',
+
+	'LOG_IMAGE_GENERATION_ERROR'	=> '<strong>Chyba pri generování obrázku</strong><br />» Chyba v %1$s v riadku %2$s: %3$s',
 
 	'LOG_IMAGESET_ADD_DB'		=> '<strong>Pridaná sada obrázkov do databázy</strong><br />» %s',
 	'LOG_IMAGESET_ADD_FS'		=> '<strong>Pridaná sada obrázkov v súborovom systéme</strong><br />» %s',
@@ -599,6 +642,7 @@ $lang = array_merge($lang, array(
 	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>Užívatelia prečistení a príspevky ponechané</strong><br />» %s',
 
 	'LOG_PURGE_CACHE'			=> '<strong>Prečistená cache</strong>',
+	'LOG_PURGE_SESSIONS'		=> '<strong>Prečistené sessions</strong>',
 
 	'LOG_RANK_ADDED'		=> '<strong>Pridaná nová hodnosť</strong><br />» %s',
 	'LOG_RANK_REMOVED'		=> '<strong>Odstránená hodnosť</strong><br />» %s',
@@ -650,12 +694,14 @@ $lang = array_merge($lang, array(
 	'LOG_USER_DELETED'		=> '<strong>Zmazaný užívateľ</strong><br />» %s',
 	'LOG_USER_DEL_ATTACH'	=> '<strong>Odstránené všetky prílohy od užívateľa</strong><br />» %s',
 	'LOG_USER_DEL_AVATAR'	=> '<strong>Odstránený užívateľský avatar</strong><br />» %s',
+	'LOG_USER_DEL_OUTBOX'	=> '<strong>Vyprázdnená zložka správ na odoslanie užívateľa</strong><br />» %s',
 	'LOG_USER_DEL_POSTS'	=> '<strong>Odstránené všetky príspevky od užívateľa</strong><br />» %s',
 	'LOG_USER_DEL_SIG'		=> '<strong>Odstránený podpis užívateľa</strong><br />» %s',
 	'LOG_USER_INACTIVE'		=> '<strong>Užívateľ deaktivovaný</strong><br />» %s',
 	'LOG_USER_MOVE_POSTS'	=> '<strong>Presunuté užívateľské príspevky</strong><br />» príspevky od "%1$s" do fóra "%2$s"',
 	'LOG_USER_NEW_PASSWORD'	=> '<strong>Zmenené heslo užívateľa</strong><br />» %s',
 	'LOG_USER_REACTIVATE'	=> '<strong>Nútená reaktivácia účtu</strong><br />» %s',
+	'LOG_USER_REMOVED_NR'	=> '<strong>Odstranené označenie „Nový člen fóra“ u</strong><br />» %s',
 	'LOG_USER_UPDATE_EMAIL'	=> '<strong>Užívateľ "%1$s" zmenil e-mail</strong><br />» z "%2$s" na "%3$s"',
 	'LOG_USER_UPDATE_NAME'	=> '<strong>Zmenené užívateľské meno</strong><br />» z "%1$s" na "%2$s"',
 	'LOG_USER_USER_UPDATE'	=> '<strong>Aktualizácia užívateľa</strong><br />» %s',
@@ -678,6 +724,10 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GROUP_JOIN'			=> '<strong>Užívateľ vstúpil do skupiny</strong><br />» %s',
 	'LOG_USER_GROUP_JOIN_PENDING'	=> '<strong>Užívateľ vstúpil do skupiny a čaká na schválenie</strong><br />» %s',
 	'LOG_USER_GROUP_RESIGN'			=> '<strong>Užívateľ vystúpil zo skupiny/strong><br />» %s',
+	
+	'LOG_WARNING_DELETED'		=> '<strong>Odstránené varovanie užívateľa</strong><br />» %s',
+	'LOG_WARNINGS_DELETED'		=> '<strong>Odstránené varovania užívateľa: %2$s</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Odstránené všetky varovania užívateľa</strong><br />» %s',
 
 	'LOG_WORD_ADD'			=> '<strong>Pridané cenzúrované slovo</strong><br />» %s',
 	'LOG_WORD_DELETE'		=> '<strong>Odstránené cenzúrované slovo</strong><br />» %s',

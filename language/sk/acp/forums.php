@@ -4,7 +4,7 @@
 * acp_forums [Slovak]
 *
 * @package language
-* @version $Id: forums.php,v 1.32 2007/10/15 00:00:00 shaggy Exp $
+* @version $Id: forums.php,v 1.32 2010/01/05 23:00:00 phpbb3.sk Exp $
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -43,11 +43,14 @@ $lang = array_merge($lang, array(
 	'AUTO_PRUNE_FREQ_EXPLAIN'	=> 'Čas v dňoch medzi jednotlivými prečisteniami',
 	'AUTO_PRUNE_VIEWED'			=> 'Posledné zobrazenie na prečistenie',
 	'AUTO_PRUNE_VIEWED_EXPLAIN'	=> 'Počet dní od posledného zobrazenia témy nutných pre zmazanie automatickým prečistením.',
+	'CONTINUE'						=> 'Pokračovať',
 
 	'COPY_PERMISSIONS'				=> 'Skopírovať oprávnenia z',
+	'COPY_PERMISSIONS_EXPLAIN'		=> 'Pre uľahčenie nastavenia nového fóra, môžete skopírovať sadu oprávnení z iného.',
 	'COPY_PERMISSIONS_ADD_EXPLAIN'	=> 'Akonáhle bude vytvorené, fórum bude mať rovnaké oprávnenia ako tu zvolené. Pokiaľ nie je žiadne zvolené, nanovo vytvorené fórum nebude viditeľné, pokiaľ nenastavíte základné oprávnenia.',
 	'COPY_PERMISSIONS_EDIT_EXPLAIN'	=> 'Pokiaľ vyberiete skopírovať oprávnenia, fórum bude mať rovnaké oprávnenia ako tu zvolené. Toto prepíše všetky oprávnenia, ktoré ste predtým nastavili pre toto fórum. Pokiaľ nie je zvolené žiadne fórum, budú ponechané súčasné oprávnenia.',
-	'CREATE_FORUM'					=> 'Vytvoriť nové fórum',
+	'COPY_TO_ACL'					=> 'Alebo tiež môžete %snastaviť nové oprávnenie%s pre toto fórum.',
+  'CREATE_FORUM'					=> 'Vytvoriť nové fórum',
 
 	'DECIDE_MOVE_DELETE_CONTENT'		=> 'Odstrániť obsah, alebo presunúť do fóra',
 	'DECIDE_MOVE_DELETE_SUBFORUMS'		=> 'Odstrániť subfóra, alebo presunúť do fóra',
@@ -62,7 +65,9 @@ $lang = array_merge($lang, array(
 	'ENABLE_INDEXING_EXPLAIN'		=> 'Pokiaľ je zapnuté, príspevky vo fóre budú zahrnuté pri hľadaní.',
 	'ENABLE_POST_REVIEW'			=> 'Povoliť prehliadnutie príspevku',
 	'ENABLE_POST_REVIEW_EXPLAIN'	=> 'Pokiaľ povolené, užívatelia si budú môcť pozrieť a prehodnotiť svoj príspevok, pokiaľ bol do témy behom písania odoslaný ďalší príspevok. Toto by malo byť vypnuté pre čisto diskusné fóra.',
-	'ENABLE_RECENT'					=> 'Zobraziť aktívne témy',
+	'ENABLE_QUICK_REPLY'				=> 'Povoliť rýchlu odpoveď',
+	'ENABLE_QUICK_REPLY_EXPLAIN'	=> 'Po povolení sa zobrazí vo fóre pod témou box pre rýchlu odpoveď. Ak je rýchla odpoveď globálne vypnutá v nastavení funkcií fóra, na toto nastavenie nebude braný ohľad.',
+  'ENABLE_RECENT'					=> 'Zobraziť aktívne témy',
 	'ENABLE_RECENT_EXPLAIN'			=> 'Pokiaľ nastavené na "Áno", obľúbené témy v tomto fóre tak budú označené v kompletnom prehľade obľúbených tém.',
 	'ENABLE_TOPIC_ICONS'			=> 'Povoliť ikonky témy',
 

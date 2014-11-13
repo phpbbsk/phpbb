@@ -4,7 +4,7 @@
 * posting [Slovak]
 *
 * @package language
-* @version $Id: posting.php,v 1.50 2007/10/15 00:00:00 shaggy Exp $
+* @version $Id: posting.php,v 1.50 2010/01/05 23:00:00 phpbb3.sk Exp $
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -67,7 +67,7 @@ $lang = array_merge($lang, array(
 
 	'TOKEN'					=> 'Premenná',
 	'TOKENS'				=> 'Premenné',
-	'TOKENS_EXPLAIN'		=> 'Premenné držia miesto pre budúci užívateľský vstup, na ich miesto budú užívatelia vyplňovať dáta. Značka bude spracovaná, len pokiaľ je na danom mieste text odpovedajúci definícií premennej. Pokiaľ potrebujete, môžete ich číslovať, pridaním čísla pred uzatváracou zátvorkou, napr. {USERNAME1}, {USERNAME2}.<br /><br />Vedľa týchto premenných sa dá použiť akýkoľvek jazykový reťazec, ktorý je prítomný v prekladoch. Vložte ho v tomto formáte {L_<em>&lt;názov reťazca&gt;</em>},kde <em>&lt;názov reťazca&gt;</em> je názov preloženého reťazca, ktorý chcete zobraziť. Napríklad, {L_WROTE} bude anglicky zobrazené ako "wrote", a pokiaľ má užívateľ aktivovanú slovenčinu, tak ako "napísal".<br /><br /><strong>Prosím berte na vedomie, že iba premenné zobrazené nižšie môžu byť použité ako súčasť vlastných BBkódov.</strong>',
+	'TOKENS_EXPLAIN'		=> 'Premenné držia miesto pre budúci užívateľský vstup, na ich miesto budú užívatelia vyplňovať dáta. Značka bude spracovaná, len pokiaľ je na danom mieste text odpovedajúci definícií premennej. Pokiaľ potrebujete, môžete ich číslovať, pridaním čísla pred uzatváracou zátvorkou, napr. {USERNAME1}, {USERNAME2}.<br /><br />Vedľa týchto premenných sa dá použiť akýkoľvek jazykový reťazec, ktorý je prítomný v prekladoch. Vložte ho v tomto formáte {L_<em>&lt;názov reťazca&gt;</em>},kde <em>&lt;názov reťazca&gt;</em> je názov preloženého reťazca, ktorý chcete zobraziť. Napríklad, {L_WROTE} bude anglicky zobrazené ako „wrote“, a pokiaľ má užívateľ aktivovanú slovenčinu, tak ako „napísal“.<br /><br /><strong>Prosím berte na vedomie, že iba premenné zobrazené nižšie môžu byť použité ako súčasť vlastných BB kódov.</strong>',
 	'TOKEN_DEFINITION'		=> 'Použiteľné znaky',
 	'TOO_MANY_BBCODES'		=> 'Nedajú sa vytvoriť ďalšie BBCode značky. Odstráňte jednu, alebo viac značiek a skúste to znovu.',
 
@@ -77,7 +77,7 @@ $lang = array_merge($lang, array(
 		'IDENTIFIER'	=> 'Znaky z latinskej abecedy (A-Z),  čísla, pomlčka a  podčiarknutie',
 		'NUMBER'		=> 'Akákoľvek rada číslic',
 		'EMAIL'			=> 'Platná e-mailová adresa',
-		'URL'			=> 'Platná URL, používajúca voliteľný protokol (http, ftp, atď… nedá sa zneužiť pre JavaScriptové útoky). Pokiaľ nie je zvolený žiadny, &quot;http://&quot; je pripojené na začiatok reťazca',
+		'URL'			=> 'Platná URL, používajúca voliteľný protokol (http, ftp, atď... nedá sa zneužiť pre JavaScriptové útoky). Pokiaľ nie je zvolený žiadny, protokol „http://“ je pripojený na začiatok reťazca',
 		'LOCAL_URL'		=> 'Lokálna URL adresa. Zadaná URL musí byť relatívna k stránke s témou a nesmie obsahovať definíciu protokolu, alebo názov serveru.',
 		'COLOR'			=> 'HTML farba, buď v hexadecimálnom formáte <samp>#FF1234</samp> alebo ako <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS farba</a> ako <samp>fuchsia</samp> alebo <samp>InactiveBorder</samp>'
 	)
@@ -178,6 +178,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_ORDER'				=> 'Poradie',
 	'SMILIES_URL'				=> 'Obrázok smajlíka',
 	'SMILIES_WIDTH'				=> 'Šírka smajlíka',
+	
+	'TOO_MANY_SMILIES'			=> 'Bol prekročený limit %d smajlíkov.',
 
 	'WRONG_PAK_TYPE'	=> 'Zvolený balík neobsahuje potrebné dáta.',
 ));
@@ -216,7 +218,8 @@ $lang = array_merge($lang, array(
 	'RANK_ADDED'			=> 'Hodnosť bola úspešne pridaná.',
 	'RANK_IMAGE'			=> 'Obrázok hodnosti',
 	'RANK_IMAGE_EXPLAIN'	=> 'Tu môžete definovať malý obrázok, ktorý bude zobrazený pri hodnosti. Cesta je relatívna k základnej zložke phpBB.',
-	'RANK_MINIMUM'			=> 'Minimálny počet príspevkov',
+	'RANK_IMAGE_IN_USE'		=> '(používaná)',
+  'RANK_MINIMUM'			=> 'Minimálny počet príspevkov',
 	'RANK_REMOVED'			=> 'Hodnosť bola úspešne odstránená.',
 	'RANK_SPECIAL'			=> 'Nastaviť ako zvláštnu hodnosť',
 	'RANK_TITLE'			=> 'Názov hodnosti',

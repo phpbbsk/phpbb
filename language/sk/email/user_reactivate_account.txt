@@ -1,4 +1,4 @@
-Subject: Reaktivujte si svoj účet na "{SITENAME}" - {U_BOARD}
+Subject: Reaktivujte si svoj účet na "{SITENAME}"
 
 Administrátor fóra uvalil na váš účet nútenú reaktiváciu. Váš účet je práve neaktívny.
 Nasledujte uvedené kroky pre jeho reaktiváciu.

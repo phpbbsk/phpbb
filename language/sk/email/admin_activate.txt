@@ -2,7 +2,7 @@ Subject: Aktivácia účtu uživateľa
 
 Zdravíčko,
 
-Účet patriaci uživateľovi “{USERNAME}” bol deaktivovaný, alebo novovytvorený. Mali by ste skontrolovať podrobnosti o tomto uživateľovi (ak je to nevyhnutné) a patrične s tým naložiť.
+Účet patriaci uživateľovi "{USERNAME}" bol deaktivovaný, alebo novovytvorený. Mali by ste skontrolovať podrobnosti o tomto uživateľovi (ak je to nevyhnutné) a patrične s tým naložiť.
 
 Odkaz na zobrazenie uživateľovho profilu:
 {U_USER_DETAILS}

@@ -4,7 +4,7 @@
 * posting [Slovak]
 *
 * @package language
-* @version $Id: posting.php,v 1.74 2007/10/15 00:00:00 Tom@S Exp $
+* @version $Id: posting.php,v 1.74 2010/01/05 23:00:00 phpbb3.sk Exp $
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * @copyright (c) 2005 phpBB Group
 */
@@ -167,6 +167,8 @@ $lang = array_merge($lang, array(
 	'POST_NORMAL'				=> 'Normálnu',
 	'POST_REVIEW'				=> 'Náhľad',
 	'POST_REVIEW_EXPLAIN'		=> 'Do témy musí byť zaslaný aspoň jeden príspevok.',
+	'POST_REVIEW_EDIT'			=> 'Prehodnotenie príspevku',
+	'POST_REVIEW_EDIT_EXPLAIN'	=> 'Počas doby, kedy ste upravoval príspevok, ho upravil ešte niekto iný. Chcete odoslať príspevok tak, ako je teraz?.',
 	'POST_STORED'				=> 'Váš príspevok bol úspešne odoslaný',
 	'POST_STORED_MOD'			=> 'Vaša správa bola uložená, ale čaká na schválenie',
 	'POST_TOPIC_AS'				=> 'Odoslať tému ako',
@@ -183,10 +185,11 @@ $lang = array_merge($lang, array(
 	'SMILIES_ARE_ON'			=> 'Smajlíky sú <em>POVOLENÉ</em>',
 	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'časový limit oznámenia/dôležitého',
 	'STICK_TOPIC_FOR'			=> 'Trvanie',
-	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Napíšte 0, alebo nechajte prázdne pre neobmedzené trvanie oznámenia/dôležitého',
+	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Napíšte 0, alebo nechajte prázdne pre neobmedzené trvanie oznámenia/dôležitého. Počet dní sa počíta od odoslania príspevku',
 	'STYLES_TIP'				=> 'Tip: Značky môžu byť vložené rýchlejšie priamo na vyznačený text.',
 
 	'TOO_FEW_CHARS'				=> 'Vaša správa obsahuje primálo znakov.',
+	'TOO_FEW_CHARS_LIMIT'		=> 'Vaša správa obsahuje %1$d znakov, nastavený minimálny počet znakov je %2$d.',
 	'TOO_FEW_POLL_OPTIONS'		=> 'Musíte zadať najmenej dve odpovede.',
 	'TOO_MANY_ATTACHMENTS'		=> 'Nemôžete pridať ďalšiu prílohu, maximálny počet príloh je <strong>%d</strong>.',
 	'TOO_MANY_CHARS'			=> 'Vaša správa obsahuje priveľa znakov.',

@@ -4,7 +4,7 @@
 * acp_profile.php [Slovak]
 *
 * @package language
-* @version $Id: profile.php,v 1.26 2007/10/15 00:00:00 shaggy Exp $
+* @version $Id: profile.php,v 1.26 2010/01/05 23:00:00 phpbb3.sk Exp $
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -66,7 +66,9 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_PROFILE_EXPLAIN'	=> 'Užívateľ môže meniť údaje v ovládacom paneli.',
 	'DISPLAY_AT_REGISTER'	=> 'Zobraziť pri registrácii',
 	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Pokiaľ je táto možnosť povolená, položka bude zobrazená aj pri registrácii.',
-	'DISPLAY_PROFILE_FIELD'	=> 'Zobraziť položku profilu',
+	'DISPLAY_ON_VT'									=> 'Zobrazit v témach',
+	'DISPLAY_ON_VT_EXPLAIN'					=> 'Zobrazí položku v mini-profile pri príspevku na stránke témy.',
+  'DISPLAY_PROFILE_FIELD'	=> 'Zobraziť položku profilu',
 	'DISPLAY_PROFILE_FIELD_EXPLAIN'	=> 'Položka bude zobrazená na všetkých miestach, ktoré sú povolené v nastaveniach. Nastavenie tejto možnosti na Nie, skryje toto pole na stránke príspevkov, profilov a zozname členov.',
 	'DROPDOWN_ENTRIES_EXPLAIN'	=> 'Vložte možnosti, každú možnosť na nový riadok.',
 

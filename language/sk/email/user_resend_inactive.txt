@@ -1,4 +1,4 @@
-Subject: Vitajte na “{SITENAME}”
+Subject: Vitajte na "{SITENAME}"
 
 {WELCOME_MSG}
 

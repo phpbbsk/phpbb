@@ -4,7 +4,7 @@
 * acp_database [Slovak]
 *
 * @package language
-* @version $Id: database.php,v 1.25 2007/10/15 00:00:00 shaggy Exp $
+* @version $Id: database.php,v 1.25 2010/01/05 23:00:00 phpbb3.sk Exp $
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -54,6 +54,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_BACKUP'	=> 'Stiahnuť zálohu',
 
 	'FILE_TYPE'			=> 'Typ súboru',
+	'FILE_WRITE_FAIL'	=> 'Nemožno uložiť súbor v ukladacom adresári',
 	'FULL_BACKUP'		=> 'Plná',
 
 	'RESTORE_FAILURE'		=> 'Súbor so zálohou môže byť poškodený.',

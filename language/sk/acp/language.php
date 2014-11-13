@@ -4,7 +4,7 @@
 * acp_language [Slovak]
 *
 * @package language
-* @version $Id: language.php,v 1.16 2007/10/15 00:00:00 shaggy Exp $
+* @version $Id: language.php,v 1.16 2010/01/05 23:00:00 phpbb3.sk Exp $
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_FILES'						=> 'Jazykové súbory administrácie',
-	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Tu je možné nainštalovať/odinštalovať jazykové balíky',
+	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Tu je možné nainštalovať/odinštalovať jazykové balíky k&nbsp;fóru. Jazyk nastavený ako predvolený je označený hviezdičkou (*).',
 
 	'EMAIL_FILES'			=> 'Šablóny e-mailov',
 

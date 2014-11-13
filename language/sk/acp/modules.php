@@ -4,7 +4,7 @@
 * acp_modules [Slovak]
 *
 * @package language
-* @version $Id: modules.php,v 1.13 2007/10/15 00:00:00 shaggy Exp $
+* @version $Id: modules.php,v 1.13 2007/10/15 00:00:00 phpbb3.sk Exp $
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

@@ -4,7 +4,7 @@
 * help_bbcode [Slovak]
 *
 * @package language
-* @version $Id: help_bbcode.php,v 1.27 2007/10/15 00:00:00 Tom@S Exp $
+* @version $Id: help_bbcode.php,v 1.27 2010/01/05 23:00:00 phpbb3.sk Exp $
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -77,6 +77,11 @@ $help = array(
 	array(
 		0 => 'Vytváranie štrukturovaného zoznamu.',
 		1 => 'Druhým spôsobom je vytváranie štrukturovaných zoznamov. Od predchádzajúceho typu sa líši znakom pred textom jednotlivých položiek, namiesto bodky je tu použitý niektorý z dvoch spôsobov vzostupného označenia položiek zoznamu. Pre vytvorenie číslovaného zoznamu použite <b>[list=1][/list]</b> a pre abecedný zoznam <b>[list=a][/list]</b>. Jednotlivé položky zoznamu definujete pomocou <b>[*]</b>. Pozrite sa na nasledujúcu ukážku:<br /><br /><b>[list=1]</b><br /><b>[*]</b>červená<br /><b>[*]</b>modrá<br /><b>[*]</b>zelená<br /><b>[/list]</b><br /><br />Pre vytvorenie abecedného zoznamu použite:<br /><br /><b>[list=a]</b><br /><b>[*]</b>prvá možná odpoveď<br /><b>[*]</b>druhá možná odpoveď<br /><b>[*]</b>tretia možná odpoveď<br /><b>[/list]</b>'
+	),
+		// This block will switch the FAQ-Questions to the second template column
+	array(
+		0 => '--',
+		1 => '--'
 	),
 	array(
 		0 => '--',

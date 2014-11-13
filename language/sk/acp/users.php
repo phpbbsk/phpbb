@@ -4,7 +4,7 @@
 * acp_users [Slovak]
 *
 * @package language
-* @version $Id: users.php,v 1.32 2007/10/15 00:00:00 shaggy Exp $
+* @version $Id: users.php,v 1.32 2010/01/05 23:00:00 phpbb3.sk Exp $
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -77,6 +77,7 @@ $lang = array_merge($lang, array(
 	'MOVE_POSTS_EXPLAIN'	=> 'Vyberte fórum, kam budú presunuté všetky užívateľove príspevky.',
 
 	'NO_SPECIAL_RANK'		=> 'Nebola udelená žiadna zvláštna hodnosť',
+	'NO_WARNINGS'			=> 'Žiadne varovania.',
 	'NOT_MANAGE_FOUNDER'	=> 'Pokúšali ste sa upraviť užívateľa so statusom zakladateľ. To môžu urobiť len ďalší užívatelia s rovnakým statusom.',
 
 	'QUICK_TOOLS'			=> 'Rýchle nástroje',
@@ -102,21 +103,28 @@ $lang = array_merge($lang, array(
 	'USER_ADMIN_DEACTIVED'			=> 'Užívateľ úspešne deaktivovaný.',
 	'USER_ADMIN_DEL_ATTACH'			=> 'Odstrániť všetky prílohy',
 	'USER_ADMIN_DEL_AVATAR'			=> 'Odstrániť avatar',
+	'USER_ADMIN_DEL_OUTBOX'			=> 'Vyprázdniť priečinok správ na odoslanie',
 	'USER_ADMIN_DEL_POSTS'			=> 'Odstrániť všetky príspevky',
 	'USER_ADMIN_DEL_SIG'			=> 'Odstrániť podpis',
 	'USER_ADMIN_EXPLAIN'			=> 'Tu môžete upravovať detaily užívateľa a niektoré nastavenia.',
 	'USER_ADMIN_FORCE'				=> 'Vyžadovať reaktiváciu účtu',
+	'USER_ADMIN_LEAVE_NR'			=> 'Odobrat zo skupiny nových členov fóra',
 	'USER_ADMIN_MOVE_POSTS'			=> 'Presunúť všetky príspevky',
 	'USER_ADMIN_SIG_REMOVED'		=> 'Užívateľov podpis bol úspešne odobraný.',
 	'USER_ATTACHMENTS_REMOVED'		=> 'Všetky prílohy od užívateľa boli úspešne odstránené.',
+	'USER_AVATAR_NOT_ALLOWED'		=> 'Avatar nebude zobrazený, pretože avatary boli vypnuté.',
 	'USER_AVATAR_UPDATED'			=> 'Nastavenie avataru bolo úspešne zmenené.',
+	'USER_AVATAR_TYPE_NOT_ALLOWED'	=> 'Súčasný avatar nebude zobrazený, pretože jeho koncovka bola zakázaná.',
 	'USER_CUSTOM_PROFILE_FIELDS'	=> 'Vlastné pole v profile',
 	'USER_DELETED'					=> 'Užívateľ bol úspešne odstránený.',
 	'USER_GROUP_ADD'				=> 'Pridať užívateľa do skupiny',
 	'USER_GROUP_NORMAL'				=> 'Užívateľom definované skupiny, ktorých je užívateľ členom',
 	'USER_GROUP_PENDING'			=> 'Skupiny, kde užívateľ čaká na vstup',
 	'USER_GROUP_SPECIAL'			=> 'Preddefinované skupiny, ktorých je užívateľ členom',
+	'USER_LIFTED_NR'				=> 'Užívateľ bol odobratý zo skupiny nových členov fóra.',
 	'USER_NO_ATTACHMENTS'			=> 'Neexistujú žiadne prílohy k zobrazeniu.',
+	'USER_OUTBOX_EMPTIED'			=> 'Všetky užívateľove neodoslané správy boli odstránené.',
+	'USER_OUTBOX_EMPTY'				=> 'Užívateľ nemal žiadne správy na odoslanie.',
 	'USER_OVERVIEW_UPDATED'			=> 'Detaily užívateľa úspešne aktualizované.',
 	'USER_POSTS_DELETED'			=> 'Všetky príspevky užívateľa boli úspešne odstránené.',
 	'USER_POSTS_MOVED'				=> 'Príspevky boli úspešne presunuté do cieľového fóra.',
@@ -126,6 +134,7 @@ $lang = array_merge($lang, array(
 	'USER_RANK'						=> 'Hodnosť užívateľa',
 	'USER_RANK_UPDATED'				=> 'Hodnosť užívateľa úspešne aktualizovaná..',
 	'USER_SIG_UPDATED'				=> 'Podpis užívateľa úspešne aktualizovaný.',
+	'USER_WARNING_LOG_DELETED'		=> 'Informácie nie sú dostupné. Je možné, že bol záznam logu odstránený.',
 	'USER_TOOLS'					=> 'Základné nástroje',
 ));
 

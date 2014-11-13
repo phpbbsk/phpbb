@@ -4,7 +4,7 @@
 * viewtopic [Slovak]
 *
 * @package language
-* @version $Id: viewtopic.php,v 1.20 2007/10/15 00:00:00 Tom@S Exp $
+* @version $Id: viewtopic.php,v 1.20 2010/01/05 23:00:00 phpbb3.sk Exp $
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -48,6 +48,8 @@ $lang = array_merge($lang, array(
 	'BUMP_TOPIC'			=> 'Zvýrazniť tému',
 
 	'CODE'					=> 'Kód',
+	
+	'COLLAPSE_QR'			=> 'Skryť rýchlu odpoveď',
 
 	'DELETE_TOPIC'			=> 'Odstrániť tému',
 	'DOWNLOAD_NOTICE'		=> 'Nemáte oprávnenie prezerať súbory priložené v tomto príspevku.',
@@ -59,6 +61,8 @@ $lang = array_merge($lang, array(
 
 	'FILE_NOT_FOUND_404'	=> 'Súbor <strong>%s</strong> neexistuje.',
 	'FORK_TOPIC'			=> 'Skopírovať tému',
+	
+	'FULL_EDITOR' => 'Upravit v editore',
 
 	'LINKAGE_FORBIDDEN'		=> 'Nie ste autorizovaný pre prezeranie a sťahovanie z/do tohto webu.',
 	'LOGIN_NOTIFY_TOPIC'	=> 'Boli ste oboznámený o téme, prosím prihláste sa pre jej prezeranie.',
@@ -85,11 +89,15 @@ $lang = array_merge($lang, array(
 	'POLL_VOTED_OPTION'		=> 'Hlasovali ste pre túto možnosť',
 	'PRINT_TOPIC'			=> 'Verzia pre tlač',
 
+  'QUICKREPLY'			=> 'Rýchla odpoveď',
+
 	'QUICK_MOD'				=> 'Rýchla úprava',
 	'QUOTE'					=> 'Citácia',
 
 	'REPLY_TO_TOPIC'		=> 'Odpovedať na tému',
 	'RETURN_POST'			=> '%sVrátiť sa na príspevok%s',
+	
+	'SHOW_QR'				=> 'Rýchla odpoveď',
 
 	'SUBMIT_VOTE'			=> 'Potvrdiť voľbu',
 

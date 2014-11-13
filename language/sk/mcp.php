@@ -4,7 +4,7 @@
 * mcp [Slovak]
 *
 * @package language
-* @version $Id: mcp.php,v 1.83 2007/10/15 00:00:00 shaggy Exp $
+* @version $Id: mcp.php,v 1.83 2010/01/05 23:00:00 phpbb3.sk Exp $
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -46,6 +46,7 @@ $lang = array_merge($lang, array(
 	'ALL_NOTES_DELETED'		=> 'Úspešne vymazané všetky poznámky užívateľa',
 	'ALL_REPORTS'			=> 'Všetky nahlásenia',
 	'ALREADY_REPORTED'	=> 'Tento príspevok už bol nahlásený',
+	'ALREADY_REPORTED_PM'	=> 'Táto súkromná správa už bola ohlásená moderátorom.',
 	'ALREADY_WARNED'		=> 'Tomuto príspevku už bolo zaslané upozornenie',
 	'APPROVE'				=> 'Schváliť',
 	'APPROVE_POST'			=> 'Schváliť príspevok',
@@ -62,7 +63,15 @@ $lang = array_merge($lang, array(
 	'CLOSE_REPORT_CONFIRM'	=> 'Ste si istý, že chcete ukončiť vybrané nahlásenie?',
 	'CLOSE_REPORTS'			=> 'Ukončiť nahlásenie',
 	'CLOSE_REPORTS_CONFIRM'	=> 'Ste si istý, že chcete ukončiť vybrané nahlásenie?',
+	'CLOSE_PM_REPORT'		=> 'Zavrieť nahlásenie správy',
+	'CLOSE_PM_REPORT_CONFIRM'	=> 'Naozaj chcete uzatvoriť toto hlásenie?',
+	'CLOSE_PM_REPORTS'		=> 'Zavrieť nahlásenie správ',
+	'CLOSE_PM_REPORTS_CONFIRM'	=> 'Naozaj chcete uzatvoriť vybrané hlásenia?',
 
+  'DELETE_PM_REPORT'			=> 'Odstrániť hlásenia o súkromnej správe',
+	'DELETE_PM_REPORT_CONFIRM'	=> 'Naozaj chcete odstrániť vybrané hlásenia?',
+	'DELETE_PM_REPORTS'			=> 'Odstrániť hlásenia o súkromných správach',
+	'DELETE_PM_REPORTS_CONFIRM'	=> 'Naozaj chcete odstrániť vybrané hlásenia?',
 	'DELETE_POSTS'			=> 'Vymazať príspevky',
 	'DELETE_POSTS_CONFIRM'	=> 'Ste si istý, že chcete vymazať tieto príspevky?',
 	'DELETE_POST_CONFIRM'	=> 'Ste si istý, že chcete vymazať tento príspevok?',
@@ -106,6 +115,7 @@ $lang = array_merge($lang, array(
 
 	'LATEST_LOGS'				=> 'Posledných 5 prihlásení ',
 	'LATEST_REPORTED'			=> 'Posledných 5 nahlásení',
+	'LATEST_REPORTED_PMS'		=> 'Posledných 5 nahlásených SS',
 	'LATEST_UNAPPROVED'			=> 'Posledných 5 príspevkov čaká na schválenie',
 	'LATEST_WARNING_TIME'		=> 'Posledné vydané varovanie',
 	'LATEST_WARNINGS'			=> 'Posledných 5 varovaní',
@@ -169,6 +179,13 @@ $lang = array_merge($lang, array(
 	'MCP_NOTES_USER'				=> 'Detaily užívateľa',
 
 	'MCP_POST_REPORTS'				=> 'Nahlásenia na tento príspevok',
+	
+	'MCP_PM_REPORTS'				=> 'Nahlásené SS',
+	'MCP_PM_REPORT_DETAILS'			=> 'Podrobnosti hlásenia',
+	'MCP_PM_REPORTS_CLOSED'			=> 'Uzavreté hlásenia SS',
+	'MCP_PM_REPORTS_CLOSED_EXPLAIN'	=> 'Toto je zoznam všetkých nahlásených súkromných správ, ktoré už boli vyriešené.',
+	'MCP_PM_REPORTS_OPEN'			=> 'Otvorené hlásenia SS',
+	'MCP_PM_REPORTS_OPEN_EXPLAIN'	=> 'Toto je zoznam všetkých nahlásených súkromných správ, ktoré sú stále k&nbsp;vybaveniu.',
 
 	'MCP_REPORTS'					=> 'Nahlásené príspevky',
 	'MCP_REPORT_DETAILS'			=> 'Detaily nahlásenia',
@@ -231,6 +248,14 @@ $lang = array_merge($lang, array(
 
 	'ONLY_TOPIC'			=> 'Iba témy “%s”',
 	'OTHER_USERS'			=> 'Užívatelia prispievajúci z tejto IP',
+	
+	'PM_REPORT_CLOSED_SUCCESS'	=> 'Hlásenie o súkromnej správe bolo uzatvorené.',
+	'PM_REPORT_DELETED_SUCCESS'	=> 'Hlásenie o súkromnej správe bolo odstranené.',
+	'PM_REPORTED_SUCCESS'		=> 'Súkromná správa bola nahlásená a poslaná moderátorom na vybavenie.',
+	'PM_REPORT_TOTAL'			=> 'Celkovo je nahlásená <strong>1</strong> sukromá správa.',
+	'PM_REPORTS_TOTAL'			=> 'Celkovo je nahlásených <strong>%d</strong> sukromých správ.',
+	'PM_REPORTS_ZERO_TOTAL'		=> 'V tejto chvíli nie je nahlásená žiadna súkromná správa.',
+	'PM_REPORT_DETAILS'			=> 'Podrobnosti nahlásenia',
 
 	'POSTER'				=> 'Autor',
 	'POSTS_APPROVED_SUCCESS'=> 'Vybraté príspevky boli schválené',
@@ -264,7 +289,7 @@ $lang = array_merge($lang, array(
 	'REPORT_DELETED_SUCCESS'	=> 'Vybraté nahlásenie bolo úspešne zmazané.',
 	'REPORT_DETAILS'		=> 'Detaily nahlásenia',
 	'REPORT_MESSAGE'		=> 'Nahlásiť túto správu',
-	'REPORT_MESSAGE_EXPLAIN'=> 'Použite tento formulár pre nahlásenie vybranej správy administrátorovi fóra. Nahlásenie by malo byť použité hlavne, ak správa porušuje pravidlá fóra.',
+	'REPORT_MESSAGE_EXPLAIN'=> 'Použite tento formulár pre nahlásenie vybranej správy administrátorovi fóra. Nahlásenie by malo byť použité hlavne, ak správa porušuje pravidlá fóra. <strong>Ak správu nahlásite, uvidia ju moderátori fóra.</strong>',
 	'REPORT_NOTIFY'			=> 'Upozorni ma',
 	'REPORT_NOTIFY_EXPLAIN'	=> 'Informovať ma keď sa nahlásenie rieši',
 	'REPORT_POST_EXPLAIN'	=> 'Použite tento formulár pre nahlásenie vybraného príspevku administrátorovi fóra. Nahlásenie by malo byť použité hlavne, ak príspevok porušuje pravidlá fóra.',
@@ -275,6 +300,7 @@ $lang = array_merge($lang, array(
 	'RETURN_MESSAGE'		=> '%s Späť na správu%s',
 	'RETURN_NEW_FORUM'		=> '%s Choď na nové fórum%s',
 	'RETURN_NEW_TOPIC'		=> '%s Choď na novú tému%s',
+	'RETURN_PM'					=> '%sVrátit sa do súkromných správ%s',
 	'RETURN_POST'			=> '%s Späť na príspevok%s',
 	'RETURN_QUEUE'			=> '%s Späť do fronty%s',
 	'RETURN_REPORTS'		=> '%s Späť na nahlásenia%s',
@@ -346,6 +372,7 @@ $lang = array_merge($lang, array(
 	'USER_WARNING_ADDED'			=> 'Užívateľ bol úspešne varovaný',
 
 	'VIEW_DETAILS'			=> 'Zobraziť detaily',
+	'VIEW_PM'						=> 'Zobraziť súkromnú správu',
 	'VIEW_POST'				=> 'Zobraziť príspevok',
 
 	'WARNED_USERS'			=> 'Varovaní užívatelia',
@@ -359,16 +386,16 @@ $lang = array_merge($lang, array(
 
 	'report_reasons'		=> array(
 		'TITLE'	=> array(
-			'WAREZ'		=> 'Warez',
-			'SPAM'		=> 'Spam',
-			'OFF_TOPIC'	=> 'Off-topic',
-			'OTHER'		=> 'Ostatné'
+			'WAREZ'		=> 'Správa obsahuje odkaz na nelegálny alebo pirátsky software.',
+			'SPAM'		=> 'Správa je napísana v zámere reklamy stránky alebo iného produktu.',
+			'OFF_TOPIC'	=> 'Ohlásená správa je mimo témy.',
+			'OTHER'		=> 'Ohlásená správa nezodpovedá do žiadnej kategórie, prosím, použite na to informačné pole.'
 		),
 		'DESCRIPTION' => array(
 			'WAREZ'		=> 'Príspevok obsahuje odkaz na nelegálny alebo kradnutý software',
-			'SPAM'		=> 'Nahlásená téma mala za účel iba propagáciu webovej stránky alebo iného produktu',
-			'OFF_TOPIC'	=> 'Nahlásený príspevok je off-topic',
-			'OTHER'		=> 'Nahlásený príspevok sa nedá zaradiť do žiadnej z kategórií, využite pole pre ďalšie informácie'
+			'SPAM'		=> 'Nahlásená správa mala za účel iba propagáciu webovej stránky alebo iného produktu',
+			'OFF_TOPIC'	=> 'Nahlásený správa je off-topic',
+			'OTHER'		=> 'Nahlásený správa sa nedá zaradiť do žiadnej z kategórií, využite pole pre ďalšie informácie'
 		)
 	),
 ));

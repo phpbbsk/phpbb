@@ -4,7 +4,7 @@
 * acp_attachments [Slovak]
 *
 * @package language
-* @version $Id: attachments.php,v 1.31 2007/10/15 00:00:00 shaggy Exp $
+* @version $Id: attachments.php,v 1.31 2007/10/15 00:00:00 phpbb3.sk Exp $
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

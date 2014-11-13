@@ -4,7 +4,7 @@
 * memberlist [Slovak]
 *
 * @package language
-* @version $Id: memberlist.php,v 1.35 2007/10/15 00:00:00 Tom@S Exp $
+* @version $Id: memberlist.php,v 1.35 2010/01/05 23:00:00 phpbb3.sk Exp $
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -134,6 +134,12 @@ $lang = array_merge($lang, array(
 	'USER_ADMIN'			=> 'Upraviť užívateľa',
 	'USER_BAN'				=> 'Udeliť ban',
 	'USER_FORUM'			=> 'Štatistiky užívateľov',
+	
+	'USER_LAST_REMINDED'	=> array(
+		0		=> 'Žiadne pripomenutie nebolo odoslané',
+		1		=> 'Odoslané %1$d pripomenutie<br />» %2$s',
+	),
+	
 	'USER_ONLINE'			=> 'Prítomný',
 	'USER_PRESENCE'			=> 'Obrázok postavičky',
 

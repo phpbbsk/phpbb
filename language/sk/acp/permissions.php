@@ -4,7 +4,7 @@
 * acp_permissions [Slovak]
 *
 * @package language
-* @version $Id: permissions.php,v 1.38 2007/10/15 00:00:00 shaggy Exp $
+* @version $Id: permissions.php,v 1.38 2010/01/05 23:00:00 phpbb3.sk Exp $
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -80,7 +80,8 @@ $lang = array_merge($lang, array(
 	'ACP_ADMINISTRATORS_EXPLAIN'				=> 'Tu môžete prideliť administrátorské práva užívateľom, alebo skupinám. Všetci užívatelia s administrátorskými právomocami môžu nakuknúť do Ovládacieho panelu fóra.',
  	'ACP_FORUM_MODERATORS_EXPLAIN'				=> 'Tu môžete prideliť užívateľom, alebo skupinám práva moderátora fóra. Pre nastavenie prístupu užívateľov k diskusiám, nastaveniu globálnych moderátorov alebo administrátorov použite odpovedajúcu sekciu oprávnení.',
 	'ACP_FORUM_PERMISSIONS_EXPLAIN'				=> 'Tu môžete upraviť, ktoré skupiny alebo užívatelia majú prístup k určitým fóram. Pre nastavenie moderátorov alebo administrátorov použite odpovedajúcu sekciu oprávnení.',
-	'ACP_GLOBAL_MODERATORS_EXPLAIN'				=> 'Tu môžete priradiť moderátorskú právomoc pre celé fórum užívateľom, alebo skupinám. Títo moderátori sú rovnakí ako bežní s tým rozdielom, že majú práva ku všetkým sekciám na fóre.',
+	'ACP_FORUM_PERMISSIONS_COPY_EXPLAIN'		=> 'Tu môžete kopírovať nastavenia oprávnenie fóra z jedného na druhé.',
+  'ACP_GLOBAL_MODERATORS_EXPLAIN'				=> 'Tu môžete priradiť moderátorskú právomoc pre celé fórum užívateľom, alebo skupinám. Títo moderátori sú rovnakí ako bežní s tým rozdielom, že majú práva ku všetkým sekciám na fóre.',
 	'ACP_GROUPS_FORUM_PERMISSIONS_EXPLAIN'		=> 'Tu môžete upraviť práva skupín pre jednotlivé fóra.',
 	'ACP_GROUPS_PERMISSIONS_EXPLAIN'			=> 'Tu môžete priradiť globálne práva skupinám - užívateľské oprávnenia alebo moderátorské aj administrátorské oprávnenia. Užívateľské oprávnenia zahŕňajú možnosti ako použitie avataru, odosielanie súkromných správ atď.; globálne moderátorské práva zahŕňajú možnosti ako schvaľovanie príspevkov, správa tém, správa banov apod. a nakoniec administrátorské práva ako úpravy oprávnení, definovanie vlastných BBCode značiek, správa fór atď. Individuálne užívateľské oprávnenia by mali byť menené len výnimočne, preferovaná metóda je zaradenie užívateľov do skupín a nastavenie konkrétnym skupinám koncové práva.',
 	'ACP_ADMIN_ROLES_EXPLAIN'					=> 'Tu môžete upraviť role pre administratívne oprávnenia. Role sú účinné oprávnenia, pokiaľ zmeníte danú rolu všetkým užívateľom alebo skupinám k nej priradeným odpovedajúcim spôsobom, zmenia sa oprávnenia.',
@@ -108,6 +109,12 @@ $lang = array_merge($lang, array(
 	'APPLY_PERMISSIONS'			=> 'Použiť oprávnenia',
 	'APPLY_PERMISSIONS_EXPLAIN'	=> 'Oprávnenia a role definované pre túto položku budú použité na tejto položke a všetkých ďalších, ktoré sú zaškrtnuté',
   'AUTH_UPDATED'				=> 'Oprávnenia boli aktualizované.',
+  
+  'COPY_PERMISSIONS_CONFIRM'				=> 'Naozaj chcete skopírovať oprávnenia? Kopírovanie prepíše všetky súčasné nastavenie na cieľových fórach.',
+	'COPY_PERMISSIONS_FORUM_FROM_EXPLAIN'	=> 'Zdrojové fórum s už existujúcou sadou oprávnení.',
+	'COPY_PERMISSIONS_FORUM_TO_EXPLAIN'		=> 'Fóra, kde budú zdrojové oprávnenia aplikované.',
+	'COPY_PERMISSIONS_FROM'					=> 'Skopírovať oprávnenie od',
+	'COPY_PERMISSIONS_TO'					=> 'Použiť oprávnenie na',
 
 	'CREATE_ROLE'				=> 'Vytvoriť rolu',
 	'CREATE_ROLE_FROM'			=> 'Použiť nastavenie z…',
@@ -164,6 +171,7 @@ $lang = array_merge($lang, array(
 	'ROLE_FORUM_POLLS'			=> 'Bežný prístup + hlasovanie',
 	'ROLE_FORUM_READONLY'		=> 'Len čítanie',
 	'ROLE_FORUM_STANDARD'		=> 'Bežný prístup',
+	'ROLE_FORUM_NEW_MEMBER'		=> 'Nový člen fóra',
 	'ROLE_MOD_FULL'				=> 'Hlavný moderátor',
 	'ROLE_MOD_QUEUE'			=> 'Schvaľovací moderátor',
 	'ROLE_MOD_SIMPLE'			=> 'Obmedzený moderátor',
@@ -173,6 +181,7 @@ $lang = array_merge($lang, array(
 	'ROLE_USER_NOAVATAR'		=> 'Bez avatarov',
 	'ROLE_USER_NOPM'			=> 'Bez súkromných správ',
 	'ROLE_USER_STANDARD'		=> 'Bežné funkcie',
+	'ROLE_USER_NEW_MEMBER'		=> 'Nový člen fóra',
 
 	'ROLE_DESCRIPTION_ADMIN_FORUM'			=> 'Má prístup k ovládaniu fór a nastaveniam oprávnení pre fóra.',
 	'ROLE_DESCRIPTION_ADMIN_FULL'			=> 'Má prístup ku všetkým administrátorským panelom na tomto fóre.<br />Nie je doporučené.',
@@ -187,7 +196,8 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_FORUM_POLLS'			=> 'Rovnaké ako bežný prístup, ale môže zakladať hlasovania.',
 	'ROLE_DESCRIPTION_FORUM_READONLY'		=> 'Môže si čítať témy na fóre, ale nemôže vytvárať nové témy, alebo odosielať odpovede.',
 	'ROLE_DESCRIPTION_FORUM_STANDARD'		=> 'Môže využívať väčšinu funkcií fóra vrátane príloh, ale nemôže zamykať, alebo mazať svoje vlastné príspevky a nemôže vytvárať nové hlasovania.',
-	'ROLE_DESCRIPTION_MOD_FULL'				=> 'Môže využívať všetky možnosti moderátora, vrátane banovania.',
+	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> 'Role pre skupinu novo registrovaných užívateľov. Obsahuje oprávnenie typu <samp> NIKDY </ samp> pre obmedzenie povolení nových užívateľov',
+  'ROLE_DESCRIPTION_MOD_FULL'				=> 'Môže využívať všetky možnosti moderátora, vrátane banovania.',
 	'ROLE_DESCRIPTION_MOD_QUEUE'			=> 'Môže využiť zoznam príspevkov ku schváleniu pre úpravu a schvaľovanie príspevkov, ale nič iného.',
 	'ROLE_DESCRIPTION_MOD_SIMPLE'			=> 'Môže využívať len základné operácie s témami. Nemôže udeľovať varovania, alebo používať zoznam príspevkov ku schváleniu, alebo úprave.',
 	'ROLE_DESCRIPTION_MOD_STANDARD'			=> 'Môže využiť väčšiny nástrojov moderátora, ale nemôže udeliť ban, alebo zmeniť autora príspevku.',
@@ -196,6 +206,8 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_USER_NOAVATAR'		=> 'Má obmedzenú sadu možností a má zakázaní si zobrazovať avatar.',
 	'ROLE_DESCRIPTION_USER_NOPM'			=> 'Má obmedzenú sadu možností a nemôže používať súkromné správy.',
 	'ROLE_DESCRIPTION_USER_STANDARD'		=> 'Má prístup k väčšine možností užívateľa. Nemôže si ale napríklad zmeniť uživ. meno, alebo ignorovať ochranné intervaly.',
+  'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> 'Role pro skupinu novo registrovaných užívateľov. Obsahuje oprávnenia typu <samp>NIKDY</samp> pre obmedzenie oprávnenia nových užívateľov',
+
 
 	'ROLE_DESCRIPTION_EXPLAIN'		=> 'Máte možnosť vložiť krátky popis toho, k čomu je rola určená, alebo koho označuje. Text, ktorý tu vložíte bude tiež zobrazený v prehľade rolí v administrácií.',
 	'ROLE_DESCRIPTION_LONG'			=> 'Popis rola má príliš dlhý popis, skráťte ho pod 4000 znakov.',
@@ -241,7 +253,7 @@ $lang = array_merge($lang, array(
 	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'		=> 'Oprávnenia nezávislé na fóre majú hodnotu <samp>ÁNO</samp>, čo prepisujú miestnu hodnotu <samp>NIKDY</samp>. %sSledovať globálne oprávnenia%s',
 	'TRACE_USER_GLOBAL_NEVER_TOTAL_KEPT'	=> 'Oprávnenia nezávislé na fóre majú hodnotu <samp>NIKDY</samp>, čo neovplyvňuje miestne oprávnenia. %sSledovať globálne oprávnenia%s',
 
-	'TRACE_USER_FOUNDER'					=> 'Užívateľ má nastavenú úroveň zakladateľ, teda administratívne oprávnenia sú nastavené na <samp>ÁNO</samp>.',
+	'TRACE_USER_FOUNDER'					=> 'Tento užívateľ je zakladateľ, teda oprávnenia administrátora sú nastavené na <samp>ÁNO</samp>.',
 	'TRACE_USER_KEPT'						=> 'Oprávnenie užívateľa je nastavené na <samp>NIE</samp>, pôvodná hodnota je teda ponechaná.',
 	'TRACE_USER_KEPT_LOCAL'               	=> 'Oprávnenia užívateľa pre toto fórum sú nastavené na <samp>NIE</samp>, pôvodná hodnota je teda ponechaná.',
 	'TRACE_USER_NEVER_TOTAL_NEVER'			=> 'Oprávnenia užívateľa sú nastavené na <samp>NIKDY</samp> a výsledná hodnota je nastavená na <samp>NIKDY</samp>, nič sa teda nemení.',

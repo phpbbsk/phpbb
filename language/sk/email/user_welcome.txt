@@ -1,4 +1,4 @@
-Subject: Vitajte na “{SITENAME}”
+Subject: Vitajte na "{SITENAME}"
 
 {WELCOME_MSG}
 
@@ -6,12 +6,11 @@ Prosím Vás, ponechajte si tento email pre budúcu potrebu. Údaje o Vašom ú�
 
 ----------------------------
 Užívateľ: {USERNAME}
-Heslo: {PASSWORD}
 
 Adresa fóra: {U_BOARD}
 ----------------------------
 
-Prosím Vás, dobre si zapamätajte Vaše heslo. V našej databáze bude zašifrované a nebudeme Vám ho môcť preposlať. V prípade, že zabudnete Vaše heslo, môžete požiadať o nové, ktoré bude aktivované rovnakým spôsobom ako tento účet.
+Prosíme nezabudnite, že vaše heslo je zašifrované a nebudeme Vám ho môcť preposlať. V prípade, že zabudnete Vaše heslo, môžete požiadať o nové, ktoré bude aktivované rovnakým spôsobom ako tento účet.
 
 Ďakujeme Vám za registráciu.
 

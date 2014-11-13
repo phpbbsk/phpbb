@@ -1,9 +1,10 @@
 <?php
+
 /**
 * acp_permissions (phpBB Permission Set) [Slovak]
 *
 * @package language
-* @version $Id: permissions_phpbb.php,v 1.29 2007/10/15 00:00:00 shaggy Exp $
+* @version $Id: permissions_phpbb.php,v 1.29 2010/01/05 23:00:00 phpbb3.sk Exp $
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
@@ -120,10 +121,10 @@ $lang = array_merge($lang, array(
 	'acl_u_pm_printpm'	=> array('lang' => 'Môže vytlačiť súkromné správy', 'cat' => 'pm'),
 	'acl_u_pm_attach'	=> array('lang' => 'Môže pripojovať súbory k súkromným správam', 'cat' => 'pm'),
 	'acl_u_pm_download'	=> array('lang' => 'Môže sťahovať súbory v súkromných správach', 'cat' => 'pm'),
-	'acl_u_pm_bbcode'	=> array('lang' => 'Môže použiť BBCode v súkromným správach', 'cat' => 'pm'),
-	'acl_u_pm_smilies'	=> array('lang' => 'Môže použiť smajlíkov v súkromných správach', 'cat' => 'pm'),
-	'acl_u_pm_img'		=> array('lang' => 'Môže použiť obrázky v súkromných správach', 'cat' => 'pm'),
-	'acl_u_pm_flash'	=> array('lang' => 'Môže použiť Flash v súkromných správach', 'cat' => 'pm'),
+	'acl_u_pm_bbcode'	=> array('lang' => 'Môže použiť BBCode v&nbsp; súkromným správach', 'cat' => 'pm'),
+	'acl_u_pm_smilies'	=> array('lang' => 'Môže použiť smajlíkov v&nbsp; súkromných správach', 'cat' => 'pm'),
+	'acl_u_pm_img'		=> array('lang' => 'Môže použiť obrázky v&nbsp; súkromných správach', 'cat' => 'pm'),
+	'acl_u_pm_flash'	=> array('lang' => 'Môže použiť Flash v&nbsp; súkromných správach', 'cat' => 'pm'),
 
 	'acl_u_sendemail'	=> array('lang' => 'Môže posielať e-maily', 'cat' => 'misc'),
 	'acl_u_sendim'		=> array('lang' => 'Môže posielať instantné správy', 'cat' => 'misc'),

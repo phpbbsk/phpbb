@@ -4,7 +4,7 @@
 * search [Slovak]
 *
 * @package language
-* @version $Id: search.php,v 1.26 2007/10/15 00:00:00 shaggy Exp $
+* @version $Id: search.php,v 1.26 2010/01/05 23:00:00 phpbb3.sk Exp $
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -53,6 +53,7 @@ $lang = array_merge($lang, array(
 	'JUMP_TO_POST'			=> 'Prejsť na príspevok',
 
 	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Aby ste si mohli pozerať vaše príspevky, musíte byť prihlásený.',
+	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Pre zobrazenie zoznamu neprečítaných príspevkov sa musíte prihlásiť.',
 	
   'MAX_NUM_SEARCH_KEYWORDS_REFINE'   => 'Zadali ste príliš veľa kľúčových slov, skúste zadať najviac %1$d slov.',
 

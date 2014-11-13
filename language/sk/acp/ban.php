@@ -4,7 +4,7 @@
 * acp_ban [Slovak]
 *
 * @package language
-* @version $Id: ban.php,v 1.19 2007/10/15 00:00:00 shaggy Exp $
+* @version $Id: ban.php,v 1.19 2010/01/05 23:00:00 phpbb3.sk Exp $
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -48,6 +48,9 @@ $lang = array_merge($lang, array(
 	'BAN_REASON'			=> 'Dôvod vylúčenia',
 	'BAN_GIVE_REASON'		=> 'Dôvod zobrazený vylúčenému',
 	'BAN_UPDATE_SUCCESSFUL'	=> 'Zoznam vylúčených bol úspešne aktualizovaný.',
+	
+	'BANNED_UNTIL_DATE'		=> 'až do %s', // Example: "until Mon 13.Jul.2009, 14:44"
+	'BANNED_UNTIL_DURATION'	=> '%1$s (do %2$s)', // Example: "7 days (until Tue 14.Jul.2009, 14:44)"
 
 	'EMAIL_BAN'					=> 'Vylúčiť jednu alebo viac e-mailových adries',
 	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Povoľte možnosť pre vyradenie vloženej adresy z aktívnych vylúčení.',

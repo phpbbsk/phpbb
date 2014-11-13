@@ -4,7 +4,7 @@
 * acp_styles.php [Slovak]
 *
 * @package language
-* @version $Id: styles.php,v 1.40 2007/10/15 00:00:00 shaggy Exp $
+* @version $Id: styles.php,v 1.40 2010/01/05 23:00:00 phpbb3.sk Exp $
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -390,6 +390,7 @@ $lang = array_merge($lang, array(
 	'TEMPLATE_LOCATION'	=> 'Ukladať šablóny v',
 	'TEMPLATE_LOCATION_EXPLAIN'	=> 'Obrázky budú vždy ukladané v súborovom systéme.',
 	'TEMPLATE_NAME'	=> 'Názov šablóny',
+	'TEMPLATE_FILE_NOT_WRITABLE'=> 'Nemožno upraviť súbor %s. Skontrolujte oprávnenia adresára šablóny a súborov.',
 	'TEMPLATE_REFRESHED'	=> 'Šablóna úspešne aktualizovaná.',
 
 	'THEME_ADDED'	=> 'Nový skin bol úspešne pridaný do databázy.',

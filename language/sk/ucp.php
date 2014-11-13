@@ -4,7 +4,7 @@
 * ucp [Slovak]
 *
 * @package language
-* @version $Id: ucp.php,v 1.136 2007/10/15 00:00:00 shaggy Exp $
+* @version $Id: ucp.php,v 1.136 2010/01/05 23:00:00 phpbb3.sk Exp $
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -79,6 +79,7 @@ $lang = array_merge($lang, array(
 	'ADD_NEW_RULE'					=> 'Pridať nové pravidlo',
 	'ADD_RULE'						=> 'Pridať pravidlo',
 	'ADD_TO'						=> 'Pridať [komu]',
+	'ADD_USERS_UCP_EXPLAIN'		=> 'Tu môžete pridať nových používateľov do skupiny. Môžete zvoliť, či táto skupina bude ich nová východisková. Každé užívateľské meno dajte na novú riadku.',
 	'ADMIN_EMAIL'					=> 'Administrátori mi môžu zasielať e-mailom informácie',
 	'AGREE'							=> 'Súhlasím s podmienkami',
 	'ALLOW_PM'						=> 'Umožní užívateľom odosielať Vám súkromné správy',
@@ -92,7 +93,9 @@ $lang = array_merge($lang, array(
 	'AVATAR_FEATURES_DISABLED'		=> 'Avatary sú v tejto chvíli na fóre vypnuté.',
 	'AVATAR_GALLERY'				=> 'Miestna galéria',
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Avatar nie je možné nahrať do %s',
+	'AVATAR_NOT_ALLOWED'					=> 'Váš avatar nebude zobrazený, pretože avatary sú globálne vypnuté.',
 	'AVATAR_PAGE'					=> 'Stránka',
+	'AVATAR_TYPE_NOT_ALLOWED'			=> 'Váš súčasný avatar nebude zobrazený, pretože tento typ avatarov bol zakázaný.',
 
 	'BACK_TO_DRAFTS'			=> 'Späť k uloženým konceptom',
 	'BACK_TO_LOGIN'				=> 'Späť na prihlasovaciu obrazovku',
@@ -196,6 +199,7 @@ $lang = array_merge($lang, array(
 	'FOES_UPDATED'				=> 'Váš zoznam nepriateľov bol úspešne aktualizovaný',
 	'FOLDER_ADDED'				=> 'Zložka bola úspešne pridaná',
 	'FOLDER_MESSAGE_STATUS'		=> '%1$d z %2$d uložených správ',
+	'FOLDER_NAME_EMPTY'			=> 'Musíte zadať názov adresára.',
 	'FOLDER_NAME_EXIST'			=> 'Zložka <strong>%s</strong> už existuje',
 	'FOLDER_OPTIONS'			=> 'Možnosti zložky',
 	'FOLDER_RENAMED'			=> 'Zložka bola úspešne premenovaná',
@@ -273,9 +277,11 @@ $lang = array_merge($lang, array(
 	'NOTIFY_ON_PM'					=> 'Upozorniť ma na nové správy',
 	'NOT_ADDED_FRIENDS_ANONYMOUS'	=> 'Nemôžete vložiť anonymného užívateľa do Vášho zoznamu priateľov.',
 	'NOT_ADDED_FRIENDS_FOES'		=> 'Nemôžete vložiť do Vášho zoznamu priateľov tých užívateľov, ktorí sú na zozname nepriateľov.',
+	'NOT_ADDED_FRIENDS_BOTS'		=> 'Nemôžete pridať botov do vášho zoznamu priateľov.',
 	'NOT_ADDED_FRIENDS_SELF'		=> 'Nemôžete sa pridať do Vášho zoznamu priateľov.',
 	'NOT_ADDED_FOES_MOD_ADMIN'		=> 'Nemôžete vložiť administrátorov a moderátorov do Vášho zoznamu nepriateľov.',
 	'NOT_ADDED_FOES_ANONYMOUS'		=> 'Nemôžete vložiť anonymného užívateľa do Vášho zoznamu nepriateľov.',
+	'NOT_ADDED_FOES_BOTS'			=> 'Nemôžete pridať botov do vášho zoznamu nepriateľov.',
 	'NOT_ADDED_FOES_FRIENDS'		=> 'Nemôžete vložiť do Vášho zoznamu nepriateľov tých užívateľov, ktorí sú na zozname priateľov.',
 	'NOT_ADDED_FOES_SELF'			=> 'Nemôžete sa pridať do Vášho zoznamu nepriateľov.',
 	'NOT_AGREE'						=> 'Nesúhlasím s týmito podmienkami',
@@ -345,7 +351,7 @@ $lang = array_merge($lang, array(
 	'POST_EDIT_PM'				=> 'Upraviť správu',
 	'POST_FORWARD_PM'			=> 'Preposlať správu',
 	'POST_NEW_PM'				=> 'Odoslať správu',
-	'POST_PM_LOCKED'			=> 'Posielanie súkromných správ je uzamknuté',
+	'POST_PM_LOCKED'			=> 'Posielanie súkromných správ je zakázané',
 	'POST_PM_POST'				=> 'Citovať príspevok',
 	'POST_QUOTE_PM'				=> 'Citovať správu',
 	'POST_REPLY_PM'				=> 'Odpovedať na správu',
@@ -367,6 +373,8 @@ $lang = array_merge($lang, array(
 	'RENAME'							=> 'Premenovať',
 	'RENAME_FOLDER'						=> 'Premenovať zložku',
 	'REPLIED_MESSAGE'					=> 'Odpovedané na správu',
+	'REPLY_TO_ALL'						=> 'Odpovedať odosielateľovi a všetkým adresátom',
+	'REPORT_PM'							=> 'Nahlásiť súkromnú správu',
 	'RESIGN_SELECTED'					=> 'Na vybratých zrušiť označenie',
 	'RETURN_FOLDER'						=> '%1$sVrátiť sa k predchádzajúcej zložke%2$s',
 	'RETURN_UCP'						=> '%sVrátiť sa do Ovládacieho panela užívateľa%s',
@@ -416,7 +424,7 @@ $lang = array_merge($lang, array(
 	'UCP_MAIN_FRONT'			=> 'Úvodná stránka',
 	'UCP_MAIN_SUBSCRIBED'		=> 'Organizovať odbery',
 
-	'UCP_MSNM'					=> 'MSN Messenger',
+	'UCP_MSNM'					=> 'Windows Live Messenger',
 	'UCP_NO_ATTACHMENTS'		=> 'Neodoslali ste žiadne súbory',
 
 	'UCP_PREFS'					=> 'Nastavenia fóra',

@@ -4,7 +4,7 @@
 * install [Slovak]
 *
 * @package language
-* @version $Id: install.php,v 1.131 2007/10/15 00:00:00 Tom@S Exp $
+* @version $Id: install.php,v 1.131 2010/01/05 23:00:00 phpbb3.sk Exp $
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -133,6 +133,7 @@ $lang = array_merge($lang, array(
 	'DB_PASSWORD'				=> 'Heslo databázy',
 	'DB_PORT'					=> 'Port servera databázy',
 	'DB_PORT_EXPLAIN'			=> 'Nechajte toto políčko prázdne, pokiaľ je port iný, ako je štandartný.',
+	'DB_UPDATE_NOT_SUPPORTED'	=> 'Je nám ľúto, ale aktualizačný skript nevie aktualizovať verzie phpBB staršie ako “%1$s”. V tejto chvíli máte nainštalovanú verziu “%2$s”. Aktualizujte postupne na staršiu verziu pred použitím tohto skriptu. Ak potrebujete pomoc, obráťte sa na pomoc v diskusnom fóre na phpBB3.sk, phpBB.cz alebo phpBB.com.',
 	'DB_USERNAME'				=> 'Užívateľské meno databázy',
 	'DB_TEST'					=> 'Otestovať pripojenie',
 	'DEFAULT_LANG'				=> 'Východzí jazyk fóra',
@@ -166,6 +167,7 @@ $lang = array_merge($lang, array(
 	'FILES_REQUIRED_EXPLAIN'	=> '<strong>Povinné</strong> - phpBB potrebuje mať povolenie pre zapisovanie do týchto súborov, alebo zložiek. Pokiaľ je vypísané "Nenájdené", musíte daný súbor, alebo zložku vytvoriť. Pokiaľ je vypísané "Nemôžem zapisovať", musíte zmeniť atribúty pre zápis do daného súboru, alebo zložky, aby do nich phpBB mohlo zapisovať.',
 	'FILLING_TABLE'				=> 'Naplňujem tabuľku <strong>%s</strong>',
 	'FILLING_TABLES'			=> 'Naplňovanie tabuliek',
+	'FIREBIRD_DBMS_UPDATE_REQUIRED'		=> 'phpBB ďalej nepodporuje databázy Firebird/Interbase staršie verzie ako 2.1. Aktualizujte vašu databázu Firebird na verziu minimálne 2.1.0 pred pokračováním v aktualizacii fóra.',
 	'FINAL_STEP'				=> 'Spracovať posledný krok',
 	'FORUM_ADDRESS'				=> 'Adresa fóra',
 	'FORUM_ADDRESS_EXPLAIN'		=> 'Toto je http adresa vášho bývalého fóra',
@@ -184,11 +186,11 @@ $lang = array_merge($lang, array(
 	'INITIAL_CONFIG_EXPLAIN'	=> 'Teraz, keď inštalácia potvrdila, že je možné nainštalovať phpBB na váš server, musíte zadať niekoľko dôležitých údajov. Pokiaľ neviete ako sa pripojiť k databáze, kontaktujte vášho poskytovateľa hostingových služieb (v prvej rade) alebo kontaktujte fórum podpory phpBB. Dôkladne skontrolujte všetky dáta skôr ako ich odošlete.',
 	'INSTALL_CONGRATS'			=> 'Gratulujeme',
 	'INSTALL_CONGRATS_EXPLAIN'	=> '
-		<p>Práve ste úspešne nainštalovali phpBB %1$s. Odtiaľto máta dve možnosti ako naložiť so svojim fórom:</p>
+		Práve ste úspešne nainštalovali phpBB %1$s. Odtiaľto máta dve možnosti ako naložiť so&nbsp; svojím fórom:</p>
 		<h2>Previesť existujúce fórum na phpBB3</h2>
 		<p>phpBB je schopné previesť dáta zo starších verzií phpBB 2.0.x alebo iných systémov do phpBB3. Pokiaľ máte existujúce fórum, ktoré chcete previesť, <a href="%2$s">pokračujte na konvertor</a>.</p>
 		<h2>Spustiť vaše fórum!</h2>
-		<p>Kliknutím na tlačítko nižšie sa dostanete do administrácie phpBB (ACP). Urobte si chvíľu čas a porozhliadnite sa, aké možnosti vám phpBB3 ponúka. Online podpora je dostupná cez <a href="http://www.phpbb.com/support/documentation/3.0/">Dokumentáciu</a> a <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">phpBB.com fórum(Anglicky)</a> alebo <a href="http://phpbb3.sk/">phpBB3.sk fórum (slovensky)</a>, taktiež si pozrite <a href="%3$s">README</a> pre ďalšie informácie.</p><p><strong>Teraz prosím zmažte, presuňte alebo premenujte zložku install. Pokiaľ táto zložka bude tam, kde je teraz, bude funkčná len administrácia fóra (ACP).</strong></p>',
+		<p>Kliknutím na tlačítko nižšie sa dostanete do administrácie phpBB (ACP). Urobte si chvíľu čas a porozhliadnite sa, aké možnosti vám phpBB3 ponúka. Online podpora je dostupná cez <a href="http://www.phpbb.com/support/documentation/3.0/">Dokumentáciu</a> a <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">phpBB.com fórum(Anglicky)</a> alebo <a href="http://phpbb3.sk/">phpBB3.sk fórum (slovensky)</a>, taktiež si pozrite <a href="%3$s">README</a> pre ďalšie informácie.</p><p><strong>Teraz prosím zmažte, presuňte alebo premenujte zložku install. Pokiaľ táto zložka nebude odstránená, bude funkčná len administrácia fóra (ACP).</strong></p>',
 	'INSTALL_INTRO'				=> 'Vitajte v inštalácii',
 
 	'INSTALL_INTRO_BODY'		=> 'Tento postup vám pomôže s inštaláciou phpBB3 na váš server.</p><p>Aby ste mohli pokračovať, budete potrebovať vaše nastavenie databázy. Ak neviete vaše nastavenia databázy, prosím kontaktujte váš webhosting a spýtajte sa ich. Nemôžete bez nich pokračovať. Potrebujete:</p>
@@ -208,7 +210,7 @@ $lang = array_merge($lang, array(
 		<li>MySQL 3.23 alebo vyšší (MySQLi je podporované)</li>
 		<li>PostgreSQL 7.3+</li>
 		<li>SQLite 2.8.2+</li>
-		<li>Firebird 2.0+</li>
+		<li>Firebird 2.1+</li>
 		<li>MS SQL Server 2000 alebo vyšší (priamo alebo cez ODBC)</li>
 		<li>Oracle</li>
 	</ul>
@@ -230,7 +232,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_MYSQLI'		=> 'Verzia databázy MySQL, ktorá je inštalovaná na tomto stroji, je nekompatibilná s možnosťou "MySQL s rozšírením MySQLi", ktorú ste vybrali. Skúste zvoliť možnosť "MySQL".',
 	'INST_ERR_DB_NO_SQLITE'		=> 'Verzia rozšírenia SQLite, ktorú máte nainštalovanú, je príliš zastaralá a je potrebné ju aktualizovať aspoň na verziu 2.8.2.',
 	'INST_ERR_DB_NO_ORACLE'		=> 'Verzia databázy Oracle, ktorá je inštalovaná na tomto stroji, vyžaduje nastavenie parametru <var>NLS_CHARACTERSET</var> na <var>UTF8</var>. Buď aktualizujte vašu inštaláciu na verziu 9.2+ alebo zmeňte tento parameter.',
-	'INST_ERR_DB_NO_FIREBIRD'	=> 'Verzia databázy Firebird, ktorá je inštalovaná na tomto stroji, je staršia ako 2.0. Aktualizujte na novšiu verziu.',
+	'INST_ERR_DB_NO_FIREBIRD'	=> 'Verzia databázy Firebird, ktorá je inštalovaná na tomto serveri, je staršia ako 2.1. Aktualizujte na novšiu verziu.',
 	'INST_ERR_DB_NO_FIREBIRD_PS'=> 'Databáza, ktorú ste zvolili pre Firebird má veľkosť stránky menšiu než 8192. Musíte zvoliť databázu, ktorá má stránku väčšiu ako táto hodnota.',
 	'INST_ERR_DB_NO_POSTGRES'	=> 'Databáza, ktorú ste zvolili, nebola vytvorená v kódovaní <var>UNICODE</var> alebo <var>UTF8</var>. Skúste inštalovať do databázy, ktorá má kódovanie <var>UNICODE</var> alebo <var>UTF8</var>',
 	'INST_ERR_DB_NO_NAME'		=> 'Nezadali ste meno databázy',
@@ -364,7 +366,7 @@ $lang = array_merge($lang, array(
 
 // Updater
 $lang = array_merge($lang, array(
-	'ALL_FILES_UP_TO_DATE'		=> 'Všetky súbory sú zhodné s najnovšou verziou phpBB. Teraz sa <a href="../ucp.php?mode=login">prihláste na svoje fórum</a> a skontrolujte či všetko funguje ako má. Nezabudnite zmazať, premenovať alebo presunúť zložku install/!',
+	'ALL_FILES_UP_TO_DATE'		=> 'Všetky súbory sú zhodné s najnovšou verziou phpBB. Teraz sa <a href="../ucp.php?mode=login">prihláste na svoje fórum</a> a skontrolujte, či všetko funguje ako má. Nezabudnite zmazať, premenovať alebo presunúť zložku install/! Budeme radi, keď nám <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">zašlete anonymné štatistické dáta</a> o vašom serveri a nastavení vašej inštalácie, ktoré použijeme na zlepšenie budúcich verzií phpBB',
 	'ARCHIVE_FILE'				=> 'Zdrojový súbor vo vnútri archívu',
 
 	'BACK'		=> 'Späť',
@@ -448,8 +450,8 @@ $lang = array_merge($lang, array(
   
   'MERGE_NO_MERGE_NEW_OPTION'	=> 'Nezlučovať - použiť nový súbor',
 	'MERGE_NO_MERGE_MOD_OPTION'	=> 'Nezlučovať - použiť v súčasnosti inštalovaný súbor',
-	'MERGE_MOD_FILE_OPTION'		=> 'Zlúčiť rozdiely a použiť upravený kód bloku konfliktu',
-	'MERGE_NEW_FILE_OPTION'		=> 'Zlúčiť rozdiely a použiť kód z nového súboru pre blok konfliktu',
+	'MERGE_MOD_FILE_OPTION'		=> 'Zlúčiť rozdiely (zahodit nový phpBB kód v konflikte)',
+	'MERGE_NEW_FILE_OPTION'		=> 'Zlúčiť rozdiely (zahodit kód zo starého súboru v konflikte)',
 	'MERGE_SELECT_ERROR'		=> 'Režimy zlúčenia súborov spôsobujúcich konflikty nie sú vybrané správne.',
 	'MERGING_FILES'				=> 'Spájanie rozdielov',
 	'MERGING_FILES_EXPLAIN'		=> 'Práve sa zbierajú informácie o konečných zmenách súborov.<br /><br />Počkajte pokiaľ phpBB dokončí jednotlivé úkony.',
@@ -467,7 +469,7 @@ $lang = array_merge($lang, array(
 	'NO_VISIBLE_CHANGES'			=> 'Žiadne viditeľné zmeny',
 	'NOTICE'						=> 'Upozornenie',
 	'NUM_CONFLICTS'					=> 'Počet konfliktov',
-	'NUMBER_OF_FILES_COLLECTED'		=> 'V súčasnosti tvoria rozdiely %1$d z %2$d získaných súborov.<br />Počkajte kým sa ukončí získavanie súborov.',
+	'NUMBER_OF_FILES_COLLECTED'		=> 'V súčasnosti tvoria rozdiely o&nbsp;%1$d z %2$d získaných súborov.<br />Počkajte kým sa ukončí získavanie súborov.',
 
 	'OLD_UPDATE_FILES'		=> 'Aktualizačné súbory sú staré. Súbory, ktoré boli nájdené, sú určené pre prechod z phpBB %1$s na phpBB %2$s, ale posledná verzia phpBB je %3$s.',
 	
@@ -564,9 +566,10 @@ $lang = array_merge($lang, array(
 	'VERSION_CHECK'				=> 'Kontrola verzie',
 	'VERSION_CHECK_EXPLAIN'		=> 'Skontrolujte, či požívate najnovšiu verziu.',
 	'VERSION_NOT_UP_TO_DATE'	=> 'Vaša verzia phpBB nie je aktuálna. Prosím pokračujte k aktualizačnému procesu.',
-	'VERSION_NOT_UP_TO_DATE_ACP'=> 'Vaša verzia phpBB nie je aktuálna.<br />Nižšie nájdete odkaz na oznámenie o vydaní poslednej verzie vrátane inštrukcií k prevedeniu aktualizácie.',
-	'VERSION_UP_TO_DATE'		=> 'Vaša verzia phpBB je aktuálna a nie sú dostupné žiadne aktualizácie pre túto verziu. Ale aj tak, ak máte záujem môžete skontrolovať integritu súborov.',
-	'VERSION_UP_TO_DATE_ACP'	=> 'Vaša verzia phpBB je aktuálna a nie sú dostupné žiadne aktualizácie pre túto verziu. Nepotrebujete aktualizovať vašu inštaláciu.',
+	'VERSION_NOT_UP_TO_DATE_ACP'=> 'Vaša verzia phpBB nie je aktuálna.<br />Nižšie nájdete odkaz na oznámenie o&nbsp;vydaní poslednej verzie vrátane inštrukcií k&nbsp;prevedeniu aktualizácie.',
+	'VERSION_UP_TO_DATE'		=> 'Vaša verzia phpBB je aktuálna a nie sú dostupné žiadne aktualizácie pre túto verziu. Ak však napriek tomu máte záujem, môžete skontrolovať integritu súborov.',
+	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'Používate zastaralú verziu phpBB.',
+  'VERSION_UP_TO_DATE_ACP'	=> 'Vaša verzia phpBB je aktuálna a nie sú dostupné žiadne aktualizácie pre túto verziu. Nepotrebujete aktualizovať vašu inštaláciu.',
 	'VIEWING_FILE_CONTENTS'		=> 'Zobrazenie obsahov súborov',
 	'VIEWING_FILE_DIFF'			=> 'Zobrazenie rozdielov súborov',
 

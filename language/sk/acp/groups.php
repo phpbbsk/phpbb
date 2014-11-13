@@ -4,7 +4,7 @@
 * acp_groups [Slovak]
 *
 * @package language
-* @version $Id: groups.php,v 1.29 2007/10/15 00:00:00 shaggy Exp $
+* @version $Id: groups.php,v 1.29 2010/01/05 23:00:00 phpbb3.sk Exp $
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -88,13 +88,16 @@ $lang = array_merge($lang, array(
 	'GROUP_PENDING'					=> 'Členovia čakajúci na vstup',
 	'GROUP_MAX_RECIPIENTS'			=> 'Maximálny počet príjemcov jednej súkromnej správy',
 	'GROUP_MAX_RECIPIENTS_EXPLAIN'	=> 'Maximálny počet príjemcov jednej súkromnej správy. Nastavte 0 pre použitie globálneho nastavenia.',
-	'GROUP_PROMOTE'					=> 'Povýšiť na moderátora skupiny',
+	'GROUP_OPTIONS_SAVE'					=> 'Nastavenie pre celu skupinu',
+  'GROUP_PROMOTE'					=> 'Povýšiť na moderátora skupiny',
 	'GROUP_RANK'					=> 'Hodnosť skupiny',
 	'GROUP_RECEIVE_PM'				=> 'Skupina môže prijímať súkromné právy',
 	'GROUP_RECEIVE_PM_EXPLAIN'				=> 'Berte na vedomie, že skryté skupiny nikdy nemôžu prijímať správy pre skupinu.',
 	'GROUP_REQUEST'					=> 'Žiadosť',
 	'GROUP_SETTINGS_SAVE'			=> 'Nastavenia boli uložené',
-	'GROUP_TYPE'					=> 'Typ skupiny',
+	'GROUP_SKIP_AUTH'							=> 'Vyňať vedúceho skupiny z oprávnenia',
+	'GROUP_SKIP_AUTH_EXPLAIN'			=> 'Ak je toto nastavené, vedúci skupiny nezdieľa oprávnenia z tejto skupiny',
+  'GROUP_TYPE'					=> 'Typ skupiny',
 	'GROUP_TYPE_EXPLAIN'			=> 'Toto nastavenie určuje, ktorí užívatelia môžu vstúpiť alebo prezerať skupinu.',
 	'GROUP_UPDATED'					=> 'Nastavenia skupiny boli úspešne upravené.',
 

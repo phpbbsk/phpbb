@@ -4,7 +4,7 @@
 * acp_email [Slovak]
 *
 * @package language
-* @version $Id: email.php,v 1.16 2007/10/15 00:00:00 shaggy Exp $
+* @version $Id: email.php,v 1.16 2007/10/15 00:00:00 phpbb3.sk Exp $
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

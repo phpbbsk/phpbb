@@ -4,7 +4,7 @@
 * acp_prune [Slovak]
 *
 * @package language
-* @version $Id: prune.php,v 1.14 2007/10/15 00:00:00 shaggy Exp $
+* @version $Id: prune.php,v 1.14 2010/01/05 23:00:00 phpbb3.sk Exp $
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -40,20 +40,20 @@ $lang = array_merge($lang, array(
 	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Tu môžete zmazať (alebo deaktivovať) užívateľov z vašej skupiny. To môžete spraviť rôznymi spôsobmi; podľa odoslaných príspevkov, poslednej aktivity atď., väčšinu kritérií je možné kombinovať. Napríklad užívatelia s poslednou aktivitou 2002-01-01 a s počtom príspevkov nižším ako 10. Môžete taktiež zadať iba zoznam užívateľov do textového poľa a ostatné kritéria budú ignorované. Buďte opatrní pri prečisťovaní užívateľov, zmazaných užívateľov nie je možné vrátiť späť.',
 
 	'DEACTIVATE_DELETE'			=> 'Deaktivovať alebo zmazať',
-	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Vyberte užívateľov ktorých chcete trvalo deaktivovať, alebo zmazať. Pozor, nie je možné vrátiť späť!',
+	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Vyberte užívateľov ktorých chcete trvalo deaktivovať, alebo zmazať. Pozor, nie je možné vrátiť túto akciu späť!',
 	'DELETE_USERS'				=> 'Zmazať',
 	'DELETE_USER_POSTS'			=> 'Odstrániť príspevky deaktivovaných užívateľov',
 	'DELETE_USER_POSTS_EXPLAIN' => 'Odstrániť príspevky zmazaných užívateľov pri prečisťovaní (nemá účinok pre deaktivovaných užívateľov)',
 
 	'JOINED_EXPLAIN'			=> 'Zadajte dátum vo formáte <kbd>RRRR-MM-DD</kbd> ',
 
-	'LAST_ACTIVE_EXPLAIN'		=> 'Zadajte dátum vo formáte <kbd>RRRR-MM-DD</kbd> ',
+	'LAST_ACTIVE_EXPLAIN'		=> 'Zadajte dátum vo formáte <kbd>RRRR-MM-DD</kbd>. Zadejte <kbd>0000-00-00</kbd> pre vybranie užívateľov, ktorí sa nikdy neprihlásili, v tomto prípade budú ignorované podmienky <em>Pred</em> a <em>Po</em> ',
 
-	'PRUNE_USERS_LIST'				=> 'Užívatelia k prečisteniu',
+	'PRUNE_USERS_LIST'				=> 'Užívatelia k&nbsp; prečisteniu',
 	'PRUNE_USERS_LIST_DELETE'		=> 'S vybranými kritériami budú odstránené nasledujúce užívateľské účty.',
 	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'S vybranými kritériami budú deaktivováné nasledujúce užívateľské účty.',
 
-	'SELECT_USERS_EXPLAIN'		=> 'Tu môžete zadať určité užívateľské mená, pre ktoré majú byť použité nastavené kritéria.',
+	'SELECT_USERS_EXPLAIN'		=> 'Tu môžete zadať určité užívateľské mená, pre ktoré majú byť použité nastavené kritéria. Zakladatelia fora nikdy nesmú byť vybraní.',
 
 	'USER_DEACTIVATE_SUCCESS'	=> 'Vybraní užívatelia boli úspešne deaktivovaní.',
 	'USER_DELETE_SUCCESS'		=> 'Vybraní užívatelia boli úspešne zmazaní.',

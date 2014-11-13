@@ -4,7 +4,7 @@
 * search_synonyms [English]
 *
 * @package language
-* @version $Id: search_synonyms.php,v 3RC7 2007/10/15 00:00:00 shaggy Exp $
+* @version $Id: search_synonyms.php,v 3RC7 2007/10/15 00:00:00 phpbb3.sk Exp $
 * @copyright (c) 2007 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *

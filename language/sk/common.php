@@ -4,7 +4,7 @@
 * common [Slovak]
 *
 * @package language
-* @version $Id: common.php,v 1.195 2007/10/15 00:00:00 Tom@S Exp $
+* @version $Id: common.php,v 1.195 2010/01/05 23:00:00 phpbb3.sk Exp $
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> '<a href="http://www.phpbb3.sk" class="copyright">phpbb slovenčina</a> a <a href="http://www.phpbb3.sk/forum" class="copyright">fórum</a>',
+	'TRANSLATION_INFO'	=> '<a href="http://www.phpbb3.sk">Slovenský preklad</a>.',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'USER_LANG'			=> 'sk-SK',
@@ -250,6 +250,7 @@ $lang = array_merge($lang, array(
 	'G_REGISTERED'				=> 'Registrovaní užívatelia',
 	'G_REGISTERED_COPPA'		=> 'Registrovaní COPPA užívatelia',
 	'G_GLOBAL_MODERATORS'		=> 'Globálni moderátori',
+	'G_NEWLY_REGISTERED'		=> 'Noví členovia fóra',
 
 	'HIDDEN_USERS_ONLINE'		=> '%d skrytých užívateľov on-line',
 	'HIDDEN_USERS_TOTAL'			=> '%d skrytých',
@@ -368,6 +369,8 @@ $lang = array_merge($lang, array(
 	'NO_EMAIL_MESSAGE'			=> 'E-mailová správa bola prázdna',
 	'NO_EMAIL_RESPONSE_CODE'	=> 'Nepodarilo sa získať odozvu z e-mailového serveru.',
 	'NO_EMAIL_SUBJECT'			=> 'Chýbajúci subjekt e-mailu.',
+	'NO_FEED_ENABLED'		=> 'Exporty nie sú povolené na tomto fóre.',
+	'NO_FEED'						=> 'Zvolený export nie je dostupný.',
 	'NO_FORUM'					=> 'Zvolené fórum neexistuje.',
 	'NO_FORUMS'					=> 'Na tejto stránke nie sú žiadne fóra.',
 	'NO_GROUP'					=> 'Zvolená skupina neexistuje.',
@@ -485,6 +488,10 @@ $lang = array_merge($lang, array(
 	'RETURN_PAGE'				=> '%sSpäť na predchádzajúcu stránku%s',
 	'RETURN_TOPIC'				=> '%sSpäť na naposledy navštívenú tému%s',
 	'RETURN_TO'					=> 'Späť na',
+	
+	'FEED'						=> 'ATOM',
+	'FEED_NEWS'				=> 'Novinky',
+	
 	'RULES_ATTACH_CAN'			=> '<strong>Môžete</strong> prikladať súbory v tomto fóre',
 	'RULES_ATTACH_CANNOT'		=> '<strong>Nemôžete</strong> zasielať súbory v tomto fóre',
 	'RULES_DELETE_CAN'			=> '<strong>Môžete</strong> mazať svoje príspevky v tomto fóre',
@@ -516,6 +523,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_SELF'				=> 'Zobraziť Vaše príspevky',
 	'SEARCH_TOPIC'				=> 'Hľadať v tejto téme',
 	'SEARCH_UNANSWERED'			=> 'Zobraziť témy bez odpovede',
+	'SEARCH_UNREAD'				=> 'Zobraziť neprečítané príspevky',
 	'SECONDS'					=> 'Sekúnd',
 	'SELECT'					=> 'Vybrať',
 	'SELECT_ALL_CODE'			=> 'Vybrať všetko',
@@ -534,6 +542,7 @@ $lang = array_merge($lang, array(
 	'SORT_JOINED'				=> 'Dátumu registrácie',
 	'SORT_LOCATION'				=> 'Bydliska',
 	'SORT_RANK'					=> 'Hodnosti',
+	'SORT_POSTS'						=> 'Príspevky',
 	'SORT_TOPIC_TITLE'			=> 'Názvu témy',
 	'SORT_USERNAME'				=> 'Užívateľského mena',
 	'SPLIT_TOPIC'				=> 'Rozdeliť tému',
@@ -595,6 +604,7 @@ $lang = array_merge($lang, array(
 
 	'TOPIC'				=> 'Téma',
 	'TOPICS'			=> 'Témy',
+	'TOPICS_UNAPPROVED'	=> 'Aspoň jedna téma v tomto fóre nebola schválená.',
 	'TOPIC_ICON'		=> 'Ikona témy',
 	'TOPIC_LOCKED'		=> 'Táto téma je zamknutá, nemôžete posielať nové príspevky alebo odpovedať na staršie.',
 	'TOPIC_LOCKED_SHORT'=> 'Téma zamknutá',
@@ -640,6 +650,8 @@ $lang = array_merge($lang, array(
 	'USER_POSTS'			=> '%d Príspevky',
 	'USERS'					=> 'Užívatelia',
 	'USE_PERMISSIONS'		=> 'Otestovať užívateľské oprávnenia',
+	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Je nám ľúto, ale túto funkciu zatiaľ nemôžete využiť. Ste na fóre registrovaný ešte krátko a je potrebné, aby ste sa viac podieľali na fóre pre povolenie týchto funkcií.',
+
 
 	'VARIANT_DATE_SEPARATOR'	=> ' / ',	// Used in date format dropdown, eg: "Today, 13:37 / 01 Jan 2007, 13:37" ... to join a relative date with calendar date
 	'VIEWED'					=> 'Zobrazené',
