@@ -58,6 +58,7 @@ $lang = array_merge($lang, array(
 	'QUESTION_TEXT_EXPLAIN'		=> 'Otázka, ktorá bude položena pri registracii.',
 
 	'QA_ERROR_MSG'				=> 'Zadajte všetky polia vrátane otázky a aspoň jednej odpovede.',
+	'QA_LAST_QUESTION'			=> 'Nemôžete vymazať všetky otázky keď je plugin aktívny.',
 ));
 
 ?>

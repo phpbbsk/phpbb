@@ -267,7 +267,6 @@ $lang = array_merge($lang, array(
 	'PARSE_URLS'						=> 'Spracovávať odkazy',
 	'PERMISSIONS_TRANSFERRED'			=> 'Oprávnenia boli prenesené',
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Teraz máte oprávnenia %1$s. Môžete prechádzať fórum s užívateľským oprávnením, ale nemôžete vstúpiť do administrácie fóra, pretože administrátorské oprávnenia neboli prenesené. Môžete sa kedykoľvek <a href="%2$s"><strong>vrátiť k vašim oprávneniam</strong></a>.',
-	'PIXEL'							=> 'px',
 	'PROCEED_TO_ACP'					=> '%sPokračovať na Administráciu fóra%s',
 
 	'REMIND'							=> 'Pripomenúť',
@@ -337,6 +336,8 @@ $lang = array_merge($lang, array(
 	'NUMBER_TOPICS'		=> 'Počet tém',
 	'NUMBER_USERS'		=> 'Počet užívateľov',
 	'NUMBER_ORPHAN'		=> 'Nepripojených príloh',
+	
+	'PHP_VERSION_OLD'	=> 'Verzia PHP na vašom serveri už dlhšie nebude podporovaná budúcimi verziami phpBB. %sDetaily%s',
 
 	'POSTS_PER_DAY'		=> 'Príspevkov za deň',
 

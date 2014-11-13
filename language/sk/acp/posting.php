@@ -40,6 +40,8 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_BBCODES_EXPLAIN'		=> 'BBCode je zvláštna implementácia jazyka HTML, ktorá umožňuje väčšiu kontrolu nad tým, ako vyzerajú vaše príspevky. Z tejto stránky môžete pridávať, odstraňovať alebo upravovať vlastné BBCode značky.',
 	'ADD_BBCODE'				=> 'Pridať nový BBCode',
+	'BBCODE_DANGER'				=> 'BBcode, ktorý sa snažíte pridať vyzerá tak, že používa {TEXT} v HTML atribúte. Toto je možná bezpečnostná chyba XSS. Namiesto toho radšej skúste použiť viac obmedzené {SIMPLETEXT} alebo {INTTEXT}. Pokračujte iba ak rozumiete rizikám a považujete na použitie {TEXT} ako potrebné.',
+	'BBCODE_DANGER_PROCEED'		=> 'Pokračovať', //'I understand the risk',
 
 	'BBCODE_ADDED'				=> 'BBCode úspešne pridaný.',
 	'BBCODE_EDITED'				=> 'BBCode úspešne upravený.',
@@ -72,8 +74,9 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_BBCODES'		=> 'Nedajú sa vytvoriť ďalšie BBCode značky. Odstráňte jednu, alebo viac značiek a skúste to znovu.',
 
 	'tokens'	=>	array(		
-		'TEXT'			=> 'Bežný text, vrátane cudzích znakov, čísiel, atď. Nemali by ste používať túto premennú v HTML tagoch. Miesto toho skúste použiť IDENTIFIER (identifikátor) alebo SIMPLETEXT (jednoduchý text).',
+		'TEXT'			=> 'Bežný text, vrátane cudzích znakov, čísiel, atď. Nemali by ste používať túto premennú v HTML tagoch. Miesto toho skúste použiť IDENTIFIER, INTTEXT alebo SIMPLETEXT.',
 		'SIMPLETEXT'	=> 'Znaky z latinskej abecedy (A-Z), čísla, medzery, čiarky, bodky, mínus, plus, pomlčka a  podčiarknutie',
+		'INTTEXT'		=> 'Unicode znaky, čísla, medzery, čiarky, bodky, mínusy, plusy, pomĺčky a podtrhovníky.',
 		'IDENTIFIER'	=> 'Znaky z latinskej abecedy (A-Z),  čísla, pomlčka a  podčiarknutie',
 		'NUMBER'		=> 'Akákoľvek rada číslic',
 		'EMAIL'			=> 'Platná e-mailová adresa',

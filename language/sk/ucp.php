@@ -459,6 +459,7 @@ $lang = array_merge($lang, array(
 	'UCP_ZEBRA'						=> 'Priatelia a nepriatelia',
 	'UCP_ZEBRA_FOES'				=> 'Organizovať nepriateľov',
 	'UCP_ZEBRA_FRIENDS'				=> 'Organizovať priateľov',
+	'UNDISCLOSED_RECIPIENT'			=> 'Neznámy doručiteľ',
 	'UNKNOWN_FOLDER'				=> 'Neznáma zložka',
 	'UNWATCH_MARKED'				=> 'Označené nesledovať',
 	'UPLOAD_AVATAR_FILE'			=> 'Nahrať z Vášho PC',

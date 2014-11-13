@@ -95,8 +95,8 @@ $help = array(
 		1 => 'Pravdepodobne administrátor nenainštaloval tento jazyk, alebo ho nikto do tohto jazyka zatiaľ nepreložil. Kontaktujte administrátora, prípadne si preklad vytvorte sami. Pre viac informácií navštívte stránky <a href="http://www.phpbb.com/" target="_blank">phpBB Group</a>.'
 	),
 	array(
-		0 => 'Ako zobrazím obrázok pod užívateľským menom?',
-		1 => 'Možno ste zaregistrovali pri prezeraní príspevkov dva obrázky pod užívateľským menom. Ten prvý je obrázok spojený s Vašou úrovňou, zvyčajne v tvare hviezdičiek alebo kociek ukazujúcich, koľko príspevkov ste už pridali, alebo Vašu pozíciu vo fóre. Pod ním sa môže nachádzať väčší obrázok, známy ako "postavička" (avatar), čo je vlastne unikátny obrázok každého užívateľa. Záleží na administrátorovi fóra, či postavičky povolí, či ako s nimi naloží (v akej podobe sa zobrazia). Pokiaľ nemôžete využívať postavičky, potom práve vtedy toto administrátori zakázali, a Vy by ste sa mali spýtať na dôvody (veríme, že sa hodia).'
+		0 => 'Ako zobrazím obrázok pri užívateľskom mene?',
+		1 => 'Možno ste zaregistrovali pri prezeraní príspevkov dva obrázky pri užívateľskom mene. Ten prvý je obrázok spojený s Vašou úrovňou, zvyčajne v tvare hviezdičiek alebo kociek ukazujúcich, koľko príspevkov ste už pridali, alebo Vašu pozíciu vo fóre. Pod ním sa môže nachádzať väčší obrázok, známy ako "postavička" (avatar), čo je vlastne unikátny obrázok každého užívateľa. Záleží na administrátorovi fóra, či postavičky povolí, či ako s nimi naloží (v akej podobe sa zobrazia). Pokiaľ nemôžete využívať postavičky, potom práve vtedy toto administrátori zakázali, a Vy by ste sa mali spýtať na dôvody (veríme, že sa hodia).'
 	),
 	array(
 		0 => 'Ako zmeniť svoje zaradenie?',

@@ -416,6 +416,7 @@ $lang = array_merge($lang, array(
 
 	'PAGE_OF'				=> 'Stránka <strong>%1$d</strong> z <strong>%2$d</strong>',
 	'PASSWORD'				=> 'Heslo',
+	'PIXEL'					=> 'px',
 	'PLAY_QUICKTIME_FILE'	=> 'Prehrať súbor - Quicktime',
 	'PM'					=> 'SS',
 	'POSTING_MESSAGE'		=> 'Píše správu v %s',
@@ -491,6 +492,8 @@ $lang = array_merge($lang, array(
 	
 	'FEED'						=> 'ATOM',
 	'FEED_NEWS'				=> 'Novinky',
+	'FEED_TOPICS_ACTIVE'		=> 'Aktívne témy',
+	'FEED_TOPICS_NEW'			=> 'Nové témy',
 	
 	'RULES_ATTACH_CAN'			=> '<strong>Môžete</strong> prikladať súbory v tomto fóre',
 	'RULES_ATTACH_CANNOT'		=> '<strong>Nemôžete</strong> zasielať súbory v tomto fóre',

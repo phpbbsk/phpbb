@@ -253,6 +253,8 @@ $lang = array_merge($lang, array(
 	'PM_REPORT_DELETED_SUCCESS'	=> 'Hlásenie o súkromnej správe bolo odstranené.',
 	'PM_REPORTED_SUCCESS'		=> 'Súkromná správa bola nahlásená a poslaná moderátorom na vybavenie.',
 	'PM_REPORT_TOTAL'			=> 'Celkovo je nahlásená <strong>1</strong> sukromá správa.',
+	'PM_REPORTS_CLOSED_SUCCESS'	=> 'Vybrané oznámenie SS bolo úspešne uzatvorené.',
+	'PM_REPORTS_DELETED_SUCCESS'=> 'Vybrané oznámenie SS bolo úspešne vymazané.',
 	'PM_REPORTS_TOTAL'			=> 'Celkovo je nahlásených <strong>%d</strong> sukromých správ.',
 	'PM_REPORTS_ZERO_TOTAL'		=> 'V tejto chvíli nie je nahlásená žiadna súkromná správa.',
 	'PM_REPORT_DETAILS'			=> 'Podrobnosti nahlásenia',
@@ -327,6 +329,7 @@ $lang = array_merge($lang, array(
 	'SPLIT_TOPIC_BEYOND'	=> 'Rozdeliť tému od vybraného príspevku',
 	'SPLIT_TOPIC_BEYOND_CONFIRM'	=> 'Ste si istý, že chcete rozdeliť túto tému do vybraných príspevkov?',
 	'SPLIT_TOPIC_EXPLAIN'	=> 'Týmto formulárom môžete rozdeliť tému na dve, buď vybraním jednotlivých príspevkov alebo rozdelením od vybratého príspevku',
+	'THIS_PM_IP'				=> 'IP pre túto súkromnú správu',
 
 	'THIS_POST_IP'			=> 'IP adresa tohto príspevku',
 	'TOPICS_APPROVED_SUCCESS'	=> 'Vybrané témy boli schválené',
