@@ -140,7 +140,7 @@ $lang = array_merge($lang, array(
 
 	'PARTIAL_UPLOAD'			=> 'Súbor sa nepodarilo nahrať celý, bola nahraná iba jeho časť',
 	'PHP_SIZE_NA'				=> 'Veľkosť príloh je príliš veľká.<br />Nemôžete prekročiť stanovenú veľkosť, ako je nastavená v php.ini.',
-	'PHP_SIZE_OVERRUN'			=> 'Veľkosť príloh je príliš veľká. Maximálna povolená veľkosť príloh je %d MB.<br />Toto obmedzenie je nastavené v php.ini, nemôže byť zmenené.',
+	'PHP_SIZE_OVERRUN'			=> 'Veľkosť príloh je príliš veľká. Maximálna povolená veľkosť príloh je %d %2$s.<br />Toto obmedzenie je nastavené v php.ini, nemôže byť zmenené.',
 	'PLACE_INLINE'				=> 'Vložiť za sebou',
 	'POLL_DELETE'				=> 'Odstrániť hlasovanie',
 	'POLL_FOR'					=> 'Trvanie hlasovania',

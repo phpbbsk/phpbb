@@ -72,6 +72,8 @@ $lang = array_merge($lang, array(
 
 	'MAX_SEARCH_CHARS'						=> 'Maximálny počet znakov pre indexáciu',
 	'MAX_SEARCH_CHARS_EXPLAIN'				=> 'Len slová, ktoré sa skladajú z menej znakov, ako je nastavené, budú zaindexované.',
+	'MAX_NUM_SEARCH_KEYWORDS'					=> 'Limit vyhľadávaných kľúčových slov',
+	'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'	=> 'Maximálny počet slov, ktoré môže užívateľ vyhľadať. Pokiaľ je nastavená 0, nie je žiadné obmedzenie v počte slov.',
 	'MIN_SEARCH_CHARS'						=> 'Maximálny počet znakov pre indexáciu',
 	'MIN_SEARCH_CHARS_EXPLAIN'				=> 'Len slová, ktoré sa skladajú z viacerých znakov, ako je nastavené, budú zaindexované.',
 	'MIN_SEARCH_AUTHOR_CHARS'				=> 'Maximálny počet znakov v mene autora',

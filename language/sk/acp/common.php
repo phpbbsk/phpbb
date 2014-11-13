@@ -199,7 +199,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_INDEX'			=> 'Obsah administrácie',
 	'ADMIN_PANEL'			=> 'Administrácia fóra',
 	
-	'ADM_LOGOUT'			=> 'ACP Odhlásiť',
+	'ADM_LOGOUT'			=> 'ACP&nbsp;Odhlásiť',
 	'ADM_LOGGED_OUT'		=> 'Úspešne ste sa odhlásili z administračného kontrolného panela',
 
 	'BACK'					=> 'Späť',

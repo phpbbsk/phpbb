@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> 'Slovenský preklad-<a href="http://www.phpbb3.sk" class="copyright">phpBB podpora</a>',
+	'TRANSLATION_INFO'	=> '<a href="http://www.phpbb3.sk" class="copyright">phpbb slovenčina</a> a <a href="http://www.phpbb3.sk/forum" class="copyright">fórum</a>',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'USER_LANG'			=> 'sk-SK',
@@ -87,7 +87,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_NO_SIZE'				=> 'Nie je možné získať šírku, alebo výšku avataru, na ktorý odkazujete, zadajte šírku/výšku ručne.',
 	'AVATAR_PARTIAL_UPLOAD'			=> 'Súbor bol nahraný na server iba čiastočne',
 	'AVATAR_PHP_SIZE_NA'			=> 'Príliš veľký súbor avataru.<br />Nemôžem určiť maximálnu veľkosť, definovanú v php.ini.',
-	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Príliš veľký súbor avataru, maximálna veľkosť obrázku je %d MB.<br />Veľkosť je nastavená v súbore php.ini a nemôže byť prekročená.',
+	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Príliš veľký súbor avataru, maximálna veľkosť obrázku je %d %2$s.<br />Veľkosť je nastavená v súbore php.ini a nemôže byť prekročená.',
 	'AVATAR_URL_INVALID'			=> 'Zadaná URL je neplatná.',
 	'AVATAR_URL_NOT_FOUND'			=> 'Zadaný súbor nebol nájdený.',
 	'AVATAR_WRONG_FILESIZE'			=> 'Súbor s avatarom musí mať veľkosť medzi 0 a %1d %2s.',
@@ -228,6 +228,8 @@ $lang = array_merge($lang, array(
 	'FTP_USERNAME_EXPLAIN'		=> 'Užívateľské meno pre prihlásenie sa na server',
 
 	'GENERAL_ERROR'				=> 'Všeobecná chyba',
+	'GB'						=> 'GB',
+	'GIB'						=> 'GiB',
 	'GO'						=> 'Choď',
 	'GOTO_PAGE'					=> 'Choď na stránku',
 	'GROUP'						=> 'Skupina',

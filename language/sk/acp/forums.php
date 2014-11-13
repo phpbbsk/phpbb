@@ -81,6 +81,7 @@ $lang = array_merge($lang, array(
 	'FORUM_EDIT_EXPLAIN'				=> 'Tento formulár Vám umožňuje prispôsobiť fórum Vaším predstavám. Nastavenie moderátorov a počítanie príspevkov sa ale musí nastaviť cez Oprávnenia pre fóra pre jednotlivých užívateľov, alebo skupiny.',
 	'FORUM_IMAGE'						=> 'Obrázok fóra',
 	'FORUM_IMAGE_EXPLAIN'				=> 'Umiestenie, relatívne od základnej zložky phpBB, obrázku, ktorý bude zobrazený pri tomto fóre.',
+	'FORUM_IMAGE_NO_EXIST'			=> 'Vybraný obrázok fóra neexistuje.',
 	'FORUM_LINK_EXPLAIN'				=> 'Úplná adresa URL (Vrátane protokolu; napríklad <samp>http://</samp>), kam bude užívateľ po kliknutí presmerovaný.',
 	'FORUM_LINK_TRACK'					=> 'Sledovať kliknutia',
 	'FORUM_LINK_TRACK_EXPLAIN'			=> 'Sleduje, koľkokrát bolo kliknuté na odkaz.',

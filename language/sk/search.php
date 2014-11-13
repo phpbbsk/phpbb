@@ -53,6 +53,8 @@ $lang = array_merge($lang, array(
 	'JUMP_TO_POST'			=> 'Prejsť na príspevok',
 
 	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Aby ste si mohli pozerať vaše príspevky, musíte byť prihlásený.',
+	
+  'MAX_NUM_SEARCH_KEYWORDS_REFINE'   => 'Zadali ste príliš veľa kľúčových slov, skúste zadať najviac %1$d slov.',
 
 	'NO_KEYWORDS'			=> 'Musíte zadať minimálne jedno slovo ktoré chcete vyhľadať. Každé slovo musí obsahovať najmenej %d a maximálne %d znakov (okrem *).',
 	'NO_RECENT_SEARCHES'	=> 'Neboli nájdené žiadne predchádzajúce vyhľadávania',

@@ -184,7 +184,7 @@ $lang = array_merge($lang, array(
 
 // Word censors
 $lang = array_merge($lang, array(
-	'ACP_WORDS_EXPLAIN'		=> 'Z tohto panelu môžete pridávať, upravovať, alebo odstraňovať slová, ktoré budú automaticky cenzurované pri odosielaní príspevku. Užívatelia si ďalej nemôžu registrovať mená, ktoré tu sú napísané. Zástupný znak (*) je možné použiť pre nájdenie zhody, napr. *ekonom* odpovedá neekonomické, ekonóm* bude odpovedať ekonómia, atď.',
+	'ACP_WORDS_EXPLAIN'		=> 'Z tohto panela môžete pridávať, upravovať alebo odstraňovať slová, ktoré budú automaticky cenzurované pri odosielaní príspevku. Používatelia si ďalej nemôžu registrovať mená, ktoré sú tu napísané. Zástupný znak (*) je možné použiť na nájdenie zhody, napr. *ekonom* odpovedá aj "neekonomické", ekonom* bude odpovedať napr. aj "ekonomické" atď.',
 	'ADD_WORD'				=> 'Pridať nové slovo',
 
 	'EDIT_WORD'		=> 'Upraviť cenzurované slovo',

@@ -243,6 +243,16 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_GD_X_GRID_EXPLAIN'				=> 'Použite nižšie hodnoty tohto nastavenia pre sťaženie CAPTCHA. 0 vypne šum na x-ovej osi.',
 	'CAPTCHA_GD_Y_GRID'						=> 'GD CAPTCHA so šumom na y-ovej osi',
 	'CAPTCHA_GD_Y_GRID_EXPLAIN'				=> 'Použite nižšie hodnoty tohto nastavenia pre sťaženie CAPTCHA. 0 vypne šum na y-ovej osi.',
+	
+	'CAPTCHA_GD_WAVE'								=> 'Vlnová deformácia GD CAPTCHA',
+	'CAPTCHA_GD_WAVE_EXPLAIN'				=> 'Táto možnosť deformuje obrázok podľa sínusovej vlny.',
+	'CAPTCHA_GD_3D_NOISE'						=> 'Pridať 3D objekty ako šum',
+	'CAPTCHA_GD_3D_NOISE_EXPLAIN'		=> 'Táto možnosť pridá rôzne klamlivé objekty cez písmena.',
+	'CAPTCHA_GD_FONTS'							=> 'Použiť rôzne fonty',
+	'CAPTCHA_GD_FONTS_EXPLAIN'			=> 'Toto nastavenie určuje koľko rôzných tvarov písmen bude použitých. Môžete použiť štandardné tvary alebo uviesť svoje. Pridanie malých písmen je taktiež možné.',
+	'CAPTCHA_FONT_DEFAULT'					=> 'Prednastavené',
+	'CAPTCHA_FONT_NEW'							=> 'Nové tvary',
+	'CAPTCHA_FONT_LOWER'						=> 'Použiť male písmena',
 
 	'CAPTCHA_PREVIEW_MSG'					=> 'Vaše úpravy vizuálneho overovania neboli uložené. Toto je iba náhľad.',
 	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'Takto bude vyzerať CAPTCHA pri použití súčasných nastavení. Použite tlačidlo náhľad pre obnovenie. Upozorňujeme, že CAPTCHA sú náhodné a jednotlivé náhľady sa od seba líšia.',
@@ -250,6 +260,8 @@ $lang = array_merge($lang, array(
 	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'Vyžaduje, aby anonymní užívatelia pri odoslaní príspevku zadali náhodne vygenerovaný kód pre ochranu proti spamu.',
 	'VISUAL_CONFIRM_REG'					=> 'Povoliť vizuálne overovanie pri registrácii',
 	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'Vyžaduje, aby noví užívatelia pri registrácii vložili náhodne vygenerovaný kód pre ochranu proti hromadným registráciám.',
+	'VISUAL_CONFIRM_REFRESH'						=> 'Povoliť užívateľom obnoviť obrázok CAPTCHA',
+	'VISUAL_CONFIRM_REFRESH_EXPLAIN'		=> 'Povolí užívateľom vyžiadať si nový obrázok v prípade, že ho nemôžu vylúštiť pri registrácií.',
 ));
 
 // Cookie Settings

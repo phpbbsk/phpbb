@@ -269,6 +269,8 @@ $lang = array_merge($lang, array(
 	'MAKE_FOLDER_WRITABLE'		=> 'Prosím skontrolujte či táto zložka existuje a či má webserver právo na zápis do nej a skúste znovu:<br />»<strong>%s</strong>',
 	'MAKE_FOLDERS_WRITABLE'		=> 'Prosím skontrolujte či tieto zložky existujú a či má webserver právo na zápis do nich a skúste znovu:<br />»<strong>%s</strong>',
 
+  'MYSQL_SCHEMA_UPDATE_REQUIRED'	=> 'Schéma vašej MySQL databázy pre phpBB je neaktuálna. phpBB detekovalo schému pre MySQL 3.x/4.x, ale server používa MySQL %2$s.<br /><strong>Ak budete pokračovať s aktualizáciou, musíte aktualizovať najprv schému.</strong><br /><br />Pozrite sa na <a href="http://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">článok v databáze phpBB.com o aktualizácií</a>. Pokiaľ narazíte na problém, obráťte sa na <a href="http://www.phpbb.com/community/viewforum.php?f=46">fórum podpory phpBB.com</a> alebo <a href="http://www.pcforum.sk/redakcne-systemy-vf77.html">túto podporu</a>.',
+
 	'NAMING_CONFLICT'			=> 'Konflikt v názvoch: %s a %s sú oba aliasy<br /><br />%s',
 	'NEXT_STEP'					=> 'Pokračovať na ďalší krok',
 	'NOT_FOUND'					=> 'Nebolo nájdené',
@@ -402,6 +404,9 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_UPDATE_METHOD'			=> 'Stiahnuť archív upravených súborov',
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Po stiahnutí tento archív rozbaľte. Nájdete upravené súbory, ktoré musíte nahrať do základnej zložky phpBB. Prosím nahrajte súbory na ich správne miesto. Po nahraní súborov ich znovu skontrolujte stlačením nasledujúceho tlačítka.',
 
+  'DOWNLOAD_CONFLICTS'							=> 'Stiahnúť konflikty v tomto súbore',
+	'DOWNLOAD_CONFLICTS_EXPLAIN'			=> 'Hľadajte výskyt &lt;&lt;&lt;, tieto znaky znamenajú konflikt v súbore',
+
 	'ERROR'		=> 'Chyba',
 	'EDIT_USERNAME'   => 'Upraviť užívateľské meno',
 
@@ -443,13 +448,13 @@ $lang = array_merge($lang, array(
   
   'MERGE_NO_MERGE_NEW_OPTION'	=> 'Nezlučovať - použiť nový súbor',
 	'MERGE_NO_MERGE_MOD_OPTION'	=> 'Nezlučovať - použiť v súčasnosti inštalovaný súbor',
-	'MERGE_MOD_FILE_OPTION'		=> 'Požiť kód z upraveného súboru pri nahradzovaní konfliktných častí',
-	'MERGE_NEW_FILE_OPTION'		=> 'Použiť kód z nového súboru pri nahradzovaní konfliktných častí',
-	'MERGE_SELECT_ERROR'		=> 'Režimy zlúčenia pre konfliktné súbory nie sú správne vybrané.',
-	'MERGING_FILES'				=> 'Spájam rozdielne súbory',
-	'MERGING_FILES_EXPLAIN'		=> 'Dokončuje sa získavanie zmien v súboroch.<br /><br />Čakajte, kým phpBB dokončí všetky operácie so zmenenými súbormi.',
+	'MERGE_MOD_FILE_OPTION'		=> 'Zlúčiť rozdiely a použiť upravený kód bloku konfliktu',
+	'MERGE_NEW_FILE_OPTION'		=> 'Zlúčiť rozdiely a použiť kód z nového súboru pre blok konfliktu',
+	'MERGE_SELECT_ERROR'		=> 'Režimy zlúčenia súborov spôsobujúcich konflikty nie sú vybrané správne.',
+	'MERGING_FILES'				=> 'Spájanie rozdielov',
+	'MERGING_FILES_EXPLAIN'		=> 'Práve sa zbierajú informácie o konečných zmenách súborov.<br /><br />Počkajte pokiaľ phpBB dokončí jednotlivé úkony.',
 
-	'NEW_FILE'						=> 'Koniec nového aktualizovaného súboru',
+	'NEW_FILE'						=> 'Koniec nového aktualizované súboru',
 	'NEW_USERNAME'               	=> 'Nové užívateľské meno',
 	'NO_AUTH_UPDATE'				=> 'Nemáte oprávnenie pre aktualizáciu',
 	'NO_ERRORS'						=> 'Bez chýb',
