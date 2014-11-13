@@ -48,15 +48,20 @@ $lang = array_merge($lang, array(
 
 	'MARK_TOPICS_READ'		=> 'Označiť témy ako prečítané',
 
-	'NEW_POSTS_HOT'			=> 'Nové príspevky [ Obľúbené ]',
-	'NEW_POSTS_LOCKED'		=> 'Nové príspevky [ Zamknuté ]',
-	'NO_NEW_POSTS_HOT'		=> 'Žiadne nové príspevky [ Obľúbené ]',
-	'NO_NEW_POSTS_LOCKED'	=> 'Žiadne nové príspevky [ Zamknuté ]',
+	'NEW_POSTS_HOT'			=> 'Nové príspevky [ Obľúbené ]',   // nepoužíva
+	'NEW_POSTS_LOCKED'		=> 'Nové príspevky [ Zamknuté ]',   // nepoužíva
+	'NO_NEW_POSTS_HOT'		=> 'Žiadne nové príspevky [ Obľúbené ]',   // nepoužíva
+	'NO_NEW_POSTS_LOCKED'	=> 'Žiadne nové príspevky [ Zamknuté ]',   // nepoužíva
 	'NO_READ_ACCESS'		=> 'Nemáte oprávnenia pre zobrazenie tém v tomto fóre.',
+	'NO_UNREAD_POSTS_HOT'		=> 'Neprečítané príspevky [ Obľúbené ]',
+	'NO_UNREAD_POSTS_LOCKED'	=> 'Neprečítané príspevky [ Zamknuté ]',
 
 	'POST_FORUM_LOCKED'		=> 'Fórum je zamknuté',
 
 	'TOPICS_MARKED'			=> 'Všetky témy v tomto fóre boli označené ako prečítané.',
+
+	'UNREAD_POSTS_HOT'		=> 'Prečítané príspevky [ Obľúbené ]',
+	'UNREAD_POSTS_LOCKED'	=> 'Prečítané príspevky [ Zamknuté ]',
 
 	'VIEW_FORUM'			=> 'Zobraziť fórum',
 	'VIEW_FORUM_TOPIC'		=> '1 téma',

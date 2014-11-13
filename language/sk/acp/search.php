@@ -59,7 +59,9 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_MYSQL_PCRE'					=> 'Podpora UTF-8 znakov mimo znakovej sady latin použitím PCRE:',
 	'FULLTEXT_MYSQL_MBSTRING_EXPLAIN'		=> 'Pokiaľ PCRE neobsahuje vlastnosti unicode znakov, vyhľadávanie sa pokúsi využiť engine pre regulárne výrazy z mbstring.',
 	'FULLTEXT_MYSQL_PCRE_EXPLAIN'			=> 'Tento vyhľadávací backend vyžaduje vlastnosti unicode znakov z PCRE, ktoré sú dostupné len v PHP 4.4, 5.1 a vyšších, pokiaľ chcete vyhľadávať znaky, ktoré nie sú v bežných znakových sadách.',
-
+	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'Slová s aspoň toľko znakmi budú indexované pre vyhľadávanie. Vy alebo váš hostiteľ môže toto nastavenie zmeniť zmenou konfigurácie mysql.',
+	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Slová s viac ako tento počet znakov budú indexované pre vyhľadávanie. Vy alebo váš hostiteľ môže toto nastavenie zmeniť zmenou konfigurácie mysql.',
+	
 	'GENERAL_SEARCH_SETTINGS'				=> 'Všeobecné nastavenie hľadania',
 	'GO_TO_SEARCH_INDEX'					=> 'Prejsť na stránku vyhľadávania',
 

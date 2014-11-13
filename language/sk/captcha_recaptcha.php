@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE'				=> 'Súkromný reCaptcha kľúč',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> "Váš súkromný kľúč k službe reCaptcha, získáte ho na <a href='http://recaptcha.net'>reCaptcha.net</a>.",
 
-	'RECAPTCHA_EXPLAIN'				=> 'Snažíme sa obmedziť automatické registrácia na našom serveri. Z toho dôvodu je potrebné, aby ste napísali tieto dve slová do rámčeka pod nimi.',
+	'RECAPTCHA_EXPLAIN'				=> 'Snažíme sa obmedziť automatické registrácie. Z toho dôvodu je potrebné, aby ste napísali tieto dve slová do rámčeka pod nimi.',
 ));
 
 ?>

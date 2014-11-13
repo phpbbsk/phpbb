@@ -128,7 +128,7 @@ $help = array(
  	),
 	array(
 		0 => 'Prečo nemôžem pridať viac možností do hlasovania?',
-		1 => 'Maximálny počet možností stanovuje Administrátor. Pokiaľ si myslíte, že naozaj potrebujete viac možností, kontaktujte administrátora fóra pre ďalšie informácie.'
+		1 => 'Maximálny počet možností nastavuje Administrátor. Ak máte pocit, že potrebujete pridať viac možností pre vaše hlasovanie, kontaktujte administrátora fóra.'
 	),
 	array(
 		0 => 'Ako zmením alebo zmažem hlasovanie?',

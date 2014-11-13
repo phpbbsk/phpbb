@@ -188,7 +188,7 @@ $lang = array_merge($lang, array(
 	'ACP_USER_SIG'					=> 'Podpis',
   'ACP_USER_WARNINGS' => 'Varovania',
 
-	'ACP_VC_SETTINGS'					=> 'Nastavenia modulov CAPTCHA',
+	'ACP_VC_SETTINGS'					=> 'Ochrana proti Spambotom',
 	'ACP_VC_CAPTCHA_DISPLAY'			=> 'Náhľad obrázku CAPTCHA',
 	'ACP_VERSION_CHECK'					=> 'Skontrolovať aktualizácie',
 	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'Zobraziť administračné oprávnenia',
@@ -502,7 +502,7 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_SERVER'			=> '<strong>Zmena nastavenia servera</strong>',
 	'LOG_CONFIG_SETTINGS'		=> '<strong>Zmena nastavenia fóra</strong>',
 	'LOG_CONFIG_SIGNATURE'		=> '<strong>Zmena nastavenia podpisov</strong>',
-	'LOG_CONFIG_VISUAL'			=> '<strong>Zmena nastavenia vizuálneho overovania</strong>',
+	'LOG_CONFIG_VISUAL'			=> '<strong>Zmena nastavenia anti-spambot</strong>',
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Schválená téma</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Užívateľom oživená téma</strong><br />» %s',

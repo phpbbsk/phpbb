@@ -36,8 +36,8 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CAPTCHA_QA'				=> 'O&amp;A CAPTCHA',
-	'CONFIRM_QUESTION_EXPLAIN'	=> 'Odpoveď na túto otázku je potrebná pre rozlíšenie automatizovaných pokusov o registráciu.',
+	'CAPTCHA_QA'				=> 'Q&amp;A',
+	'CONFIRM_QUESTION_EXPLAIN'	=> 'Táto otázka je prostriedkom na zabránenie automatických pokusov spambotov.',
 	'CONFIRM_QUESTION_WRONG'	=> 'Neodpovedali ste správne na potvrdzovaciu otázku.',
 
 	'QUESTION_ANSWERS'			=> 'Odpovede',
@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 	'ANSWER'					=> 'Odpoveď',
 	'EDIT_QUESTION'				=> 'Upraviť otázku',
 	'QUESTIONS'					=> 'Otázky',
-	'QUESTIONS_EXPLAIN'			=> 'Počas registrácie bude užívateľovi položená jedna z uložených otázok. Pre použitie plug-inu musí byť uložená aspoň jedna otázka pre jazyk, ktorý je nastavený ako predvolený. Otázky by mali byť jednoduché na zodpovedanie, ale odpovede by sa nemali dať nájsť Google ™ alebo Zoznam. Použitím väčšieho počtu otázok, ktoré budete pravidelne obmieňať, dosiahnete najlepšie výsledky. Použite kontrolu presné zhody, ak u otázok záleží na veľkosti písmen alebo interpunkciu.',
+	'QUESTIONS_EXPLAIN'			=> 'Pre každý formulár, kde ste povolili Q&amp;A plugin, užívatelia budú vyzvaní k odpovedi na jednu z otázok uvedených tu. Ak chcete použiť tento plugin aspoň na jednu otázku musí byť nastavená v predvolenom jazyku. Otázky by mali byť jednoduché na zodpovedanie, ale odpovede by sa nemali dať nájsť na Google™ alebo Zoznam. Použitím väčšieho počtu otázok, ktoré budete pravidelne obmieňať, dosiahnete najlepšie výsledky. Použite kontrolu presné zhody, ak u otázok záleží na veľkosti písmen alebo interpunkci.',
 	'QUESTION_DELETED'			=> 'Otázka odstránená',
 	'QUESTION_LANG'				=> 'Jazyk',
 	'QUESTION_LANG_EXPLAIN'		=> 'Jazyk, v ktorom je otázka a odpoveď.',
@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	'QUESTION_STRICT_EXPLAIN'	=> 'Ak zapnete kontrolu presnej zhody, bude braný ohľad na veľkosť písmen a medzery.',
 
 	'QUESTION_TEXT'				=> 'Otázka',
-	'QUESTION_TEXT_EXPLAIN'		=> 'Otázka, ktorá bude položena pri registracii.',
+	'QUESTION_TEXT_EXPLAIN'		=> 'Otázka, ktorá bude položená užívateľom.',
 
 	'QA_ERROR_MSG'				=> 'Zadajte všetky polia vrátane otázky a aspoň jednej odpovede.',
 	'QA_LAST_QUESTION'			=> 'Nemôžete vymazať všetky otázky keď je plugin aktívny.',

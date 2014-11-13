@@ -96,7 +96,16 @@ $lang = array_merge($lang, array(
 	'EXTENSION_GROUPS'				=> 'Skupiny druhov súborov',
 	'EXTENSION_GROUP_DELETED'		=> 'Skupina prípon bola úspešne zmazaná.',
 	'EXTENSION_GROUP_EXIST'			=> 'Skupina prípon %s už existuje.',
-
+	'EXT_GROUP_ARCHIVES'			=> 'Archívy',
+	'EXT_GROUP_DOCUMENTS'			=> 'Dokumenty',
+	'EXT_GROUP_DOWNLOADABLE_FILES'	=> 'Súbory na stiahnutie',
+	'EXT_GROUP_FLASH_FILES'			=> 'Flashové súbory',
+	'EXT_GROUP_IMAGES'				=> 'Obrázky',
+	'EXT_GROUP_PLAIN_TEXT'			=> 'Text',
+	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'Quicktime Média',
+	'EXT_GROUP_REAL_MEDIA'			=> 'Real Média',
+	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows Média',
+	
 	'GO_TO_EXTENSIONS'		=> 'Prejsť na panel riadenia skupín prípon',
 	'GROUP_NAME'			=> 'Meno skupiny',
 

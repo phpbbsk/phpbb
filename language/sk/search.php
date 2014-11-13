@@ -62,6 +62,7 @@ $lang = array_merge($lang, array(
 	'NO_SEARCH'				=> 'Je nám ľúto, ale nemáte oprávnenie vyhľadávať na tomto fóre.',
 	'NO_SEARCH_RESULTS'		=> 'Neboli nájdené žiadne vhodné výsledky.',
 	'NO_SEARCH_TIME'		=> 'Ospravedlňujeme sa, ale teraz nemôžete vyhľadávať. Skúste to za niekoľko minút.',
+		'NO_SEARCH_UNREADS'		=> 'Ospravedlňujeme sa, ale hľadanie nových príspevkov bolo zakázané na tomto fóre.',
 	'WORD_IN_NO_POST'		=> 'Nebol nájdený žiadny príspevok, pretože slovo %s nie je obsiahnuté v žiadnom z príspevkov.',
 	'WORDS_IN_NO_POST'		=> 'Nebol nájdený žiadny príspevok, pretože slová %s nie sú obsiahnuté v žiadnom z príspevkov.',
 

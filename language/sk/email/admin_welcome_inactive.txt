@@ -11,7 +11,8 @@ Uživateľ: {USERNAME}
 Adresa fóra: {U_BOARD}
 ----------------------------
 
-Váš účet momentálne nie je aktívny. Prihlásiť sa môžete až keď Vám ho administrátor aktivuje. Akonáhle bude Váš účet aktivovaný, održíte ďalšiu správu.
+Váš účet momentálne nie je aktívny a bude musieť byť schválený administrátorom. Ďalším emailom budete o tom informovaný.
+
 
 Prosíme nezabudnite, že vaše heslo je zašifrované a nebudeme Vám ho môcť preposlať. V prípade, že zabudnete Vaše heslo, môžete požiadať o nové, ktoré bude aktivované rovnakým spôsobom ako tento účet.
 

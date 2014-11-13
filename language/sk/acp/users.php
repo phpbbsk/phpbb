@@ -41,7 +41,8 @@ $lang = array_merge($lang, array(
 
 	'BAN_ALREADY_ENTERED'	=> 'Ban bol úspešne udelený už predtým. Zoznam banov nebol aktualizovaný.',
 	'BAN_SUCCESSFUL'		=> 'Ban úspešne udelený.',
-
+	'CANNOT_BAN_ANONYMOUS'			=> 'Nemáte oprávnenie zakázať anonymného užívateľa. Oprávnenie pre anonymných užívateľov možno nastaviť v karte Oprávnenia.',
+	
 	'CANNOT_BAN_FOUNDER'			=> 'Nedajú sa zabanovať účty zakladateľov.',
 	'CANNOT_BAN_YOURSELF'			=> 'Nemôžete zabanovať sami seba.',
 	'CANNOT_DEACTIVATE_BOT'			=> 'Nedajú sa deaktivovať účty botov, deaktivujte bota samotného.',

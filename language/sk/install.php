@@ -128,7 +128,7 @@ $lang = array_merge($lang, array(
 	'DB_ERR_QUERY_FIRST_TABLE'	=> 'Chyba pri vykonávaní <var>query_first</var>, %s (“%s”)',
 	'DB_ERR_SELECT'				=> 'Chyba pri priebehu <code>SELECT</code> príkazu',
 	'DB_HOST'					=> 'Server databázy',
-	'DB_HOST_EXPLAIN'			=> 'DSN znamená Data Source Name a je príslušný len pre inštaláciu cez OBDC',
+	'DB_HOST_EXPLAIN'			=> 'DSN je skratka pre názov zdroja dát a je relevantná len pre inštalácie ODBC. Na PostgreSQL, použite localhost pripojenie k lokálnemu serveru cez socket UNIX a 127.0.0.1 pre pripojenie cez TCP.',
 	'DB_NAME'					=> 'Meno databázy',
 	'DB_PASSWORD'				=> 'Heslo databázy',
 	'DB_PORT'					=> 'Port servera databázy',
@@ -147,6 +147,7 @@ $lang = array_merge($lang, array(
 	'DLL_MBSTRING'				=> 'Podpora Multi-byte znakov',
 	'DLL_MSSQL'					=> 'MSSQL Server 2000+',
 	'DLL_MSSQL_ODBC'			=> 'MSSQL Server 2000+ cez ODBC',
+	'DLL_MSSQLNATIVE'			=> 'MSSQL Server 2005+ [ Native ]',
 	'DLL_MYSQL'					=> 'MySQL',
 	'DLL_MYSQLI'				=> 'MySQL s MySQLi rozšírením',
 	'DLL_ORACLE'				=> 'Oracle',
@@ -207,11 +208,12 @@ $lang = array_merge($lang, array(
 
 	<p>phpBB3 môžete spustiť na týchto databázach:</p>
 	<ul>
-		<li>MySQL 3.23 alebo vyšší (MySQLi je podporované)</li>
+		<li>MySQL 3.23 or above (MySQLi supported)</li>
 		<li>PostgreSQL 7.3+</li>
 		<li>SQLite 2.8.2+</li>
 		<li>Firebird 2.1+</li>
-		<li>MS SQL Server 2000 alebo vyšší (priamo alebo cez ODBC)</li>
+		<li>MS SQL Server 2000 or above (directly or via ODBC)</li>
+		<li>MS SQL Server 2005 or above (native)</li>
 		<li>Oracle</li>
 	</ul>
 	
@@ -557,6 +559,7 @@ $lang = array_merge($lang, array(
 	'UPDATING_DATA'					=> 'Aktualizácia dát',
 	'UPDATING_TO_LATEST_STABLE'		=> 'Aktualizácia databázy na poslednú stabilnú verziu',
 	'UPDATED_VERSION'				=> 'Aktualizovaná verzia',
+	'UPGRADE_INSTRUCTIONS'			=> 'Novinka - <strong>verzia %1$s</strong> je k dispozícii. Prečítajte si, prosím, <a href="%2$s" title="%2$s"><strong>oznámenie o vydaní</strong></a> ak sa chcete dozvedieť o tom čo ponúka a ako aktualizovať.',
 	'UPLOAD_METHOD'					=> 'Metóda uploadu',
 
 	'UPDATE_DB_SUCCESS'				=> 'Aktualizácia databázy prebehla úspešne.',
@@ -583,16 +586,6 @@ $lang = array_merge($lang, array(
 	'CONFIG_SITENAME'				=> 'vaša_doména.sk',
 
 	'DEFAULT_INSTALL_POST'			=> 'Toto je príklad ako budú vyzerať príspevky vo vašom phpBB3 fóre. Môžete upraviť alebo zmazať tento príspevok, alebo rovno celú tému, alebo dokonca celé toto fórum, pretože sa zdá, že všetko funguje ako má!',
-
-	'EXT_GROUP_ARCHIVES'			=> 'Archívy',
-	'EXT_GROUP_DOCUMENTS'			=> 'Dokumenty',
-	'EXT_GROUP_DOWNLOADABLE_FILES'	=> 'Stiahnuteľné súbory',
-	'EXT_GROUP_FLASH_FILES'			=> 'Flashové súbory',
-	'EXT_GROUP_IMAGES'				=> 'Obrázky',
-	'EXT_GROUP_PLAIN_TEXT'			=> 'Čistý text',
-	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'Quicktime Media súbory',
-	'EXT_GROUP_REAL_MEDIA'			=> 'Real Media súbory',
-	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows Media súbory',
 
 	'FORUMS_FIRST_CATEGORY'			=> 'Vaša prvá kategória',
 	'FORUMS_TEST_FORUM_DESC'		=> 'Popis vášho prvého fóra.',
