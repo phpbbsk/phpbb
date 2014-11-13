@@ -45,7 +45,6 @@ $lang = array_merge($lang, array(
 	'ACP_AUTH_SETTINGS'			=> 'Autentifikácia',
 	'ACP_AUTOMATION'			=> 'Automatizácia',
 	'ACP_AVATAR_SETTINGS'		=> 'Nastavenie avatarov',
-
 	'ACP_BACKUP'				=> 'Záloha',
 	'ACP_BAN'					=> 'Banovanie',
 	'ACP_BAN_EMAILS'			=> 'Ban e-mailových adries',
@@ -544,6 +543,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_ERROR_JABBER'		=> '<strong>Chyba Jabbera</strong><br />» %s',
 	'LOG_ERROR_EMAIL'		=> '<strong>Chyba v e-maile</strong><br />» %s',
+  'LOG_ERROR_LASTRSS'		=> 'lastRSS error» %s',
 
 	'LOG_FORUM_ADD'							=> '<strong>Vytvorené nové fórum</strong><br />» %s',
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Skopírované oprávnenie fóra</strong> z %1$s<br />» %2$s',

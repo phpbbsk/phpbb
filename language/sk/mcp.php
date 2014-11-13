@@ -209,9 +209,8 @@ $lang = array_merge($lang, array(
 	'MCP_WARN_POST'			=> 'Varovať za určitý príspevok',
 	'MCP_WARN_USER'			=> 'Varovať užívateľa',
 
-	'MERGE_POSTS'			=> 'Zlúčiť príspevky',
-	'MERGE_POSTS_CONFIRM'	=> 'Ste si istý, že chcete zlúčiť vybrané príspevky?',
-	'MERGE_TOPIC_EXPLAIN'	=> 'Týmto formulárom môžete zlúčiť vybrané príspevky do inej témy. Tieto príspevky budú zobrazené ako keby ich užívatelia odoslali do novej témy.<br />Prosím, vložte id cieľovej témy alebo kliknite na tlačidlo "Vybrať" a vyhľadajte ho',
+	'MERGE_POSTS_CONFIRM'	=> 'Ste si istý, že chcete presunúť vybrané príspevky?',
+	'MERGE_TOPIC_EXPLAIN'	=> 'Týmto formulárom môžete presunúť vybrané príspevky do inej témy. Tieto príspevky budú zobrazené ako keby ich užívatelia odoslali do novej témy.<br />Prosím, vložte id cieľovej témy alebo kliknite na tlačidlo "Vybrať" a vyhľadajte ho',
 	'MERGE_TOPIC_ID'		=> 'ID cieľového fóra',
 	'MERGE_TOPICS'			=> 'Zlúčiť témy',
 	'MERGE_TOPICS_CONFIRM'	=> 'Ste si istý, že chcete zlúčiť vybraté témy?',

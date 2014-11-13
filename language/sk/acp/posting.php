@@ -168,6 +168,7 @@ $lang = array_merge($lang, array(
 	'SMILIES_EDIT'				=> 'Upraviť smajlíka',
 	'SMILIE_NO_CODE'			=> 'Smajlík “%s” bol ignorovaný, pretože nebol vložený žiadny kód.',
 	'SMILIE_NO_EMOTION'			=> 'Smajlík “%s” bol ignorovaný, pretože nebola vložená žiadna emócia.',
+	'SMILIE_NO_FILE'			=> 'Smajlík “%s” bol ignorovaný, pretože súbor chýba.',
 	'SMILIES_NONE_EDITED'		=> 'Žiadny smajlík nebol aktualizovaný.',
 	'SMILIES_ONE_EDITED'		=> 'Smajlík bol úspešne aktualizovaný.',
 	'SMILIES_EDITED'			=> 'Smajlíci boli úspešne aktualizovaní.',
@@ -231,13 +232,13 @@ $lang = array_merge($lang, array(
 
 // Disallow Usernames
 $lang = array_merge($lang, array(
-	'ACP_DISALLOW_EXPLAIN'	=> 'Tu môžete upravovať užívateľské mená, ktoré sa nedajú používať. Nepovolené mená sa dajú definovať pomocou zástupného znaku *.  Berte na vedomie, že nejde pridať už registrované meno, musíte ho zmazať, alebo premenovať skôr, ako ho zakážete',
+	'ACP_DISALLOW_EXPLAIN'	=> 'Tu môžete upravovať užívateľské mená, ktoré sa nedajú používať. Nepovolené mená sa dajú definovať pomocou zástupného znaku *.',
 	'ADD_DISALLOW_EXPLAIN'	=> 'Môžete zakázať užívateľské meno pomocou zástupného symbolu * pre zhodu s akýmkoľvek znakom.',
 	'ADD_DISALLOW_TITLE'	=> 'Pridať nepovolené meno',
 
 	'DELETE_DISALLOW_EXPLAIN'	=> 'Odstrániť nepovolené meno môžete kliknutím na meno v zozname a odoslaním.',
 	'DELETE_DISALLOW_TITLE'		=> 'Odstrániť nepovolené meno',
-	'DISALLOWED_ALREADY'		=> 'Zvolené meno sa nedá zakázať. Buď už v zozname existuje, je obsiahnuté v zozname cenzurovaných výrazov, alebo také užívateľské meno niekto momentálne používa.',
+	'DISALLOWED_ALREADY'		=> 'Zvolené meno jeuž zakázané.',
 	'DISALLOWED_DELETED'		=> 'Nepovolené meno bolo úspešne odstránené.',
 	'DISALLOW_SUCCESSFUL'		=> 'Nepovolené meno bolo úspešne pridané.',
 

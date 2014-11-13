@@ -119,6 +119,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_REMOVE_FOLDER'		=> 'Táto zložka nemôže byť odstránená.',
 	'CHANGE_DEFAULT_GROUP'		=> 'Zmeniť prednastavenú skupinu',
 	'CHANGE_PASSWORD'			=> 'Zmeniť heslo',
+	'CLICK_GOTO_FOLDER'			=> '%1$sÍsť do Vašej “%3$s” zložky%2$s',
 	'CLICK_RETURN_FOLDER'		=> '%1$sVrátiť sa do Vašej “%3$s” zložky%2$s',
 	'CONFIRMATION'				=> 'Potvrdenie registrácie',
 	'CONFIRM_CHANGES'			=> 'Potvrdiť zmeny',
@@ -193,6 +194,7 @@ $lang = array_merge($lang, array(
 	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> 'Pole “%s” obsahuje neplatné znaky, povolené sú len čísla a písmená.',
 	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> 'Pole “%s” obsahuje neplatné znaky, povolené sú len čísla, písmená, medzera alebo znaky -+_[].',
 	'FIELD_INVALID_DATE'				=> 'Pole “%s” obsahuje neplatný dátum.',
+	'FIELD_INVALID_VALUE'				=> 'Poled “%s” obsahuje neplatnú hodnotu.',
 
 	'FOE_MESSAGE'				=> 'Správa od nepriateľa',
 	'FOES_EXPLAIN'				=> 'Nepriatelia sú užívatelia, ktorí budú štandardne ignorovaní. Príspevky od nich nebudú plne zobrazené a súkromné správy od nich nebudú povolené. Uvedomte si, prosím, že nemôžete ignorovať moderátorov alebo administrátorov.',

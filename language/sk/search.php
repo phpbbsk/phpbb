@@ -54,6 +54,7 @@ $lang = array_merge($lang, array(
 
 	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Aby ste si mohli pozerať vaše príspevky, musíte byť prihlásený.',
 	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Pre zobrazenie zoznamu neprečítaných príspevkov sa musíte prihlásiť.',
+	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'Pre zobrazenie nových príspevkov sa musíte prihlásiť.',
 	
   'MAX_NUM_SEARCH_KEYWORDS_REFINE'   => 'Zadali ste príliš veľa kľúčových slov, skúste zadať najviac %1$d slov.',
 

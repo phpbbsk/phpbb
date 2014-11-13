@@ -116,7 +116,6 @@ $lang = array_merge($lang, array(
 	'REMOVE_FOE'			=> 'Odstrániť nepriateľa',
 	'REMOVE_FRIEND'			=> 'Odstrániť priateľa',
 
-	'SEARCH_USER_POSTS'		=> 'Hľadať všetky príspevky od užívateľa',
 	'SELECT_MARKED'			=> 'Označiť zaškrtnuté',
 	'SELECT_SORT_METHOD'	=> 'Zoradiť podľa',
 	'SEND_AIM_MESSAGE'		=> 'Poslať správu cez AIM',
@@ -126,7 +125,7 @@ $lang = array_merge($lang, array(
 	'SEND_MESSAGE'			=> 'Súkromná Správa',
 	'SEND_MSNM_MESSAGE'		=> 'Poslať správu cez MSNM/WLM',
 	'SEND_YIM_MESSAGE'		=> 'Poslať správu cez YIM',
-	'SORT_EMAIL'			=> 'Emailu',
+	'SORT_EMAIL'			=> 'E-mailu',
 	'SORT_LAST_ACTIVE'		=> 'Poslednej aktivity',
 	'SORT_POST_COUNT'		=> 'Počtu príspevkov',
 

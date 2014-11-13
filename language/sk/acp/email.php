@@ -53,6 +53,8 @@ $lang = array_merge($lang, array(
 	'SEND_TO_USERS'			=> 'Poslať užívateľom',
 	'SEND_TO_USERS_EXPLAIN'	=> 'Vložte mená, ktoré nahradia skupinu vyššie. Každé užívateľské meno vlož na samostatný riadok.',
 
+  'MAIL_BANNED'			=> 'Odoslať e-mail zabanovaným užívateľom',
+  'MAIL_BANNED_EXPLAIN'	=> 'Ak odosielate hromadný e-mail skupine, tu si môžete zvoliť, ktorí zabanovaní užívatelia obdržia e*mail.',
 	'MAIL_HIGH_PRIORITY'	=> 'Vysoká',
 	'MAIL_LOW_PRIORITY'		=> 'Nízka',
 	'MAIL_NORMAL_PRIORITY'	=> 'Normálna',

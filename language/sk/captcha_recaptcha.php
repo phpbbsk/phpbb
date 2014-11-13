@@ -37,14 +37,14 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'RECAPTCHA_LANG'				=> 'sk',
-	'RECAPTCHA_NOT_AVAILABLE'		=> "Pre použitie reCaptcha sa musíte registrovat na <a href='http://recaptcha.net'>reCaptcha.net</a>.",
+	'RECAPTCHA_NOT_AVAILABLE'		=> 'Pre použitie reCaptcha sa musíte registrovat na <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
 	'RECAPTCHA_INCORRECT'			=> 'Overovací kód, ktorý ste zadali nebol správny.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Verejný reCaptcha kľúč',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> "Váš verejný kľúč k službe reCAPTCHA, získate ho na <a href='http://recaptcha.net'>reCaptcha.net</a>.",
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Váš verejný kľúč k službe reCAPTCHA, získate ho na <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'RECAPTCHA_PRIVATE'				=> 'Súkromný reCaptcha kľúč',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> "Váš súkromný kľúč k službe reCaptcha, získáte ho na <a href='http://recaptcha.net'>reCaptcha.net</a>.",
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Váš súkromný kľúč k službe reCaptcha, získáte ho na <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
 	'RECAPTCHA_EXPLAIN'				=> 'Snažíme sa obmedziť automatické registrácie. Z toho dôvodu je potrebné, aby ste napísali tieto dve slová do rámčeka pod nimi.',
 ));
