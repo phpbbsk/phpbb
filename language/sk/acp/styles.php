@@ -266,6 +266,7 @@ $lang = array_merge($lang, array(
 	'IMG_USER_ICON8'	=> 'Užívateľsky definovaný obrázok 8',
 	'IMG_USER_ICON9'	=> 'Užívateľsky definovaný obrázok 9',
 	'IMG_USER_ICON10'	=> 'Užívateľsky definovaný obrázok 10',
+	'INACTIVE_STYLES'			=> 'Neaktívne štýly',
 
 	'INCLUDE_DIMENSIONS'	=> 'Zahrnúť rozmery',
 	'INCLUDE_IMAGESET'	=> 'Zahrnúť sadu obrázkov',

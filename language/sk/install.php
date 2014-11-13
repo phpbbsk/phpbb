@@ -52,6 +52,7 @@ $lang = array_merge($lang, array(
 	'BLANK_PREFIX_FOUND'		=> 'Testovanie tabuliek ukázalo platnú inštaláciu bez použitia predpony tabuliek.',
 	'BOARD_NOT_INSTALLED'			=> 'Nebola nájdená žiadna inštalácia',
 	'BOARD_NOT_INSTALLED_EXPLAIN'	=> 'Pre uskutočnenie prechodu musíte mať nainštalovanú východziu verziu phpBB3. Pre úspešný prechod je dôležité, aby bola stará aj nová inštalácia v rovnakej databáze. Teraz prosím <a href="%s">pokračujte v prvej inštalácii phpBB3</a>.',
+	'BACKUP_NOTICE'					=> 'Prosíme, zálohujte si vaše fórum pred aktualizáciou pre prípad, že nastanú nejaké problémy pri aktualizačnom procese.',
 
 	'CATEGORY'					=> 'Kategória',
 	'CACHE_STORE'				=> 'Typ cache',
@@ -203,7 +204,7 @@ $lang = array_merge($lang, array(
 		<li>Názov databázy - názov databázy uloženej na serveri.</li>
 		<li>Užívateľské meno a heslo databázy - prístupové údaje ku databáze.</li>
 	</ul>
-	
+
 	<p><strong>Poznámka:</strong> pokiaľ inštalujete a používate SQLite, mali by ste zadať úplnú cestu k databáze do DSN poľa a nechať pole pre meno a heslo prázdne. Z bezpečnostných dôvodov by ste mali zaistiť, že súbor databázy bude uložený na mieste, ktoré nie je prístupné z webu.</p>
 
 	<p>phpBB3 môžete spustiť na týchto databázach:</p>
@@ -216,7 +217,7 @@ $lang = array_merge($lang, array(
 		<li>MS SQL Server 2005 or above (native)</li>
 		<li>Oracle</li>
 	</ul>
-	
+
 	<p>Len databázy, ktoré sú podporované na vašom serveri budú zobrazené.',
 	'INSTALL_INTRO_NEXT'		=> 'Pre spustenie inštalácie stlačte tlačítko umiestnené nižšie.',
 	'INSTALL_LOGIN'				=> 'Prihlásenie',
@@ -256,9 +257,9 @@ $lang = array_merge($lang, array(
 	'INST_ERR_USER_TOO_LONG'	=> 'Užívateľské meno je príliš dlhé. Užívateľské meno môže mať maximálne 20 znakov.',
 	'INST_ERR_USER_TOO_SHORT'	=> 'Užívateľské meno je príliš krátke. Užívateľské meno musí mať minimálne 2 znaky.',
 	'INVALID_PRIMARY_KEY'		=> 'Neplatný primárny kľúč: %s',
-	
+
 	'LONG_SCRIPT_EXECUTION'      => 'Berte na vedomie, že toto môže chvíľu trvať... Prosím, nezastavujte skript, pokiaľ sa neukončí.',
-	
+
 	// mbstring
 	'MBSTRING_CHECK'						=> 'Kontrola rozšírenia <samp>mbstring</samp>',
 	'MBSTRING_CHECK_EXPLAIN'				=> '<strong>Povinné</strong> - <samp>mbstring</samp> je rozšírenie PHP, ktoré poskytuje funkcie prácu multibytovými reťazcami. Niektoré súčasti mbstring nie sú kompatibilné s phpBB a musia byť vypnuté.',
@@ -376,7 +377,7 @@ $lang = array_merge($lang, array(
 	'BACK'		=> 'Späť',
 	'BINARY_FILE'		=> 'Binárny súbor',
 	'BOT'            	=> 'Bot',
-	
+
 	'CHANGE_CLEAN_NAMES'         	=> 'Systém, ktorý kontroluje užívateľské mená nemôže byť použitý ak sa vyskytnú duplicitný užívatelia. Je niekoľko užívateľov, ktorí majú rovnaké meno pri porovnávaní novou metódou. Musíte zmazať alebo premenovať týchto užívateľov, aby ste sa uistili, že každé užívateľské meno používa len jeden človek. Potom budete môcť pokračovať.',
 	'CHECK_FILES'					=> 'Skontrolovať súbory',
 	'CHECK_FILES_AGAIN'				=> 'Skontrolovať súbory znovu',
@@ -437,7 +438,7 @@ $lang = array_merge($lang, array(
 	'INCOMPATIBLE_UPDATE_FILES'		=> 'Aktualizačné súbory nie sú kompatibilné s vašou nainštalovanou verziou. Vy máte nainštalovanú verziu %1$s a súbory sú určené pre prechod phpBB z verzie %2$s na %3$s.',
 	'INCOMPLETE_UPDATE_FILES'		=> 'Aktualizačné súbory sú neúplné',
 	'INLINE_UPDATE_SUCCESSFUL'		=> 'Aktualizácia bola úspešná. Teraz môžete pokračovať v aktualizačnom procese.',
-	
+
 	'KEEP_OLD_NAME'      => 'Ponechať užívateľské meno',
 
 	'LATEST_VERSION'		=> 'Posledná verzia',
@@ -449,9 +450,9 @@ $lang = array_merge($lang, array(
 	'LOGIN_UPDATE_EXPLAIN'	=> 'Pre aktualizáciu vašej inštalácie sa musíte najskôr prihlásiť.',
 
 	'MAPPING_FILE_STRUCTURE'	=> 'Pre uľahčenie nahrávania sú tu súbory umiestnené ako vo vašej inštalácii phpBB.',
-	
+
   'MERGE_MODIFICATIONS_OPTION'	=> 'Zlúčiť úpravy a modifikácie',
-  
+
   'MERGE_NO_MERGE_NEW_OPTION'	=> 'Nezlučovať - použiť nový súbor',
 	'MERGE_NO_MERGE_MOD_OPTION'	=> 'Nezlučovať - použiť v súčasnosti inštalovaný súbor',
 	'MERGE_MOD_FILE_OPTION'		=> 'Zlúčiť rozdiely (zahodit nový phpBB kód v konflikte)',
@@ -476,7 +477,7 @@ $lang = array_merge($lang, array(
 	'NUMBER_OF_FILES_COLLECTED'		=> 'V súčasnosti tvoria rozdiely o&nbsp;%1$d z %2$d získaných súborov.<br />Počkajte kým sa ukončí získavanie súborov.',
 
 	'OLD_UPDATE_FILES'		=> 'Aktualizačné súbory sú staré. Súbory, ktoré boli nájdené, sú určené pre prechod z phpBB %1$s na phpBB %2$s, ale posledná verzia phpBB je %3$s.',
-	
+
   'PACKAGE_UPDATES_TO'				=> 'Tento balík sa aktualizuje na verziu',
 	'PERFORM_DATABASE_UPDATE'			=> 'Uskutočniť aktualizáciu databázy',
 	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'Nižšie nájdete odkaz na aktualizačný skript pre databázu. Aktualizácia databázy môže chvíľu trvať, nezastavte ju ak bude vyzerať, že úplne zamrzla. Po dokončení aktualizácie sledujte pokyny pre dokončenie aktualizačného procesu.',

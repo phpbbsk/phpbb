@@ -41,6 +41,7 @@ $lang = array_merge($lang, array(
 	'ADD_POLL'					=> 'Vytvoriť hlasovanie',
 	'ADD_POLL_EXPLAIN'			=> 'Ak nechcete pridať hlasovanie, nechajte toto pole prázdne.',
 	'ALREADY_DELETED'			=> 'Táto správa už bola vymazaná.',
+	'ATTACH_DISK_FULL'			=> 'Nie je dosť voľného miesta na disku pre poslanie tejto prílohy.',
 	'ATTACH_QUOTA_REACHED'		=> 'Bola prekročená maximálna veľkosť adresára s prílohami.',
 	'ATTACH_SIG'				=> 'Pripojiť podpis',
 
@@ -215,7 +216,7 @@ $lang = array_merge($lang, array(
 	'USER_CANNOT_FORUM_POST'	=> 'Nemôžete posielať príspevky do tohto fóra, pretože toto fórum to nepodporuje.',
 
 	'VIEW_MESSAGE'				=> '%sZobraziť vaše správy%s',
-	'VIEW_PRIVATE_MESSAGE'		=> '%sZobraziť vaše súkromné správy%s',	
+	'VIEW_PRIVATE_MESSAGE'		=> '%sZobraziť vaše súkromné správy%s',
 
 	'WRONG_FILESIZE'			=> 'Súbor je príliš veľký, maximálna povolená veľkosť je %1d %2s',
 	'WRONG_SIZE'				=> 'Obrázok musí mať minimálu šírku %1$d pixelov a výšku %2$d pixelov. Nesmie mať však väčšiu širku ako %3$d pixelov a výšku %4$d pixelov. Váš obrázok má šírku %5$d pixelov a výšku %6$d pixelov.',

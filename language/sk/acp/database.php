@@ -4,8 +4,8 @@
 * acp_database [Slovak]
 *
 * @package language
-* @version $Id: database.php,v 1.25 2010/01/05 23:00:00 phpbb3.sk Exp $
-* @copyright (c) 2007 phpBB Group
+* @version $Id$
+* @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
@@ -37,11 +37,11 @@ if (empty($lang) || !is_array($lang))
 
 // Database Backup/Restore
 $lang = array_merge($lang, array(
-	'ACP_BACKUP_EXPLAIN'	=> 'Tu môžete zálohovať všetky dáta spojene s vašim phpBB fórom. Vytvorený súbor môžete uložiť do priečinku <samp>store/</samp> alebo ho rovno stiahnuť. Súbory môžete komprimovať do rôznych formátov - záleží to na konfigurácií vášho serveru.',
-	'ACP_RESTORE_EXPLAIN'	=> 'Tu môžete obnoviť všetky tabuľky vášho phpBB fóra zo súboru zálohy. Ak to váš server podporuje, môžete použiť komprimovaný (gzip alebo bzip2)textový súbor - bude automaticky dekomprimovaný. <strong>POZOR</strong> Týmto krokom prepíšete všetky existujúce dáta. Obnova môže trvať dlhšiu dobu - prosím neopúšťajte túto stránku, pokiaľ nebude hotová. Záloha je uložená v adresári <samp>store/</samp> a odporúča sa, aby bola vytvorená phpBB zálohovacím systémom. Použitie záloh, ktoré boli vytvorené iným spôsobom, nemusia fungovať.',
+	'ACP_BACKUP_EXPLAIN'	=> 'Tu môžete zálohovať všetky dáta spojene s vašim phpBB fórom. Vytvorený archív môžete uložiť do adresára <samp>store/</samp> alebo ho rovno stiahnuť. V závoslosti od nastavenia vášho servera budete môcť komprimovať súbor do rôznych formátov.',
+	'ACP_RESTORE_EXPLAIN'	=> 'Toto vykoná plnú obnovu všetkých phpBB tabuliek z uloženého súboru. Ak to váš server podporuje, môžete použiť gzip-om alebo bzip2-om komprimovaný textový súbor, ktorý bude automaticky rozbalený. <strong>POZOR</strong> Týmto krokom prepíšete všetky existujúce dáta. Obnova môže trvať dlhú dobu, takže prosíme, neopúšťajte túto stránku, pokiaľ nebude hotová. Zálohy sú uložená v adresári <samp>store/</samp> a je predpokladané, že sú vygenerované zálohovacou funkcionalitou phpBB. Použitie záloh, ktoré neboli vytvorené vstavaným systémom môžu, ale nemusia fungovať.',
 
 	'BACKUP_DELETE'		=> 'Súbor zálohy bol úspešne odstránený.',
-	'BACKUP_INVALID'	=> 'Vybraný súbor je nesprávny.',
+	'BACKUP_INVALID'	=> 'Vybraný súbor na zálohu je nesprávny.',
 	'BACKUP_OPTIONS'	=> 'Možnosti zálohy',
 	'BACKUP_SUCCESS'	=> 'Súbor zálohy bol úspešne vytvorený.',
 	'BACKUP_TYPE'		=> 'Typ zálohy',
@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'DATABASE'			=> 'Nástroje databázy',
 	'DATA_ONLY'			=> 'Iba dáta',
 	'DELETE_BACKUP'		=> 'Odstrániť zálohu',
-	'DELETE_SELECTED_BACKUP'	=> 'Naozaj chcete trvalo odstrániť vybratú zálohu?',
+	'DELETE_SELECTED_BACKUP'	=> 'Ste si istý, že chcete odstrániť označenú zálohu?',
 	'DESELECT_ALL'		=> 'Zrušiť výber',
 	'DOWNLOAD_BACKUP'	=> 'Stiahnuť zálohu',
 
@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 
 	'RESTORE_FAILURE'		=> 'Súbor so zálohou môže byť poškodený.',
 	'RESTORE_OPTIONS'		=> 'Možnosti obnovy',
-	'RESTORE_SELECTED_BACKUP'	=> 'Naozaj chcete obnoviť zvolenú zálohu databázy?',
+	'RESTORE_SELECTED_BACKUP'	=> 'Ste si istý, že chcete obnoviť vybratú zálohu?',
 	'RESTORE_SUCCESS'		=> 'Databáza bola úspešne obnovená.<br /><br />Vaše fórum by malo byť v stave, v ktorom bola táto záloha vytvorená.',
 
 	'SELECT_ALL'			=> 'Označiť všetko',

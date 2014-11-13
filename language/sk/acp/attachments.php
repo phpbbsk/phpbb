@@ -4,8 +4,8 @@
 * acp_attachments [Slovak]
 *
 * @package language
-* @version $Id: attachments.php,v 1.31 2007/10/15 00:00:00 phpbb3.sk Exp $
-* @copyright (c) 2007 phpBB Group
+* @version $Id$
+* @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
@@ -37,12 +37,12 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_ATTACHMENT_SETTINGS_EXPLAIN'	=> 'Tu môžete upraviť hlavné nastavenia príloh a príslušných kategórií. ',
-	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Tu môžete pridať, zmazať, modifikovať alebo deaktivovať skupiny prípon súborov. Ďalšie možnosti zahŕňajú priradenie špecialných kategórií, zmenu mechanizmu sťahovania súborov a nastavenie ikony, ktorá sa zobrazí pred každou prílohou pri jednotlivých skupinách.',
-	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> 'Tu možete spravovať povolené druhy súborov. Pre aktiváciu prípon použite Administráciu skupín druhov súborov. Odporúčame nepovoliť prípony skriptov (ako napríklad <code>php</code>, <code>php3</code>, <code>php4</code>, <code>phtml</code>, <code>pl</code>, <code>cgi</code>, <code>py</code>, <code>rb</code>, <code>asp</code>, <code>aspx</code> atď.).',
+	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Tu môžete pridať, zmazať, upravovať alebo deaktivovať skupiny prípon súborov. Ďalšie možnosti zahŕňajú priradenie špecialných kategórií, zmenu mechanizmu sťahovania súborov a nastavenie ikony, ktorá sa zobrazí pred každou prílohou pri jednotlivých skupinách.',
+	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> 'Tu možete spravovať povolené druhy súborov. Pre aktiváciu prípon použite Administráciu skupín druhov súborov. Odporúčame nepovoliť prípony skriptov (ako napríklad <code>php</code>, <code>php3</code>, <code>php4</code>, <code>phtml</code>, <code>pl</code>, <code>cgi</code>, <code>py</code>, <code>rb</code>, <code>asp</code>, <code>aspx</code>, atď.).',
 	'ACP_ORPHAN_ATTACHMENTS_EXPLAIN'	=> 'Tu možete vidieť nepriradené súbory. Dochádza k tomu v prípadoch, keď užívateľ pripojí prílohu, ale neodošle správu. Môžete tento súbor zmazať, alebo pripojiť k už existujúcej správe. Pripojenie prílohy vyžaduje platné ID správy, ktoré si musíte zistiť sami. Toto následne priradí nahratý súbor k už existujúcej správe.',
-	'ADD_EXTENSION'						=> 'Pridať druh súboru',
-	'ADD_EXTENSION_GROUP'				=> 'Pridať skupiny druhov súborov',
-	'ADMIN_UPLOAD_ERROR'				=> 'Chyba pri priradení súboru: “%s”.',
+	'ADD_EXTENSION'						=> 'Pridať typ súboru',
+	'ADD_EXTENSION_GROUP'				=> 'Pridať skupiny typov súborov',
+	'ADMIN_UPLOAD_ERROR'				=> 'Chyba pri priradení súboru: „%s“.',
 	'ALLOWED_FORUMS'					=> 'Povolené fóra',
 	'ALLOWED_FORUMS_EXPLAIN'			=> 'Môžete uverejniť dané rozšírenie vo vybraných (alebo vo všetkých ak boli vybrané) fórach.',
 	'ALLOWED_IN_PM_POST'				=> 'Povoliť',
@@ -53,11 +53,11 @@ $lang = array_merge($lang, array(
 	'ALLOW_SELECTED_FORUMS'				=> 'Len nižšie vybrané fóra',
 	'ASSIGNED_EXTENSIONS'				=> 'Priradené prípony',
 	'ASSIGNED_GROUP'					=> 'Priradené skupiny súborov',
-	'ATTACH_EXTENSIONS_URL'				=> 'Druhy súborov',
-	'ATTACH_EXT_GROUPS_URL'				=> 'Skupiny druhov súborov',
+	'ATTACH_EXTENSIONS_URL'				=> 'Typy súborov',
+	'ATTACH_EXT_GROUPS_URL'				=> 'Skupiny typov súborov',
 	'ATTACH_ID'							=> 'ID',
 	'ATTACH_MAX_FILESIZE'				=> 'Maximálna veľkosť súboru',
-	'ATTACH_MAX_FILESIZE_EXPLAIN'		=> 'Maximálna veľkosť pre každý súbor, zadajte 0 pre žiadne obmedzenia.',
+	'ATTACH_MAX_FILESIZE_EXPLAIN'		=> 'Maximálna veľkosť pre každý súbor. Ak je táto hodnota 0, veľkosť nahrávaného súboru je limitovaná len vašimi nastaveniami PHP.',
 	'ATTACH_MAX_PM_FILESIZE'			=> 'Maximálna veľkosť pre správy',
 	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> 'Maximálna veľkosť pre každý súbor v súkromnej správe, zadajte 0 pre žiadne obmedzenia.',
 	'ATTACH_ORPHAN_URL'					=> 'Nepriradené prílohy',
@@ -72,7 +72,7 @@ $lang = array_merge($lang, array(
 	'CAT_RM_FILES'				=> 'RealMedia súbory',
 	'CAT_WM_FILES'				=> 'Windows Media súbory',
 	'CHECK_CONTENT'				=> 'Skontrolovať prílohy',
-	'CHECK_CONTENT_EXPLAIN'		=> 'Niektoré prehliadače môžu byť oklamané nesprávnymi mimitypy pre prílohy. Toto nastavenie zaručí, že budu vyradené.',
+	'CHECK_CONTENT_EXPLAIN'		=> 'Niektoré prehliadače môžu byť oklamané nesprávnymi mimetype-y pre prílohy. Toto nastavenie zaručí, že budu vyradené.',
 	'CREATE_GROUP'			=> 'Vytvoriť novú skupinu',
 	'CREATE_THUMBNAIL'			=> 'Vytvoriť náhľad',
 	'CREATE_THUMBNAIL_EXPLAIN'	=> 'Vytvorí náhľad pri každej príležitosti.',
@@ -82,7 +82,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_ADD_IPS_EXPLAIN'		=> 'Ak chcete špecifikovať viac IP adries, uveďte každú do nového riadku. Pre definovanie rozpätia IP adries použite pomlčku (-) medzi dvoma adresami, ako náhradné znaky použite hviezdičku “*”.',
 	'DOWNLOAD_REMOVE_IPS_EXPLAIN'	=> 'Môžete odstrániť (alebo odznačiť) viac IP adries naraz použitím myši a klávesnice vo vašom prehliadači. Vylúčené IP adresy majú modré pozadie.',
 	'DISPLAY_INLINED'				=> 'Zobraziť obrázky v príspevku',
-	'DISPLAY_INLINED_EXPLAIN'		=> 'Ak je nastavené - Žiadne obrázky - prílohy sa budú zobrazovať ako odkazy.',
+	'DISPLAY_INLINED_EXPLAIN'		=> 'Ak je nastavené „Žiadne obrázky“, prílohy sa budú zobrazovať ako odkazy.',
 	'DISPLAY_ORDER'					=> 'Poradie zobrazenia príloh',
 	'DISPLAY_ORDER_EXPLAIN'			=> 'Zobrazí prílohy zoradené podľa času.',
 
@@ -92,20 +92,21 @@ $lang = array_merge($lang, array(
 	'EXCLUDE_FROM_DISALLOWED_IP'	=> 'Odstrániť IP zo zoznamu zakázaných IP adries',
 	'EXTENSIONS_UPDATED'			=> 'Prípony úspešne aktualizované.',
 	'EXTENSION_EXIST'				=> 'Prípona %s už existuje.',
-	'EXTENSION_GROUP'				=> 'Skupina druhov súborov',
-	'EXTENSION_GROUPS'				=> 'Skupiny druhov súborov',
+	'EXTENSION_GROUP'				=> 'Skupina typov súborov',
+	'EXTENSION_GROUPS'				=> 'Skupiny typov súborov',
 	'EXTENSION_GROUP_DELETED'		=> 'Skupina prípon bola úspešne zmazaná.',
 	'EXTENSION_GROUP_EXIST'			=> 'Skupina prípon %s už existuje.',
+
 	'EXT_GROUP_ARCHIVES'			=> 'Archívy',
 	'EXT_GROUP_DOCUMENTS'			=> 'Dokumenty',
 	'EXT_GROUP_DOWNLOADABLE_FILES'	=> 'Súbory na stiahnutie',
 	'EXT_GROUP_FLASH_FILES'			=> 'Flashové súbory',
 	'EXT_GROUP_IMAGES'				=> 'Obrázky',
 	'EXT_GROUP_PLAIN_TEXT'			=> 'Text',
-	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'Quicktime Média',
-	'EXT_GROUP_REAL_MEDIA'			=> 'Real Média',
-	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows Média',
-	
+	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'Quicktime Médiá',
+	'EXT_GROUP_REAL_MEDIA'			=> 'Real Médiá',
+	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows Médiá',
+
 	'GO_TO_EXTENSIONS'		=> 'Prejsť na panel riadenia skupín prípon',
 	'GROUP_NAME'			=> 'Meno skupiny',
 
@@ -155,8 +156,8 @@ $lang = array_merge($lang, array(
 	'SECURE_EMPTY_REFERRER'			=> 'Povoliť prázdny referrer (odkazujúcu stránku)',
 	'SECURE_EMPTY_REFERRER_EXPLAIN'	=> 'Zabezpečené sťahovanie je založené na odkazujúcich stránkach (referrer). Chcete povoliť sťahovania, ktoré nemajú odkazujúce stránky?',
 	'SETTINGS_CAT_IMAGES'			=> 'Nastavenie kategórií obrázkov',
-	'SPECIAL_CATEGORY'				=> 'Zvláštna kategória',
-	'SPECIAL_CATEGORY_EXPLAIN'		=> 'Zvláštne kategórie odlišujú samotnú prezentáciu v správach.',
+	'SPECIAL_CATEGORY'				=> 'Špeciálna kategória',
+	'SPECIAL_CATEGORY_EXPLAIN'		=> 'Špeciálne kategórie odlišujú spôsob prezentovania v príspevkoch.',
 	'SUCCESSFULLY_UPLOADED'			=> 'Úspešne nahrané.',
 	'SUCCESS_EXTENSION_GROUP_ADD'	=> 'Skupina súborov bola úspešne pridaná.',
 	'SUCCESS_EXTENSION_GROUP_EDIT'	=> 'Skupina súborov bola úspešne aktualizovaná.',
@@ -165,9 +166,7 @@ $lang = array_merge($lang, array(
 	'UPLOADING_FILE_TO'				=> 'Nahrávam súbor “%1$s” k príspevku %2$d…',
 	'UPLOAD_DENIED_FORUM'			=> 'Nemáte povolenie na nahrávanie súborov na fórum “%s”.',
 	'UPLOAD_DIR'					=> 'Adresár pre nahrávanie',
-	'UPLOAD_DIR_EXPLAIN'			=> 'Odkladací adresár pre prílohy. Ak zmeníte adresár s už nahranými prílohami, tieto budete musieť ručne prekopírovať do novej zložky.',
-	'UPLOAD_ICON'					=> 'Ikona uploadov',
+	'UPLOAD_DIR_EXPLAIN'			=> 'Ukladací adresár pre prílohy. Ak zmeníte adresár s už nahranými prílohami, tieto budete musieť ručne prekopírovať do novej zložky.',
+	'UPLOAD_ICON'					=> 'Ikona nahrávania (upload)',
 	'UPLOAD_NOT_DIR'				=> 'Zadaný adresár pre nahrávanie je pravdepodobne neplatný.',
 ));
-
-?>

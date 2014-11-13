@@ -4,8 +4,8 @@
 * acp_modules [Slovak]
 *
 * @package language
-* @version $Id: modules.php,v 1.13 2007/10/15 00:00:00 phpbb3.sk Exp $
-* @copyright (c) 2007 phpBB Group
+* @version $Id$
+* @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
@@ -36,15 +36,15 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Na tejto stránke môžete spravovať všetky druhy modulov. ACP používa 3-vrstvovú štruktúru (Kategória -> Kategória -> Modul), pričom ostatné majú 2-vrstvovú štruktúru (Kategória -> Modul), ktorá musí byť zachovaná. Prosím berte na vedomie, že môžete zablokovať samého seba v prípade vypnutia alebo odinštalovania modulu, ktorý je zodpovedný za samotnú správu modulov.',
+	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Na tejto stránke môžete spravovať všetky druhy modulov. Prosíme, uvedomte si, že ACP má 3-vrstvovú štruktúru menu (Kategória -> Kategória -> Modul), pričom ostatné majú 2-vrstvovú štruktúru menu (Kategória -> Modul), ktorá musí byť zachovaná. Prosím berte tiež na vedomie, že môžete zablokovať samého seba v prípade vypnutia alebo vymazania modulu, ktorý je zodpovedný za samotnú správu modulov.',
 	'ADD_MODULE'					=> 'Pridať modul',
-	'ADD_MODULE_CONFIRM'			=>'Ste si istý že chcete pridať vybraný modul?',
-	'ADD_MODULE_TITLE'				=> 'Pridať názov modulu',
+	'ADD_MODULE_CONFIRM'			=>'Ste si istý že chcete pridať vybraný modul s vybraným režimom?',
+	'ADD_MODULE_TITLE'				=> 'Pridať modul',
 
-	'CANNOT_REMOVE_MODULE'	=> 'Modul nie je možné odstrániť pretože má k sebe priradené podriadené moduly. Prosím odstráňte alebo presuňte všetky podriadené moduly predtým ako odstránite tento modul.',
+	'CANNOT_REMOVE_MODULE'	=> 'Modul nie je možné odstrániť, pretože má k sebe priradené podriadené moduly. Prosím odstráňte alebo presuňte všetky podriadené moduly pred vykonaním tejto akcie.',
 	'CATEGORY'				=> 'Kategória',
 	'CHOOSE_MODE'			=> 'Zvoľte režim modulu',
-	'CHOOSE_MODE_EXPLAIN'	=> 'Zvoľte režimy modulu, ktoré sa začnú používať.',
+	'CHOOSE_MODE_EXPLAIN'	=> 'Zvoľte režim modulov, ktorý sa bude používať.',
 	'CHOOSE_MODULE'			=> 'Zvoľte modul',
 	'CHOOSE_MODULE_EXPLAIN'	=> 'Zvoľte súbor ktorý bude vyvolaný týmto modulom.',
 	'CREATE_MODULE'			=> 'Vytvoriť nový modul',
@@ -54,24 +54,24 @@ $lang = array_merge($lang, array(
 	'DELETE_MODULE_CONFIRM'	=> 'Ste si istý že chcete odstrániť tento modul?',
 
 	'EDIT_MODULE'			=> 'Upraviť modul',
-	'EDIT_MODULE_EXPLAIN'	=> 'Tu môžete vidieť špecifické nastavenia modulu.',
+	'EDIT_MODULE_EXPLAIN'	=> 'Tu môžete vložiť špecifické nastavenia modulu.',
 
 	'HIDDEN_MODULE'			=> 'Skrytý modul',
 
 	'MODULE'					=> 'Modul',
 	'MODULE_ADDED'				=> 'Modul úspešne pridaný.',
 	'MODULE_DELETED'			=> 'Modul úspešne odstránený.',
-	'MODULE_DISPLAYED'			=> 'Zobrazovaný modul',
+	'MODULE_DISPLAYED'			=> 'Modul zobrazený',
 	'MODULE_DISPLAYED_EXPLAIN'	=> 'Ak si neprajete zobraziť tento modul, ale chcete ho používať, nastavte Nie.',
 	'MODULE_EDITED'				=> 'Modul úspešne upravený.',
-	'MODULE_ENABLED'			=> 'Modul zapnutý',
+	'MODULE_ENABLED'			=> 'Modul povolený',
 	'MODULE_LANGNAME'			=> 'Jazykový názov modulu',
 	'MODULE_LANGNAME_EXPLAIN'	=> 'Napíšte zobrazený názov modulu. Použite jazykovú konštantu ak je názov použitý z jazykového súboru.',
 	'MODULE_TYPE'				=> 'Typ modulu',
 
-	'NO_CATEGORY_TO_MODULE'	=> 'Nie je možné zmeniť kategóriu na modul. Prosím najskôr odstráňte/presuňte všetky podriadené moduly.',
+	'NO_CATEGORY_TO_MODULE'	=> 'Nie je možné zmeniť kategóriu na modul. Prosíme, skôr, ako vykonáte túti akciu, odstráňte/presuňte všetky podriadené moduly.',
 	'NO_MODULE'				=> 'Žiadny modul nebol nájdený.',
-	'NO_MODULE_ID'			=> 'ID modulu nebolo špecifikované.',
+	'NO_MODULE_ID'			=> 'Nebolo špecifikované žiadne id modulu.',
 	'NO_MODULE_LANGNAME'	=> 'Jazykový názov modulu nebol špecifikovaný.',
 	'NO_PARENT'				=> 'Nemá nadradený modul',
 

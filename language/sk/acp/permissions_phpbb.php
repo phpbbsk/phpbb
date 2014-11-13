@@ -1,11 +1,10 @@
 <?php
-
 /**
 * acp_permissions (phpBB Permission Set) [Slovak]
 *
 * @package language
-* @version $Id: permissions_phpbb.php,v 1.29 2010/01/05 23:00:00 phpbb3.sk Exp $
-* @copyright (c) 2007 phpBB Group
+* @version $Id$
+* @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
@@ -68,7 +67,7 @@ if (empty($lang) || !is_array($lang))
 // Define categories and permission types
 $lang = array_merge($lang, array(
 	'permission_cat'	=> array(
-		'actions'		=> 'Činnosti',
+		'actions'		=> 'Akcie',
 		'content'		=> 'Obsah',
 		'forums'		=> 'Fóra',
 		'misc'			=> 'Rôzne',
@@ -79,7 +78,7 @@ $lang = array_merge($lang, array(
 		'post_actions'	=> 'Práca s príspevkami',
 		'posting'		=> 'Prispievanie',
 		'profile'		=> 'Profil',
-		'settings'		=> 'Nastavenie',
+		'settings'		=> 'Nastavenia',
 		'topic_actions'	=> 'Práca s témami',
 		'user_group'	=> 'Užívatelia &amp; Skupiny',
 	),
@@ -90,21 +89,21 @@ $lang = array_merge($lang, array(
 		'm_'			=> 'Moderátorské oprávnenia',
 		'f_'			=> 'Oprávnenia fór',
 		'global'      	=> array(
-          'm_'         		=> 'Globálne moderátorské oprávnenia',
-        ),
+			'm_'			=> 'Globálne moderátorské oprávnenia',
+		),
 	),
 ));
 
 // User Permissions
 $lang = array_merge($lang, array(
 	'acl_u_viewprofile'	=> array('lang' => 'Môže zobraziť profily, zoznam členov a zoznam on-line užívateľov', 'cat' => 'profile'),
-	'acl_u_chgname'		=> array('lang' => 'Môže meniť už. meno', 'cat' => 'profile'),
+	'acl_u_chgname'		=> array('lang' => 'Môže meniť užívateľské meno', 'cat' => 'profile'),
 	'acl_u_chgpasswd'	=> array('lang' => 'Môže meniť heslo', 'cat' => 'profile'),
-	'acl_u_chgemail'	=> array('lang' => 'Môže meniť e-mail', 'cat' => 'profile'),
+	'acl_u_chgemail'	=> array('lang' => 'Môže meniť e-mailovú adresu', 'cat' => 'profile'),
 	'acl_u_chgavatar'	=> array('lang' => 'Môže meniť avatar', 'cat' => 'profile'),
 	'acl_u_chggrp'		=> array('lang' => 'Môže meniť prednastavenú skupinu', 'cat' => 'profile'),
 
-	'acl_u_attach'		=> array('lang' => 'Môže pripojovať súbory', 'cat' => 'post'),
+	'acl_u_attach'		=> array('lang' => 'Môže pripájať súbory', 'cat' => 'post'),
 	'acl_u_download'	=> array('lang' => 'Môže sťahovať súbory', 'cat' => 'post'),
 	'acl_u_savedrafts'	=> array('lang' => 'Môže ukladať koncepty', 'cat' => 'post'),
 	'acl_u_chgcensors'	=> array('lang' => 'Môže vypnúť cenzúru slov', 'cat' => 'post'),
@@ -119,18 +118,18 @@ $lang = array_merge($lang, array(
 	'acl_u_pm_forward'	=> array('lang' => 'Môže preposielať súkromné správy', 'cat' => 'pm'),
 	'acl_u_pm_emailpm'	=> array('lang' => 'Môže poslať súkromné správy e-mailom', 'cat' => 'pm'),
 	'acl_u_pm_printpm'	=> array('lang' => 'Môže vytlačiť súkromné správy', 'cat' => 'pm'),
-	'acl_u_pm_attach'	=> array('lang' => 'Môže pripojovať súbory k súkromným správam', 'cat' => 'pm'),
+	'acl_u_pm_attach'	=> array('lang' => 'Môže pripájať súbory k súkromným správam', 'cat' => 'pm'),
 	'acl_u_pm_download'	=> array('lang' => 'Môže sťahovať súbory v súkromných správach', 'cat' => 'pm'),
-	'acl_u_pm_bbcode'	=> array('lang' => 'Môže použiť BBCode v&nbsp; súkromným správach', 'cat' => 'pm'),
-	'acl_u_pm_smilies'	=> array('lang' => 'Môže použiť smajlíkov v&nbsp; súkromných správach', 'cat' => 'pm'),
-	'acl_u_pm_img'		=> array('lang' => 'Môže použiť obrázky v&nbsp; súkromných správach', 'cat' => 'pm'),
-	'acl_u_pm_flash'	=> array('lang' => 'Môže použiť Flash v&nbsp; súkromných správach', 'cat' => 'pm'),
+	'acl_u_pm_bbcode'	=> array('lang' => 'Môže použiť BB kódy v súkromným správach', 'cat' => 'pm'),
+	'acl_u_pm_smilies'	=> array('lang' => 'Môže použiť smajlíkov v súkromných správach', 'cat' => 'pm'),
+	'acl_u_pm_img'		=> array('lang' => 'Môže použiť [img] BB kód v súkromných správach', 'cat' => 'pm'),
+	'acl_u_pm_flash'	=> array('lang' => 'Môže použiť [flash] BB kód v súkromných správach', 'cat' => 'pm'),
 
 	'acl_u_sendemail'	=> array('lang' => 'Môže posielať e-maily', 'cat' => 'misc'),
 	'acl_u_sendim'		=> array('lang' => 'Môže posielať instantné správy', 'cat' => 'misc'),
-	'acl_u_ignoreflood'	=> array('lang' => 'Môže vyhľadávať nad limit', 'cat' => 'misc'),
+	'acl_u_ignoreflood'	=> array('lang' => 'Môže ignorovať časové obmedzenia', 'cat' => 'misc'),
 	'acl_u_hideonline'	=> array('lang' => 'Môže skryť online stav', 'cat' => 'misc'),
-	'acl_u_viewonline'	=> array('lang' => 'Môže zobraziť všetkých užívateľov online', 'cat' => 'misc'),
+	'acl_u_viewonline'	=> array('lang' => 'Môže vidieť skrytých online užívateľov', 'cat' => 'misc'),
 	'acl_u_search'		=> array('lang' => 'Môže vyhľadávať na fóre', 'cat' => 'misc'),
 ));
 
@@ -148,26 +147,26 @@ $lang = array_merge($lang, array(
 	'acl_f_vote'		=> array('lang' => 'Môže hlasovať v hlasovaniach', 'cat' => 'polls'),
 	'acl_f_votechg'		=> array('lang' => 'Môže zmeniť existujúce hlasovanie', 'cat' => 'polls'),
 
-	'acl_f_attach'		=> array('lang' => 'Môže pripojovať súbory', 'cat' => 'content'),
+	'acl_f_attach'		=> array('lang' => 'Môže pripájať súbory', 'cat' => 'content'),
 	'acl_f_download'	=> array('lang' => 'Môže sťahovať súbory', 'cat' => 'content'),
 	'acl_f_sigs'		=> array('lang' => 'Môže použiť podpis', 'cat' => 'content'),
-	'acl_f_bbcode'		=> array('lang' => 'Môže použiť BBCode', 'cat' => 'content'),
+	'acl_f_bbcode'		=> array('lang' => 'Môže použiť BB kódy', 'cat' => 'content'),
 	'acl_f_smilies'		=> array('lang' => 'Môže použiť smajlíkov', 'cat' => 'content'),
-	'acl_f_img'			=> array('lang' => 'Môže použiť obrázky', 'cat' => 'content'),
-	'acl_f_flash'		=> array('lang' => 'Môže použiť Flash', 'cat' => 'content'),
+	'acl_f_img'			=> array('lang' => 'Môže použiť [img] BB kód', 'cat' => 'content'),
+	'acl_f_flash'		=> array('lang' => 'Môže použiť [flash] BB kód', 'cat' => 'content'),
 
 	'acl_f_edit'		=> array('lang' => 'Môže upravovať vlastné príspevky', 'cat' => 'actions'),
 	'acl_f_delete'		=> array('lang' => 'Môže mazať vlastné príspevky', 'cat' => 'actions'),
 	'acl_f_user_lock'	=> array('lang' => 'Môže zamykať vlastné témy', 'cat' => 'actions'),
 	'acl_f_bump'		=> array('lang' => 'Môže oživovať témy', 'cat' => 'actions'),
-	'acl_f_report'		=> array('lang' => 'Môže ohlasovať príspevky', 'cat' => 'actions'),
+	'acl_f_report'		=> array('lang' => 'Môže nahlasovať príspevky', 'cat' => 'actions'),
 	'acl_f_subscribe'	=> array('lang' => 'Môže sledovať fóra', 'cat' => 'actions'),
 	'acl_f_print'		=> array('lang' => 'Môže tlačiť témy', 'cat' => 'actions'),
 	'acl_f_email'		=> array('lang' => 'Môže posielať témy e-mailom', 'cat' => 'actions'),
 
 	'acl_f_search'		=> array('lang' => 'Môže vyhľadávať na fóre', 'cat' => 'misc'),
 	'acl_f_ignoreflood' => array('lang' => 'Môže vyhľadávať nad limit', 'cat' => 'misc'),
-	'acl_f_postcount'	=> array('lang' => 'Počítat príspevky do celkového počtu<br /><em>Toto ovplyvní len nové príspevky.</em>', 'cat' => 'misc'),
+	'acl_f_postcount'	=> array('lang' => 'Počítat príspevky do celkového počtu<br /><em>Prosíme, uvedomte si, že toto ovplyvní len nové príspevky.</em>', 'cat' => 'misc'),
 	'acl_f_noapprove'	=> array('lang' => 'Môže prispievať bez schválenia príspevkov', 'cat' => 'misc'),
 ));
 
@@ -182,7 +181,7 @@ $lang = array_merge($lang, array(
 	'acl_m_move'	=> array('lang' => 'Môže presúvať témy', 'cat' => 'topic_actions'),
 	'acl_m_lock'	=> array('lang' => 'Môže zamykať témy', 'cat' => 'topic_actions'),
 	'acl_m_split'	=> array('lang' => 'Môže rozdeľovať témy', 'cat' => 'topic_actions'),
-	'acl_m_merge'	=> array('lang' => 'Môže spojovať témy', 'cat' => 'topic_actions'),
+	'acl_m_merge'	=> array('lang' => 'Môže spájať témy', 'cat' => 'topic_actions'),
 
 	'acl_m_info'	=> array('lang' => 'Môže zobraziť detaily príspevkov', 'cat' => 'misc'),
 	'acl_m_warn'	=> array('lang' => 'Môže udeliť varovanie<br /><em>Toto je globálne nastavenie, nezávisí na fórach.</em>', 'cat' => 'misc'),
@@ -191,10 +190,10 @@ $lang = array_merge($lang, array(
 
 // Admin Permissions
 $lang = array_merge($lang, array(
-	'acl_a_board'		=> array('lang' => 'Môže meniť nastavenia fóra/skontrolovať updaty', 'cat' => 'settings'),
-	'acl_a_server'		=> array('lang' => 'Môže meniť nastavenia serveru/komunikácie', 'cat' => 'settings'),
-	'acl_a_jabber'		=> array('lang' => 'Môže meniť nastavenie Jabberu', 'cat' => 'settings'),
-	'acl_a_phpinfo'		=> array('lang' => 'Môže zobraziť informácie o PHP', 'cat' => 'settings'),
+	'acl_a_board'		=> array('lang' => 'Môže meniť nastavenia fóra/skontrolovať aktualizácie', 'cat' => 'settings'),
+	'acl_a_server'		=> array('lang' => 'Môže meniť nastavenia servera/komunikácie', 'cat' => 'settings'),
+	'acl_a_jabber'		=> array('lang' => 'Môže meniť nastavenie Jabbera', 'cat' => 'settings'),
+	'acl_a_phpinfo'		=> array('lang' => 'Môže zobraziť informácie o php', 'cat' => 'settings'),
 
 	'acl_a_forum'		=> array('lang' => 'Môže spravovať fóra', 'cat' => 'forums'),
 	'acl_a_forumadd'	=> array('lang' => 'Môže pridávať nové fóra', 'cat' => 'forums'),
@@ -203,16 +202,16 @@ $lang = array_merge($lang, array(
 
 	'acl_a_icons'		=> array('lang' => 'Môže meniť ikony tém/príspevkov a smajlíkov', 'cat' => 'posting'),
 	'acl_a_words'		=> array('lang' => 'Môže upravovať cenzúru slov', 'cat' => 'posting'),
-	'acl_a_bbcode'		=> array('lang' => 'Môže definovať BBCode značky', 'cat' => 'posting'),
-	'acl_a_attach'		=> array('lang' => 'Môže meniť nastavenie príloh', 'cat' => 'posting'),
+	'acl_a_bbcode'		=> array('lang' => 'Môže definovať BB kódy', 'cat' => 'posting'),
+	'acl_a_attach'		=> array('lang' => 'Môže meniť nastavenia ohľadom príloh', 'cat' => 'posting'),
 
-	'acl_a_user'		=> array('lang' => 'Môže spravovať užívateľov<br /><em>Toto zahŕňa aj zobrazenie prehliadača, ktorý používa užívateľ.</em>', 'cat' => 'user_group'),
+	'acl_a_user'		=> array('lang' => 'Môže spravovať užívateľov<br /><em>Toto zahŕňa aj zobrazenie user agenta prehliadača, v zozname Kto je online.</em>', 'cat' => 'user_group'),
 	'acl_a_userdel'		=> array('lang' => 'Môže mazať/prečisťovať užívateľov', 'cat' => 'user_group'),
 	'acl_a_group'		=> array('lang' => 'Môže spravovať skupiny', 'cat' => 'user_group'),
 	'acl_a_groupadd'	=> array('lang' => 'Môže pridávať nové skupiny', 'cat' => 'user_group'),
 	'acl_a_groupdel'	=> array('lang' => 'Môže mazať skupiny', 'cat' => 'user_group'),
 	'acl_a_ranks'		=> array('lang' => 'Môže spravovať hodnosti', 'cat' => 'user_group'),
-	'acl_a_profile'		=> array('lang' => 'Môže spravovať vlastné pole v profile', 'cat' => 'user_group'),
+	'acl_a_profile'		=> array('lang' => 'Môže spravovať vlastné polia v profile', 'cat' => 'user_group'),
 	'acl_a_names'		=> array('lang' => 'Môže spravovať nepovolené mená', 'cat' => 'user_group'),
 	'acl_a_ban'			=> array('lang' => 'Môže spravovať bany', 'cat' => 'user_group'),
 
@@ -223,19 +222,19 @@ $lang = array_merge($lang, array(
 	'acl_a_mauth'		=> array('lang' => 'Môže meniť moderátorské oprávnenia', 'cat' => 'permissions'),
 	'acl_a_aauth'		=> array('lang' => 'Môže meniť administrátorské oprávnenia', 'cat' => 'permissions'),
 	'acl_a_uauth'		=> array('lang' => 'Môže meniť užívateľské oprávnenia', 'cat' => 'permissions'),
-	'acl_a_roles'		=> array('lang' => 'Môže spravovať role', 'cat' => 'permissions'),
+	'acl_a_roles'		=> array('lang' => 'Môže spravovať roly', 'cat' => 'permissions'),
 	'acl_a_switchperm'	=> array('lang' => 'Môže používať oprávnenia ostatných', 'cat' => 'permissions'),
 
 	'acl_a_styles'		=> array('lang' => 'Môže spravovať štýly', 'cat' => 'misc'),
-	'acl_a_viewlogs'	=> array('lang' => 'Môže zobraziť logy', 'cat' => 'misc'),
-	'acl_a_clearlogs'	=> array('lang' => 'Môže premazávať logy', 'cat' => 'misc'),
+	'acl_a_viewlogs'	=> array('lang' => 'Môže zobraziť záznamy', 'cat' => 'misc'),
+	'acl_a_clearlogs'	=> array('lang' => 'Môže premazávať záznamy', 'cat' => 'misc'),
 	'acl_a_modules'		=> array('lang' => 'Môže spravovať moduly', 'cat' => 'misc'),
 	'acl_a_language'	=> array('lang' => 'Môže spravovať jazykové balíky', 'cat' => 'misc'),
 	'acl_a_email'		=> array('lang' => 'Môže odosielať hromadné e-maily', 'cat' => 'misc'),
 	'acl_a_bots'		=> array('lang' => 'Môže spravovať botov', 'cat' => 'misc'),
 	'acl_a_reasons'		=> array('lang' => 'Môže meniť dôvody schválení/odmienutí', 'cat' => 'misc'),
 	'acl_a_backup'		=> array('lang' => 'Môže obnovovať/zálohovať databázu', 'cat' => 'misc'),
-	'acl_a_search'		=> array('lang' => 'Môže spravovať vyhľadávanie a indexy', 'cat' => 'misc'),
+	'acl_a_search'		=> array('lang' => 'Môže spravovať nastavenia vyhľadávania', 'cat' => 'misc'),
 ));
 
 ?>

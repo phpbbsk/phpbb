@@ -4,8 +4,8 @@
 * acp_bots [Slovak]
 *
 * @package language
-* @version $Id: bots.php,v 1.12 2007/10/15 00:00:00 phpbb3.sk Exp $
-* @copyright (c) 2007 phpBB Group
+* @version $Id$
+* @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
@@ -37,18 +37,18 @@ if (empty($lang) || !is_array($lang))
 
 // Bot settings
 $lang = array_merge($lang, array(
-	'BOTS'				=> 'Správa robotov',
-	'BOTS_EXPLAIN'		=> '&quot;Bot&quot; je program používaný vyhľadávačmi na aktualizáciu ich databáz. Tento program prechádza odkazmi stránku po stránke na internete a zbiera informácie o nových, aktualizuje staré a maže neexistujúce stránky. Tieto potom ukladá do databázy a tvorí tzv. index. Tu môžete nastaviť špeciálne nastavenia pre týchto agentov.',
+	'BOTS'				=> 'Správa botov',
+	'BOTS_EXPLAIN'		=> '„Bot“, „Spider“ (pavúk) alebo „crawler“ je program bežne používaný vyhľadávačmi na aktualizáciu ich databáz. Vzhľadom k tomu, že len zriedka správne používajú session-y, môžu narušiť počty návštev, zvyšujú záťaž a niekedy sa im nepodarí indexovať stránky správne. Tu môžete definovať špeciálny typ užívateľa na prekonanie týchto problémov.',
 	'BOT_ACTIVATE'		=> 'Aktivovať',
 	'BOT_ACTIVE'		=> 'Aktívny bot',
 	'BOT_ADD'			=> 'Pridať bota',
 	'BOT_ADDED'			=> 'Nový bot bol úspešne pridaný.',
 	'BOT_AGENT'			=> 'Rozpoznanie bota podľa označenia',
-	'BOT_AGENT_EXPLAIN'	=> 'Reťazec, ktorý je v označení, pod ktorým sa vyskytuje bot, čiastočné zhody sú povolené.',
+	'BOT_AGENT_EXPLAIN'	=> 'Reťazec, ktorý je zhodný s botovým user agent-om, čiastočné zhody sú povolené.',
 	'BOT_DEACTIVATE'	=> 'Deaktivovať',
 	'BOT_DELETED'		=> 'Bot bol úspešne odstránený.',
-	'BOT_EDIT'			=> 'Editovanie bota',
-	'BOT_EDIT_EXPLAIN'	=> 'Tu môžete pridávať alebo editovať existujúcich botov. Môžete definovať agentove obmedzenia a napríklad aj IP adresu (alebo rozpätie adries). Buďte opatrní, keď definujete práva a adresy robotov môže to ovplyvniť kvalitu výsledkov bota. Môžete špecifikovať štýl a jazyk ktorý sa rozbalí robotovi, keď bude používať fórum. Takto môžete určiť šírku používateľnosti a jednoduché štýly pre botov. Nezabudnite na nastavenie špeciálnych práv pre užívateľskú skupinu botov.',
+	'BOT_EDIT'			=> 'Upraviť bota',
+	'BOT_EDIT_EXPLAIN'	=> 'Tu môžete pridávať alebo upravovať existujúcich botov. Môžete definovať reťazec agenta a/alebo jeden alebo viac IP adries (alebo rozsah adries). Buďte opatrní pri definovaní zodpovedajúcich reťazcov agenta alebo adresy. Môžete tiež určiť štýl a jazyk, pod ktorými bot bude používať fórum. To vám umožní znížiť prenesené dáta nastavením jednoduchého štýlu botom. Nezabudnite nastaviť príslušné oprávnenia pre zvláštnu užívateľskú skupinu „Boti“.',
 	'BOT_LANG'			=> 'Jazyk',
 	'BOT_LANG_EXPLAIN'	=> 'Jazyk prezentovaný botom, keď prehliadajú fórum.',
 	'BOT_LAST_VISIT'	=> 'Posledná návšteva',
@@ -58,16 +58,16 @@ $lang = array_merge($lang, array(
 	'BOT_NAME_EXPLAIN'	=> 'Slúži len pre vašu informáciu.',
 	'BOT_NAME_TAKEN'	=> 'Tento názov je už na vašom fóre používaný a nemôžete ho použiť pre tohto bota.',
 	'BOT_NEVER'			=> 'Nikdy',
-	'BOT_STYLE'			=> 'Vzhľad bota',
+	'BOT_STYLE'			=> 'Štýl bota',
 	'BOT_STYLE_EXPLAIN'	=> 'Štýl používaný pre bota.',
-	'BOT_UPDATED'		=> 'Nastavenia boli úspešne aktualizovane.',
+	'BOT_UPDATED'		=> 'Nastavenia boli úspešne aktualizované.',
 
-	'ERR_BOT_AGENT_MATCHES_UA'	=> 'Označenie bota ktorého ste pridali je podobný jednému ktorého práve používaťe. Prosím zmeňte označenie tohto bota.',
-	'ERR_BOT_NO_IP'				=> 'Zadaná IP adresa nie je správna.',
-	'ERR_BOT_NO_MATCHES'		=> 'Musíte dodať najmenej jedného agenta alebo IP pre kombináciu agentov.',
+	'ERR_BOT_AGENT_MATCHES_UA'	=> 'Agent bota ktorého ste pridali je podobný tomu, ktorého práve používate. Prosím upravte agenta pre tohto bota.',
+	'ERR_BOT_NO_IP'				=> 'IP adresy, ktoré ste poskytli sú neplatné, alebo hostname nemohol byť rozpoznaný.',
+	'ERR_BOT_NO_MATCHES'		=> 'Musíte dodať minimálne buď agenta alebo IP adresu, ktorá sa zhoduje s týmto botom.',
 
 	'NO_BOT'		=> 'Žiadny bot nebol nájdený podľa zadaného ID.',
-	'NO_BOT_GROUP'	=> 'Zakázať zobrazenie skupiny botov.',
+	'NO_BOT_GROUP'	=> 'Nebolo možné nájsť špeciálnu skupinu pre botov.',
 ));
 
 ?>

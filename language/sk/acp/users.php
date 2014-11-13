@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 	'BAN_ALREADY_ENTERED'	=> 'Ban bol úspešne udelený už predtým. Zoznam banov nebol aktualizovaný.',
 	'BAN_SUCCESSFUL'		=> 'Ban úspešne udelený.',
 	'CANNOT_BAN_ANONYMOUS'			=> 'Nemáte oprávnenie zakázať anonymného užívateľa. Oprávnenie pre anonymných užívateľov možno nastaviť v karte Oprávnenia.',
-	
+
 	'CANNOT_BAN_FOUNDER'			=> 'Nedajú sa zabanovať účty zakladateľov.',
 	'CANNOT_BAN_YOURSELF'			=> 'Nemôžete zabanovať sami seba.',
 	'CANNOT_DEACTIVATE_BOT'			=> 'Nedajú sa deaktivovať účty botov, deaktivujte bota samotného.',
@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 
 	'DELETE_POSTS'			=> 'Odstrániť príspevky',
 	'DELETE_USER'			=> 'Odstrániť užívateľa',
-	'DELETE_USER_EXPLAIN'	=> 'Berte na vedomie, že odstránenie užívateľa sa nedá vrátiť späť',
+	'DELETE_USER_EXPLAIN'	=> 'Berte na vedomie, že odstránenie užívateľa sa nedá vrátiť späť. Neprečítané súkromné správy poslané týmto užívateľom budú vymazané a nebudú dostupné pre ich prijímateľov.',
 
 	'FORCE_REACTIVATION_SUCCESS'	=> 'Nútená reaktivácia bola úspešná.',
 	'FOUNDER'						=> 'Zakladateľ',
@@ -124,6 +124,7 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_SPECIAL'			=> 'Preddefinované skupiny, ktorých je užívateľ členom',
 	'USER_LIFTED_NR'				=> 'Užívateľ bol odobratý zo skupiny nových členov fóra.',
 	'USER_NO_ATTACHMENTS'			=> 'Neexistujú žiadne prílohy k zobrazeniu.',
+	'USER_NO_POSTS_TO_DELETE'			=> 'Užívateľ nemá žiadne príspevky, ktoré by sa mohli zachovať alebo vymazať.',
 	'USER_OUTBOX_EMPTIED'			=> 'Všetky užívateľove neodoslané správy boli odstránené.',
 	'USER_OUTBOX_EMPTY'				=> 'Užívateľ nemal žiadne správy na odoslanie.',
 	'USER_OVERVIEW_UPDATED'			=> 'Detaily užívateľa úspešne aktualizované.',

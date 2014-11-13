@@ -4,8 +4,8 @@
 * acp_board [Slovak]
 *
 * @package language
-* @version $Id: board.php,v 1.101 2010/01/05 23:00:00 phpbb3.sk Exp $
-* @copyright (c) 2007 phpBB Group
+* @version $Id$
+* @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
@@ -37,21 +37,21 @@ if (empty($lang) || !is_array($lang))
 
 // Board Settings
 $lang = array_merge($lang, array(
-	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Tu môžete určovať základné nastavenia vášho fóra, počínajúc názvom fóra, cez registráciu užívateľov až po nastavenia súkromných správ.',
+	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Tu môžete určovať základné nastavenia vášho fóra, počínajúc názvom fóra a jeho popisom, až po základné hodnoty časovej zóny a jazyka.',
 	'CUSTOM_DATEFORMAT'				=> 'Vlastný…',
 	'DEFAULT_DATE_FORMAT'			=> 'Formát dátumu',
 	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Použitá syntax je zhodná s PHP funkciou <code>date</code>.',
 	'DEFAULT_LANGUAGE'				=> 'Predvolený jazyk',
 	'DEFAULT_STYLE'					=> 'Predvolený vzhľad',
 	'DISABLE_BOARD'					=> 'Zablokovať fórum',
-	'DISABLE_BOARD_EXPLAIN'			=> 'Týmto zneprístupníte fórum pre užívateľov. Môžete tiež vložiť krátku (255 znakov) správu, ktorá sa bude zobrazovať.',
+	'DISABLE_BOARD_EXPLAIN'			=> 'Týmto zneprístupníte fórum pre užívateľov. Môžete tiež vložiť krátku (255 znakovú) správu, ktorá sa bude zobrazovať.',
 	'OVERRIDE_STYLE'				=> 'Nahradiť užívateľom zvolený vzhľad',
 	'OVERRIDE_STYLE_EXPLAIN'		=> 'Použije prednastavený vzhľad namiesto užívateľom zvoleného.',
 	'SITE_DESC'						=> 'Popis fóra',
 	'SITE_NAME'						=> 'Názov fóra',
 	'SYSTEM_DST'					=> 'Používať letný čas',
 	'SYSTEM_TIMEZONE'				=> 'Časové pásmo hostí',
-	'SYSTEM_TIMEZONE_EXPLAIN'			=> 'Časové pásmo použité pre zobrazovanie časov pre užívateľov, ktorí nie sú prihlásení (hostia, roboty). Prihlásený užívatelia si nastavujú svoje časové pásmo pri registrácii a je možné ho zmeniť v ich ovládacom paneli užívateľa.',
+	'SYSTEM_TIMEZONE_EXPLAIN'			=> 'Časové pásmo použité pre zobrazovanie časov pre užívateľov, ktorí nie sú prihlásení (hostia, roboty). Prihlásení užívatelia si nastavujú svoje časové pásmo pri registrácii a je možné ho zmeniť v ich ovládacom paneli užívateľa.',
 	'WARNINGS_EXPIRE'				=> 'Trvanie varovania',
 	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Počet dní, ktoré musia uplynúť, než sa varovanie automaticky odstráni z užívateľského profilu. Pre trvalé varovanie nastavte hodnotu na 0.',
 ));
@@ -59,10 +59,10 @@ $lang = array_merge($lang, array(
 // Board Features
 $lang = array_merge($lang, array(
 	'ACP_BOARD_FEATURES_EXPLAIN'	=> 'Tu môžete zapnúť/vypnúť jednotlivé funkcie fóra.',
-	
+
 	'ALLOW_ATTACHMENTS'			=> 'Povoliť prílohy ',
 	'ALLOW_BIRTHDAYS'			=> 'Povoliť narodeniny',
-	'ALLOW_BIRTHDAYS_EXPLAIN'	=> 'Povoliť vkladanie narodenín a zobrazenie veku v užívateľskom profile. Upozorňujeme, že výpis narodenín v obsahu fóra je riadený nastavením zaťaženia.',
+	'ALLOW_BIRTHDAYS_EXPLAIN'	=> 'Povoliť vkladanie narodenín a zobrazenie veku v užívateľskom profile. Upozorňujeme, že výpis narodenín na indexe (úvode) fóra je riadený nastavením zaťaženia.',
 	'ALLOW_BOOKMARKS'			=> 'Povoliť záložky',
 	'ALLOW_BOOKMARKS_EXPLAIN'	=> 'Užívateľ si môže ukladať osobné záložky.',
 	'ALLOW_BBCODE'				=> 'Povoliť BBCode',
@@ -71,11 +71,11 @@ $lang = array_merge($lang, array(
 	'ALLOW_NO_CENSORS'			=> 'Povoliť zrušenie cenzúry',
 	'ALLOW_NO_CENSORS_EXPLAIN'	=> 'Užívateľ môže zrušiť cenzúru slov.',
 	'ALLOW_PM_ATTACHMENTS'		=> 'Povoliť prílohy v súkromných správach',
-	'ALLOW_PM_REPORT'			=> 'Povoliť užívateľom nahlasovať soúkromné správy',
-	'ALLOW_PM_REPORT_EXPLAIN'	=> 'Povoľte pre umožnenie nahlásenia závadných soukromných správ užívateľom. Nahlásené správy budú viditeľné v moderátorskom panely.',
+	'ALLOW_PM_REPORT'			=> 'Povoliť užívateľom nahlasovať súkromné správy',
+	'ALLOW_PM_REPORT_EXPLAIN'	=> 'Ak je toto nastavenie povolené, užívatelia majú možnosť nahlásiť súkromnú správu, ktorú dostali alebo poslali moderátorom fóra. Nahlásené správy budú viditeľné v moderátorskom paneli.',
 	'ALLOW_QUICK_REPLY'			=> 'Povoliť rýchlu odpoveď',
 	'ALLOW_QUICK_REPLY_EXPLAIN'	=> 'Toto nastavenie povoľuje zrušiť rýchlu odpoveď na celom fóre. Ak je povolené, nastavenie definované v nastaveniach fóra bude určené na zistenie, či sa zobrazí rýchla odpoveď.',
-	'ALLOW_QUICK_REPLY_BUTTON'	=> 'Odoslať a povoliť rýchu odpoveď na všetkcý fórach',
+	'ALLOW_QUICK_REPLY_BUTTON'	=> 'Odoslať a povoliť rýchu odpoveď na všetkých fórach',
 	'ALLOW_SIG'					=> 'Povoliť podpisy',
 	'ALLOW_SIG_BBCODE'			=> 'Povoliť BBCode v podpisoch užívateľov',
 	'ALLOW_SIG_FLASH'			=> 'Povoliť použitie <code>[FLASH]</code> BBCode značky v podpisoch užívateľov',
@@ -83,20 +83,20 @@ $lang = array_merge($lang, array(
 	'ALLOW_SIG_LINKS'			=> 'Povoliť použitie odkazov v podpisoch užívateľov',
 	'ALLOW_SIG_LINKS_EXPLAIN'	=> 'Ak nie je povolené <code>[URL]</code> BBCode značka a automatické oživovanie URL sú zakázané.',
 	'ALLOW_SIG_SMILIES'			=> 'Povoliť používanie smajlíkov v podpisoch užívateľov',
-	'ALLOW_SMILIES'				=> 'Povoliť smajlíky (emotikony)',
-	'ALLOW_TOPIC_NOTIFY'		=> 'Povoliť sledovanie témy',
+	'ALLOW_SMILIES'				=> 'Povoliť smajlíky',
+	'ALLOW_TOPIC_NOTIFY'		=> 'Povoliť sledovanie tém',
 	'BOARD_PM'					=> 'Súkromné správy',
 	'BOARD_PM_EXPLAIN'			=> 'Povoliť súkromné správy pre všetkých uživateľov.',
 ));
 
 // Avatar Settings
 $lang = array_merge($lang, array(
-	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Avatary sú vo všeobecnosti malé, jedinečné obrázky, s ktorými je spájaný konkrétny užívateľ. V závislosti od vzhľadu, sú pri prezeraní tém fóra väčšinou umiestnené pod užívateľským menom. Tu môžete nastaviť, ako môžu užívatelia definovať svojich avatarov. Pre možnosť pridávať ďalších avatarov je dôležité, aby existoval adresár uvedený nižšie a aby web server mohol doň zapisovať. Limity veľkosti súborov platia iba nahraných (uploadovaných) avatarov, nevzťahujú sa na externé obrázky.',
+	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Avatary sú vo všeobecnosti malé, jedinečné obrázky, s ktorými je spájaný konkrétny užívateľ. V závislosti od vzhľadu, sú pri prezeraní tém fóra väčšinou umiestnené pod užívateľským menom. Tu môžete nastaviť, ako môžu užívatelia definovať svojich avatarov. Pre možnosť pridávať ďalších avatarov je dôležité, aby existoval adresár uvedený nižšie a aby web server mohol doň zapisovať. Prosím, taktiež si uvedomte, že limity veľkosti súborov platia iba pre nahrané (uploadované) avatary, nevzťahujú sa na externé obrázky.',
 
   'ALLOW_AVATARS'					=> 'Povoliť avatary',
-	'ALLOW_AVATARS_EXPLAIN'			=> 'Umožniť všeobecné používanie avatarov;<br />Pokiaľ vypnete používanie avatarov všeobecne alebo vypnete niektorý z avatarov, nebudú už zobrazené na fóre, ale uživatelia si ich budú môcť stiahnúť v užívateľskom panely, aby o ne neprišli.',
+	'ALLOW_AVATARS_EXPLAIN'			=> 'Umožniť všeobecné používanie avatarov;<br />Pokiaľ vypnete používanie avatarov všeobecne alebo vypnete niektorý z avatarov, nebudú už zobrazené na fóre, ale uživatelia si ich budú môcť stiahnúť v užívateľskom paneli, aby o ne neprišli.',
 	'ALLOW_LOCAL'					=> 'Povoliť galériu avatarov',
-	'ALLOW_REMOTE'					=> 'Povoliť vzdialených avatarov',
+	'ALLOW_REMOTE'					=> 'Povoliť vzdialené avatary',
 	'ALLOW_REMOTE_EXPLAIN'			=> 'Obrázok avatara na inom serveri.',
 	'ALLOW_REMOTE_UPLOAD'			=> 'Povoliť vzdialené nahrávánie avatarov',
 	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Umožní nahrať si avatar pomocou odkazu na inú stránku.',
@@ -108,7 +108,7 @@ $lang = array_merge($lang, array(
 	'MAX_AVATAR_SIZE'				=> 'Maximálne rozmery avataru',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Šírka x Výška  v pixeloch.',
 	'MAX_FILESIZE'					=> 'Maximálna veľkosť súboru s avatarom',
-	'MAX_FILESIZE_EXPLAIN'			=> 'Pre nahrávané avatary.',
+	'MAX_FILESIZE_EXPLAIN'			=> 'Pre nahrávané avatary. Ak je táto hodnota 0, veľkosť nahrávaného súboru je limitovaná len vašimi nastaveniami PHP.',
 	'MIN_AVATAR_SIZE'				=> 'Minimálne rozmery obrázku postavičky',
 	'MIN_AVATAR_SIZE_EXPLAIN'		=> 'Šírka x Výška  v pixeloch.',
 ));
@@ -119,7 +119,7 @@ $lang = array_merge($lang, array(
 
 	'ALLOW_BBCODE_PM'			=> 'Povoliť BBCode v súkromných správach',
 	'ALLOW_FLASH_PM'			=> 'Povoliť použitie BBcode značky <code>[FLASH]</code>',
-	'ALLOW_FLASH_PM_EXPLAIN'	=> 'Upozornenie: aj keď povolíte používanie Flashu v súkromných správach, závisí to od oprávnení.',
+	'ALLOW_FLASH_PM_EXPLAIN'	=> 'Upozornenie: aj keď povolíte používanie Flash-u v súkromných správach, závisí to od oprávnení.',
 	'ALLOW_FORWARD_PM'			=> 'Povoliť preposielanie súkromných správ',
 	'ALLOW_IMG_PM'				=> 'Povoliť použitie BBcode značky <code>[IMG]</code>',
 	'ALLOW_MASS_PM'				=> 'Povoliť posielanie súkromných správ viacerým užívateľom a skupinám',
@@ -134,7 +134,7 @@ $lang = array_merge($lang, array(
 	'BOXES_MAX_EXPLAIN'			=> 'Určuje počet osobných zložiek, ktoré si môžu užívatelia vytvoriť pre súkromné správy.',
 	'ENABLE_PM_ICONS'			=> 'Povoliť použitie tematických ikoniek v súkromných správach',
 	'FULL_FOLDER_ACTION'		=> 'Predvolená akcia pri plnej schránke',
-	'FULL_FOLDER_ACTION_EXPLAIN'=> 'Predvolená akcia, ktorá sa vykoná, ak je užívateľova schránka plná a ak nie je možné použiť akciu nastavenú užívateľom. Pre zložku "odoslané správy" je vždy predvolenou akciou zmazanie starých správ.',
+	'FULL_FOLDER_ACTION_EXPLAIN'=> 'Predvolená akcia, ktorá sa vykoná, ak je užívateľova schránka plná, a ak nie je možné použiť akciu nastavenú užívateľom. Pre zložku "odoslané správy" je vždy predvolenou akciou zmazanie starých správ.',
 	'HOLD_NEW_MESSAGES'			=> 'Podržať nové správy',
 	'PM_EDIT_TIME'				=> 'Obmedziť dobu upravovania',
 	'PM_EDIT_TIME_EXPLAIN'		=> 'Obmedzí dobu, počas ktorej môže užívateľ upraviť nedoručenú súkromnú správu. Pre neobmedzenú editáciu zadajte 0.',
@@ -144,14 +144,14 @@ $lang = array_merge($lang, array(
 
 // Post Settings
 $lang = array_merge($lang, array(
-	'ACP_POST_SETTINGS_EXPLAIN'			=> 'Tu sa nastavujú základné hodnoty pre odosielanie správ a príspevkov.',
+	'ACP_POST_SETTINGS_EXPLAIN'			=> 'Tu sa nastavujú základné hodnoty pre odosielanie príspevkov.',
 	'ALLOW_POST_LINKS'					=> 'Povoliť odkazy v príspevkoch a súkromných správach',
 	'ALLOW_POST_LINKS_EXPLAIN'			=> 'Ak nie je táto možnosť povolená, značka <code>[URL]</code> a automatické oživovanie URL je vypnuté.',
 	'ALLOW_POST_FLASH'					=> 'Povoliť použitie značky <code>[FLASH]</code> v príspevkoch. ',
-	'ALLOW_POST_FLASH_EXPLAIN'			=> 'Ak nie je táto možnosť povolená, značka <code>[FLASH]</code> je v príspevkoch vypnutá.',
-	
+	'ALLOW_POST_FLASH_EXPLAIN'			=> 'Ak nie je táto možnosť povolená, BBCode značka <code>[FLASH]</code> je v príspevkoch vypnutá.',
+
 	'BUMP_INTERVAL'					=> 'Interval oživenia (bump)',
-	'BUMP_INTERVAL_EXPLAIN'			=> 'Počet minút, hodín, či dní od posledného príspevku v téme a možnosti oživiť (bump) túto tému. Nastavením na 0 zrušíte možnosť oživovať témy.',
+	'BUMP_INTERVAL_EXPLAIN'			=> 'Počet minút, hodín, či dní medzi odoslaním posledného príspevku do témy a možnosti oživiť (bump) túto tému. Nastavením na 0 zrušíte možnosť oživovať témy.',
 	'CHAR_LIMIT'					=> 'Maximálny počet znakov na príspevok alebo súkromnú správu',
 	'CHAR_LIMIT_EXPLAIN'			=> 'Počet znakov povolených pre každú správu. Pre žiadne obmedzenia, zadajte 0.',
   'DELETE_TIME'								=> 'Obmedzenie času pre zmazanie príspevku',
@@ -159,7 +159,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_LAST_EDITED'			=> 'Zobraziť dátum poslednej úpravy',
 	'DISPLAY_LAST_EDITED_EXPLAIN'	=> 'Nastaví, či sa má zobrazovať informácia, kedy a kým bol príspevok naposledy upravený',
 	'EDIT_TIME'						=> 'Obmedziť dobu upravovania',
-	'EDIT_TIME_EXPLAIN'				=> 'Obmedzí dobu, počas ktorej môže užívateľ upraviť svoj príspevok. Pre neobmedzenú editáciu zadajte 0.',
+	'EDIT_TIME_EXPLAIN'				=> 'Obmedzí dobu, počas ktorej môže užívateľ upraviť svoj príspevok. Pre neobmedzené upravovanie zadajte 0.',
 	'FLOOD_INTERVAL'				=> 'Ochranný interval',
 	'FLOOD_INTERVAL_EXPLAIN'		=> 'Počet sekúnd, ktoré musí užívateľ počkať, kým bude môcť pridať ďalší príspevok. Ak chcete umožniť užívateľom aby mohli ignorovať toto nastavenie, zmeňte ich oprávnenia.',
 	'HOT_THRESHOLD'					=> 'Počet príspevkov v obľúbených témach',
@@ -187,10 +187,10 @@ $lang = array_merge($lang, array(
 
 // Signature Settings
 $lang = array_merge($lang, array(
-	'ACP_SIGNATURE_SETTINGS_EXPLAIN'	=> 'Tu môžete nastaviť východzie hodnoty pre podpisy',
+	'ACP_SIGNATURE_SETTINGS_EXPLAIN'	=> 'Tu môžete nastaviť základné hodnoty pre podpisy',
 
 	'MAX_SIG_FONT_SIZE'				=> 'Maximálna veľkosť písma v podpise',
-	'MAX_SIG_FONT_SIZE_EXPLAIN'		=> 'Maximálna veľkosť písma, ktoré je povolené použiť v podpise. Zadajte 0 pre neobmedzenú veľkosť.',
+	'MAX_SIG_FONT_SIZE_EXPLAIN'		=> 'Maximálna veľkosť písma, ktorá je povolená podpise. Zadajte 0 pre neobmedzenú veľkosť.',
 	'MAX_SIG_IMG_HEIGHT'			=> 'Maximálna výška obrázku v podpise',
 	'MAX_SIG_IMG_HEIGHT_EXPLAIN'	=> 'Maximálna výška obrázku/flash súboru, ktorá je povolená v podpise. Zadajte 0 pre neobmedzenú výšku.',
 	'MAX_SIG_IMG_WIDTH'				=> 'Maximálna šírka obrázku v podpise',
@@ -198,9 +198,9 @@ $lang = array_merge($lang, array(
 	'MAX_SIG_LENGTH'				=> 'Maximálna dĺžka podpisu',
 	'MAX_SIG_LENGTH_EXPLAIN'		=> 'Maximálny počet znakov v podpise.',
 	'MAX_SIG_SMILIES'				=> 'Maximálny počet smajlíkov v podpise',
-	'MAX_SIG_SMILIES_EXPLAIN'		=> 'Maximálny počet smajlíkov, ktorý je povolené mať v podpise. Zadajte 0 pre neobmedzený počet.',
+	'MAX_SIG_SMILIES_EXPLAIN'		=> 'Maximálny počet smajlíkov, ktorý je povolený v podpise. Zadajte 0 pre neobmedzený počet.',
 	'MAX_SIG_URLS'					=> 'Maximálny počet odkazov v podpise',
-	'MAX_SIG_URLS_EXPLAIN'			=> 'Maximálny počet odkazov, ktorý je povolené mať v podpise. Zadajte 0 pre neobmedzený počet.',
+	'MAX_SIG_URLS_EXPLAIN'			=> 'Maximálny počet odkazov, ktorý je povolený v podpise. Zadajte 0 pre neobmedzený počet.',
 ));
 
 // Registration Settings
@@ -209,8 +209,13 @@ $lang = array_merge($lang, array(
 
 	'ACC_ACTIVATION'			=> 'Aktivácia účtu',
 	'ACC_ACTIVATION_EXPLAIN'	=> 'Stanovuje, či má užívateľ okamžitý prístup k fóru, alebo je vyžadovaná určitá forma aktivácie. Môžete taktiež úplne zakázať nové registrácie. V prípade využia aktivácie administrátorom alebo užívateľom musíte mať na fóre zapnuté maily.',
+	'NEW_MEMBER_POST_LIMIT'			=> 'Limit príspevkov pre nového člena',
+	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> 'Noví členovia sú v skupine <em>Noví členovia fóra</em> pokiaľ dosiahnu tento počet príspevkov. Môžete použiť túto skupinu, aby ste ich zadržali pred používaním SS systému (súkromné správy) alebo prezerania náhľadu ich príspevkov. <strong>Hodnota 0 zakáže túto možnosť (užívatelia budú automaticky plnohodnotnými členmi fóra).</strong>',
+	'NEW_MEMBER_GROUP_DEFAULT'		=> 'Nastaviť skupinu Noví členovia fóra ako základnú (dafaultnú)',
+	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'	=> 'Ak je nastavené na áno a limit príspevkov pre nového člena je špecifikovaný, noví registrovaní užívatelia nebudú len vložení do skupiny <em>Noví členovia fóra</em>, ale táto skupina pre nich bude aj predvolená. To sa môže hodiť, ak chcete priradiť skupine predvolenú hodnosť a/alebo avatar, ktorý užívatelia potom zdedia.',
+
 	'ACC_ADMIN'					=> 'Administrátorom',
-	'ACC_DISABLE'				=> 'Zakáž registrácie',
+	'ACC_DISABLE'				=> 'Zakázať registrácie',
 	'ACC_NONE'					=> 'Žiadna aktivácia (okamžitý prístup)',
 	'ACC_USER'					=> 'Užívateľom (overenie e-mailom)',
 //	'ACC_USER_ADMIN'			=> 'User + Admin',
@@ -224,13 +229,6 @@ $lang = array_merge($lang, array(
 	'ENABLE_COPPA_EXPLAIN'		=> 'Vyžaduje od užívateľov prehlásenie, že majú 13 a viac rokov, pre zhodu so zákonom COPPA (USA). Ak je vypnuté, skupiny špecifické pre COPPA sa nebudú zobrazovať.',
 	'MAX_CHARS'					=> 'Max',
 	'MIN_CHARS'					=> 'Min',
-	
-	'NEW_MEMBER_POST_LIMIT'			=> 'Počet príspevkov pre nových užívateľov',
-	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> 'Noví registrovaní členovia fóra sú v skupine <em>Noví členovia fóra</em>, pokiaľ nedosiahu tento počet príspevkov. Môžete túto skupinu použiť pre obmedzenie posielania súkromných správ alebo vynútenie schvaľovania príspevkov. <strong>Pokial je počet nastavný na 0, uživatelia budú automaticky plnohodnotnými členmi fóra.</strong>',
-	'NEW_MEMBER_GROUP_DEFAULT'		=> 'Nastaviť skupinu Noví členovia fóra ako východziu',
-	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'	=> 'Ak je nastavené na Áno a limit pre nových členov je zadaný, registrovaní užívatelia budú zaradený nielen do skupiny <em>Noví členovia fóra</em>, ale táto skupina bude tiež ich východisková. Toto sa môže hodiť, ak chcete priradiť skupine východiskovú pozíciu a avatar užívateľa mu potom ostane.',
-
-	
 	'NO_AUTH_PLUGIN'			=> 'Nebol nájdený vhodný plugin pre autorizáciu.',
 	'PASSWORD_LENGTH'			=> 'Dĺžka hesla',
 	'PASSWORD_LENGTH_EXPLAIN'	=> 'Minimálny a maximálny počet znakov v hesle.',
@@ -243,19 +241,16 @@ $lang = array_merge($lang, array(
 	'USERNAME_LETTER_NUM_SPACERS'	=> 'Akékoľvek písmeno, číslo a medzery',
 	'USERNAME_CHARS'			=> 'Limit znakov užívateľského mena',
 	'USERNAME_CHARS_ANY'		=> 'Akýkoľvek znak',
-	'USERNAME_CHARS_EXPLAIN'	=> 'Obmedziť druh znakov, ktoré môžu byť použité v užívateľskom mene, ako medzery sú chápané; medzera (space), -, +, _, [ a ]',
-	'USERNAME_LENGTH'			=> 'Dĺžka užívateľského meno',
+	'USERNAME_CHARS_EXPLAIN'	=> 'Obmedziť druh znakov, ktoré môžu byť použité v užívateľskom mene, ako medzery sú chápané; medzera, -, +, _, [ a ]',
+	'USERNAME_LENGTH'			=> 'Dĺžka užívateľského mena',
 	'USERNAME_LENGTH_EXPLAIN'	=> 'Minimálny a maximálny počet znakov v užívateľskom mene.',
 ));
-
-
-
 
 // Feeds
 $lang = array_merge($lang, array(
 	'ACP_FEED_MANAGEMENT'				=> 'Všeobecné nastavenia exportov ATOM',
 	'ACP_FEED_MANAGEMENT_EXPLAIN'		=> 'Na tejto stránke môžete povoliť a upraviť rôzne exporty ATOM (vylepšené RSS), ktoré dokážu spracovať príspevky s BBCode a ponúknuť ich na stiahnutie používateľom do ich čítačiek.',
-	
+
 	'ACP_FEED_GENERAL'					=> 'Všeobecné nastavenia exportov',
 	'ACP_FEED_POST_BASED'				=> 'Nastavenia exportov založené na príspevkoch',
 	'ACP_FEED_TOPIC_BASED'				=> 'Nastavenia exportov založené na témach',
@@ -267,7 +262,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_LIMIT_EXPLAIN'			=> 'Počet položiek na zobrazenie v exporte.',
 
 	'ACP_FEED_OVERALL'					=> 'Povoliť export celého fóra',
-	'ACP_FEED_OVERALL_EXPLAIN'			=> 'Nové príspevky na celom fóre.',
+	'ACP_FEED_OVERALL_EXPLAIN'			=> 'Nové príspevky z celého fóra.',
 	'ACP_FEED_FORUM'					=> 'Povoliť exporty jednotlivých fór',
 	'ACP_FEED_FORUM_EXPLAIN'			=> 'Zobrazí nové príspevky z jednotlivých fór.',
 	'ACP_FEED_TOPIC'					=> 'Povolí exporty z jednotlivých tém',
@@ -278,19 +273,18 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_TOPICS_ACTIVE'			=> 'Povoliť exporty aktívnych tém',
 	'ACP_FEED_TOPICS_ACTIVE_EXPLAIN'	=> 'Povolením exportu nových tém sa zobrazia v exporte posledné aktívne témy vrátane prvého príspevku.',
 	'ACP_FEED_NEWS'						=> 'Export noviniek',
-	'ACP_FEED_NEWS_EXPLAIN'				=> 'Vytiahne najnovšie príspevky z určitých fór, ktoré sa zobrazia ako novinky na webe. <br /> Viacero fór vyberiete podržaním tlačidla <samp> CTRL </samp> a vybraním jednotlivých položiek.',
+	'ACP_FEED_NEWS_EXPLAIN'				=> 'Vytiahne najnovšie príspevky z určitých fór, ktoré sa zobrazia ako novinky na webe.<br />Viacero fór vyberiete podržaním tlačidla <samp>CTRL</samp> a vybraním jednotlivých položiek.',
 
-	'ACP_FEED_OVERALL_FORUMS'			=> 'Povoliť export celého fóra',
-	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Tento export zobrazuje najnovšie príspevky zo všetkých tém fóra.',
+	'ACP_FEED_OVERALL_FORUMS'			=> 'Povoliť export fór',
+	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Povolí export „Všetky fóra“, ktorý zobrazuje zoznam fór.',
 
 	'ACP_FEED_HTTP_AUTH'				=> 'Povoliť HTTP autentifikáciu',
 	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Povolením HTTP autentifikácie povolíte užívateľom zobraziť obsah, ktorý je pre hostí skrytý pridaním <samp>auth=http</samp> parametra do URL exportu. Prosím uvedomte si, že niektoré PHP nastavenia potrebujú dodatočné zmeny v .htaccess súbore. Inštrukcie môžete nájsť v tomto súbore.',
-	'ACP_FEED_ITEM_STATISTICS'			=> 'Item statistics',
-	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Display individual statistics underneath feed items<br />(e.g. posted by, date and time, replies, views)',
+	'ACP_FEED_ITEM_STATISTICS'			=> 'Štatistiky položiek',
+	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Zobrazí individuálne štatistiky pod položkami v exporte<br />(napríklad: autora, dátum a čas, počet odpovedí, prezretí)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'Vylúčiť tieto fóra',
-	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'Obsah z týchto fór <strong> nebude zahrnutý v exporte </strong>. Nevyberte žiadne fórum pre použitie všetkých. <br /> Vyberatie viacerých fórach podržaním tlačidla <samp> CTRL </samp> a vybraním jednotlivých položiek.',
+	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'Obsah z týchto fór <strong>nebude zahrnutý v exporte</strong>. Nevyberte žiadne fórum pre použitie všetkých.<br />Vyberte viaceré fóra podržaním tlačidla <samp>CTRL</samp> a vybraním jednotlivých položiek.',
 ));
-
 
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
@@ -299,25 +293,25 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_UNAVAILABLE'					=> 'Plugin nemôže byť vybratý ak jeho požiadavky nie sú splnené.',
 	'CAPTCHA_GD'							=> 'GD obrázok',
 	'CAPTCHA_GD_3D'							=> 'GD 3D obrázok',
-	'CAPTCHA_GD_FOREGROUND_NOISE'			=> 'Šum na popredí',
-	'CAPTCHA_GD_EXPLAIN'					=> 'Používa GD, pre viac pokročilý obrázok ako ochranu pred spambotmi.',
-	'CAPTCHA_GD_FOREGROUND_NOISE_EXPLAIN'	=> 'Použite šum na popredí, aby bol obrázok ťažší na čítanie.',
-	'CAPTCHA_GD_X_GRID'						=> 'Šum na pozadí x-osi',
-	'CAPTCHA_GD_X_GRID_EXPLAIN'				=> 'Používať nastavenie nižšie, aby sa obrázok ťažšie čítal. 0 zakáže x-osi šum na pozadí.',
-	'CAPTCHA_GD_Y_GRID'						=> 'Šum na pozadí y-osi',
-	'CAPTCHA_GD_Y_GRID_EXPLAIN'				=> 'Používať nastavenie nižšie, aby sa obrázok ťažšie čítal. 0 zakáže y-osi šum na pozadí.',
+	'CAPTCHA_GD_FOREGROUND_NOISE'			=> 'Šum v popredí',
+	'CAPTCHA_GD_EXPLAIN'					=> 'Používa GD pre viac pokročilý obrázok ako ochranu pred spambotmi.',
+	'CAPTCHA_GD_FOREGROUND_NOISE_EXPLAIN'	=> 'Použite šum v popredí, aby bol obrázok ťažší na čítanie.',
+	'CAPTCHA_GD_X_GRID'						=> 'Šum v pozadí x-osi',
+	'CAPTCHA_GD_X_GRID_EXPLAIN'				=> 'Použite nastavenie nižšie, aby sa obrázok ťažšie čítal. 0 zakáže šum na x-osi v pozadí.',
+	'CAPTCHA_GD_Y_GRID'						=> 'Šum v pozadí y-osi',
+	'CAPTCHA_GD_Y_GRID_EXPLAIN'				=> 'Použite nastavenie nižšie, aby sa obrázok ťažšie čítal. 0 zakáže šum na y-osi v pozadí.',
 	'CAPTCHA_GD_WAVE'						=> 'Skreslenie vlnou',
 	'CAPTCHA_GD_WAVE_EXPLAIN'				=> 'Toto vytvorí skreslenie obrazu vlnou.',
 	'CAPTCHA_GD_3D_NOISE'					=> 'Pridať šum 3D-objektov',
-	'CAPTCHA_GD_3D_NOISE_EXPLAIN'			=> 'Toto pridáva ďalšie objekty k obrázku, cez písmená.',
+	'CAPTCHA_GD_3D_NOISE_EXPLAIN'			=> 'Toto pridáva cez písmená k obrázku aj ďalšie objekty.',
 	'CAPTCHA_GD_FONTS'						=> 'Použiť rôzne fonty',
-	'CAPTCHA_GD_FONTS_EXPLAIN'				=> 'Toto nastavenie určuje použitie mnoho rôznych tvarov písma. Stačí použiť predvolené tvary alebo zaviesť zmenu písma. Pridanie malých písmen je tiež možné.',
+	'CAPTCHA_GD_FONTS_EXPLAIN'				=> 'Toto nastavenie určuje použitie mnoho rôznych tvarov písma. Stačí použiť predvolené tvary alebo zaviesť zmenu písma. Možné je pridanie aj malých písmen.',
 	'CAPTCHA_FONT_DEFAULT'					=> 'Predvolené',
 	'CAPTCHA_FONT_NEW'						=> 'Nové tvary',
 	'CAPTCHA_FONT_LOWER'					=> 'Použiť malé písmená',
 	'CAPTCHA_NO_GD'							=> 'Jednoduchý obrázok',
 	'CAPTCHA_PREVIEW_MSG'					=> 'Vaše zmeny neboli uložené, toto je len náhľad.',
-	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'Plugin - ako to bude vyzerať s aktuálnym nastavením.',
+	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'Plugin - ako to bude vyzerať s aktuálnymi nastaveniami.',
 
 	'CAPTCHA_SELECT'						=> 'Inštalované pluginy',
 	'CAPTCHA_SELECT_EXPLAIN'				=> 'Vyberte si plugin. Šedé označenie - pluginy nie sú k dispozícii a možno bude potrebné ich nastaviť pred použitím.',
@@ -327,11 +321,11 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_NO_OPTIONS'					=> 'Tento plugin nemá žiadne možnosti konfigurácie.',
 
 	'VISUAL_CONFIRM_POST'					=> 'Povoliť ochranu pred spambotmi pre prispievanie hostí',
-	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'Vyžaduje vložiť kód proti spambotom pre zabránenie automatických odpovedí.',
+	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'Požaduje od hostí vložiť kód proti spambotom pre zabránenie automatických odpovedí.',
 	'VISUAL_CONFIRM_REG'					=> 'Povoliť ochranu pred spambotmi pri registrácii',
-	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'Vyžaduje vložiť kód proti spambotom pre zabránenie automatických registrácií.',
+	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'Požaduje od nového užívateľa vložiť kód proti spambotom pre zabránenie automatických registrácií.',
 	'VISUAL_CONFIRM_REFRESH'				=> 'Povoliť používateľom aktualizovať obrázok proti spambotom',
-	'VISUAL_CONFIRM_REFRESH_EXPLAIN'		=> 'Umožňuje užívateľom požiadať o nový anti-spambot obrázok, ak ho nie sú schopný prečítať pri registrácii. Niektoré pluginy nemusia túto možnosť podporovať.',
+	'VISUAL_CONFIRM_REFRESH_EXPLAIN'		=> 'Umožňuje užívateľom požiadať o nový anti-spambot obrázok, ak ho nie sú schopní prečítať počas registrácie. Niektoré pluginy nemusia túto možnosť podporovať.',
 ));
 
 // Cookie Settings
@@ -342,16 +336,16 @@ $lang = array_merge($lang, array(
 	'COOKIE_NAME'				=> 'Názov cookie',
 	'COOKIE_PATH'				=> 'Cesta ku cookie',
 	'COOKIE_SECURE'				=> 'Zabezpečená cookie',
-	'COOKIE_SECURE_EXPLAIN'		=> 'Ak váš server beží výhradne cez SSL, nastavte na povolené, ak nie tak nastavte zakázané. Povolenie pri serveri nebežiacom cez SSL môže vyústiť do chýb servera počas presmerovávania.',
+	'COOKIE_SECURE_EXPLAIN'		=> 'Ak váš server beží výhradne cez SSL, nastavte na povolené, ak nie, nastavte zakázané. Povolenie pri serveri nebežiacom cez SSL môže vyústiť do chýb servera počas presmerovávania.',
 	'ONLINE_LENGTH'				=> 'Doba zobrazenia online',
-	'ONLINE_LENGTH_EXPLAIN'		=> 'Doba v minútach, po ktorej sa neaktívny užívatelia nebudú objavovať v zoznamoch online užívateľov - čím je hodnota vyššia, tým je náročnejšie spracovanie tohto zoznamu.',
-	'SESSION_LENGTH'			=> 'Dĺžka platnosti Session',
+	'ONLINE_LENGTH_EXPLAIN'		=> 'Doba v minútach, po ktorej sa neaktívny užívatelia nebudú objavovať v zoznamoch online užívateľov - čím je hodnota vyššia, tým je náročnejšie vytváranie tohto zoznamu.',
+	'SESSION_LENGTH'			=> 'Dĺžka platnosti session',
 	'SESSION_LENGTH_EXPLAIN'	=> 'Session stratí platnosť po uplynutí tohto času (v sekundách).',
 ));
 
 // Load Settings
 $lang = array_merge($lang, array(
-	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Tu je možné zapnúť a vypnúť niektoré funkcie fóra, pre zníženie nárokov na server. Na väčšine serverov nie je potrebné vypínať akékoľvek funkcie. Každopádne na niektorých systémoch, či zdieľaných hostingoch môže byť užitočné vypnúť funkcie, ktoré pre svoje použitie skutočne nepotrebujete. Môžeš taktiež stanoviť limity zaťaženia systému a aktívnych sessions, po ktorých prekročení sa fórum odpojí.',
+	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Tu je možné zapnúť a vypnúť niektoré funkcie fóra, pre zníženie nárokov na server. Na väčšine serverov nie je potrebné vypínať akékoľvek funkcie. Každopádne, na niektorých systémoch či zdieľaných hostingoch môže byť užitočné vypnúť funkcie, ktoré pre svoje použitie skutočne nepotrebujete. Môžete taktiež stanoviť limity zaťaženia systému a aktívnych sessions, po ktorých prekročení sa fórum odpojí.',
 
 	'CUSTOM_PROFILE_FIELDS'			=> 'Voliteľné polia profilu',
 	'LIMIT_LOAD'					=> 'Obmedzenie systémového zaťaženia',
@@ -362,83 +356,83 @@ $lang = array_merge($lang, array(
 	'LOAD_CPF_VIEWPROFILE'			=> 'Zobrazovať voliteľné polia profilu v užívateľských profiloch',
 	'LOAD_CPF_VIEWTOPIC'			=> 'Zobrazovať voliteľné polia profilu v zobrazeniach tém',
 	'LOAD_USER_ACTIVITY'			=> 'Zobrazovať aktivitu užívateľov',
-	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'Zobrazuje najaktívnejšiu tému/fórum v užívateľovom profile a užívateľskom kontrolnom paneli. Odporúča sa vypnúť túto funkciu pri fórach s viac ako milión príspevkami.',
+	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'Zobrazuje najaktívnejšiu tému/fórum v užívateľovom profile a v užívateľskom kontrolnom paneli. Odporúča sa vypnúť túto funkciu pri fórach s viac ako milión príspevkami.',
 	'RECOMPILE_STYLES'			=> 'Nanovo kompilovať staré šablóny',
 	'RECOMPILE_STYLES_EXPLAIN'	=> 'Skontroluje zmenené súbory šablón a prekompiluje ich.',
 	'YES_ANON_READ_MARKING'			=> 'Povoliť označovanie tém pre anonymných užívateľov',
-	'YES_ANON_READ_MARKING_EXPLAIN'	=> 'Uchováva informáciu o čítaných/nečítaných témach aj pre anonymných užívateľov. Ak je vypnuté, sú príspevky vždy označené ako prečítané pre hostí.',
+	'YES_ANON_READ_MARKING_EXPLAIN'	=> 'Uchováva informáciu o čítaných/nečítaných témach aj pre anonymných užívateľov. Ak je vypnuté, pre hostí sú príspevky vždy označené ako prečítané.',
 	'YES_BIRTHDAYS'					=> 'Povoliť vypisovanie narodenín',
-	'YES_BIRTHDAYS_EXPLAIN'			=> 'Ak nie je táto možnosť zapnutá, výpis narodenín sa nebude zobrazovať. Pre správne fungovanie musia byť povolené aj narodeniny.',	
+	'YES_BIRTHDAYS_EXPLAIN'			=> 'Ak nie je táto možnosť zapnutá, výpis narodenín sa nebude zobrazovať. Pre správne fungovanie musia byť povolené aj narodeniny.',
 	'YES_JUMPBOX'					=> 'Povoliť zobrazovanie Skočiť na',
-	'YES_MODERATORS'				=> 'Povoliť zobrazovanie Moderátorov',
-	'YES_ONLINE'					=> 'Povoliť vypisovanie pripojených užívateľov',
-	'YES_ONLINE_EXPLAIN'			=> 'Zobrazovať pripojených užívateľov na stránkach indexu, fór a a tém.',
-	'YES_ONLINE_GUESTS'				=> 'Povoliť anonymných v Kto je on-line',
-	'YES_ONLINE_GUESTS_EXPLAIN'		=> 'Povolí vypisovanie anonymných užívateľov v časti Kto je on-line.',
+	'YES_MODERATORS'				=> 'Povoliť zobrazovanie moderátorov',
+	'YES_ONLINE'					=> 'Povoliť vypisovanie online užívateľov',
+	'YES_ONLINE_EXPLAIN'			=> 'Zobrazovať online užívateľov na stránkach indexu, fór a a tém.',
+	'YES_ONLINE_GUESTS'				=> 'Povoliť zoznam hostí v Kto je on-line',
+	'YES_ONLINE_GUESTS_EXPLAIN'		=> 'Povolí vypisovanie hostí (anonymných užívateľov) v časti Kto je on-line.',
 	'YES_ONLINE_TRACK'				=> 'Povoliť obrázkové zobrazenie online stavu',
-	'YES_ONLINE_TRACK_EXPLAIN'		=> 'Zobrazí pomocou obrázku užívateľov online stav v profiloch a zobrazeniach tém. ',
-	'YES_POST_MARKING'				=> 'Povoliť bodky na témach',
-	'YES_POST_MARKING_EXPLAIN'		=> 'Označuje, či užívateľ prispel do diskusie.',
+	'YES_ONLINE_TRACK_EXPLAIN'		=> 'Zobrazí pre užívateľa informáciu o online stave v profiloch a v zobrazeniach tém.',
+	'YES_POST_MARKING'				=> 'Povoliť bodkovanie tém',
+	'YES_POST_MARKING_EXPLAIN'		=> 'Označuje, či užívateľ poslal príspevok do danej témy.',
 	'YES_READ_MARKING'				=> 'Povoliť značenie tém na serveri',
 	'YES_READ_MARKING_EXPLAIN'		=> 'Uchováva informáciu o čítaných/nečítaných témach v databáze namiesto uchovávania v cookie.',
-	'YES_UNREAD_SEARCH'				=> 'Povoliť vyhľadávanie nových príspevkov',
+	'YES_UNREAD_SEARCH'				=> 'Povoliť vyhľadávanie neprečítaných príspevkov',
 ));
 
 // Auth settings
 $lang = array_merge($lang, array(
 	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'phpBB podporuje overovacie plug-iny a moduly. Tie umožňujú stanoviť, ako sú užívatelia overovaní pri prihlasovaní sa do fóra. Štandardne sú k dispozícii tri plug-iny; DB, LDAP a Apache. Nie všetky metódy vyžadujú dodatočné informácie, preto vyplňte iba polia, ktoré sú pre danú metódu dôležité.',
 
-	'AUTH_METHOD'				=> 'Vyber metódu overenia',
+	'AUTH_METHOD'				=> 'Vyberte metódu overenia',
 
-	'APACHE_SETUP_BEFORE_USE'	=> 'Pred zapnutím tejto metódy overovania v phpBB, musíš najskôr nastaviť apache overovanie. Maj pri tom na pamäti, že užívateľské meno pre apache overovanie, musí byť rovnaké, ako tvoje phpBB užívateľské meno.',
+	'APACHE_SETUP_BEFORE_USE'	=> 'Pred zapnutím tejto metódy overovania v phpBB, musíte najskôr nastaviť apache overovanie. Majte pri tom na pamäti, že užívateľské meno pre apache overovanie musí byť rovnaké, ako vaš phpBB užívateľské meno.',
 
-	'LDAP_DN'					=> 'LDAP báza <var>dn</var>',
-	'LDAP_DN_EXPLAIN'			=> 'Toto je tzv. Distinguished Name, lokalizujúce užívateľské informácie napr. <samp>o=My Company,c=US</samp>',
+	'LDAP_DN'					=> 'LDAP základ <var>dn</var>',
+	'LDAP_DN_EXPLAIN'			=> 'Toto je tzv. Distinguished Name, lokalizujúce užívateľské informácie, napr. <samp>o=Moja Spoločnosť,c=US</samp>',
 	'LDAP_EMAIL'				=> 'LDAP emailový atribút',
-	'LDAP_EMAIL_EXPLAIN'		=> 'Sem zadajte názov vášho vloženého emailového atribútu (ak nejaký existuje), aby bolo možné automaticky nastaviť emailovú adresu pre nových užívateľov. Ponechajte toto pole prázdne a užívatelia prihlásený po prvý krát budú mať prázdnu emailovú adresu.',
+	'LDAP_EMAIL_EXPLAIN'		=> 'Sem zadajte názov vášho vloženého emailového atribútu (ak nejaký existuje), aby bolo možné automaticky nastaviť emailovú adresu pre nových užívateľov. Ponechajte toto pole prázdne a užívatelia prihlásený po prvýkrát budú mať prázdnu emailovú adresu.',
 	'LDAP_INCORRECT_USER_PASSWORD'	=> 'Pripojenie k LDAP serveru sa so zadanými údajmi nepodarilo.',
 	'LDAP_NO_EMAIL'				=> 'Stanovený emailový atribút neexistuje.',
 	'LDAP_NO_IDENTITY'			=> 'Nebolo možné nájsť prihlasovaciu identitu pre %s',
 	'LDAP_PASSWORD'					=> 'LDAP heslo',
-	'LDAP_PASSWORD_EXPLAIN'			=> 'Zanechajte prázdne pre použitie anonymného prístupu. V opačnom prípade, vyplňte heslo pre hore uvedeného užívateľa. Požaduje sa pre Aktívny adresárové servery.<br /><em><strong>UPOZORNENIE:</strong> Toto heslo bude uložené ako nezakódovaný text, viditeľný pre každého, kto má prístup k vašej databáze alebo kto môže vidieť túto konfiguráciu.</em>',
+	'LDAP_PASSWORD_EXPLAIN'			=> 'Zanechajte prázdne pre použitie anonymného prístupu. V opačnom prípade vyplňte heslo pre hore uvedeného užívateľa. Požaduje sa pre Active Directory servery.<br /><em><strong>UPOZORNENIE:</strong> Toto heslo bude uložené ako nezakódovaný text, viditeľný pre každého, kto má prístup k vašej databáze alebo kto môže vidieť túto konfiguráciu.</em>',
 	'LDAP_PORT'                  => 'Port LDAP servera',
 	'LDAP_PORT_EXPLAIN'            => 'Môžete uviesť iný ako prednastavený port 389 a ten sa následne použije pre spojenie s LDAP serverom.',
   'LDAP_SERVER'				=> 'Názov LDAP servera',
 	'LDAP_SERVER_EXPLAIN'		=> 'Ak používate LDAP, toto je názov resp. IP adresa LDAP servera. Prípadne môžete uviesť URL adresu ldap://hostname:port/',
 	'LDAP_UID'					=> 'LDAP <var>uid</var>',
-	'LDAP_UID_EXPLAIN'			=> 'Toto je kľúč, pod ktorých sa vyhľadáva daná login identita, napr. <var>uid</var>, <var>sn</var>, atď.',
+	'LDAP_UID_EXPLAIN'			=> 'Toto je kľúč, pomocou ktorého sa vyhľadáva daná prihlasovacia identita, napr. <var>uid</var>, <var>sn</var>, atď.',
 	'LDAP_USER'						=> 'LDAP užívateľ <var>dn</var>',
-	'LDAP_USER_EXPLAIN'				=> 'Zanechajte prázdne pre anonymný prístup. Ak je vyplnené, phpBB sa pokúsi pripojiť na server ako daný užívateľ, napr. <samp>uid=Username,ou=MyUnit,o=MyCompany,c=US</samp>. Vyžadované pre Active Directory Servere.',
+	'LDAP_USER_EXPLAIN'				=> 'Zanechajte prázdne pre anonymný prístup. Ak je vyplnené, phpBB sa pokúsi pripojiť na server ako daný užívateľ, napr. <samp>uid=UzivatelskeMeno,ou=MojaJednotka,o=MojaSpolocnost,c=US</samp>. Vyžadované pre Active Directory servery.',
 	'LDAP_USER_FILTER'				=> 'LDAP filter užívateľa',
-	'LDAP_USER_FILTER_EXPLAIN'      => 'Rôznymi nastaveniami filtrov môžete dodatočne obmedziť vyhľadávanie objektov. Ak napríklad zadáte <samp>objectClass=posixGroup</samp> prejaví sa to použitím <samp>(&(uid=$username)(objectClass=posixGroup))</samp>',
+	'LDAP_USER_FILTER_EXPLAIN'      => 'Rôznymi nastaveniami filtrov môžete dodatočne obmedziť vyhľadávanie objektov. Ak napríklad zadáte <samp>objectClass=posixGroup</samp>, prejaví sa to použitím <samp>(&(uid=$username)(objectClass=posixGroup))</samp>',
 ));
 
 // Server Settings
 $lang = array_merge($lang, array(
-	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Tu stanovujete dôležité nastavenia serveru a domény. Prosím, ubezpečte sa, že informácie ktoré vkladáte sú správne, v prípade chýb budú odoslané emaily, obsahujúce nesprávnu informáciu. Pri vkladní názvu domény majte prosím na pamäti, že musím obsahovať aj http:// či označenie pre iný protokol. Číslo portu meňte iba v prípade, ak ste si istý tým, že server používa inú hodnotu - port 80 je správny vo väčšine prípadov.',
+	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Tu stanovujete dôležité nastavenia servera a domény. Prosím, ubezpečte sa, že informácie ,ktoré vkladáte sú správne. V prípade chýb budú odoslané emaily obsahujúce nesprávnu informáciu. Pri vkladní názvu domény majte, prosím, na pamäti, že doména musí obsahovať aj http:// či označenie pre iný protokol. Číslo portu meňte iba v prípade, ak ste si istý tým, že server používa inú hodnotu - port 80 je správny vo väčšine prípadov.',
 
 	'ENABLE_GZIP'				=> 'Povoliť GZip kompresiu',
-	'ENABLE_GZIP_EXPLAIN'		=> 'Generovaný obsah bude pred odoslaním užívateľovi skomprimovaný. To môže znížiť objem prenesených dát, ale zvýši zaťaženie CPU na strane servera i užívateľa. Vyžaduje prítomnosť povoleného rozšírenia PHP zlib.',
-	'FORCE_SERVER_VARS'			=> 'Prepíš serverové URL nastavenia',
-	'FORCE_SERVER_VARS_EXPLAIN'	=> 'Ak je zapnuté, serverové nastavenia definované tu, budú použité namiesto automaticky získaných hodnôt',
-	'ICONS_PATH'				=> 'Cesta k ikonám témy',
-	'ICONS_PATH_EXPLAIN'		=> 'Cesta z tvojho domovského phpBB adresára, napr. <samp>images/icons</samp>',
+	'ENABLE_GZIP_EXPLAIN'		=> 'Generovaný obsah bude pred odoslaním užívateľovi skomprimovaný. To môže znížiť objem prenesených dát, ale zvýši zaťaženie CPU (procesora) na strane servera i užívateľa. Vyžaduje prítomnosť povoleného rozšírenia PHP zlib.',
+	'FORCE_SERVER_VARS'			=> 'Prepísať serverové URL nastavenia',
+	'FORCE_SERVER_VARS_EXPLAIN'	=> 'Ak je zapnuté, serverové nastavenia definované tu budú použité namiesto automaticky získaných hodnôt.',
+	'ICONS_PATH'				=> 'Cesta k ikonám tém',
+	'ICONS_PATH_EXPLAIN'		=> 'Cesta z vášho koreňového phpBB adresára, napr. <samp>images/icons</samp>',
 	'PATH_SETTINGS'				=> 'Nastavenia ciest',
 	'RANKS_PATH'				=> 'Cesta k ikonám hodnotení',
-	'RANKS_PATH_EXPLAIN'		=> 'Cesta z tvojho domovského phpBB adresára, napr. <samp>images/ranks</samp>',
+	'RANKS_PATH_EXPLAIN'		=> 'Cesta z vášho koreňového phpBB adresára, napr. <samp>images/ranks</samp>',
 	'SCRIPT_PATH'				=> 'Cesta ku skriptom',
 	'SCRIPT_PATH_EXPLAIN'		=> 'Cesta relatívna od názvu domény, napr. <samp>/phpBB3</samp>.',
 	'SERVER_NAME'				=> 'Názov domény',
 	'SERVER_NAME_EXPLAIN'		=> 'Názov domény, z ktorej beží toto fórum (napríklad: <samp>www.foo.bar</samp>)',
 	'SERVER_PORT'				=> 'Port servera',
-	'SERVER_PORT_EXPLAIN'		=> 'Port, na ktorom beží váš server (väčšinou 80). Zmeňte iba ak je stanovený íný port',
+	'SERVER_PORT_EXPLAIN'		=> 'Port, na ktorom beží váš server (väčšinou 80). Zmeňte iba ak je stanovený iný port',
 	'SERVER_PROTOCOL'			=> 'Protokol servera',
 	'SERVER_PROTOCOL_EXPLAIN'	=> 'Tieto nastavenia sa používajú pre komunikačný protokol servera pre prípad, že sú zmenené/nie sú nastavené v adrese. Ak je toto pole ponechané prázdne, alebo sa protokol nenachádza v adrese, potom sa protokol zisťuje z nastavení zabepečenia cookie (<samp>http://</samp> alebo <samp>https://</samp>).',
 	'SERVER_URL_SETTINGS'		=> 'Nastavenia URL servera',
 	'SMILIES_PATH'				=> 'Cesta k ikonám smajlíkov',
-	'SMILIES_PATH_EXPLAIN'		=> 'Cesta z domovského phpBB adresára, napr. <samp>images/smilies</samp>.',
-	'UPLOAD_ICONS_PATH'			=> 'Cesta k ikonkám typov súborov',
-	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'Cesta z domovského phpBB adresára, napr. <samp>images/upload_icons</samp>.',
+	'SMILIES_PATH_EXPLAIN'		=> 'Cesta z vášho koreňového phpBB adresára, napr. <samp>images/smilies</samp>.',
+	'UPLOAD_ICONS_PATH'			=> 'Cesta k ikonám typov súborov',
+	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'Cesta z vášho koreňového phpBB adresára, napr. <samp>images/upload_icons</samp>.',
 ));
 
 // Security Settings
@@ -448,32 +442,32 @@ $lang = array_merge($lang, array(
 	'ALL'							=> 'Všetko',
 	'ALLOW_AUTOLOGIN'				=> 'Povoliť trvalé prihlásenia',
 	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'Nastavuje, či je povolené automatické prihlásenie užívateľa pri návšteve fóra.',
-	'AUTOLOGIN_LENGTH'				=> 'Maximálny počet dní pre trvalé prihlásenia (v dňoch)',
+	'AUTOLOGIN_LENGTH'				=> 'Maximálny počet dní pre trvalé prihlásenie (v dňoch)',
 	'AUTOLOGIN_LENGTH_EXPLAIN'		=> 'Doba v dňoch, po ktorej uplynutí prestanú byť trvalé prihlásenia platné, alebo nula pre neobmedzenú dobu.',
 	'BROWSER_VALID'					=> 'Overiť prehliadač',
 	'BROWSER_VALID_EXPLAIN'			=> 'Overí internetový prehliadač pre každú session, pre zvýšenie bezpečnosti.',
-	'CHECK_DNSBL'					=> 'Skontroluj IP na DNS Čiernej listine',
-	'CHECK_DNSBL_EXPLAIN'			=> 'Ak je zapnuté, bude overovať IP na nasledujúcich DNSBL službách pri registrácii a posielaní príspevkov: <a href="http://spamcop.net">spamcop.net</a> a <a href="http://spamhaus.org">spamhaus.org</a>. Toto overenie môže chvíľu trvať, v závislosti od nastavenia serveru. Ak sú predpokladané spomalenia fóra, alebo je oznamovaných príliš veľa pozitívnych identifikácií, vypnite toto nastavenie.',
+	'CHECK_DNSBL'					=> 'Skontrolovať IP na DNS Čiernej listine',
+	'CHECK_DNSBL_EXPLAIN'			=> 'Ak je zapnuté, bude overovať IP na nasledujúcich DNSBL službách pri registrácii a posielaní príspevkov: <a href="http://spamcop.net">spamcop.net</a> a <a href="http://spamhaus.org">spamhaus.org</a>. Toto overenie môže chvíľu trvať, v závislosti od nastavenia servera. Ak sú predpokladané spomalenia fóra, alebo je oznamovaných príliš veľa pozitívnych identifikácií, vypnite toto nastavenie.',
 	'CLASS_B'						=> 'A.B',
 	'CLASS_C'						=> 'A.B.C',
-	'EMAIL_CHECK_MX'				=> 'Over na doméne správnosť MX záznamu emailov',
+	'EMAIL_CHECK_MX'				=> 'Overiť na doméne správnosť MX záznamu emailov',
 	'EMAIL_CHECK_MX_EXPLAIN'		=> 'Ak je zapnuté, MX záznam vloženej emailovej adresy je overovaný pri registrácií a zmene profilu.',
 	'FORCE_PASS_CHANGE'				=> 'Vyžadovať zmenu hesla',
 	'FORCE_PASS_CHANGE_EXPLAIN'		=> 'Vyžaduje od užívateľa aby menil svoje heslo po stanovenom počte dní alebo nastavte nulu pre vypnutie tejto funkcie.',
 	'FORM_TIME_MAX'					=> 'Maximálny čas pre odoslanie formulára',
-	'FORM_TIME_MAX_EXPLAIN'			=> 'Čas, ktorý ma užívateľ na odoslanie formulára. Pre vypnutie použite -1. Nezabúdajte, že formulár sa môže stať neplatný ak vyprší platnosť session - bez ohľadu na toto nastavenie.',
+	'FORM_TIME_MAX_EXPLAIN'			=> 'Čas, ktorý ma užívateľ na odoslanie formulára. Pre vypnutie použite -1. Nezabúdajte, že formulár sa môže stať neplatný ak vyprší platnosť session bez ohľadu na toto nastavenie.',
 	'FORM_SID_GUESTS'				=> 'Previazať formulár so session hosťa',
-	'FORM_SID_GUESTS_EXPLAIN'		=> 'Ak povolíte túto možnosť, formulár otvorený hosťom bude závislý od jeho session. Toto nastavenie spôsobuje problémy u niektorých providerov.',
+	'FORM_SID_GUESTS_EXPLAIN'		=> 'Ak povolíte túto možnosť, formulár otvorený hosťom bude závislý od jeho session. Toto nastavenie môže spôsobovať problémy u niektorých poskytovateľov internetu.',
 	'FORWARDED_FOR_VALID'			=> 'Overenie hlavičky <var>X_FORWARDED_FOR</var>',
 	'FORWARDED_FOR_VALID_EXPLAIN'	=> 'Užívateľ zostane prihlásený, iba pokiaľ bude súhlasiť odoslaná hlavička <var>X_FORWARDED_FOR</var> s tou z minulého požiadavku. Bany budú kontrolované podľa IP adries v <var>X_FORWARDED_FOR</var>.',
 	'IP_VALID'						=> 'Overovanie IP pre session',
 	'IP_VALID_EXPLAIN'				=> 'Stanovuje, aká časť z užívateľovej IP sa používa pre overenie session; <samp>Všetky</samp> porovná celú adresu, <samp>A.B.C</samp> porovná prvé 3 čísla x.x.x, <samp>A.B</samp> prvé 2 x.x, <samp>Nič</samp> vypne overovanie.',
-	'IP_LOGIN_LIMIT_MAX'			=> 'Maximálne počet pokusov o prihlásenie na IP adresu',
-	'IP_LOGIN_LIMIT_MAX_EXPLAIN'	=> 'Maximálny počet pokusov o prihlásenie z jednej IP adresy pred využitím anti-spam kódu. Nastavte 0 pre neobmedzené množstvo zlých prihlásení.',
+	'IP_LOGIN_LIMIT_MAX'			=> 'Maximálny počet pokusov o prihlásenie na IP adresu',
+	'IP_LOGIN_LIMIT_MAX_EXPLAIN'	=> 'Maximálny počet pokusov o prihlásenie z jednej IP adresy pred využitím anti-spam kódu. Vložte 0 aby ste zabránili zobrazovaniu anti-spambot kódu kvôli veľkému počtu zlých prihlásení.',
 	'IP_LOGIN_LIMIT_TIME'			=> 'Vypršanie času pre pokusy o prihlásenie z IP',
 	'IP_LOGIN_LIMIT_TIME_EXPLAIN'	=> 'Pokusy o prihlásenie končia uplynutím tejto doby.',
 	'IP_LOGIN_LIMIT_USE_FORWARDED'	=> 'Obmedziť pokusy o prihlásenie pomocou hlavičky <var>X_FORWARDED_FOR</var>',
-	'IP_LOGIN_LIMIT_USE_FORWARDED_EXPLAIN'	=> 'Miesto obmedzenia počtu prihlásení podla IP adresy, sa použijú hodnoty z hlavičky <var>X_FORWARDED_FOR</var>. <br /><em><strong>Upozornenie:</strong> Povolte iba v prípade, že pracujete s proxy servermi, ktoré nastavujú hlavičky <var>X_FORWARDED_FOR</var> na spolahlivé hodnoty.</em>',	  
+	'IP_LOGIN_LIMIT_USE_FORWARDED_EXPLAIN'	=> 'Miesto obmedzenia počtu prihlásení podla IP adresy sa použijú hodnoty z hlavičky <var>X_FORWARDED_FOR</var>. <br /><em><strong>Upozornenie:</strong> Povoľte iba v prípade, že pracujete s proxy servermi, ktoré nastavujú hlavičky <var>X_FORWARDED_FOR</var> na spoľahlivé hodnoty.</em>',
 	'MAX_LOGIN_ATTEMPTS'			=> 'Maximálny počet pokusov o prihlásenie na užívateľa',
 	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> 'Maximálny počet pokusov o prihlásenie pre jedného užívateľa pred využitím anti-spam kódu. Nastavte 0 pre neobmedzené množstvo zlých prihlásení.',
 	'NO_IP_VALIDATION'				=> 'Nič',

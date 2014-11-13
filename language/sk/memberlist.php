@@ -110,7 +110,6 @@ $lang = array_merge($lang, array(
 
 	'POST_IP'				=> 'Odoslané z ip adresy/domény',
 
-	'RANK'					=> 'Hodnotenia',
 	'REAL_NAME'				=> 'Meno príjemcu',
 	'RECIPIENT'				=> 'Príjemca',
 	'REMOVE_FOE'			=> 'Odstrániť nepriateľa',
@@ -133,12 +132,12 @@ $lang = array_merge($lang, array(
 	'USER_ADMIN'			=> 'Upraviť užívateľa',
 	'USER_BAN'				=> 'Udeliť ban',
 	'USER_FORUM'			=> 'Štatistiky užívateľov',
-	
+
 	'USER_LAST_REMINDED'	=> array(
 		0		=> 'Žiadne pripomenutie nebolo odoslané',
 		1		=> 'Odoslané %1$d pripomenutie<br />» %2$s',
 	),
-	
+
 	'USER_ONLINE'			=> 'Prítomný',
 	'USER_PRESENCE'			=> 'Obrázok postavičky',
 

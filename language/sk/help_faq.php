@@ -333,7 +333,7 @@ $help = array(
 	),
 	array(
 		0 => 'Prečo nie je k dispozícii funkcia X?',
-		1 => 'Tento software bol napísaný a licencovaný cez phpBB Group. Máte dojem, že je potrebné pridať nejakú funkciu, navštívte stránku <a href="http://www.phpbb.com/" rel="external">http://www.phpbb.com</a> a overte si, čo phpBB Group povie. Prosím, nevkladajte tieto požiadavky na fórum phpbb.com, phpBB Group používa sourceforge k skúšaniu nových možností. Prosím, prečítajte si fóra a overte si, či už sa niečo také neskúšalo a nasledujte príslušné inštrukcie.'
+		1 => 'Tento software bol napísaný a licencovaný cez phpBB Group. Máte dojem, že je potrebné pridať nejakú funkciu alebo chcete oznámiť chybu, prosíme, navštívte phpBB <a href="http://area51.phpbb.com/">Area51</a> stránku, kde nájdete dostupné zdroje na vykonanie toho, čo chcete urobiť.'
 	),
 	array(
 		0 => 'Koho mám kontaktovať ohľadom obťažujúcich e-mailov alebo právnych záležitostí fóra?',

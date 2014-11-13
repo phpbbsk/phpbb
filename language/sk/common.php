@@ -40,11 +40,11 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> 'Slovenský preklad: <a href="http://www.phpbb3.sk">phpbb3.sk</a> | <a href="http://www.phpbb.sk">phpbb.sk</a>.',
+	'TRANSLATION_INFO'	=> 'Slovenský preklad: <a href="http://www.senky.net/">Senky</a> & <a href="http://phpbb3hacks.com/">Kamahl</a>.',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'USER_LANG'			=> 'sk',
-	
+
 	'1_DAY'			=> '1 deň',
 	'1_MONTH'		=> '1 mesiac',
 	'1_YEAR'		=> '1 rok',
@@ -191,7 +191,7 @@ $lang = array_merge($lang, array(
 	'FORM_INVALID'			=> 'Odoslaný formulár nebol platný. Pokúste sa ho odoslať znovu.',
 	'FORUM'					=> 'Fórum',
 	'FORUMS'				=> 'Fóra',
-	'FORUMS_MARKED'			=> 'Vybrané fóra boli označené ako prečítané',
+	'FORUMS_MARKED'			=> 'Fóra boli označené ako prečítané',
 	'FORUM_CAT'				=> 'Kategória fóra',
 	'FORUM_INDEX'			=> 'Obsah fóra',
 	'FORUM_LINK'			=> 'Odkaz na fórum',
@@ -291,7 +291,7 @@ $lang = array_merge($lang, array(
 
 	'KB'					=> 'KB',
   'KIB'					=> 'KiB',
-  
+
 	'LAST_POST'							=> 'Posledný príspevok',
 	'LAST_UPDATED'						=> 'Posledná aktualizácia',
 	'LAST_VISIT'						=> 'Posledná návšteva',
@@ -449,6 +449,7 @@ $lang = array_merge($lang, array(
 	'POST_TIME'				=> 'Čas odoslania',
 	'POST_TOPIC'			=> 'Odoslať novú tému',
 	'POST_UNAPPROVED'		=> 'Tento príspevok čaká na schválenie. Kliknite pre odsúhlasenie príspevku.',
+	'POWERED_BY'			=> 'Poháňa %s',
 	'PREVIEW'				=> 'Náhľad',
 	'PREVIOUS'				=> 'Predchádzajúci',// Použité pri stránkovaní
 	'PREVIOUS_STEP'			=> 'Predchádzajúci',
@@ -457,6 +458,7 @@ $lang = array_merge($lang, array(
 	'PRIVATE_MESSAGES'		=> 'Súkromné správy',
 	'PRIVATE_MESSAGING'		=> 'Súkromné správy',
 	'PROFILE'				=> 'Užívateľský panel',
+	'RANK'						=> 'Hodnosť',
 
 	'READING_FORUM'				=> 'Prezerá témy v %s',
 	'READING_GLOBAL_ANNOUNCE'	=> 'Číta globálne oznámenie',
@@ -495,12 +497,12 @@ $lang = array_merge($lang, array(
 	'RETURN_PAGE'				=> '%sSpäť na predchádzajúcu stránku%s',
 	'RETURN_TOPIC'				=> '%sSpäť na naposledy navštívenú tému%s',
 	'RETURN_TO'					=> 'Späť na',
-	
+
 	'FEED'						=> 'ATOM',
 	'FEED_NEWS'				=> 'Novinky',
 	'FEED_TOPICS_ACTIVE'		=> 'Aktívne témy',
 	'FEED_TOPICS_NEW'			=> 'Nové témy',
-	
+
 	'RULES_ATTACH_CAN'			=> '<strong>Môžete</strong> prikladať súbory v tomto fóre',
 	'RULES_ATTACH_CANNOT'		=> '<strong>Nemôžete</strong> zasielať súbory v tomto fóre',
 	'RULES_DELETE_CAN'			=> '<strong>Môžete</strong> mazať svoje príspevky v tomto fóre',
@@ -573,7 +575,7 @@ $lang = array_merge($lang, array(
 	'TIME'				=> 'Čas',
 	'TOO_LARGE'						=> 'Zadaná hodnota je príliš veľká.',
 	'TOO_LARGE_MAX_RECIPIENTS'		=> 'Hodnota <strong>Maximálny počet povolených príjemcov súkromnej správy</strong> ktorú ste zadali, je príliš veľká.',
-	
+
 	'TOO_LONG'						=> 'Hodnota, ktorú ste zadali, je príliš dlhá.',
 	'TOO_LONG_AIM'					=> 'Zadané meno AIM je príliš dlhé.',
 	'TOO_LONG_CONFIRM_CODE'			=> 'Zadaný potvrdzovací kód je príliš dlhý.',
@@ -711,14 +713,14 @@ $lang = array_merge($lang, array(
 	'WHOIS'				=> 'Kto je to',
 	'WHO_IS_ONLINE'		=> 'Kto je on-line',
 	'WRONG_PASSWORD'	=> 'Zadali ste neplatné heslo.',
-	
+
 
 	'WRONG_DATA_ICQ'			=> 'Zadané číslo nie je správne číslo ICQ.',
 	'WRONG_DATA_JABBER'			=> 'Zadané meno nie je správne pre jabber účet.',
 	'WRONG_DATA_LANG'			=> 'Zadaný jazyk je neplatný.',
 	'WRONG_DATA_WEBSITE'		=> 'Zadaná adresa musí byť platná vrátane protokolu. Napríklad: http://www.example.com/.',
   'WROTE'             => 'píše',
-   
+
 	'YEAR'				=> 'Rok',
 	'YEAR_MONTH_DAY'	=> '(RRRR-MM-DD)',
 	'YES'				=> 'Áno',

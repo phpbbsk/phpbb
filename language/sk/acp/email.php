@@ -4,8 +4,8 @@
 * acp_email [Slovak]
 *
 * @package language
-* @version $Id: email.php,v 1.16 2007/10/15 00:00:00 phpbb3.sk Exp $
-* @copyright (c) 2007 phpBB Group
+* @version $Id$
+* @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
@@ -37,33 +37,33 @@ if (empty($lang) || !is_array($lang))
 
 // Email settings
 $lang = array_merge($lang, array(
-	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Tu môžete poslať emailovú správu všetkým užívateľom alebo užívateľom určitej skupiny.  Email bude odoslaný z adresy administrátora s kópiou všetkým príjemcom. Ak posielate mail väčšej skupine ľudí, prosím počkajte na koniec odosielania a nestopujte ho. Po úplnom odoslaní budete informovaný skriptom.',
+	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Tu môžete poslať emailovú správu buď všetkým užívateľom alebo všetkým užívateľom určitej skupiny, <strong>ktorá má povolenú možnosť dostávať hromadné e-maily</strong>. Na dosiahnutie toho, e-mail bude odoslaný na zadaný administratívny e-mail so skrytými kópiami, ktoré budú poslané každému príjemcovi. Predvolené nastavenie vkladá len 50 prijímateľov do takéhoto e-mailu, pre viac príjemcov bude poslaných viac e-mailov. Ak posielate email veľkej skupine ľudí, prosíme, buďte po odoslaní trpezlivý a nezastavujte stránku na polceste. Pre hromadné emaily je normálne, že to trvá dlhý čas. Keď skript ukončí prácu, budete o tom oboznámený.',
 	'ALL_USERS'						=> 'Všetci užívatelia',
 
 	'COMPOSE'				=> 'Napísať novú',
 
-	'EMAIL_SEND_ERROR'		=> 'Pri odosielaní správy sa vyskytla jedna alebo viac chýb. Prosím skontrolujte %schybový záznam%s pre odstránenie chýb.',
-	'EMAIL_SENT'			=> 'Vaša správa bola odoslaná.',
-	'EMAIL_SENT_QUEUE'		=> 'Vaša správa čaká na odoslanie.',
+	'EMAIL_SEND_ERROR'		=> 'Pri odosielaní e-mailu sa vyskytla jedna alebo viac chýb. Prosím skontrolujte %schybový záznam%s pre detailnú chybovú správu.',
+	'EMAIL_SENT'			=> 'Táto správa bola odoslaná.',
+	'EMAIL_SENT_QUEUE'		=> 'Táto správa čaká na odoslanie.',
 
 	'LOG_SESSION'			=> 'Zoznam mailových správ v chybovom zázname',
 
 	'SEND_IMMEDIATELY'		=> 'Poslať hneď',
 	'SEND_TO_GROUP'			=> 'Poslať skupine',
 	'SEND_TO_USERS'			=> 'Poslať užívateľom',
-	'SEND_TO_USERS_EXPLAIN'	=> 'Vložte mená, ktoré nahradia skupinu vyššie. Každé užívateľské meno vlož na samostatný riadok.',
+	'SEND_TO_USERS_EXPLAIN'	=> 'Vložte mená, ktoré nahradia akúkoľvek skupinu vybranú vyššie. Každé užívateľské meno vložte na samostatný riadok.',
 
   'MAIL_BANNED'			=> 'Odoslať e-mail zabanovaným užívateľom',
-  'MAIL_BANNED_EXPLAIN'	=> 'Ak odosielate hromadný e-mail skupine, tu si môžete zvoliť, ktorí zabanovaní užívatelia obdržia e*mail.',
+  'MAIL_BANNED_EXPLAIN'	=> 'Ak odosielate hromadný e-mail skupine, tu si môžete zvoliť, či e-mail obdržia aj zabanovaní užívatelia.',
 	'MAIL_HIGH_PRIORITY'	=> 'Vysoká',
 	'MAIL_LOW_PRIORITY'		=> 'Nízka',
 	'MAIL_NORMAL_PRIORITY'	=> 'Normálna',
 	'MAIL_PRIORITY'			=> 'Priorita mailu',
 	'MASS_MESSAGE'			=> 'Vaša správa',
-	'MASS_MESSAGE_EXPLAIN'	=> 'Prosím skontrolujte, či ste vložili čistý text. Diakritika bude pri odosielaní odstránená.',
+	'MASS_MESSAGE_EXPLAIN'	=> 'Prosím, uvedomte si, že vkladáte len čistý text. Akékoľvek značky budú pred odoslaním odstránené.',
 
-	'NO_EMAIL_MESSAGE'		=> 'Musíte vložiť vašu správu.',
-	'NO_EMAIL_SUBJECT'		=> 'Musíte napísať predmet tejto správy.',
+	'NO_EMAIL_MESSAGE'		=> 'Musíte vložiť správu.',
+	'NO_EMAIL_SUBJECT'		=> 'Musíte špecifikovať predmet pre vašu správy.',
 ));
 
 ?>
