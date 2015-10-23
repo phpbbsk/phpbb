@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> 'Slovenský preklad vytvoril <a href="http://phpbb3hacks.com/phpbb_services.php?lang=sk">Kamahl</a>.',
+	'TRANSLATION_INFO'	=> 'Slovenský preklad - <a href="http://www.phpbb3.sk">phpBB3.sk</a>',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'USER_LANG'			=> 'sk',
@@ -88,6 +88,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_PARTIAL_UPLOAD'			=> 'Súbor bol nahraný na server iba čiastočne',
 	'AVATAR_PHP_SIZE_NA'			=> 'Príliš veľký súbor avataru.<br />Nemôžem určiť maximálnu veľkosť, definovanú v php.ini.',
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Príliš veľký súbor avataru, maximálna veľkosť obrázku je %d %2$s.<br />Veľkosť je nastavená v súbore php.ini a nemôže byť prekročená.',
+  'AVATAR_REMOTE_UPLOAD_TIMEOUT'		=> 'Avatar nemohol byť nahraný, pretože vypršal požiadavka spojenia.',
 	'AVATAR_URL_INVALID'			=> 'Zadaná URL je neplatná.',
 	'AVATAR_URL_NOT_FOUND'			=> 'Zadaný súbor nebol nájdený.',
 	'AVATAR_WRONG_FILESIZE'			=> 'Súbor s avatarom musí mať veľkosť medzi 0 a %1d %2s.',
@@ -341,6 +342,9 @@ $lang = array_merge($lang, array(
 	'MODERATE'				=> 'Moderovať',
 	'MODERATOR'				=> 'Moderátor',
 	'MODERATORS'			=> 'Moderátori',
+  'MODULE_NOT_ACCESS'		=> 'Modul nie je prístupný.',
+  'MODULE_NOT_FIND'		=> 'Nemôžem nájsť modul %s',
+  'MODULE_FILE_INCORRECT_CLASS'	=> 'Súbor modulu %s neobsahuje správnu triedu [%s]',
 	'MONTH'					=> 'Mesiac',
 	'MOVE'					=> 'Presunúť',
 	'MSNM'					=> 'MSNM/WLM',

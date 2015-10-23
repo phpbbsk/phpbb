@@ -176,6 +176,7 @@ $lang = array_merge($lang, array(
 	'PROGRESS_BAR'				=> 'Nahrávanie',
 
 	'QUOTE_DEPTH_EXCEEDED'		=> 'Môžete vložiť maximálne %1$d citácii.',
+  'REMOTE_UPLOAD_TIMEOUT'		=> 'Zadaný súbor nemohol byť nahraný pretože vypršalo spojenie.',
 
 	'SAVE'						=> 'Uložiť',
 	'SAVE_DATE'					=> 'Uložené',

@@ -140,6 +140,7 @@ $lang = array_merge($lang, array(
 
 	'USER_ONLINE'			=> 'Prítomný',
 	'USER_PRESENCE'			=> 'Obrázok postavičky',
+  'USERS_PER_PAGE'		=> 'Užívateľov na stránku',
 
 	'VIEWING_PROFILE'		=> 'Zobraziť profil - %s',
 	'VISITED'				=> 'Posledná návšteva',
