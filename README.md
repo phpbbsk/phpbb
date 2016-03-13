@@ -1,5 +1,5 @@
 # Slovak Language Pack for [phpBB](https://www.phpbb.com/) 3.1
-[![Build Status](https://travis-ci.org/phpbbsk/phpbb.svg?branch=master)](https://travis-ci.org/phpbbsk/phpbb)
+[![Build Status](https://travis-ci.org/phpbbsk/phpbb.svg?branch=3.1.x)](https://travis-ci.org/phpbbsk/phpbb)
 
 Slovak language pack to localise the phpBB 3.1 forum software.
 
