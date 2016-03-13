@@ -340,6 +340,7 @@ $lang = array_merge($lang, array(
 	'IMAGE_FILETYPE_INVALID'	=> 'Prípona súboru obrázku %d pre mimetyp %s nie je podporovaná.',
 	'IMAGE_FILETYPE_MISMATCH'	=> 'Nesúhlasí typ súboru obrázku, očakáva sa prípona %1$s, ale bola zadaný obrázok s príponou %2$s.',
 	'IN'						=> 'v',
+	'INACTIVE'					=> 'Neaktívny',
 	'INDEX'						=> 'Hlavná stránka',
 	'INFORMATION'				=> 'Informácia',
 	'INSECURE_REDIRECT'			=> 'Pokus o presmerovanie na potenciálne nebezpečnú stránku.',
@@ -485,7 +486,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> 'Uverejnenie témy <strong>zamietnuté</strong>:',
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Požiadavka na posúdenie uverejnenia témy</strong> od užívateľa %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Typ upozornenia "%s" nebol v súborovom systéme nájdený alebo chýba.',
-	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Požiadavka na aktiváciu účtu</strong> pre novo registrovaného užívateľa: “%1$s”',
+	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Požiadavka na aktiváciu účtu</strong> pre deaktivovaného alebo novo registrovaného užívateľa: “%1$s”',
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'ďalší',
 	'NOTIFICATION_X_OTHERS'				=> array(

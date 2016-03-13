@@ -103,6 +103,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Portál vyžaduje, aby ste boli zaregistrovaný a prihlásený, ak chcete vyhľadať užívateľov.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Portál vyžaduje, aby ste boli zaregistrovaný a prihlásený, ak chcete zobraziť profily.',
 
+	'MANAGE_GROUP'			=> 'Spravovať skupinu',
 	'MORE_THAN'				=> 'viac než',
 
 	'NO_CONTACT_FORM'		=> 'Formulár pre kontaktovanie administrátora nie je k dispozícii.',

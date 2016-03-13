@@ -156,9 +156,10 @@ $lang = array_merge($lang, array(
 	'ACL_M_SPLIT'	=> 'Môže rozdeľovať témy',
 	'ACL_M_MERGE'	=> 'Môže spájať témy',
 
-	'ACL_M_INFO'	=> 'Môže zobraziť detaily príspevkov',
-	'ACL_M_WARN'	=> 'Môže udeliť varovanie<br /><em>Toto je globálne nastavenie, nezávisí na fórach.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_BAN'		=> 'Môže spravovať bany<br /><em>Toto je globálne nastavenie, nezávisí na fórach.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_INFO'		=> 'Môže zobraziť detaily príspevkov',
+	'ACL_M_WARN'		=> 'Môže udeliť varovanie<br /><em>Toto je globálne nastavenie, nezávisí na fórach.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_PM_REPORT'	=> 'Môže uzatvárať a mazať hlásenia o súkromných správach<br /><em>Toto je globálne nastavenie, nezávisí na fórach.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_BAN'			=> 'Môže spravovať bany<br /><em>Toto je globálne nastavenie, nezávisí na fórach.</em>', // This moderator setting is only global (and not local)
 ));
 
 // Admin Permissions

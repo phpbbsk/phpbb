@@ -345,7 +345,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_QUOTE'							=> 'Niekto použije citáciu môjho príspevku',
 	'NOTIFICATION_TYPE_REPORT'							=> 'Niekto odošle sťažnosť na môj príspevok',
 	'NOTIFICATION_TYPE_TOPIC'							=> 'Niekto vytvorí tému vo fóre, ktoré sledujem',
-	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Novo registrovaný užívateľ vyžaduje aktiváciu účtu',
+	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Užívateľ vyžaduje aktiváciu účtu',
 
 	'NOTIFY_METHOD'					=> 'Metóda upozornenia',
 	'NOTIFY_METHOD_BOTH'			=> 'Oba spôsoby',

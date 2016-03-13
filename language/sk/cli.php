@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Povolí určené rozšírenie.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Nájde migrácie, na ktorých nie je závislá.',
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Získa hodnotu konfiguračnej možnosti',
-	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Zvýši hodnotu konfiguračnej možnosti',
+	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Zvýši číselnú hodnotu konfiguračnej možnosti',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Zobrazí všetky rozšírenia v databáze a súborovom systéme.',
 	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'Spustiť v bezpečnom režime (bez rozšírení).',
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Spustiť shell.',
@@ -79,4 +79,9 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_ENABLED' 			=> 'Povolené',
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Všetky hashe e-mailov úspešne prepočítané.',
+));
+
+// Additional help for commands.
+$lang = array_merge($lang, array(
+	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Prípadne môžete špecifikovať meno cron úlohy pre spustenie len zadanej cron úlohy.',
 ));
