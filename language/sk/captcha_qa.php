@@ -41,6 +41,7 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_QA'				=> 'Otázky&amp;Odpovede',
 	'CONFIRM_QUESTION_EXPLAIN'  => 'Odpoveď na túto otázku je potrebná pre odlíšenie skutočného užívateľa od automatizovaných pokusov registráciu.',
 	'CONFIRM_QUESTION_WRONG'    => 'Nesprávna odpoveď.',
+	'CONFIRM_QUESTION_MISSING'	=> 'Nebolo možné získať otázky pre captcha. Prosíme, kontaktujte administrátora fóra.',
 
 	'QUESTION_ANSWERS'			=> 'Odpovede',
 	'ANSWERS_EXPLAIN'			=> 'Uveďte správne odpovede na otázku, jednu odpoveď na každý riadok.',
@@ -61,5 +62,4 @@ $lang = array_merge($lang, array(
 
 	'QA_ERROR_MSG'				=> 'Vyplňte všetky polia a vložte aspoň jednu odpoveď.',
 	'QA_LAST_QUESTION'			=> 'Nemôžete zmazať všetky odpovede, kým je plugin aktívny.',
-
 ));

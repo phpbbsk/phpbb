@@ -852,7 +852,7 @@ $lang = array_merge($lang, array(
 	'USERS'					=> 'Užívatelia',
 	'USE_PERMISSIONS'		=> 'Zobraziť portál v režime s oprávneniami užívateľa',
 
-	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Ospravedlňujeme sa, ale nemáte dostatočné oprávnenia na využitie tejto funkcie. Portál automaticky obmedzuje funkcie užívateľom, ktorí sú na portále zaregistrovaný ešte príliš krátku dobu. Ak chcete uvedenú funkciu využívať, je potrebné vyvinúť väčšiu aktivitu na fóre.',
+	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Ospravedlňujeme sa, ale nemáte dostatočné oprávnenia na využitie tejto funkcie. Pravdepodobne ste sa len prednedávnom zaregistrovali a musíte sa viac zapojiť do diskusie aby ste mohli využívať túto funkciu.',
 
 	'VARIANT_DATE_SEPARATOR'	=> ' / ', // Used in date format dropdown, eg: "Today, 13:37 / 01 Jan 2007, 13:37" ... to join a relative date with calendar date
 	'VIEWED'					=> 'Zobrazené',
