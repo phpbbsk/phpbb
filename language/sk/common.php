@@ -42,7 +42,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> 'Slovenský preklad - <a href="http://www.phpbb3.sk">phpBB3.sk</a>',
+	'TRANSLATION_INFO'	=> '',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
@@ -928,6 +928,7 @@ $lang = array_merge($lang, array(
 			0		=> 'pred necelou minútou',
 			1		=> 'pred %d minútou',
 			2		=> 'pred %d minútami',
+			3		=> 'pred %d minútami',
 		),
 
 		'Sunday'	=> 'Nedeľa',
