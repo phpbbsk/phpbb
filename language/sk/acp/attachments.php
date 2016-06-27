@@ -71,9 +71,6 @@ $lang = array_merge($lang, array(
 
 	'CAT_FLASH_FILES' 			=> 'Flashové súbory',
 	'CAT_IMAGES' 				=> 'Obrázky',
-	'CAT_QUICKTIME_FILES' 		=> 'Quicktime media súbory',
-	'CAT_RM_FILES' 				=> 'RealMedia súbory',
-	'CAT_WM_FILES' 				=> 'Windows Media súbory',
 	'CHECK_CONTENT' 			=> 'Skontrolovať prílohy',
 	'CHECK_CONTENT_EXPLAIN' 	=> 'Niektoré prehliadače môžu byť oklamané nesprávnymi mimetype-y pre prílohy. Toto nastavenie zaručí, že budu vyradené.',
 	'CREATE_GROUP' 				=> 'Vytvoriť novú skupinu',
@@ -106,9 +103,6 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_FLASH_FILES' 		=> 'Flashové súbory',
 	'EXT_GROUP_IMAGES' 				=> 'Obrázky',
 	'EXT_GROUP_PLAIN_TEXT' 			=> 'Text',
-	'EXT_GROUP_QUICKTIME_MEDIA' 	=> 'Quicktime Médiá',
-	'EXT_GROUP_REAL_MEDIA' 			=> 'Real Médiá',
-	'EXT_GROUP_WINDOWS_MEDIA' 		=> 'Windows Médiá',
 
 	'FILES_GONE' 			=> 'Some of the attachments you selected for deletion do not exist. They may have been already deleted. Attachments that did exist were deleted.',
 	'FILES_STATS_WRONG' 	=> 'Your file statistics are likely inaccurate and need to be resynchronised. Actual values: number of attachments = %1$d, total size of attachments = %2$s.<br />Click %3$shere%4$s to resynchronise them.',
