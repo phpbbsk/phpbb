@@ -142,7 +142,7 @@ $lang = array_merge($lang, array(
 		0	=> 'Prečisťovanie dokončené. Žiadne používateľské mená nebolo nutné prečistiť.',
 		1	=> 'Prečisťovanie dokončené. %d používateľské meno bolo prečistené.',
 		2	=> 'Prečisťovanie dokončené. %d používateľské mená boli prečistené.',
-		2	=> 'Prečisťovanie dokončené. %d používateľských mien bolo prečistených.',
+		3	=> 'Prečisťovanie dokončené. %d používateľských mien bolo prečistených.',
 	],
 ));
 
