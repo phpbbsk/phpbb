@@ -3,6 +3,7 @@
  *
  * This file is part of the phpBB Forum Software package.
  *
+ * @author Senky
  * @copyright (c) phpBB Limited <https://www.phpbb.com>
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
