@@ -132,6 +132,8 @@ $lang = array_merge($lang, array(
 	'NO_USERS_ADDED'			=> 'Žiadni užívatelia neboli pridaní do skupiny.',
 	'NO_VALID_USERS'			=> 'Nevložili ste žiadneho užívateľa vhodného pre požadovanú akciu.',
 
+	'PENDING_MEMBERS'			=> 'Čakajúci',
+
 	'SELECT_GROUP'				=> 'Vybrať skupinu',
 	'SPECIAL_GROUPS'			=> 'Preddefinované skupiny',
 	'SPECIAL_GROUPS_EXPLAIN'	=> 'Preddefinované skupiny sú špeciálne skupiny, nemôžu byť zmazané, alebo priamo upravované. Môžete však pridávať užívateľov a meniť základné nastavenia.',
