@@ -100,6 +100,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_TOPIC_NOTIFY'		=> 'Povoliť sledovanie tém',
 	'BOARD_PM'					=> 'Súkromné správy',
 	'BOARD_PM_EXPLAIN'			=> 'Povoliť súkromné správy pre všetkých uživateľov.',
+	'ALLOW_BOARD_NOTIFICATIONS' => 'Povoliť notifikácie fóra',
 ));
 
 // Avatar Settings
@@ -535,6 +536,8 @@ $lang = array_merge($lang, array(
 	'REFERRER_VALID_EXPLAIN'		=> 'Ak je zapnuté, referent POST požiadavka bude skontrolovaná pre host/script path nastavenia. Toto môže spôsobiť problémy s fórami, ktoré požívajú niekoľko domén alebo externé prihlasovanie.',
 	'TPL_ALLOW_PHP'					=> 'Povoliť php v šablónach',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Ak je táto možnosť zapnutá, <code>PHP</code> a <code>INCLUDEPHP</code> značky budú rozpoznané a výsledok vložený do šablón.',
+	'UPLOAD_CERT_VALID'				=> 'Validovať certifikát uploadu',
+	'UPLOAD_CERT_VALID_EXPLAIN'		=> 'Ak je táto možnosť zapnutá, certifikáty uploadov budú validované. Na to je potrebný CA balík definovaný v <samp>openssl.cafile</samp> alebo <samp>curl.cainfo</samp> nastaveniach vo vašom php.ini.',
 ));
 
 // Email Settings
@@ -559,6 +562,8 @@ $lang = array_merge($lang, array(
 	'EMAIL_SIG_EXPLAIN'				=> 'Tento text bude pripojený ku všetkým emailom, ktoré fórum pošle.',
 	'ENABLE_EMAIL'					=> 'Povoliť fórom odosielané emaily',
 	'ENABLE_EMAIL_EXPLAIN'			=> 'Ak je vypnuté, fórum nebude posielať žiadne emaily.<em> Berte na vedomie, že aktivácia účtov používateľom alebo administrátorom túto funkciu vyžadujú. Ak máte tento typ aktivácie zapnutý a vypnete e-maily, účty už nebudú musieť byť aktivované a budú okamžite overené. </em>',
+	'SEND_TEST_EMAIL'				=> 'Poslať testovací email',
+	'SEND_TEST_EMAIL_EXPLAIN'		=> 'Týmto odošlete testovací email na adresu uvedenú vo vašom účte.',
 	'SMTP_AUTH_METHOD'				=> 'Metóda overenia pre SMTP',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Iba ak je stanovené meno/heslo, opýtajte sa svojho poskytovateľa, ak ste si nie istý tým, ktorú metódu použiť.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
@@ -574,6 +579,7 @@ $lang = array_merge($lang, array(
 	'SMTP_SETTINGS'					=> 'SMTP nastavenia',
 	'SMTP_USERNAME'					=> 'SMTP užívateľské meno',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Vložte užívateľské meno iba ak to váš SMTP server vyžaduje.',
+	'TEST_EMAIL_SENT'				=> 'Testovací email bol poslaný.<br />Ak ste ho nedostali, prosíme, skontrolujte nastavenia emailov.<br /><br />Ak potrebujete pomoc, navštívte <a href="https://www.phpbb.com/community/">phpBB fóra podpory</a> (v Angličtine).',
 	'USE_SMTP'						=> 'Použiť SMTP server pre emaily',
 	'USE_SMTP_EXPLAIN'				=> 'Zvoľte "Áno" ak chcete alebo musíte posielať emaily prostredníctvom servera, namiesto posielania cez funkciu mail.',
 ));
