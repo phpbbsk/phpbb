@@ -42,6 +42,7 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_NOT_AVAILABLE'		=> 'Ak chcete použiť reCaptcha, musíte si vytvoriť účet na <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
 	'RECAPTCHA_INCORRECT'			=> 'Zadaný overovací kód je nesprávny',
+	'RECAPTCHA_NOSCRIPT'			=> 'Prosíme, povoľte vo vašom prehliadači JavaScript, aby sa vám mohlo zobraziť overenie.',
 	
 	'RECAPTCHA_PUBLIC'				=> 'Verejný reCaptcha kľúč',
 	'RECAPTCHA_PUBLIC_EXPLAIN' 		=> 'Váš verejný reCaptcha kľúč. Kľúče možno získať na <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
@@ -49,5 +50,4 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Váš súkromný reCaptcha kľúč. Kľúče možno získať na <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	
 	'RECAPTCHA_EXPLAIN'				=> 'Snažíme sa zamedziť automatizovaným registráciám, preto je potrebné, aby ste do rámčekov vpísali obe slová.',
-	'RECAPTCHA_SOCKET_ERROR'		=> 'Problém s pripojením na službu RECAPTCHA: nemožné vytvoriť spojenie. Skúste znovu.',
 ));
