@@ -226,12 +226,26 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Späť',
 
+	'CANNOT_CHANGE_FILE_GROUP'	=> 'Nie je možné zmeniť skupinu pre tento súbor',
+	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Nie je možné zmeniť oprávnenia tohto súboru',
+	'CANNOT_COPY_FILES'		=> 'Nie je možné kopírovať súbory',
+	'CANNOT_CREATE_SYMLINK'	=> 'Nie je možné vytvoriť odkaz na súbor',
+	'CANNOT_DELETE_FILES'	=> 'Nie je možné odstrániť súbory zo systému',
+	'CANNOT_DUMP_FILE'		=> 'Nie je možné vypísať súbor',
+	'CANNOT_MIRROR_DIRECTORY'	=> 'Nie je možné zrkadliť adresár',
+	'CANNOT_RENAME_FILE'	=> 'Nie je možné premenovať súbor zo systému',
+	'CANNOT_TOUCH_FILES'	=> 'Nie je možné zistiť, či súbor existuje',
+
+	'CONTAINER_EXCEPTION' => 'V phpBB nastala chyba pri vytváraní kontajnera kvôli nainštalovanému rozšíreniu. Preventívne boli dočasne deaktivované všetky rozšírenia. Prosíme, skúste prečistiť cache. Všetky rozšírenia budú automaticky aktivované akonáhle sa chyba vyrieši. Ak táto chyba pretrváva, prosíme, navštívte <a href="https://www.phpbb.com/support">phpBB.com</a> (v Angličtine) a požiadajte o pomoc.',
+	'EXCEPTION' => 'Exception',
+
 	'COLOUR_SWATCH'			=> 'Vzorník bezpečných farieb',
 	'CONFIG_UPDATED'		=> 'Nastavenie bolo úspešne aktualizované.',
 	'CRON_LOCK_ERROR'		=> 'Nedá sa získať zámok cron-u.',
 	'CRON_NO_SUCH_TASK'		=> 'Nie je možné nájsť cron “%s”.',
 	'CRON_NO_TASK'			=> 'Momentálne nepotrebuje bežať žiadna cron úloha.',
 	'CRON_NO_TASKS'			=> 'Nenašli sa žiadne cron úlohy.',
+	'CURRENT_VERSION'		=> 'Aktuálna verzia',
 
 	'DEACTIVATE'				=> 'Deaktivovať',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'Vložená cesta "%s" neexistuje.',
@@ -257,9 +271,10 @@ $lang = array_merge($lang, array(
 	'IP'					=> 'Užívateľova IP',
 	'IP_HOSTNAME'			=> 'IP adresy, alebo názvy hostiteľov',
 
-	'LOGGED_IN_AS'			=> 'Ste prihlásený ako:',
+	'LATEST_VERSION'		=> 'Posledná verzia',
 	'LOAD_NOTIFICATIONS'			=> 'Display Notifications',
 	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'Display the notifications list on every page (typically in the header).',
+	'LOGGED_IN_AS'			=> 'Ste prihlásený ako:',
 	'LOGIN_ADMIN'			=> 'Pre správu fóra musíte byť prihlásený a oprávnený užívateľ.',
 	'LOGIN_ADMIN_CONFIRM'	=> 'Pre správu fóra sa musíte znovu prihlásiť.',
 	'LOGIN_ADMIN_SUCCESS'	=> 'Úspešne ste sa prihlásili, a teraz budete presmerovaný na Administráciu fóra',
@@ -289,7 +304,9 @@ $lang = array_merge($lang, array(
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Teraz máte oprávnenia %1$s. Môžete prechádzať fórum s užívateľským oprávnením, ale nemôžete vstúpiť do administrácie fóra, pretože administrátorské oprávnenia neboli prenesené. Môžete sa kedykoľvek <a href="%2$s"><strong>vrátiť k vašim oprávneniam</strong></a>.',
 	'PROCEED_TO_ACP'					=> '%sPokračovať na Administráciu fóra%s',
 
+	'RELEASE_ANNOUNCEMENT'		=> 'Oznámenie',
 	'REMIND'							=> 'Pripomenúť',
+	'REPARSE_LOCK_ERROR'				=> 'Reparsovanie už prebieha v inom procese.',
 	'RESYNC'							=> 'Znovu synchronizovať',
 
 	'RUNNING_TASK'			=> 'Beží úloha: %s.',
@@ -421,6 +438,11 @@ $lang = array_merge($lang, array(
 	'VALUE'						=> 'Hodnota',
 	'VERSIONCHECK_FAIL'			=> 'Nepodarilo sa zistiť informácie o poslednej verzii.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'Znovu zkontrolovať verziu',
+	'VERSION_CHECK'				=> 'Kontrola verzie',
+	'VERSION_CHECK_EXPLAIN'		=> 'Skontroluje, či je vaše phpBB aktuálne.',
+	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'Vaše phpBB nie je aktuálne.<br />Nižšie je odkaz na oznámenie o vydaní novšej verzie, ktoré obsahuje viac informácií a tiež inštrukcie k aktualizácii.',
+	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'Vaše phpBB nie je aktuálne.',
+	'VERSION_UP_TO_DATE_ACP'	=> 'Vaše phpBB je aktuálne. Momentálne nie sú dostupné žiadne aktualizácie.',
 	'VIEW_ADMIN_LOG'		=> 'Zobraziť administrátorský záznam',
 	'VIEW_INACTIVE_USERS'	=> 'Zobraziť neaktívnych užívateľov',
 
