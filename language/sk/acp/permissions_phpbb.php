@@ -121,6 +121,7 @@ $lang = array_merge($lang, array(
 	'ACL_F_POST'		=> 'Môže zakladať nové témy',
 	'ACL_F_STICKY'		=> 'Môže odosielať dôležité',
 	'ACL_F_ANNOUNCE'	=> 'Môže odosielať oznámenia',
+	'ACL_F_ANNOUNCE_GLOBAL'	=> 'Môže odosielať globálne oznámenia',
 	'ACL_F_REPLY'		=> 'Môže odpovedať na témy',
 	'ACL_F_EDIT'		=> 'Môže upravovať vlastné príspevky',
 	'ACL_F_DELETE'		=> 'Môže upravovať vlastné príspevk',
@@ -189,7 +190,7 @@ $lang = array_merge($lang, array(
 	'ACL_A_NAMES'		=> 'Môže spravovať nepovolené mená',
 	'ACL_A_BAN'			=> 'Môže spravovať bany',
 
-	'ACL_A_VIEWAUTH'		=> 'Môže zobrazovať masky oprávnení',
+	'ACL_A_VIEWAUTH'	=> 'Môže zobrazovať masky oprávnení',
 	'ACL_A_AUTHGROUPS'	=> 'Môže meniť oprávnenia pre jednotlivé skupiny',
 	'ACL_A_AUTHUSERS'	=> 'Môže meniť oprávnenia pre jednotlivých užívateľov',
 	'ACL_A_FAUTH'		=> 'Môže meniť oprávnenia fór',
