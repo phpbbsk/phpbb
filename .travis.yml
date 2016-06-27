@@ -5,8 +5,8 @@ php:
 
 env:		
   global:		
-    - PHPBB_BRANCH="3.1.x"		
-    - PHPBB_VERSION="3.1"		
+    - PHPBB_BRANCH="3.2.x"		
+    - PHPBB_VERSION="3.2"		
     - PHPBB_LANGUAGE="sk"
 
 sudo: false
