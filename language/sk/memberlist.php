@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 	'FIND_USERNAME_EXPLAIN'	=> 'Použite tento formulár na vyhľadanie užívateľa. Nemusíte vyplniť všetky polia. Môžete použiť * ako zástupný symbol. Ak vkladáte dátumy použite formát <kbd>YYYY-MM-DD</kbd>, napríklad <samp>2015-02-20</samp>. Použite zaškrtávacie políčka, ak chcete zvoliť viacerých užívateľov.',
 	'FLOOD_EMAIL_LIMIT'		=> 'Momentálne nemôžete odoslať ďalší e-mail. Skúste neskôr.',
 
-     'GROUP_LEADER'			=> 'Vedúci skupiny',
+    'GROUP_LEADER'			=> 'Vedúci skupiny',
 
 	'HIDE_MEMBER_SEARCH'	=> 'Skryť vyhľadávanie členov',
 
