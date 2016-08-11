@@ -184,8 +184,10 @@ $lang = array_merge($lang, array(
 	'NO_POLL_TITLE'				=> 'Musíte zadať hlasovaciu otázku.',
 	'NO_POST'					=> 'Požadovaný príspevok neexistuje.',
 	'NO_POST_MODE'				=> 'Nebol zvolený typ odoslania.',
+	'NO_TEMP_DIR'				=> 'Dočasný adresár nebol nájdený alebo nie je zapisovateľný.',
 
 	'PARTIAL_UPLOAD'			=> 'Súbor bol odovzdaný len čiastočne.',
+	'PHP_UPLOAD_STOPPED'		=> 'Rozšírenie PHP zastavilo nahrávanie súboru.',
 	'PHP_SIZE_NA'				=> 'Príloha je príliš veľká.<br />Nemôžem zistiť maximálnu povolenú hodnotu definovanú v php.ini.',
 	'PHP_SIZE_OVERRUN'			=> 'Príloha je príliš veľká, maximálna veľkosť prílohy je %1$d %2$s.<br />Táto hodnota je nastavená v php.ini a nemôže byť zmenená.',
 	'PLACE_INLINE'				=> 'Umiestniť do príspevku',
@@ -260,7 +262,7 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_CHARS'			=> 'Vaša správa obsahuje príliš mnoho znakov.',
 	'TOO_MANY_CHARS_LIMIT'		=> array(
 		1	=> 'Maximálny počet je %1$d znak.',
-		2	=> 'Maximálny počet sú %1$d zanky.',
+		2	=> 'Maximálny počet sú %1$d znaky.',
 		3	=> 'Maximálny počet je %1$d znakov.',
 	),
 	'TOO_MANY_POLL_OPTIONS'		=> 'Zadali ste príliš mnoho hlasovacích otázok.',
