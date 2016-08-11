@@ -576,6 +576,7 @@ $lang = array_merge($lang, array(
 	'SMTP_PORT'						=> 'Port SMTP serveru',
 	'SMTP_PORT_EXPLAIN'				=> 'Zmeňte toto nastavenie iba v prípade, ak viete, že váš SMTP server používa iný port.',
 	'SMTP_SERVER'					=> 'Adresa SMTP servera',
+	'SMTP_SERVER_EXPLAIN'			=> 'Prosím, uvedomte si, že musíte poskytnúť protokol, ktorý váš server používa. Ak používate SSL, toto pole musí vyzerať takto: "ssl://your.mailserver.com"',
 	'SMTP_SETTINGS'					=> 'SMTP nastavenia',
 	'SMTP_USERNAME'					=> 'SMTP užívateľské meno',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Vložte užívateľské meno iba ak to váš SMTP server vyžaduje.',

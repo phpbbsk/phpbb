@@ -114,6 +114,8 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'phpBB nebude fungovať, ak vaše PHP nie je kompilované s podporou UTF-8 s rozšírením PCRE.',
 	'PHP_JSON_SUPPORT'					=> 'Podpora PHP JSON',
 	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'Aby phpBB pracovalo správne, rozšírenie PHP JSON musí byť dostupné.',
+	'PHP_XML_SUPPORT'					=> 'Podpora PHP XML/DOM',
+	'PHP_XML_SUPPORT_EXPLAIN'			=> 'Aby phpBB pracovalo správne, rozšírenie PHP XML/DOM musí byť dostupné.',
 	'PHP_SUPPORTED_DB'					=> 'Podporované typy databáz',
 	'PHP_SUPPORTED_DB_EXPLAIN'			=> 'Musí byť povolené využívať aspoň jeden typ databázy kompatibilný s vašim PHP. Pokiaľ nie je ani jeden typ databázy ukázaný ako aktívny, kontaktujte prosím administrátora vášho webhostingu alebo si prezrite odpovedajúcu dokumentáciu PHP pre ďalšie informácie.',
 
@@ -148,8 +150,8 @@ $lang = array_merge($lang, array(
 	'ADMIN_USERNAME_EXPLAIN'	=> 'Meno musí mať minimálne 3 a maximálne 20 znakov.',
 
 	// Errors
-	'INST_ERR_EMAIL_INVALID'		=> 'Emailová adresa, ktorú ste vložili nie je platná',
-	'INST_ERR_EMAIL_MISMATCH'		=> 'Zadané e-mailové adresy sa nezhodujú',
+	'INST_ERR_EMAIL_INVALID'		=> 'Emailová adresa, ktorú ste vložili nie je platná.',
+	'INST_ERR_PASSWORD_MISMATCH'	=> 'Zadané heslá sa nezhodujú.',
 	'INST_ERR_PASSWORD_TOO_LONG'	=> 'Heslo je príliš dlhé. Heslo môže mať maximálne 30 znakov.',
 	'INST_ERR_PASSWORD_TOO_SHORT'	=> 'Heslo je príliš krátke. Heslo musí mať minimálne 6 znakov.',
 	'INST_ERR_USER_TOO_LONG'		=> 'Užívateľské meno je príliš dlhé. Užívateľské meno môže mať maximálne 20 znakov.',
@@ -179,6 +181,7 @@ $lang = array_merge($lang, array(
 	'DB_PASSWORD'			=> 'Heslo databázy',
 	'DB_NAME'				=> 'Meno databázy',
 	'DB_USERNAME'			=> 'Užívateľské meno databázy',
+	'DATABASE_VERSION'		=> 'Verzia databázy',
 	'TABLE_PREFIX'			=> 'Predpona tabuliek v databáze',
 	'TABLE_PREFIX_EXPLAIN'	=> 'Predpona musí začínať písmenom a môže obsahovať iba písmená, číslice a podtržník.',
 
@@ -213,6 +216,14 @@ $lang = array_merge($lang, array(
 	// Email data
 	//
 	'EMAIL_CONFIG'	=> 'Konfigurácia emailov',
+
+	// Package info
+	'PACKAGE_VERSION'					=> 'Nainštalovaná verzia balíka',
+	'UPDATE_INCOMPLETE'				=> 'Vaša inštalácia phpBB nebola správne aktualizovaná.',
+	'UPDATE_INCOMPLETE_MORE'		=> 'Prosíme, pre nápravu si prečítajte informácie uvedené nižšie.',
+	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Nekompletná aktualizácia</h1>
+		<p>Všimli sme si, že posledná aktualizácia vašej inštalácie phpBB nebola kompletná. Navštívte <a href="%1$s" title="%1$s">database_update skript</a> a spustite ho. Ak chýba, prosíme, <a href="https://www.phpbb.com/downloads/" title="phpBB downloads">stiahnite si verziu vhodnú pre váš balíček</a>, nahrajte ho do adresára "install" v koreňovom adresári vášho phpBB (tam, kde je súbor config.php) a <a href="%1$s" title="%1$s">spustite skript aktualizácie databázy</a>.</p>',
+
 
 	//
 	// Server data
@@ -433,6 +444,7 @@ $lang = array_merge($lang, array(
 	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'Nasledujúce súbory neboli upravené a sú rovnaké ako súbory v predchádzajúcej verzii. Budú prepísané aktuálnymi.',
 	'FILES_UP_TO_DATE'				=> 'Už aktualizované súbory',
 	'FILES_UP_TO_DATE_EXPLAIN'		=> 'Tieto súbory sú už v aktuálnej verzii a preto nemusia byť zaktualizované.',
+	'FILES_VERSION'					=> 'Verzia súborov',
 	'TOGGLE_DISPLAY'				=> 'Zobraziť/skryť zoznam súborov',
 
 	// File updater
