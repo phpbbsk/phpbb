@@ -137,6 +137,7 @@ $lang = array_merge($lang, array(
 	'LOCK_TOPICS_CONFIRM'		=> 'Ste si istý, že chcete zamknúť tieto témy?',
 	'LOGS_CURRENT_TOPIC'		=> 'Zobrazené záznamy z:',
 	'LOGIN_EXPLAIN_MCP'			=> 'Aby ste mohli moderovať toto fórum, musíte sa prihlásiť.',
+	'LOGVIEW_VIEWPOST'			=> 'Zobraziť príspevok',
 	'LOGVIEW_VIEWTOPIC'			=> 'Zobraziť tému',
 	'LOGVIEW_VIEWLOGS'			=> 'Zobraziť záznam témy',
 	'LOGVIEW_VIEWFORUM'			=> 'Zobraziť fórum',
