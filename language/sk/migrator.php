@@ -49,10 +49,17 @@ $lang = array_merge($lang, array(
 	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Migrácia už je nainštalovaná (preskočené): %s',
 	'MIGRATION_EXCEPTION_ERROR'			=> 'Chyba. Zmeny, ktoré boli uskutočnené pred výskytom chyby boli vrátené späť, aj napriek tomu je potrebné skontrolovať fórum.',
 	'MIGRATION_NOT_FULFILLABLE'			=> 'Migráciu "%1$s" nie je možné uskutočniť, chýba "%2$s".',
+	'MIGRATION_NOT_INSTALLED'			=> 'Migrácia "%s" nie je nainštalovaná.',
 	'MIGRATION_NOT_VALID'				=> '%s nie je platná migrácia.',
 	'MIGRATION_SCHEMA_DONE'				=> 'Nainštalovaná schéma: %1$s; Čas: %2$.2f sek.',
 	'MIGRATION_SCHEMA_RUNNING'			=> 'Inštalácia schémy: %s.',
 	
+	'MIGRATION_REVERT_DATA_DONE'		=> 'Vrátené dáta: %1$s; Čas: %2$.2f sekúnd',
+	'MIGRATION_REVERT_DATA_IN_PROGRESS'	=> 'Vracanie dát: %1$s; Čas: %2$.2f sekúnd',
+	'MIGRATION_REVERT_DATA_RUNNING'		=> 'Vracanie dát: %s.',
+	'MIGRATION_REVERT_SCHEMA_DONE'		=> 'Vrátená schéma: %1$s; Čas: %2$.2f sekúnd',
+	'MIGRATION_REVERT_SCHEMA_RUNNING'	=> 'Vracanie schémy: %s.',
+
 	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'Migrácia je neplatná. V príkaze if chýba podmienka.',
 	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'Migrácia je neplatná. V príkaze if chýba platné volanie kroku migrácie.',
 	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'Migrácia je neplatná. Vlastné volatelnou funkciu nemožno volať.',
