@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN' 	=> 'Vyhľadávací backend práve prečisťuje svoj index. Toto môže trvať niekoľko minút.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE' 	=> 'MySQL fulltext backend môže byť použitý len od MySQL4 a vyššie.',
-	'FULLTEXT_MYSQL_NOT_SUPPORTED' 			=> 'MySQL fulltext index sa dá vytvoriť len v MyISAM alebo InnoDB tabuľkách. MySQL 5.6.4 alebo novšie je potrebné pre fulltext index na InnoDB tabuľkách.',
+	'FULLTEXT_MYSQL_NOT_SUPPORTED' 			=> 'MySQL fulltext index sa dá vytvoriť len v MyISAM alebo InnoDB tabuľkách. MySQL 5.6.8 alebo novšie je potrebné pre fulltext index na InnoDB tabuľkách.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS' 			=> 'Celkový počet indexovaných príspevkov',
 	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'Slová s aspoň toľko znakmi budú indexované pre vyhľadávanie. Vy alebo váš hostiteľ môže toto nastavenie zmeniť iba zmenou konfigurácie mysql.',
 	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Slová s menej ako týmto počtom znakov budú indexované pre vyhľadávanie. Vy alebo váš hostiteľ môže toto nastavenie zmeniť iba zmenou konfigurácie mysql.',

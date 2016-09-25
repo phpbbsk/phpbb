@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_TEST'				=> 'Test administrátorských nastavení',
 	'ADMIN_USERNAME'			=> 'Užívateľské meno administrátora',
 	'ADMIN_USERNAME_EXPLAIN'	=> 'Meno musí mať minimálne 3 a maximálne 20 znakov.',
-	'APP_MAGICK'				=> 'Podpora Imagemagick [ Prílohy ]',
+	'APP_MAGICK'				=> 'Podpora ImageMagick [ Prílohy ]',
 	'AUTHOR_NOTES'				=> 'Poznámka autora<br />» %s',
 	'AVAILABLE'					=> 'Dostupné',
 	'AVAILABLE_CONVERTORS'		=> 'Dostupné konvertory',
@@ -283,7 +283,7 @@ $lang = array_merge($lang, array(
 	'NOT_UNDERSTAND'			=> 'Nie je zrozumiteľné %s #%d, tabuľka %s (“%s”)',
 	'NO_CONVERTORS'				=> 'Nie sú dostupné žiadne konvertory k použitiu',
 	'NO_CONVERT_SPECIFIED'		=> 'Nebol zvolený žiaden konvertor',
-	'NO_LOCATION'				=> 'Nie je možné určiť umiestnenie. Ak viete, že je Imagemagick nainštalovaný, môžete neskôr upraviť umiestnenie v administrácii',
+	'NO_LOCATION'				=> 'Nie je možné určiť umiestnenie. Ak viete, že je ImageMagick nainštalovaný, môžete neskôr upraviť umiestnenie v administrácii',
 	'NO_TABLES_FOUND'			=> 'Neboli nájdené žiadne tabuľky.',
 
     'OVERVIEW_BODY'				=> 'Vitajte v phpBB3!<br /><br />phpBB™ je najrozšírenejšie, voľne šíriteľné riešenie pre fóra . phpBB3 je posledný inštalačný balíček phpBB od roku 2000. Rovnako ako predchodcovia, phpBB3 je bohaté na funkcie, užívateľsky priateľské, a plne podporované phpBB tímom. phpBB3 výborne vylepšuje to, čo robilo phpBB2 populárnym, a pridáva bežné, žiadané funkcie, ktoré neboli prezentované v predchádzajúcich verziách. Veríme, že prevýši vaše očakávania.<br /><br />Táto inštalačná príručka vás prevedia inštaláciou phpBB3, aktualizáciou na najnovšiu verziu phpBB3 z poslednej RC verzie, tak isto ako prekonvertovaním z iných diskusných systémov (vrátane phpBB2). Pre viac informácií, doporučujeme prečítať <a href="../docs/INSTALL.html">inštalačnú príručku</a>.<br /><br />Pre prečítanie phpBB3 licencie, alebo získanie podpory, prosím vyberte patričnú funkciu z bočného menu. Pre pokračovanie, prosím zvoľte vhodnú záložku.',
@@ -302,10 +302,10 @@ $lang = array_merge($lang, array(
 	'PHP_REGISTER_GLOBALS_EXPLAIN'	=> 'phpBB bude fungovať aj keď je toto nastavenie zapnuté, ale pokiaľ je to možné je doporučené toto nastavenie vypnúť z bezpečnostných dôvodov.',
 	'PHP_SAFE_MODE'					=> 'Bezpečnostný mód',
 	'PHP_SETTINGS'					=> 'Verzia PHP a nastavenia',
-	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Povinné</strong> - Verzia PHP na Vašom serveri nesmie byť staršia ako 4.3.3 pre nainštalovanie phpBB. Ak je nižšie zobrazený <var>bezpečnostný mód</var>, vaša inštalácia PHP má tento mód zapnutý. Toto môže priniesť určité obmedzenia pri vzdialenej administrácii a podobných funkciách.',
+	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Povinné</strong> - Verzia PHP na Vašom serveri nesmie byť staršia ako 5.3.3 (PHP 7 nie je podporované) pre nainštalovanie phpBB. Ak je nižšie zobrazený <var>bezpečnostný mód</var>, vaša inštalácia PHP má tento mód zapnutý. Toto môže priniesť určité obmedzenia pri vzdialenej administrácii a podobných funkciách.',
 	'PHP_URL_FOPEN_SUPPORT'			=> 'PHP nastavenia <var>allow_url_fopen</var> je zapnuté',
 	'PHP_URL_FOPEN_SUPPORT_EXPLAIN'	=> '<strong>Voliteľné</strong> - Toto nastavenie je voliteľné, ale ak je vypnuté, niektoré funkcie, ako napríklad vzdialené avatary, nebudú fungovať.',
-	'PHP_VERSION_REQD'				=> 'PHP verzia >= 4.3.3',
+	'PHP_VERSION_REQD'				=> 'PHP verzia >= 5.3.3, < 7.0.0-dev',
 	'POST_ID'						=> 'ID príspevku',
 	'PREFIX_FOUND'					=> 'Sken tabuliek ukázal, že na serveri už je platná inštalácia s predponami tabuliek <strong>%s</strong>.',
 	'PREPROCESS_STEP'				=> 'Spúšťam prípravné funkcie/overenia',
@@ -401,6 +401,7 @@ $lang = array_merge($lang, array(
 	'DATABASE_UPDATE_CONTINUE'			=> 'Pokračovať v aktualizácií databázy.',
 	'DATABASE_UPDATE_INFO_OLD'			=> 'Aktualizačný súbor databázy v inštalačnej zložke je starý. Uistite sa, že ste nahrali najnovšiu verziu tohto súboru.',
 	'DATABASE_UPDATE_NOT_COMPLETED'		=> 'Aktualizácia databázy ešte neskončila.',
+	'DATABASE_VERSION'					=> 'Verzia databázy',
 	'DELETE_USER_REMOVE'		   		=> 'Zmazať užívateľov aj príspevky',
 	'DELETE_USER_RETAIN'		   		=> 'Zmazať užívateľov, ale nechať príspevky',
 	'DESTINATION'						=> 'Cieľový súbor',
@@ -440,6 +441,7 @@ $lang = array_merge($lang, array(
 	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'Nasledujúce súbory neboli upravené a sú rovnaké ako súbory v predchádzajúcej verzii. Budú prepísané aktuálnymi.',
 	'FILES_UP_TO_DATE'				=> 'Už aktualizované súbory',
 	'FILES_UP_TO_DATE_EXPLAIN'		=> 'Tieto súbory sú už v aktuálnej verzii a preto nemusia byť zaktualizované.',
+	'FILES_VERSION'					=> 'Verzia súborov',
 	'FTP_SETTINGS'					=> 'Nastavenia FTP',
 	'FTP_UPDATE_METHOD'				=> 'Nahrať cez FTP',
 
@@ -487,6 +489,7 @@ $lang = array_merge($lang, array(
 	'OLD_UPDATE_FILES'		=> 'Aktualizačné súbory sú staré. Súbory, ktoré boli nájdené, sú určené pre prechod z phpBB %1$s na phpBB %2$s, ale posledná verzia phpBB je %3$s.',
 
     'PACKAGE_UPDATES_TO'				=> 'Tento balík sa aktualizuje na verziu',
+    'PACKAGE_VERSION'					=> 'Nainštalovaná verzia balíčka',
 	'PERFORM_DATABASE_UPDATE'			=> 'Uskutočniť aktualizáciu databázy',
 	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'Nižšie nájdete odkaz na aktualizačný skript pre databázu. Aktualizácia databázy môže chvíľu trvať, nezastavte ju ak bude vyzerať, že úplne zamrzla. Po dokončení aktualizácie sledujte pokyny pre dokončenie aktualizačného procesu.',
 	'PREVIOUS_VERSION'					=> 'Predchádzajúca verzia',
@@ -531,6 +534,12 @@ $lang = array_merge($lang, array(
 	'UPDATE_DATABASE_SCHEMA'		=> 'Aktualizácia databázovej schémy',
 	'UPDATE_FILES'					=> 'Aktualizovať súbory',
 	'UPDATE_FILES_NOTICE'			=> 'Uistite sa, že ste aktualizovali aj súbory fóra, tento súbor aktualizuje len databázu.',
+	'UPDATE_INCOMPLETE'				=> 'Vaša inštalácia phpBB nebola správne aktualizovaná.',
+	'UPDATE_INCOMPLETE_MORE'		=> 'Pre nápravu chýb si, prosíme, prečítajte informácie nižšie.',
+	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Nekompletná aktualizácia</h1>
+
+		<p>Všimli sme si, že posledná aktualizácia vašej inštalácie phpBB nebola dokončená. Otvorte v prehliadači <a href="%1$s" title="%1$s">database_update skript</a>. Ak tento súbor neexistuje, <a href="https://www.phpbb.com/downloads/" title="phpBB downloads">stiahnite si balíček vašej verzie</a>, nahrajte adresár "install" do vášho phpBB koreňového adresára (tam, kde je spbor config.php) a <a href="%1$s" title="%1$s">spustite skript aktualizácie databázy</a>.</p>',
+
 	'UPDATE_INSTALLATION'			=> 'Aktualizovať inštaláciu phpBB',
 	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Týmto nástrojom sa dá aktualizovať vaša inštalácia phpBB na najnovšiu verziu.<br />počas procesu bude skontrolovaná integrita všetkých súborov. Budete mať možnosť si prehliadnuť všetky rozdiely a súbory pred aktualizáciou.<br /><br />Samotné úpravy súborov môžu byť uskutočnené dvoma spôsobmi.</p><h2>Ručná aktualizácia</h2><p>Pokiaľ zvolíte len tento spôsob, stiahnete len upravené súbory pre fórum, aby ste sa mohli uistiť, že nestratíte zmeny uskutočnené na fóre. Po stiahnutí tohto balíčku budete musieť ručne nahrať všetky súbory na server a umiestniť ich do zodpovedajúcich zložiek. Po skončení nahrávania budete môcť znovu skontrolovať integritu súborov, aby ste si overili, že ste súbory nahrali správne. Pokiaľ boli všetky správne nahrané, budete presmerovaný na aktualizačný skript databázy.</p><h2>Automatická aktualizácia cez FTP</h2><p>Tento spôsob je podobný prvému, ale nebudete musieť stiahnuť súbory a ručne ich nahrať. Toto systém uskutoční automaticky. Aby ste mohli využiť tento spôsob, budete musieť poznať prístupové údaje k FTP. Po nahraní bude znova prevedená kontrola integrity. Pokiaľ sú súbory v poriadku budete presmerovaný na aktualizačný skript databázy.',
 	'UPDATE_INSTRUCTIONS'			=> '

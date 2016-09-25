@@ -2,7 +2,7 @@ Subject: Uverejnenie novej témy - "{FORUM_NAME}"
 
 Dobrý deň {USERNAME},
 
-Táto správa vám bola doručená pretože sledujete "{FORUM_NAME}" na "{SITENAME}". V tomto fóre bola od vašej poslednej návšetvy <!-- IF AUTHOR_NAME !== '' --> užívateľom {AUTHOR_NAME}<!-- ENDIF --> uverejnená nová téma "{TOPIC_TITLE}".
+Táto správa vám bola doručená pretože sledujete "{FORUM_NAME}" na "{SITENAME}". V tomto fóre bola od vašej poslednej návšetvy <!-- IF AUTHOR_NAME != '' --> užívateľom {AUTHOR_NAME}<!-- ENDIF --> uverejnená nová téma "{TOPIC_TITLE}".
 
 Odkaz na sledované fórum:
 {U_FORUM}

@@ -94,6 +94,11 @@ $lang = array_merge($lang, array(
 	'DELETE_POST_CONFIRM'		=> 'Naozaj chcete odstrániť tento príspevok?',
 	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Naozaj chcete <strong>natrvalo</strong> odstrániť tieto príspevky?',
 	'DELETE_POST_PERMANENTLY'	=> 'Príspevok bude natrvalo odstránený a nepôjde ho obnoviť',
+	'DELETE_POST_PERMANENTLY'	=> array(
+		1	=> 'Príspevok bude natrvalo odstránený a nepôjde ho obnoviť',
+		2	=> '%1$d príspevky budú natrovalo odstránené a nepôjde ich obnoviť',
+		3	=> '%1$d príspevkov bude natrovalo odstránených a nepôjde ich obnoviť',
+	),
 	'DELETE_POSTS_CONFIRM'		=> 'Ste si istý, že chcete vymazať tieto príspevky?',
 	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> 'Ste si istý, že chcete <strong>navždy</strong> odstrániť tieto príspevky?',
 	'DELETE_REASON'				=> 'Dôvod odstránenia',
@@ -101,6 +106,11 @@ $lang = array_merge($lang, array(
 	'DELETE_POST_WARN'			=> 'Túto akciu už nemožno vrátiť späť!',
 	'DELETE_TOPIC_CONFIRM'		=> 'Naozaj chcete odstrániť túto tému?',
 	'DELETE_TOPIC_PERMANENTLY'	=> 'Téma bude natrvalo odstránená a nepôjde ju obnoviť',
+	'DELETE_TOPIC_PERMANENTLY'	=> array(
+		1	=> 'Téma bude natrvalo odstránená a nepôjde ju obnoviť',
+		2	=> '%1$d témy budú natrovalo odstránené a nepôjde ich obnoviť',
+		3	=> '%1$d tém bude natrovalo odstránených a nepôjde ich obnoviť',
+	),
 	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Naozaj chcete <strong>natrvalo</strong> odstrániť túto tému?',
 	'DELETE_TOPICS_CONFIRM'		=> 'Naozaj chcete odstrániť tieto témy?',
 	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> 'Naozaj chcete <strong>natrvalo</strong> odstrániť tieto témy?',
