@@ -2,7 +2,7 @@ Subject: Nový príspevok vo fóre - "{FORUM_NAME}"
 
 Dobrý deň {USERNAME},
 
-Táto správa vám bola doručená pretože sledujete fórum "{FORUM_NAME}" na "{SITENAME}". V tomto fóre bola uverejnená nová odpoveď v téme "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME !== '' -->, autor odpovede {AUTHOR_NAME}<!-- ENDIF -->.
+Táto správa vám bola doručená pretože sledujete fórum "{FORUM_NAME}" na "{SITENAME}". V tomto fóre bola uverejnená nová odpoveď v téme "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME != '' -->, autor odpovede {AUTHOR_NAME}<!-- ENDIF -->.
 
 Odkaz na najnovšie príspevky:
 {U_NEWEST_POST}

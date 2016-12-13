@@ -52,12 +52,14 @@ $lang = array_merge($lang, array(
 	'MIGRATION_NOT_INSTALLED'			=> 'Migrácia "%s" nie je nainštalovaná.',
 	'MIGRATION_NOT_VALID'				=> '%s nie je platná migrácia.',
 	'MIGRATION_SCHEMA_DONE'				=> 'Nainštalovaná schéma: %1$s; Čas: %2$.2f sek.',
+	'MIGRATION_SCHEMA_IN_PROGRESS'		=> 'Inštalácia schémy: %1$s; Čas: %2$.2f sek.',
 	'MIGRATION_SCHEMA_RUNNING'			=> 'Inštalácia schémy: %s.',
 	
 	'MIGRATION_REVERT_DATA_DONE'		=> 'Vrátené dáta: %1$s; Čas: %2$.2f sekúnd',
 	'MIGRATION_REVERT_DATA_IN_PROGRESS'	=> 'Vracanie dát: %1$s; Čas: %2$.2f sekúnd',
 	'MIGRATION_REVERT_DATA_RUNNING'		=> 'Vracanie dát: %s.',
 	'MIGRATION_REVERT_SCHEMA_DONE'		=> 'Vrátená schéma: %1$s; Čas: %2$.2f sekúnd',
+	'MIGRATION_REVERT_SCHEMA_IN_PROGRESS'	=> 'Vracanie schémy: %1$s; Čas: %2$.2f sekúnd',
 	'MIGRATION_REVERT_SCHEMA_RUNNING'	=> 'Vracanie schémy: %s.',
 
 	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'Migrácia je neplatná. V príkaze if chýba podmienka.',
@@ -68,9 +70,12 @@ $lang = array_merge($lang, array(
 	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'Migrácia je neplatná. Bola zistená nedefinovaná metóda migračného nástroja.',
 
 	'MODULE_ERROR'						=> 'Chyba počas vytvárania modulu: %s',
+	'MODULE_EXISTS'						=> 'Modul už existuje: %s',
+	'MODULE_EXIST_MULTIPLE'				=> 'Niekoľko modulov s daným názvom rodičovského modulu už existuje: %s. Skúste použiť šípky hore/dole pre správne umiestnenie modulu.',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Chýbajúci informačný súbor modulu: %2$s',
 	'MODULE_NOT_EXIST'					=> 'Potrebný modul nenájdený: %s',
 
+	'PARENT_MODULE_FIND_ERROR'			=> 'Nebolo možné určiť identifikátor rodičovského modulu: %s',
 	'PERMISSION_NOT_EXIST'				=> 'Nastavenia oprávnení "%s" nenájdené.',
 
 	'ROLE_NOT_EXIST'					=> 'Funkcia oprávnení "%s" nenájdená.',

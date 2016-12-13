@@ -44,6 +44,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_NOT_AVAILABLE'	=> 'Vybrané rozšírenie nie je pre vaše fórum dostupné. Prosíme, overte vaše phpBB a PHP verzie (pozrite na stránku s detailami).',
 	'EXTENSION_DIR_INVALID'		=> 'Vybrané rozšírenie nemá platnú štruktúru adresárov, a preto nemôže byť nainštalované.',
 	'EXTENSION_NOT_ENABLEABLE'	=> 'Vybrané rozšírenie nemôže byť povolené, prosíme overte požiadavky rozšírenia.',
+	'EXTENSION_NOT_INSTALLED'	=> 'Rozšírenie %s nie je dostupné. Prosíme, skontrolujte, či ste ho nainštalovali správne.',
 
 	'DETAILS'				=> 'Detaily',
 

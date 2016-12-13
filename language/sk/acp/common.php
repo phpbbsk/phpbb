@@ -109,6 +109,8 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_PERMISSIONS'		=> 'Oprávnenia skupín',
 	'ACP_GROUPS_POSITION'			=> 'Manage group positions',
 
+	'ACP_HELP_PHPBB'			=> 'Podporte phpBB',
+
 	'ACP_ICONS'					=> 'Ikony tém',
 	'ACP_ICONS_SMILIES'			=> 'Ikony tém/smajlíky',
 	'ACP_INACTIVE_USERS'		=> 'Neaktívni užívatelia',
@@ -168,7 +170,6 @@ $lang = array_merge($lang, array(
 	'ACP_SEARCH_SETTINGS'		=> 'Nastavenia vyhľadávania',
 
 	'ACP_SECURITY_SETTINGS'		=> 'Nastavenia zabezpečenia',
-	'ACP_SEND_STATISTICS'		=> 'Odoslať štatistickú správu',
 	'ACP_SERVER_CONFIGURATION'	=> 'Konfigurácia servera',
 	'ACP_SERVER_SETTINGS'		=> 'Nastavenia servera',
 	'ACP_SIGNATURE_SETTINGS'	=> 'Nastavenia podpisov',
@@ -328,6 +329,10 @@ $lang = array_merge($lang, array(
 	'USERNAMES_EXPLAIN'		=> 'Vložte každé užívateľské meno na nový riadok',
 	'USER_CONTROL_PANEL'	=> 'Užívateľský ovládací panel',
 
+	'UPDATE_NEEDED'			=> 'Fórum nie je aktuálne.',
+	'UPDATE_NOT_NEEDED'		=> 'Fórum je aktuálne.',
+	'UPDATES_AVAILABLE'		=> 'Sú dostupné aktualizácie:',
+
 	'WARNING'				=> 'Upozornenie',
 ));
 
@@ -475,16 +480,18 @@ $lang = array_merge($lang, array(
 	'USER_IS_INACTIVE'		=> 'Užívateľ je neaktívny',
 ));
 
-// Send statistics page
+// Help support phpBB page
 $lang = array_merge($lang, array(
 	'EXPLAIN_SEND_STATISTICS'	=> 'Prosíme, pošlite informácie o vašom serveri a nastaveniach fóra do phpBB pre štatistickú analýzu. Všetky informácie, ktoré by mohli identifikovať vás alebo vašu stránku boli odstránené - dáta sú absolútne <strong>anonymné</strong>. Rozhodnutia o budúcich verziách phpBB sú založené na týchto informáciách. Štatistiky sú verejne dostupné. Taktiež tieto dáta zdieľame s projektom PHP, ktorý je programovací jazyk, z ktorého je phpBB vytvorené.',
 	'EXPLAIN_SHOW_STATISTICS'	=> 'Použitím tlačidla nižšie si budete môcť prezrieť všetky premenné, ktoré budú poslané.',
 	'DONT_SEND_STATISTICS'		=> 'Vráťte sa do administrácie, ak nechcete zaslať žiadne informácie.',
 	'GO_ACP_MAIN'				=> 'Prejsť na hlavnú stránku administrácie',
 	'HIDE_STATISTICS'			=> 'Skryť podrobnosti',
-	'SEND_STATISTICS'			=> 'Odoslať štatistické informácie',
+	'SEND_STATISTICS'			=> 'Odoslať štatistiky',
+	'SEND_STATISTICS_LONG'		=> 'Odoslať štatistické informácie',
 	'SHOW_STATISTICS'			=> 'Zobraziť podrobnosti',
 	'THANKS_SEND_STATISTICS'	=> 'Ďakujeme za odoslanie vašich informácií.',
+	'FAIL_SEND_STATISTICS'		=> 'phpBB nedokázalo poslať štatistiky',
 ));
 
 // Log Entries
@@ -818,4 +825,5 @@ $lang = array_merge($lang, array(
 	'LOG_EXT_ENABLE'	=> '<strong>Rozšírenie povolené</strong><br />» %s',
 	'LOG_EXT_DISABLE'	=> '<strong>Rošírenie zakázané</strong><br />» %s',
 	'LOG_EXT_PURGE'		=> '<strong>Vymazané údaje rozšírenia</strong><br />» %s',
+	'LOG_EXT_UPDATE'	=> '<strong>Rozšírenie aktualizované</strong><br />» %s',
 ));

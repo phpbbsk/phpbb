@@ -112,7 +112,7 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE' 			=> 'Rozmery pre odkaz k obrázku',
 	'IMAGE_LINK_SIZE_EXPLAIN' 	=> 'Zobraziť obrázok ako textový odkaz, ak sú jeho rozmery väčšie ako nastavený limit. Pre vypnutie tejto funkcie, nastavte hodnoty - 0px na 0px.',
-	'IMAGICK_PATH' 				=> 'Cesta k Imagemagick',
+	'IMAGICK_PATH' 				=> 'Cesta k ImageMagick',
 	'IMAGICK_PATH_EXPLAIN' 		=> 'Úplná cesta ku konvertnému programu imagemagick, napr. <samp>/usr/bin/</samp>.',
 
 	'MAX_ATTACHMENTS' 				=> 'Maximálny počet príloh na jeden príspevok',
@@ -148,7 +148,7 @@ $lang = array_merge($lang, array(
 	'REMOVE_DISALLOWED_IPS' 		=> 'Odstrániť alebo pridať <em>nepovolené</em> IP adresy/hostiteľov',
 	'RESYNC_FILES_STATS_CONFIRM' 	=> 'Are you sure you wish to resynchronise file statistics?',
 
-	'SEARCH_IMAGICK' 				=> 'Hľadať Imagemagick',
+	'SEARCH_IMAGICK' 				=> 'Hľadať ImageMagick',
 	'SECURE_ALLOW_DENY' 			=> 'Zoznam povolených/zakázaných',
 	'SECURE_ALLOW_DENY_EXPLAIN' 	=> 'Zmeniť základné správanie Zoznamu povolených/zakázaných, ak je zapnuté zabezpečené sťahovanie na nastavenia <strong>whitelist</strong> (povoliť) alebo <strong>blacklist</strong> (zakázať).',
 	'SECURE_DOWNLOADS' 				=> 'Povoliť zabezpečené sťahovanie',

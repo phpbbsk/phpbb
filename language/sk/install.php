@@ -73,7 +73,6 @@ $lang = array_merge($lang, array(
 	<ul>
 		<li>MySQL 3.23 alebo vyšší (MySQLi je podporované)</li>
 		<li>PostgreSQL 8.3+</li>
-		<li>SQLite 2.8.2+</li>
 		<li>SQLite 3.6.15+</li>
 		<li>MS SQL Server 2000 alebo vyšší (priamo alebo cez ODBC)</li>
 		<li>MS SQL Server 2005 alebo vyšší (natívny)</li>
@@ -186,14 +185,12 @@ $lang = array_merge($lang, array(
 	'TABLE_PREFIX_EXPLAIN'	=> 'Predpona musí začínať písmenom a môže obsahovať iba písmená, číslice a podtržník.',
 
 	// Database options
-	'DB_OPTION_MSSQL'		=> 'MSSQL Server 2000+',
 	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ via ODBC',
 	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ Native ]',
 	'DB_OPTION_MYSQL'		=> 'MySQL',
 	'DB_OPTION_MYSQLI'		=> 'MySQL s rozšírením MySQLi',
 	'DB_OPTION_ORACLE'		=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
-	'DB_OPTION_SQLITE'		=> 'SQLite 2',
 	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
 
 	// Errors
@@ -206,7 +203,6 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_ERROR'			=> 'Žiadna chybová správa',
 	'INST_ERR_PREFIX'				=> 'Tabuľky so zvolenou predponou už v databáze existujú, zvoľte prosím inú.',
 	'INST_ERR_DB_NO_MYSQLI'			=> 'Verzia databázy MySQL, ktorá je inštalovaná na tomto stroji, je nekompatibilná s možnosťou "MySQL s rozšírením MySQLi", ktorú ste vybrali. Skúste zvoliť možnosť "MySQL".',
-	'INST_ERR_DB_NO_SQLITE'			=> 'Verzia rozšírenia SQLite, ktorú máte nainštalovanú, je príliš zastaralá a je potrebné ju aktualizovať aspoň na verziu 2.8.2.',
 	'INST_ERR_DB_NO_SQLITE3'		=> 'Verzia rozšírenia SQLite, ktorú máte nainštalovanú, je príliš zastaralá a je potrebné ju aktualizovať aspoň na verziu 3.6.15.',
 	'INST_ERR_DB_NO_ORACLE'			=> 'Verzia databázy Oracle, ktorá je inštalovaná na tomto stroji, vyžaduje nastavenie parametru <var>NLS_CHARACTERSET</var> na <var>UTF8</var>. Buď aktualizujte vašu inštaláciu na verziu 9.2+ alebo zmeňte tento parameter.',
 	'INST_ERR_DB_NO_POSTGRES'		=> 'Databáza, ktorú ste zvolili, nebola vytvorená v kódovaní <var>UNICODE</var> alebo <var>UTF8</var>. Skúste inštalovať do databázy, ktorá má kódovanie <var>UNICODE</var> alebo <var>UTF8</var>',
@@ -306,6 +302,7 @@ $lang = array_merge($lang, array(
 	'TASK_ADD_MODULES'		=> 'Inštalovanie modulov',
 
 	// Install finish tasks
+	'TASK_INSTALL_EXTENSIONS'	=> 'Inštalovanie pribalených rozšírení',
 	'TASK_NOTIFY_USER'			=> 'Posielanie notifikačného emailu',
 	'TASK_POPULATE_MIGRATIONS'	=> 'Spracovanie migrácií',
 
@@ -462,6 +459,8 @@ $lang = array_merge($lang, array(
 	'STAGE_UPDATE_DATABASE'		=> 'Aktualizovať databázu',
 
 	'INLINE_UPDATE_SUCCESSFUL'		=> 'Aktualizácie databázy bola úspešná.',
+
+	'TASK_UPDATE_EXTENSIONS'	=> 'Aktualizovanie rozšírení',
 ));
 
 // Converter

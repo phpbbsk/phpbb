@@ -67,21 +67,31 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Spustiť shell.',
 
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Prečistiť rozšírenie.',
-	'CLI_DESCRIPTION_REPARSER_LIST'				=> 'Vypíše typy textu, ktoré môžu byť reparsované.',
-	'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Reparsuje uložené texty s aktuálnou text_formatter službou.',
-	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'	=> 'Typ textu na reparsovanie. Nechajte prázdne pre reparsovanie všetkého.',
+
+	'CLI_DESCRIPTION_REPARSER_LIST'						=> 'Vypíše typy textu, ktoré môžu byť reparsované.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Reparsuje uložené texty s aktuálnou text_formatter službou.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'Typ textu na reparsovanie. Nechajte prázdne pre reparsovanie všetkého.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Neuloží žiadne zmeny; iba vypíše čo by sa stalo',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'Najnižšie ID záznamu na spracovanie',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'Najvyššie ID záznamu na spracovanie',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Približný počet záznamov, ktoré sa spracujú ja jednu jednotku času',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Začať reparsovať tam, kde posledné reparsovanie skončilo',
-	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Prepočítať stĺpec user_email_hash tabuľky užívateľov.',
-	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Nastaví hodnotu konfiguračnej možnosti, len ak je zhodná so súčasnou hodnotou',
-	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Nastaví hodnotu konfiguračnej možnosti',
 
-	'CLI_DESCRIPTION_THUMBNAIL_DELETE'		=> 'Vymazať všetky existujúce náhľady.',
-	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'	=> 'Generovať všetky chýbajúce náhľady.',
-	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'	=> 'Znovu vytvoriť všetky náhľady.',
+	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'			=> 'Prepočítať stĺpec user_email_hash tabuľky užívateľov.',
+
+	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'					=> 'Nastaví hodnotu konfiguračnej možnosti, len ak je zhodná so súčasnou hodnotou',
+	'CLI_DESCRIPTION_SET_CONFIG'						=> 'Nastaví hodnotu konfiguračnej možnosti',
+
+	'CLI_DESCRIPTION_THUMBNAIL_DELETE'					=> 'Vymazať všetky existujúce náhľady.',
+	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'				=> 'Generovať všetky chýbajúce náhľady.',
+	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'				=> 'Znovu vytvoriť všetky náhľady.',
+
+	'CLI_DESCRIPTION_UPDATE_CHECK'					=> 'Skontrolovať, či je fórum aktuálne.',
+	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Názov rozšírenia na skontrolovanie (ak je zadané all, skontrolujú sa všetky rozšírenia)',
+	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Spustiť príkaz s cache.',
+	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Spustiť príkaz s kontrolou iba stabilných alebo nestabilných verzií.',
+
+	'CLI_ERROR_INVALID_STABILITY' => '"%s" is not a valid stability.',
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Aktivuje (alebo deaktivuje) používateľský účet.',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Používateľské meno účtu na aktivovanie.',
@@ -105,6 +115,8 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSION_NAME'				=> 'Názov rozšírenia',
 	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Nebolo možné prečistiť rozšírenie %s',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'Rozšírenie %s prečistené',
+	'CLI_EXTENSION_UPDATE_FAILURE'		=> 'Nebolo možné aktualizovať rozšírenie %s',
+	'CLI_EXTENSION_UPDATE_SUCCESS'		=> 'Úspešne aktualizované rozšírenie %s',
 	'CLI_EXTENSION_NOT_FOUND'			=> 'Žiadne rozšírenia neboli nájdené.',
 	'CLI_EXTENSIONS_AVAILABLE'			=> 'Dostupné',
 	'CLI_EXTENSIONS_DISABLED'			=> 'Zakázané',
