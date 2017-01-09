@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
 	'DELETE_TOPIC_PERMANENTLY'	=> array(
 		1	=> 'Natrvalo odstrániť túto tému tak, že ju nepôjde obnoviť',
 		2	=> 'Natrvalo odstrániť %1$d témy tak, že ich nepôjde obnoviť',
-		2	=> 'Natrvalo odstrániť %1$d tém tak, že ich nepôjde obnoviť',
+		3	=> 'Natrvalo odstrániť %1$d tém tak, že ich nepôjde obnoviť',
 	),
 	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Naozaj chcete <strong>natrvalo</strong> odstrániť túto tému?',
 	'DELETE_TOPICS_CONFIRM'		=> 'Naozaj chcete odstrániť tieto témy?',
