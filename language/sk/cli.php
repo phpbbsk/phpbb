@@ -69,6 +69,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Prečistiť rozšírenie.',
 
 	'CLI_DESCRIPTION_REPARSER_LIST'						=> 'Vypíše typy textu, ktoré môžu byť reparsované.',
+	'CLI_DESCRIPTION_REPARSER_AVAILABLE'				=> 'Dostupné reparsovania:',
 	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Reparsuje uložené texty s aktuálnou text_formatter službou.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'Typ textu na reparsovanie. Nechajte prázdne pre reparsovanie všetkého.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Neuloží žiadne zmeny; iba vypíše čo by sa stalo',

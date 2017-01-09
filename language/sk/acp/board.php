@@ -351,6 +351,8 @@ $lang = array_merge($lang, array(
 
 	'COOKIE_DOMAIN'				=> 'Doména cookie',
 	'COOKIE_NAME'				=> 'Názov cookie',
+	'COOKIE_NOTICE'				=> 'Oznam o cookie',
+	'COOKIE_NOTICE_EXPLAIN'		=> 'Ak je toto povolené, používateľom sa pri návšteve vášho fóra zobrazí oznam o používaní cookie. V závislosti od obsahu vášho fóra alebo povolených rozšírení je možné, že toto oznámenie je vyžadované zákonom.',
 	'COOKIE_PATH'				=> 'Cesta ku cookie',
 	'COOKIE_SECURE'				=> 'Zabezpečená cookie',
 	'COOKIE_SECURE_EXPLAIN'		=> 'Ak váš server beží výhradne cez SSL, nastavte na povolené, ak nie, nastavte zakázané. Povolenie pri serveri nebežiacom cez SSL môže vyústiť do chýb servera počas presmerovávania.',

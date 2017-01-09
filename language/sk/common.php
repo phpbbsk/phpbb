@@ -181,6 +181,9 @@ $lang = array_merge($lang, array(
 	'CONTACT'				=> 'Kontaktovať užívateľa',
 	'CONTACT_USER'			=> 'Kontaktné informácie užívateľa - %s',
 	'CONTACT_US'			=> 'Napísať administrátorovi',
+	'COOKIE_CONSENT_INFO'	=> 'Viac info',
+	'COOKIE_CONSENT_MSG'	=> 'Táto stránka používa cookies, aby zaistila, že budete môcť naplno využívať všetky jej možnosti.',
+	'COOKIE_CONSENT_OK'		=> 'Rozumiem!',
 	'COOKIES_DELETED'		=> 'Cookies vymazané.',
 	'CURRENT_TIME'			=> 'Je %s',
 
@@ -349,6 +352,7 @@ $lang = array_merge($lang, array(
 	'INTERESTS'					=> 'Záujmy',
 	'INVALID_DIGEST_CHALLENGE'	=> 'Neplatná požiadavka na spracovanie.',
 	'INVALID_EMAIL_LOG'			=> 'Nie je <strong>%s</strong> neplatnou e-mailovou adresou?',
+	'INVALID_FEED_ATTACHMENTS'	=> 'Vybraný zdroj exportu sa pokúsil stiahnuť prílohu s neplatnými obmedzeniami.',
 	'INVALID_PLURAL_RULE'		=> 'Zadaná hodnota plurálu je neplatná. Povolené sú hodnoty od 0 do 15.',
 	'IP'						=> 'IP',
 	'IP_BLACKLISTED'			=> 'Vaša IP adresa %1$s bola zablokovaná, pretože je uvedená na čiernej listine. Ďalšie informácie <a href="%2$s">%2$s</a>.',
