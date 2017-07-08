@@ -82,6 +82,7 @@ $lang = array_merge($lang, array(
 	'STYLE_UNINSTALL_DEPENDENT'	=> 'Štýl "%s" nemožno odinštalovať, pretože má jeden alebo viacero podriadených štýlov.',
 	'STYLE_UNINSTALLED'			=> 'Štýl "%s" bol úspešne odinštalovaný.',
 	'STYLE_USED_BY'				=> 'Používa (vrátane botov)',
+	'STYLE_VERSION'				=> 'Verzia štýlu',
 
 	'UNINSTALL_DEFAULT'		=> 'Nemožno odinštalovať predvolený štýl.',
 

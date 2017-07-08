@@ -184,6 +184,7 @@ $lang = array_merge($lang, array(
 	'COOKIE_CONSENT_INFO'	=> 'Viac info',
 	'COOKIE_CONSENT_MSG'	=> 'Táto stránka používa cookies, aby zaistila, že budete môcť naplno využívať všetky jej možnosti.',
 	'COOKIE_CONSENT_OK'		=> 'Rozumiem!',
+	'COOKIE_CONSENT_HREF'	=> 'http://cookiesandyou.com',
 	'COOKIES_DELETED'		=> 'Cookies vymazané.',
 	'CURRENT_TIME'			=> 'Je %s',
 

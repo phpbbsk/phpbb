@@ -84,7 +84,7 @@ $lang = array_merge($lang, array(
 	'ACP_LINK'	=> 'Prejsť do <a href="%1$s">administrátorského panelu</a>',
 
 	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB už je nainštalované.',
-	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB ešte nie je nainštalované.'
+	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB ešte nie je nainštalované.',
 ));
 
 // Requirements translation
@@ -120,7 +120,7 @@ $lang = array_merge($lang, array(
 
 	'RETEST_REQUIREMENTS'	=> 'Znovu otestovať požiadavky',
 
-	'STAGE_REQUIREMENTS'	=> 'Skontrolovať požiadavky'
+	'STAGE_REQUIREMENTS'	=> 'Skontrolovať požiadavky',
 ));
 
 // General error messages
@@ -200,6 +200,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_NAME'			=> 'Nezadali ste meno databázy',
 	'INST_ERR_DB_FORUM_PATH'		=> 'Databázový súbor, ktorý ste zvolili je v zložkách fóra. Mali by ste ho uložiť do adresára, ktorý nie je prístupný z webu.',
 	'INST_ERR_DB_CONNECT'			=> 'Nemôžem sa pripojiť k databáze so zadaným menom a heslom. Pozri správu o chybe.',
+	'INST_ERR_DB_NO_WRITABLE'		=> 'Aj databáza aj adresár, ktorý ju obsahuje musia byť zapisovateľné.',
 	'INST_ERR_DB_NO_ERROR'			=> 'Žiadna chybová správa',
 	'INST_ERR_PREFIX'				=> 'Tabuľky so zvolenou predponou už v databáze existujú, zvoľte prosím inú.',
 	'INST_ERR_DB_NO_MYSQLI'			=> 'Verzia databázy MySQL, ktorá je inštalovaná na tomto stroji, je nekompatibilná s možnosťou "MySQL s rozšírením MySQLi", ktorú ste vybrali. Skúste zvoliť možnosť "MySQL".',
@@ -225,6 +226,7 @@ $lang = array_merge($lang, array(
 	// Server data
 	//
 	// Form labels
+	'UPGRADE_INSTRUCTIONS'			=> 'Nová verzia <strong>%1$s</strong> je dostupná. Prosíme, prečítajte si <a href="%2$s" title="%2$s"><strong>oznámenie o vydaní</strong></a> (v Angličtine), aby ste zistili, čo ponúka a ako aktualizovať.',
 	'SERVER_CONFIG'				=> 'Nastavenie serveru',
 	'SCRIPT_PATH'				=> 'Cesta ku skriptom',
 	'SCRIPT_PATH_EXPLAIN'		=> 'Cesta k phpBB relatívne k názvu domény napr. <samp>/phpBB3</samp>.',
@@ -297,9 +299,10 @@ $lang = array_merge($lang, array(
 	'TASK_CREATE_TABLES'				=> 'Vytváranie tabuliek',
 
 	// Install data
-	'TASK_ADD_BOTS'			=> 'Registrovanie botov',
-	'TASK_ADD_LANGUAGES'	=> 'Inštalovanie dostupných jazykov',
-	'TASK_ADD_MODULES'		=> 'Inštalovanie modulov',
+	'TASK_ADD_BOTS'				=> 'Registrovanie botov',
+	'TASK_ADD_LANGUAGES'		=> 'Inštalovanie dostupných jazykov',
+	'TASK_ADD_MODULES'			=> 'Inštalovanie modulov',
+	'TASK_CREATE_SEARCH_INDEX'	=> 'Vytváranie vyhľadávacieho indexu',
 
 	// Install finish tasks
 	'TASK_INSTALL_EXTENSIONS'	=> 'Inštalovanie pribalených rozšírení',

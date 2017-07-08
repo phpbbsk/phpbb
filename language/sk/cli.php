@@ -58,6 +58,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Zakáže určené rozšírenie.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Povolí určené rozšírenie.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Nájde migrácie, na ktorých nie je závislá.',
+	'CLI_DESCRIPTION_FIX_LEFT_RIGHT_IDS'		=> 'Opraví štruktúru stromov fór a modulov.',
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Získa hodnotu konfiguračnej možnosti',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Zvýši číselnú hodnotu konfiguračnej možnosti',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Zobrazí všetky rozšírenia v databáze a súborovom systéme.',
@@ -92,7 +93,9 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Spustiť príkaz s cache.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Spustiť príkaz s kontrolou iba stabilných alebo nestabilných verzií.',
 
-	'CLI_ERROR_INVALID_STABILITY' => '"%s" is not a valid stability.',
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Aktualizuje zastaralé heslá a zahashuje ich použitím bcrypt.',
+
+	'CLI_ERROR_INVALID_STABILITY' => '"%s" musí byť nastavené na "stable" alebo "unstable".',
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Aktivuje (alebo deaktivuje) používateľský účet.',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Používateľské meno účtu na aktivovanie.',
@@ -111,8 +114,10 @@ $lang = array_merge($lang, array(
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Nebolo možné zakázať rozšírenie %s',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'Rozšírenie %s zakázané',
+	'CLI_EXTENSION_DISABLED'			=> 'Rozšírenie %s nie je povolené',
 	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'Nebolo možné povoliť rozšírenie %s',
 	'CLI_EXTENSION_ENABLE_SUCCESS'		=> 'Rozšírenie %s povolené',
+	'CLI_EXTENSION_ENABLED'				=> 'Rozšírenie %s už je povolené',
 	'CLI_EXTENSION_NAME'				=> 'Názov rozšírenia',
 	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Nebolo možné prečistiť rozšírenie %s',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'Rozšírenie %s prečistené',
@@ -123,7 +128,9 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_DISABLED'			=> 'Zakázané',
 	'CLI_EXTENSIONS_ENABLED' 			=> 'Povolené',
 
+	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Bezpečne opravené štruktúry stromov fór a modulov.',
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Všetky hashe e-mailov úspešne prepočítané.',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Úspešne aktualizované heslá použitím bcrypt.',
 
 	'CLI_MIGRATION_NAME'					=> 'Názov migrácie, vrátane menného priestoru (pre predídenie problémov, použite lomítko namiesto obráteného lomítka).',
 	'CLI_MIGRATIONS_AVAILABLE'				=> 'Dostupné migrácie',
