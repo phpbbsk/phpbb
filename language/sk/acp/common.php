@@ -374,7 +374,7 @@ $lang = array_merge($lang, array(
 	'NUMBER_USERS'		=> 'Počet užívateľov',
 	'NUMBER_ORPHAN'		=> 'Nepripojených príloh',
 
-	'PHP_VERSION_OLD'	=> 'Verzia PHP na vašom serveri už dlhšie nebude podporovaná budúcimi verziami phpBB. %sDetaily%s',
+	'PHP_VERSION_OLD'	=> 'PHP verzia na tomto serveri (%1$s) v budúcnosti nebude podporovaná. Minimálna požadovaná verzia PHP bude %2$s. %3$sDetaily%4$s',
 
 	'POSTS_PER_DAY'		=> 'Príspevkov za deň',
 

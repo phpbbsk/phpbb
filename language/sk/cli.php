@@ -56,6 +56,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Zakáže určené rozšírenie.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Povolí určené rozšírenie.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Nájde migrácie, na ktorých nie je závislá.',
+	'CLI_DESCRIPTION_FIX_LEFT_RIGHT_IDS'		=> 'Opraví štruktúru stromov fór a modulov.',
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Získa hodnotu konfiguračnej možnosti',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Zvýši číselnú hodnotu konfiguračnej možnosti',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Zobrazí všetky rozšírenia v databáze a súborovom systéme.',
@@ -65,6 +66,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Prepočítať stĺpec user_email_hash tabuľky užívateľov.',
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Nastaví hodnotu konfiguračnej možnosti, len ak je zhodná so súčasnou hodnotou',
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Nastaví hodnotu konfiguračnej možnosti',
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Aktualizuje zastaralé heslá a zahashuje ich použitím bcrypt.',
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Nebolo možné zakázať rozšírenie %s',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'Rozšírenie %s zakázané',
@@ -78,7 +80,9 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_DISABLED'			=> 'Zakázané',
 	'CLI_EXTENSIONS_ENABLED' 			=> 'Povolené',
 
+	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Bezpečne opravené štruktúry stromov fór a modulov.',
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Všetky hashe e-mailov úspešne prepočítané.',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Úspešne aktualizované heslá použitím bcrypt.'
 ));
 
 // Additional help for commands.

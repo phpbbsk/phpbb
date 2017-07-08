@@ -347,6 +347,7 @@ $lang = array_merge($lang, array(
 	'INTERESTS'					=> 'Záujmy',
 	'INVALID_DIGEST_CHALLENGE'	=> 'Neplatná požiadavka na spracovanie.',
 	'INVALID_EMAIL_LOG'			=> 'Nie je <strong>%s</strong> neplatnou e-mailovou adresou?',
+	'INVALID_FEED_ATTACHMENTS'	=> 'Vybraný zdroj sa pokúsil prijať prílohy s neplatnými obmedzeniami.',
 	'INVALID_PLURAL_RULE'		=> 'Zadaná hodnota plurálu je neplatná. Povolené sú hodnoty od 0 do 15.',
 	'IP'						=> 'IP',
 	'IP_BLACKLISTED'			=> 'Vaša IP adresa %1$s bola zablokovaná, pretože je uvedená na čiernej listine. Ďalšie informácie <a href="%2$s">%2$s</a>.',

@@ -575,6 +575,7 @@ $lang = array_merge($lang, array(
 	'UPDATING_DATA'					=> 'Aktualizácia dát',
 	'UPDATING_TO_LATEST_STABLE'		=> 'Aktualizácia databázy na poslednú stabilnú verziu',
 	'UPDATED_VERSION'				=> 'Aktualizovaná verzia',
+	'UPGRADE_INSTRUCTIONS'			=> 'K dispozícii je nová verzia <strong>%1$s</strong>. Prosíme, prečítajte si <a href="%2$s" title="%2$s"><strong>oznámenie o vydaní</strong></a> (v Angličtine), aby ste zistili čo ponúka a ako aktualizovať.',
 	'UPLOAD_METHOD'					=> 'Metóda uploadu',
 
 	'UPDATE_DB_SUCCESS'				=> 'Aktualizácia databázy prebehla úspešne.',

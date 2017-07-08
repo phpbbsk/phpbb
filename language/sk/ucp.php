@@ -101,6 +101,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_DRIVER_UPLOAD_TITLE'	=> 'Nahrať obrázok profilu',
 	'AVATAR_DRIVER_UPLOAD_EXPLAIN'	=> 'Nahrať vlastný obrázok profilu.',
 	'AVATAR_EXPLAIN'				=> 'Maximálne rozmery (ŠxV): %1$s x %2$s, maximálna veľkosť: %3$.2f KiB.',
+	'AVATAR_EXPLAIN_NO_FILESIZE'	=> 'Maximálne rozmery: šírka: %1$s, výška: %2$s.',
 	'AVATAR_FEATURES_DISABLED'		=> 'Nie je dovolené používať obrázky profilov.',
 	'AVATAR_GALLERY'				=> 'Lokálna galéria',
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Nemôžem nahrať obrázok profilu na %s.',
