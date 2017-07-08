@@ -219,8 +219,8 @@ $lang = array_merge($lang, array(
 	'UPDATE_INCOMPLETE'				=> 'Vaša inštalácia phpBB nebola správne aktualizovaná.',
 	'UPDATE_INCOMPLETE_MORE'		=> 'Prosíme, pre nápravu si prečítajte informácie uvedené nižšie.',
 	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Nekompletná aktualizácia</h1>
-		<p>Všimli sme si, že posledná aktualizácia vašej inštalácie phpBB nebola kompletná. Navštívte <a href="%1$s" title="%1$s">database_update skript</a> a spustite ho. Ak chýba, prosíme, <a href="https://www.phpbb.com/downloads/" title="phpBB downloads">stiahnite si verziu vhodnú pre váš balíček</a>, nahrajte ho do adresára "install" v koreňovom adresári vášho phpBB (tam, kde je súbor config.php) a <a href="%1$s" title="%1$s">spustite skript aktualizácie databázy</a>.</p>',
 
+		<p>Všimli sme si, že posledná aktualizácia vašej inštalácie phpBB nebola kompletná. Navštívte <a href="%1$s" title="%1$s">aktualizátor databázy</a>, vyberte <em>Aktualizovať iba databázu</em> a kliknite na <strong>Odoslať</strong>. Nezabudnite po aktualizácii vymazať adresár "install".</p>',
 
 	//
 	// Server data
