@@ -418,9 +418,12 @@ $lang = array_merge($lang, array(
 	'UPLOAD_DIR_SIZE'	=> 'Veľkosť všetkých príloh',
 	'USERS_PER_DAY'		=> 'Užívateľov za deň',
 
-	'VALUE'						=> 'Hodnota',
-	'VERSIONCHECK_FAIL'			=> 'Nepodarilo sa zistiť informácie o poslednej verzii.',
-	'VERSIONCHECK_FORCE_UPDATE'	=> 'Znovu zkontrolovať verziu',
+	'VALUE'							=> 'Hodnota',
+	'VERSIONCHECK_FAIL'				=> 'Nepodarilo sa zistiť informácie o poslednej verzii.',
+	'VERSIONCHECK_FORCE_UPDATE'		=> 'Znovu zkontrolovať verziu',
+	'VERSIONCHECK_INVALID_ENTRY'	=> 'Posledná informácia o verzii obsahuje nepodporované prvky.',
+	'VERSIONCHECK_INVALID_URL'		=> 'Posledná informácia o verzii obsahuje neplatnú URL adresu.',
+	'VERSIONCHECK_INVALID_VERSION'	=> 'Posledná informácia o verzii obsahuje neplatnú verziu.',
 	'VIEW_ADMIN_LOG'		=> 'Zobraziť administrátorský záznam',
 	'VIEW_INACTIVE_USERS'	=> 'Zobraziť neaktívnych užívateľov',
 
