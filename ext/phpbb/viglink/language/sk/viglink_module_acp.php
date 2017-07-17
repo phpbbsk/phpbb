@@ -41,6 +41,7 @@ $lang = array_merge($lang, array(
 	'ACP_VIGLINK_SETTINGS'			=> 'VigLink nastavenia',
 	'ACP_VIGLINK_SETTINGS_EXPLAIN'	=> 'VigLink je služba tretej strany, ktorá diskrétne speňažní odkazy v príspevkoch používateľov na vašom fóre bez akejkoľvek zmeny v ich používaní. Keď používateľ klikne na odkaz nejakého produktu alebo služby a zakúpi ju, predajca vyplatí VigLinku províziu, ktorej časť sa použije ako dar pre phpBB. Povolením VigLinku podporujete našu organizáciu a zaisťujete jej finančné zabezpečenie.',
 	'ACP_VIGLINK_SETTINGS_CHANGE'	=> 'Tieto nastavenia môžete kedykoľvek zmeniť v paneli „<a href="%1$s">VigLink nastavení</a>“.',
+	'ACP_VIGLINK_SUPPORT_EXPLAIN'	=> 'Po tom, čo odošlete vašu preferovanú možnosť kliknutím na tlačidlo Odoslať už viac nebudete presmerovaní na túto stránku.',
 	'ACP_VIGLINK_ENABLE'			=> 'Povoliť VigLink',
 	'ACP_VIGLINK_ENABLE_EXPLAIN'	=> 'Povolí používanie služby VigLink.',
 	'ACP_VIGLINK_EARNINGS'			=> 'Nárokujte si na vlastné zárobky (voliteľné)',
