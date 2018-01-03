@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'USER_LANG'			=> 'sk-SK',
 
 	// You can define different rules for the determination of plural forms here.
-	// See http://wiki.phpbb.com/Plural_Rules for more information
+	// See https://area51.phpbb.com/docs/dev/32x/language/plurals.html for more information
 	// or ask the translation manager for help.
 	'PLURAL_RULE'		=> 8,
 
@@ -577,6 +577,7 @@ $lang = array_merge($lang, array(
 	),
 	'OPTIONS'					=> 'Možnosti',
 
+	'PAGE_NOT_FOUND'		=> 'Požadovaná stránka nebola nájdená.',
 	'PAGE_OF'				=> 'Strana <strong>%1$d</strong> z <strong>%2$d</strong>',
 	'PAGE_TITLE_NUMBER'		=> 'Strana %s',
 	'PASSWORD'				=> 'Heslo',

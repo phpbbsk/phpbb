@@ -108,6 +108,7 @@ $lang = array_merge($lang, array(
 // Forum Permissions
 $lang = array_merge($lang, array(
 	'ACL_F_LIST'		=> 'Môže vidieť fórum',
+	'ACL_F_LIST_TOPICS' => 'Môže vidieť témy',
 	'ACL_F_READ'		=> 'Môže čítať fórum',
 	'ACL_F_SEARCH'		=> 'Môže vyhľadávať na fóre',
 	'ACL_F_SUBSCRIBE'	=> 'Môže sledovať fóra',

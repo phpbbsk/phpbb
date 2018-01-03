@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'NEW_POSTS_LOCKED'		=> 'Nové príspevky [ Zamknuté ]',	// Not used anymore
 	'NO_NEW_POSTS_HOT'		=> 'Žiadne nové príspevky [ Obľúbené ]',	// Not used anymore
 	'NO_NEW_POSTS_LOCKED'	=> 'Žiadne nové príspevky [ Zamknuté ]',	// Not used anymore
-	'NO_READ_ACCESS'		=> 'Na prezeranie príspevkov nemáte potrebné oprávnenia.',
+	'NO_READ_ACCESS'		=> 'Na prezeranie alebo čítanie tém v tomto fóre nemáte oprávnenia.',
 	'NO_UNREAD_POSTS_HOT'		=> 'Žiadne neprečítané príspevky [ Obľúbené ]',
 	'NO_UNREAD_POSTS_LOCKED'	=> 'Žiadne neprečítané príspevky [ Zamknuté ]',
 
