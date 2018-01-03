@@ -20,12 +20,12 @@
 		"php": ">=5.3.3"
 	},
 	"require-dev": {
-		"phpbb/translation-validator": "1.3.*"
+		"phpbb/translation-validator": "1.4.*"
 	},
 	"extra": {
 		"language-iso": "sk",
 		"english-name": "Slovak",
 		"local-name": "Slovenčina",
-		"phpbb-version": "3.2.2-dev"
+		"phpbb-version": "3.2.2-RC1"
 	}
 }
