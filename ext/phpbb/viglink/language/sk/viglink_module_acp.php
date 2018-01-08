@@ -50,5 +50,5 @@ $lang = array_merge($lang, array(
 	'ACP_VIGLINK_CLAIM'				=> 'Nárokujte si na vlastné zárobky',
 	'ACP_VIGLINK_CLAIM_EXPLAIN'		=> 'Namiesto darovania ziskov phpBB projektu si môžete nárokovať na zárobky vášho fóra zo speňažených VigLink odkazov. Pre správu vášho účtu sa zaregistrujte do „VigLink Convert” kliknutím na „Konvertovať účet”.',
 	'ACP_VIGLINK_CONVERT_ACCOUNT'	=> 'Konvertovať účet',
-	'ACP_VIGLINK_NO_CONVERT_LINK'	=> 'Odkaz konvertovaného účtu VigLink sa nepodarilo získať.'
+	'ACP_VIGLINK_NO_CONVERT_LINK'	=> 'Odkaz konvertovaného účtu VigLink sa nepodarilo získať.',
 ));
