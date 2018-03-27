@@ -553,6 +553,7 @@ $lang = array_merge($lang, array(
 	'LOG_BBCODE_ADD'		=> '<strong>Pridaný nový BB kód</strong><br />» %s',
 	'LOG_BBCODE_EDIT'		=> '<strong>Úprava BB kódu</strong><br />» %s',
 	'LOG_BBCODE_DELETE'		=> '<strong>Odstránenie BB kódu</strong><br />» %s',
+	'LOG_BBCODE_CONFIGURATION_ERROR'	=> '<strong>Chyba pri nastavovaní BBkódu</strong>: %1$s<br />» %2$s',
 
 	'LOG_BOT_ADDED'		=> '<strong>Pridaný nový bot</strong><br />» %s',
 	'LOG_BOT_DELETE'	=> '<strong>Odstránený bot</strong><br />» %s',

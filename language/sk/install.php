@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Podpora',
-	'SUPPORT_BODY'		=> 'Plná podpora bude zadarmo poskytnutá aktuálne stabilnému vydaniu phpBB3. To zahŕňa:</p><ul><li>inštaláciu</li><li>konfiguráciu</li><li>technické otázky</li><li>problémy s potencionálnymi chybami v softvéry</li><li>aktualizáciu z Release Candidate (RC) verzií na najnovšiu stabilnú verziu</li><li>konvertovanie z phpBB 2.0.x na phpBB3</li><li>konvertovanie z iného softvéru fór na phpBB3 (prosím, pozrite <a href="https://www.phpbb.com/community/viewforum.php?f=486">fórum konvertorov</a>)</li></ul><p>Povzbudzujeme používateľov beta verzií phpBB3, aby nahradili inštaláciu najnovšou verziou.</p><h2>Rozšírenia / Štýly</h2><p>Problémy týkajúce sa rozšírení, prosíme, hláste do vhodného <a href="https://www.phpbb.com/community/viewforum.php?f=451">fóra rozšírení</a>.<br />Problémy týkajúce sa štýlov, šablón a tém, prosíme, hláste do vhodného <a href="https://www.phpbb.com/community/viewforum.php?f=471">fóra štýlov</a>.<br /><br />Ak sa vaša otázka týka špecifického balíčka, prosíme, píšte priamo do témy venovanej danému balíčku.</p><h2>Získanie podpory</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">Uvítací balíček phpBB</a><br /><a href="https://www.phpbb.com/support/">Sekcia podpory</a><br /><a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/">Návod na rýchle začatie</a><br /><br />Aby ste sa uistili, že máte stále najnovšiu verziu, <a href="https://www.phpbb.com/support/">prihláste sa do nášho mailing listu</a>.<br /><br />',
+	'SUPPORT_BODY'		=> 'Plná podpora bude zadarmo poskytnutá aktuálne stabilnému vydaniu phpBB3. To zahŕňa:</p><ul><li>inštaláciu</li><li>konfiguráciu</li><li>technické otázky</li><li>problémy s potencionálnymi chybami v softvéry</li><li>aktualizáciu z Release Candidate (RC) verzií na najnovšiu stabilnú verziu</li><li>konvertovanie z phpBB 2.0.x na phpBB3</li><li>konvertovanie z iného softvéru fór na phpBB3 (prosím, pozrite <a href="https://www.phpbb.com/community/viewforum.php?f=486">fórum konvertorov</a>)</li></ul><p>Povzbudzujeme používateľov beta verzií phpBB3, aby nahradili inštaláciu najnovšou verziou.</p><h2>Rozšírenia / Štýly</h2><p>Problémy týkajúce sa rozšírení, prosíme, hláste do vhodného <a href="https://www.phpbb.com/community/viewforum.php?f=451">fóra rozšírení</a>.<br />Problémy týkajúce sa štýlov, šablón a tém, prosíme, hláste do vhodného <a href="https://www.phpbb.com/community/viewforum.php?f=471">fóra štýlov</a>.<br /><br />Ak sa vaša otázka týka špecifického balíčka, prosíme, píšte priamo do témy venovanej danému balíčku.</p><h2>Získanie podpory</h2><p><a href="https://www.phpbb.com/support/">Sekcia podpory</a><br /><a href="https://www.phpbb.com/support/docs/en/3.2/ug/quickstart/">Návod na rýchle začatie</a><br /><br />Aby ste sa uistili, že máte stále najnovšiu verziu, sledujte nás na <a href="https://www.twitter.com/phpbb/">Twitteri</a> a <a href="https://www.facebook.com/phpbb/">Facebooku</a><br /><br />',
 
 	// License
 	'LICENSE_TITLE'		=> 'General Public License',
@@ -194,6 +194,7 @@ $lang = array_merge($lang, array(
 	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
 
 	// Errors
+	'INST_ERR_DB'					=> 'Chyba pri inštalácii databázy',
 	'INST_ERR_NO_DB'				=> 'Nedá sa načítať PHP modul pre vybraný druh databázy',
 	'INST_ERR_DB_INVALID_PREFIX'	=> 'Zadaná predpona je neplatná. Predpona musí začínať písmenom a môže obsahovať iba písmena, číslice a podtržník.',
 	'INST_ERR_PREFIX_TOO_LONG'		=> 'Predpona tabuliek je príliš dlhá. Maximálna dĺžka je %d znakov.',
@@ -351,24 +352,47 @@ $lang = array_merge($lang, array(
 
 		<h1>Oznámenie o vydaní</h1>
 
-		<p>Prosím prečítajte si <a href="%1$s" title="%1$s"><strong>oznámenie o vydaní pre najnovšiu verziu</strong></a> predtým ako budete pokračovať v aktualizačnom procese, pretože sa môžete dozvedieť užitočné informácie. Bude to obsahovať odkazy na stiahnutie ako ja záznam zmien.</p>
+		<p>Prosíme, prečítajte si oznámenie o vydaní najnovšej verzie pred tým, ako začnete proces aktualizácie, pretože môžeo bsahovať užitočné informácie. Tento oznam taktiež obsahuje odkazy na stiahnutie a tiež zoznam zmien.</p>
 
 		<br />
 
-		<h1>Ako aktualizovať vašu inštaláciu s automatickým aktualizačným balíčkom</h1>
+		<h1>Ako aktualizovať vašu inštaláciu s plným balíčkom (Full Package)</h1>
 
-		<p>Doporučený spôsob aktualizácie vašej inštalácie vypísaný tu je platný len pre automatický aktualizačný balíček (Automatic Update Package). Môžete tiež aktualizovať vašu inštaláciu s použitím metód vypísaných v dokumente INSTALL.html. Kroky pre automatickú aktualizáciu phpBB sú:</p>
+		<p>Odporúčame vám aktualizovať vašu inštaláciu pomocou plného balíčka. Ak boli súbory phpBB upravené, pravdepodobne budete potrebovať balík automatickej aktualizácie, aby ste tieto zmeny nestratili. Môžete aktualizovať vašu inštaláciu taktiež inými metódami popísanými v dokumente INSTALL.html. Kroky k aktualizovaniu phpBB3 pomocou plného balíka sú:</p>
 
+		<ol style="margin-left: 20px; font-size: 1.1em;">
+			<li><strong class="error">Zálohujte všetky súbory fóra a databázu.</strong></li>
+			<li>Choďte na <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">stránku na stiahnutie na phpBB.com</a> a stiahnite si najnovší archív "Full Package".</li>
+			<li>Rozbaľte archív.</li>
+			<li>Odstráňte (vymažte) <em>z balíčka</em> (nie z vašej stránky) súbor <code class="inline">config.php</code> a adresáre <code class="inline">/images</code>, <code class="inline">/store</code> a <code class="inline">/files</code>.</li>
+			<li>Choďte do Administračného panelu, Nastavenia fóra a uistite sa, že prosilver je nastavený ako predvolený štýl. Ak nie je, nastavte ho.</li>
+			<li>Vymažte adresáre <code class="inline">/vendor</code> a <code class="inline">/cache</code> z vášho fóra.</li>
+			<li>Cez FTP alebo SSH nahrajte zvyšné súbory a adresáre (teda zvyšok OBSAHU adresára phpBB3) do cieľového adresára vašej inštalácie na serveri. Týmto prepíšete existujúce súbory. (Poznámka: dajte si pozor, aby ste pri nahrávaní nevymazali žiadne rozšírenia v adresári <code class="inline">/ext</code>.)</li>
+			<li><strong><a href="%1$s" title="%1$s">Teraz začnite proces aktualizácie prejdením do inštalačného adresára</a>.</strong></li>
+			<li>Nasledujte kroky na aktualizáciu databázy a nechajte ich zbehnúť až do ukončenia.</li>
+			<li>Cez FTP alebo SSH vymažte adresár <code class="inline">/install</code> z koreňového adresára vašej inštalácie na serveri.<br><br></li>
+		</ol>
+		
+		<p>Teraz máte najnovšiu verziu fóra, ktorá obsahuje všetkých vašich používateľov a príspevky. Ďalšie úlohy sú:</p>
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Choďte na <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">stránku so súbormi na stiahnutie na phpBB.com</a> a stiahnite archív automatického aktualizačného balíčku "Automatic Update Package".<br /><br /></li>
-			<li>Rozbaľte archív.<br /><br /></li>
-			<li>Nahrajte celú rozbalenú zložku install do základnej zložky vášho phpBB fóra (tá kde sa nachádza súbor config.php).<br /><br /></li>
+			<li>Aktualizujte svoje jazykové balíčky</li>
+			<li>Aktualizujte svoje štýly<br><br></li>
 		</ul>
 
-		<p>Akonáhle budú súbory nahrané, phpBB sa vypne pre bežných užívateľov na dobu pokiaľ bude zložka install, ktorú si nahral prítomná v základnej zložke phpBB.<br /><br />
-		<strong><a href="%1$s" title="%1$s">Terez spustite aktualizačný proces zadaním cesty ku zložke install do vášho prehliadača</a>.</strong><br />
+		<h1>Ako aktualizovať vašu inštaláciu pomocou balíčka automatickej aktualizácie (Automatic Update Package)</h1>
+
+		<p>Balík automatickej inštalácie je odporúčaný iba v prípade, že súbory phpBB boli vo vašej inštalácii upravené. Môžete aktualizovať vašu inštaláciu taktiež inými metódami popísanými v dokumente INSTALL.html. Kroky k aktualizácii phpBB použitím balíka automatickej inštalácie sú:</p>
+
+		<ol style="margin-left: 20px; font-size: 1.1em;">
+			<li>Choďte na <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">stránku stiahnutí na phpBB.com</a> a stiahnite si archív "Automatic Update Package".</li>
+			<li>Rozbaľte archív.</li>
+			<li>Nahrajte adresáre "install" a "vendor" do koreového adresára vášho phpBB (tam, kde je config.php).<br><br></li>
+		</ol>
+
+		<p>Akonáhle nahráte tieto súbory, vaše fórum sa pre normálnych používateľov vypne, keďže je prítomný inštalačný adresár.<br /><br />
+		<strong><a href="%1$s" title="%1$s">Teraz začnite proces aktualizácie prejdením do inštalačného adresára</a>.</strong><br />
 		<br />
-		Budete prevedený cez aktualizačný proces. Budete upozornený, keď bude aktualizácia hotová.
+		Cez proces aktualizácie budete vední. Akonáhle sa aktualizácia ukončí, budete o tom upovedomený.
 		</p>
 	',
 ));
