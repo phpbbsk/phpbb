@@ -121,9 +121,14 @@ $lang = array_merge($lang, array(
 		3	=> 'Aktuálna rýchlosť indexovania je približne %1$.1f príspevkov za sekundu.<br />Indexing in progress…',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
-		1	=> 'Všetky príspevky až do príspevku s ID %2$d boli odstránené z indexu.<br />Deleting in progress…',
-		2	=> 'Všetky príspevky až do príspevku s ID %2$d boli odstránené z indexu.<br />Deleting in progress…',
-		3	=> 'Všetky príspevky až do príspevku s ID %2$d boli odstránené z indexu.<br />Deleting in progress…',
+		1	=> 'Všetky príspevky až do príspevku s ID %2$d boli odstránené z indexu, z toho %1$d príspevok v tomto kroku.<br />',
+		2	=> 'Všetky príspevky až do príspevku s ID %2$d boli odstránené z indexu, z toho %1$d príspevky v tomto kroku.<br />',
+		3	=> 'Všetky príspevky až do príspevku s ID %2$d boli odstránené z indexu, z toho %1$d príspevkov v tomto kroku.<br />',
+	),
+	'SEARCH_INDEX_DELETE_REDIRECT_RATE'		=> array(
+		1	=> 'Aktuálny počet vymazaných príspevkov je približne %1$.1f príspevok za sekundu.<br />Odstraňovanie prebieha…',
+		2	=> 'Aktuálny počet vymazaných príspevkov je približne %1$.1f príspevky za sekundu.<br />Odstraňovanie prebieha…',
+		3	=> 'Aktuálny počet vymazaných príspevkov je približne %1$.1f príspevkov za sekundu.<br />Odstraňovanie prebieha…',
 	),
 	'SEARCH_INDEX_CREATED' 					=> 'Všetky príspevky v databáze fóra boli úspešne zaindexované.',
 	'SEARCH_INDEX_REMOVED' 					=> 'Vyhľadávací index tohto backendu bol úspešne odstránený.',

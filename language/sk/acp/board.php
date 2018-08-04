@@ -349,7 +349,7 @@ $lang = array_merge($lang, array(
 
 // Cookie Settings
 $lang = array_merge($lang, array(	
-	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Tu môžete definovať obsah dát obsiahnutých v cookies odosielaných do prehliadačov návštevníkov. Vo väčšine prípadov by mali prednastavené hodnoty bez problémov vyhovovať. Pokiaľ je však potrebné niektoré upraviť, buďte opatrní; ich zlé nastavenie môže zabrániť užívateľom v prihlásení. Ak majú vaši používatelia problém ostať prihlásení, navštívte <b><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com znalostnú bázu - Opravenie nesprávnych nastavení cookies</a> (v Angličtine)</b>.',
+	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Tu môžete definovať obsah dát obsiahnutých v cookies odosielaných do prehliadačov návštevníkov. Vo väčšine prípadov by mali prednastavené hodnoty bez problémov vyhovovať. Pokiaľ je však potrebné niektoré upraviť, buďte opatrní; ich zlé nastavenie môže zabrániť užívateľom v prihlásení. Ak majú vaši používatelia problém ostať prihlásení, navštívte <strong><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com znalostnú bázu - Opravenie nesprávnych nastavení cookies</a> (v Angličtine)</strong>.',
 
 	'COOKIE_DOMAIN'				=> 'Doména cookie',
 	'COOKIE_DOMAIN_EXPLAIN'		=> 'Väčšinou je doména cookie nepovinná. Ak si nie ste istý, nechajte doménu prázdnu.<br><br> V prípade, že máte fórum integrované s iným softvérom alebo na viacerých doménach, potom pre určenie doménu cookie potrebujete vedieť nasledujúce. Ak máte napríklad doménu <i>example.com</i> a fórum na <i>forums.example.com</i>, alebo možno <i>forums.example.com</i> a <i>blog.example.com</i>. Odstráňte poddomény kým nenájdete spoločnú doménu, <i>example.com</i>. Teraz pridajte bodku pred spoločnú doménu, teda: .example.com (všimnite si bodku na začiatku).',
@@ -405,6 +405,8 @@ $lang = array_merge($lang, array(
 	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN'	=> 'Number of days that will elapse before a read notification will automatically be deleted. Set this value to 0 to make notifications permanent.',
 	'RECOMPILE_STYLES'				=> 'Nanovo kompilovať staré šablóny',
 	'RECOMPILE_STYLES_EXPLAIN'		=> 'Skontroluje zmenené súbory šablón a prekompiluje ich.',
+	'YES_ACCURATE_PM_BUTTON'			=> 'Povoliť tlačidlo súkromnej správy na stránke témy podľa oprávnení',
+	'YES_ACCURATE_PM_BUTTON_EXPLAIN'	=> 'Ak je toto nastavenie povolené, tlačidlo súkromnej správy bude zobrazené iba pri tých používateľoch, ktorým môže aktuálne prihlásený používateľ poslať súkromnú správu.',
 	'YES_ANON_READ_MARKING'			=> 'Povoliť označovanie tém pre anonymných užívateľov',
 	'YES_ANON_READ_MARKING_EXPLAIN'	=> 'Uchováva informáciu o čítaných/nečítaných témach aj pre anonymných užívateľov. Ak je vypnuté, pre hostí sú príspevky vždy označené ako prečítané.',
 	'YES_ACCURATE_PM_BUTTON'			=> 'Povoliť presný indikátor súkromných správ v témach',
