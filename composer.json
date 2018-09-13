@@ -3,9 +3,9 @@
 	"description": "Slovak language pack for phpBB",
 	"type": "phpbb-language",
 	"homepage": "https://www.phpbb.com/customise/db/translation/slovak/",
-	"version": "3.2.3-dev",
+	"version": "3.2.3",
 	"keywords": ["slovak", "slovenčina", "slovenský", "language", "locale", "localisation", "localization", "translate", "translation"],
-	"license": "GPL-2.0",
+	"license": "GPL-2.0-only",
 	"authors": [
 		{
 			"name": "Jakub Senko",
@@ -17,7 +17,7 @@
 		"source": "https://github.com/phpbbsk/phpbb"
 	},
 	"require": {
-		"php": ">=5.3.3"
+		"php": ">=5.4"
 	},
 	"require-dev": {
 		"phpbb/translation-validator": "1.4.*"
@@ -26,6 +26,6 @@
 		"language-iso": "sk",
 		"english-name": "Slovak",
 		"local-name": "Slovenčina",
-		"phpbb-version": "3.2.3-dev"
+		"phpbb-version": "3.2.3"
 	}
 }
