@@ -63,7 +63,6 @@ $lang = array_merge($lang, array(
 
 	'ACCOUNT_ALREADY_ACTIVATED'		=> 'Váš účet už bol aktivovaný.',
 	'ACCOUNT_DEACTIVATED'			=> 'Váš účet bol manuálne deaktivovaný a môže byť znovu aktivovaný len administrátorom.',
-	'ACCOUNT_NOT_ACTIVATED'			=> 'Váš účet ešte nebol aktivovaný.',
 	'ACP'							=> 'Administrátorský panel',
 	'ACP_SHORT'						=> 'Administrátorský panel',
 	'ACTIVE'						=> 'aktívny',

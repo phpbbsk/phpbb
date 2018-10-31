@@ -91,6 +91,7 @@ $lang = array_merge($lang, array(
 	'NO_UNREAD_POSTS'		=> 'V tejto téme nie sú žiadne nové neprečítané príspevky.',
 	'NO_VOTE_OPTION'		=> 'Musíte vybrať jednu z možností, ak chcete hlasovať.',
 	'NO_VOTES'				=> 'Žiadne hlasovania',
+	'NO_AUTH_PRINT_TOPIC'	=> 'Nemáte dostatočné oprávnenie na vytlačenie témy.',
 
 	'POLL_ENDED_AT'			=> 'Hlasovanie ukončené %s',
 	'POLL_RUN_TILL'			=> 'Hlasovanie spustené až do %s',

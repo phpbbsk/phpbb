@@ -372,7 +372,7 @@ $lang = array_merge($lang, array(
 	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Tu môžete povoliľ a zakázať kontaktnú stránku a tiež pridať text, ktorý sa na stránke zobrazí.',
 
 	'CONTACT_US_ENABLE'				=> 'Povoliť kontaktnú stránku',
-	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Táto stránka povoľuje užívateľom poslať email administrátorom fóra. Prosíme, uvedomte si, že musia byť povolené emaily. Toto nastavenie nájdete v Všeobecné > Komunikácia klienta > Nastavenia emailu.',
+	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Táto stránka povoľuje užívateľom poslať email administrátorom fóra. Prosíme, uvedomte si, že musia byť povolené emaily. Toto nastavenie nájdete v Všeobecné &gt; Komunikácia klienta &gt; Nastavenia emailu.',
 
 	'CONTACT_US_INFO'				=> 'Kontaktné informácie',
 	'CONTACT_US_INFO_EXPLAIN'		=> 'Správa je zobrazená na kontaktnej stránke',

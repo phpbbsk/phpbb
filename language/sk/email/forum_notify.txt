@@ -1,4 +1,5 @@
 Subject: Nový príspevok vo fóre - "{FORUM_NAME}"
+List-Unsubscribe: <{U_STOP_WATCHING_FORUM}>
 
 Dobrý deň {USERNAME},
 

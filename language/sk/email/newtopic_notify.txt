@@ -1,4 +1,5 @@
 Subject: Uverejnenie novej témy - "{FORUM_NAME}"
+List-Unsubscribe: <{U_STOP_WATCHING_FORUM}>
 
 Dobrý deň {USERNAME},
 
@@ -6,6 +7,9 @@ Táto správa vám bola doručená pretože sledujete "{FORUM_NAME}" na "{SITENA
 
 Odkaz na sledované fórum:
 {U_FORUM}
+
+Ak chcete vidieť priamo tému, kliknite na tento odkaz:
+{U_TOPIC}
 
 Ak si viac neželáte sledovať toto fórum, kliknite na tlačítko "Nesledovať toto fórum" v náhľade fóra alebo môžete použiť nasledovný odkaz:
 {U_STOP_WATCHING_FORUM}
