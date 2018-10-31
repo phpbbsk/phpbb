@@ -4,22 +4,22 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "61349eaf350556f044f3cabde8e98836",
-    "content-hash": "95e683a65dd4c5a1a939cdc36278fd49",
+    "hash": "29a655c2ea4fca05c4b05e7cd804b742",
+    "content-hash": "5e28219484201cc30c947dbad91a8b2a",
     "packages": [],
     "packages-dev": [
         {
             "name": "phpbb/translation-validator",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpbb/phpbb-translation-validator.git",
-                "reference": "f442139c41cff5bc7d812ec1d63c56cbbeb526a2"
+                "reference": "dc7bf187cad019ddad6bcd9db83ae2ba2c70b7e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpbb/phpbb-translation-validator/zipball/f442139c41cff5bc7d812ec1d63c56cbbeb526a2",
-                "reference": "f442139c41cff5bc7d812ec1d63c56cbbeb526a2",
+                "url": "https://api.github.com/repos/phpbb/phpbb-translation-validator/zipball/dc7bf187cad019ddad6bcd9db83ae2ba2c70b7e1",
+                "reference": "dc7bf187cad019ddad6bcd9db83ae2ba2c70b7e1",
                 "shasum": ""
             },
             "require": {
@@ -54,7 +54,7 @@
             ],
             "description": "A language package validator for phpBB language packs. Language packs are required to pass the validator when submitted to the language pack database.",
             "homepage": "https://github.com/phpbb/phpbb-translation-validator",
-            "time": "2017-12-31 14:37:57"
+            "time": "2018-10-30 21:56:59"
         },
         {
             "name": "symfony/console",
@@ -221,7 +221,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.3.3"
+        "php": ">=5.4"
     },
     "platform-dev": []
 }
