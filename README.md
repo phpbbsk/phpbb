@@ -7,6 +7,6 @@ Slovak language pack to localise the phpBB 3.2 forum software.
 
 Includes the following Slovak locales compatible with:
 
-- [phpBB 3.2.3](https://github.com/phpbb/phpbb/tree/3.2.x)
+- [phpBB 3.2.4](https://github.com/phpbb/phpbb/tree/3.2.x)
 
 Released under the GNU General Public License 2.0. Please see the [license terms](language/sk/LICENSE).

@@ -3,7 +3,7 @@
 	"description": "Slovak language pack for phpBB",
 	"type": "phpbb-language",
 	"homepage": "https://www.phpbb.com/customise/db/translation/slovak/",
-	"version": "3.2.3",
+	"version": "3.2.4",
 	"keywords": ["slovak", "slovenčina", "slovenský", "language", "locale", "localisation", "localization", "translate", "translation"],
 	"license": "GPL-2.0-only",
 	"authors": [
@@ -26,6 +26,6 @@
 		"language-iso": "sk",
 		"english-name": "Slovak",
 		"local-name": "Slovenčina",
-		"phpbb-version": "3.2.3"
+		"phpbb-version": "3.2.4"
 	}
 }
