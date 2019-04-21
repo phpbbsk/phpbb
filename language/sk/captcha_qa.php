@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'CAPTCHA_QA'				=> 'Otázky&amp;Odpovede',
-	'CONFIRM_QUESTION_EXPLAIN'  => 'Odpoveď na túto otázku je potrebná pre odlíšenie skutočného užívateľa od automatizovaných pokusov registráciu.',
+	'CONFIRM_QUESTION_EXPLAIN'  => 'Odpoveď na túto otázku je potrebná pre odlíšenie skutočného používateľa od automatizovaných pokusov registráciu.',
 	'CONFIRM_QUESTION_WRONG'    => 'Nesprávna odpoveď.',
 	'CONFIRM_QUESTION_MISSING'	=> 'Nebolo možné získať otázky pre captcha. Prosíme, kontaktujte administrátora fóra.',
 
@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'QUESTION_STRICT_EXPLAIN'	=> 'Pokiaľ povolíte kontrolu úplnej zhody, do úvahy sa bude brať aj veľkosť znakov a medzery.',
 
 	'QUESTION_TEXT'				=> 'Otázka',
-	'QUESTION_TEXT_EXPLAIN'		=> 'Otázka zobrazená užívateľovi.',
+	'QUESTION_TEXT_EXPLAIN'		=> 'Otázka zobrazená používateľovi.',
 
 	'QA_ERROR_MSG'				=> 'Vyplňte všetky polia a vložte aspoň jednu odpoveď.',
 	'QA_LAST_QUESTION'			=> 'Nemôžete zmazať všetky odpovede, kým je plugin aktívny.',

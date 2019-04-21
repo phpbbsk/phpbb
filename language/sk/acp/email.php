@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 
 // Email settings
 $lang = array_merge($lang, array(
-	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Tu môžete poslať emailovú správu buď všetkým užívateľom alebo všetkým užívateľom určitej skupiny, <strong>ktorá má povolenú možnosť dostávať hromadné e-maily</strong>. Na dosiahnutie toho, e-mail bude odoslaný na zadaný administratívny e-mail so skrytými kópiami, ktoré budú poslané každému príjemcovi. Predvolené nastavenie vkladá len 50 prijímateľov do takéhoto e-mailu, pre viac príjemcov bude poslaných viac e-mailov. Ak posielate email veľkej skupine ľudí, prosíme, buďte po odoslaní trpezlivý a nezastavujte stránku na polceste. Pre hromadné emaily je normálne, že to trvá dlhý čas. Keď skript ukončí prácu, budete o tom oboznámený.',
+	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Tu môžete poslať emailovú správu buď všetkým používateľom alebo všetkým používateľom určitej skupiny, <strong>ktorá má povolenú možnosť dostávať hromadné e-maily</strong>. Na dosiahnutie toho, e-mail bude odoslaný na zadaný administratívny e-mail so skrytými kópiami, ktoré budú poslané každému príjemcovi. Predvolené nastavenie vkladá len 50 prijímateľov do takéhoto e-mailu, pre viac príjemcov bude poslaných viac e-mailov. Ak posielate email veľkej skupine ľudí, prosíme, buďte po odoslaní trpezlivý a nezastavujte stránku na polceste. Pre hromadné emaily je normálne, že to trvá dlhý čas. Keď skript ukončí prácu, budete o tom oboznámený.',
 	'ALL_USERS'						=> 'Všetci užívatelia',
 
 	'COMPOSE' 				=> 'Napísať novú',
@@ -52,10 +52,10 @@ $lang = array_merge($lang, array(
 
 	'SEND_IMMEDIATELY' 		=> 'Poslať hneď',
 	'SEND_TO_GROUP'			=> 'Poslať skupine',
-	'SEND_TO_USERS'			=> 'Poslať užívateľom',
-	'SEND_TO_USERS_EXPLAIN'	=> 'Vložte mená, ktoré nahradia akúkoľvek skupinu vybranú vyššie. Každé užívateľské meno vložte na samostatný riadok.',
+	'SEND_TO_USERS'			=> 'Poslať používateľom',
+	'SEND_TO_USERS_EXPLAIN'	=> 'Vložte mená, ktoré nahradia akúkoľvek skupinu vybranú vyššie. Každé používateľské meno vložte na samostatný riadok.',
 
-    'MAIL_BANNED' 			=> 'Odoslať e-mail zabanovaným užívateľom',
+    'MAIL_BANNED' 			=> 'Odoslať e-mail zabanovaným používateľom',
     'MAIL_BANNED_EXPLAIN'	=> 'Ak odosielate hromadný e-mail skupine, tu si môžete zvoliť, či e-mail obdržia aj zabanovaní užívatelia.',
 	'MAIL_HIGH_PRIORITY'	=> 'Vysoká',
 	'MAIL_LOW_PRIORITY'		=> 'Nízka',

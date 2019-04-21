@@ -39,28 +39,28 @@ if (empty($lang) || !is_array($lang))
 
 // User pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_USERS_EXPLAIN' 		=> 'Táto sekcia vám umožňuje zmazať alebo deaktivovať užívateľov na vašom fóre. Účty môžu byť filtrované rôznymi spôsobmi; podľa počtu príspevkov, poslednej aktivity atď. Kritériá je možné kombinovať pre zúženie ovplyvnených účtov. Napríklad môžete prečistiť užívateľov s menej ako 10 príspevkami, ktorí zároveň boli neaktívni po 1.1.2012. Môžete taktiež úplne preskočiť výber kritérií vložením zoznamu užívateľov (každý na novom riadku) do textového poľa. Buďte opatrní pri prečisťovaní užívateľov! Zmazaných užívateľov nie je možné vrátiť späť.',
+	'ACP_PRUNE_USERS_EXPLAIN' 		=> 'Táto sekcia vám umožňuje zmazať alebo deaktivovať používateľov na vašom fóre. Účty môžu byť filtrované rôznymi spôsobmi; podľa počtu príspevkov, poslednej aktivity atď. Kritériá je možné kombinovať pre zúženie ovplyvnených účtov. Napríklad môžete prečistiť používateľov s menej ako 10 príspevkami, ktorí zároveň boli neaktívni po 1.1.2012. Môžete taktiež úplne preskočiť výber kritérií vložením zoznamu používateľov (každý na novom riadku) do textového poľa. Buďte opatrní pri prečisťovaní používateľov! Zmazaných používateľov nie je možné vrátiť späť.',
 
 	'CRITERIA'				=> 'Kritériá',
 
 	'DEACTIVATE_DELETE' 		=> 'Deaktivovať alebo zmazať',
-	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Vyberte, či chcete užívateľov deaktivovať alebo ich úplne zmazať. Prosíme, uvedomte si, že zmazaných užívateľov sa už nedá obnoviť!',
+	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Vyberte, či chcete používateľov deaktivovať alebo ich úplne zmazať. Prosíme, uvedomte si, že zmazaných používateľov sa už nedá obnoviť!',
 	'DELETE_USERS'				=> 'Zmazať',
-	'DELETE_USER_POSTS'			=> 'Odstrániť príspevky prečistených užívateľov',
-	'DELETE_USER_POSTS_EXPLAIN' => 'Odstrániť príspevky zmazaných užívateľov, nemá účinok pre deaktivovaní užívateľov.',
+	'DELETE_USER_POSTS'			=> 'Odstrániť príspevky prečistených používateľov',
+	'DELETE_USER_POSTS_EXPLAIN' => 'Odstrániť príspevky zmazaných používateľov, nemá účinok pre deaktivovaní používateľov.',
 
 	'JOINED_EXPLAIN' 			=> 'Zadajte dátum vo formáte <kbd>RRRR-MM-DD</kbd> ',
 
-	'LAST_ACTIVE_EXPLAIN' 		=> 'Zadajte dátum vo formáte <kbd>RRRR-MM-DD</kbd>. Zadajte <kbd>0000-00-00</kbd> pre prečistenie užívateľov, ktorí sa nikdy neprihlásili, v tomto prípade budú ignorované podmienky <em>Pred</em> a <em>Po</em> ',
+	'LAST_ACTIVE_EXPLAIN' 		=> 'Zadajte dátum vo formáte <kbd>RRRR-MM-DD</kbd>. Zadajte <kbd>0000-00-00</kbd> pre prečistenie používateľov, ktorí sa nikdy neprihlásili, v tomto prípade budú ignorované podmienky <em>Pred</em> a <em>Po</em> ',
 
 	'POSTS_ON_QUEUE' 			=> 'Príspevky čakajúce na schválenie',
-	'PRUNE_USERS_GROUP_EXPLAIN'	=> 'Obmedziť na užívateľov z vybranej skupiny.',
+	'PRUNE_USERS_GROUP_EXPLAIN'	=> 'Obmedziť na používateľov z vybranej skupiny.',
 	'PRUNE_USERS_GROUP_NONE'	=> 'Všetky skupiny',
 	'PRUNE_USERS_LIST' 				=> 'Užívatelia k prečisteniu',
-	'PRUNE_USERS_LIST_DELETE'		=> 'S vybranými kritériami pre prečistenie užívateľov budú odstránené nasledujúce užívateľské účty.',
-	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'S vybranými kritériami pre prečistenie užívateľov budú deaktivováné nasledujúce užívateľské účty.',
+	'PRUNE_USERS_LIST_DELETE'		=> 'S vybranými kritériami pre prečistenie používateľov budú odstránené nasledujúce používateľské účty.',
+	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'S vybranými kritériami pre prečistenie používateľov budú deaktivováné nasledujúce používateľské účty.',
 
-	'SELECT_USERS_EXPLAIN' 		=> 'Sem vložte užívateľské mená, pre ktoré majú byť použité nastavené kritéria. Zakladatelia fora nemôžu byť prečistení.',
+	'SELECT_USERS_EXPLAIN' 		=> 'Sem vložte používateľské mená, pre ktoré majú byť použité nastavené kritéria. Zakladatelia fora nemôžu byť prečistení.',
 
 	'USER_DEACTIVATE_SUCCESS' 	=> 'Vybraní užívatelia boli úspešne deaktivovaní.',
 	'USER_DELETE_SUCCESS' 		=> 'Vybraní užívatelia boli úspešne zmazaní.',

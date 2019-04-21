@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'30_MINS'		=> '30 minút',
 	'6_HOURS'		=> '6 hodín',
 
-	'ACP_BAN_EXPLAIN'	=> 'Tu môžete ovládať vylučovanie (banovanie) užívateľov podľa mena, IP alebo e-mailovej adresy. Tieto metódy zamedzujú užívateľovi prístup k akejkoľvek časti fóra. Ak chcete, môžete dať krátky (255 znakový) dôvod pre vylúčenie. Tento bude zobrazený v zázname (logu) admina. Dĺžka vylúčenia môže byť tiež špecifikovaná. Ak chcete vylúčenie do konca určitého dátumu, radšej než preddefinovanú dĺžku, vyberte <span style="text-decoration: underline;">Až do</span> pre dĺžku vylúčenia a vložte dátum vo formáte yyyy-mm-dd (rrrr-mm-dd).',
+	'ACP_BAN_EXPLAIN'	=> 'Tu môžete ovládať vylučovanie (banovanie) používateľov podľa mena, IP alebo e-mailovej adresy. Tieto metódy zamedzujú používateľovi prístup k akejkoľvek časti fóra. Ak chcete, môžete dať krátky (255 znakový) dôvod pre vylúčenie. Tento bude zobrazený v zázname (logu) admina. Dĺžka vylúčenia môže byť tiež špecifikovaná. Ak chcete vylúčenie do konca určitého dátumu, radšej než preddefinovanú dĺžku, vyberte <span style="text-decoration: underline;">Až do</span> pre dĺžku vylúčenia a vložte dátum vo formáte yyyy-mm-dd (rrrr-mm-dd).',
 
 	'BAN_EXCLUDE'			=> 'Vyňať z vylúčenia',
 	'BAN_LENGTH'			=> 'Dĺžka vylúčenia',
@@ -76,10 +76,10 @@ $lang = array_merge($lang, array(
 	'PERMANENT'		=> 'Trvalé',
 
 	'UNTIL'						=> 'Až do',
-	'USER_BAN'					=> 'Vylúčiť jedno alebo viac užívateľských mien',
-	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Povoľte možnosť pre vyňatie vložených užívateľov zo všetkých momentálnych vylúčení.',
-	'USER_BAN_EXPLAIN'			=> 'Môžete vylúčiť viac užívateľov naraz zadaním každého mena do nového riadku. Použite funkciu <span style="text-decoration: underline;">Nájsť člena</span> pre vyhľadanie a automatické zadanie jedného alebo viac užívateľov.',
-	'USER_NO_BANNED'			=> 'Žiadne vylúčené užívateľské mená',
-	'USER_UNBAN'				=> 'Zrušiť vylúčenie alebo zrušiť vyňatie užívateľských mien',
-	'USER_UNBAN_EXPLAIN'		=> 'Môžete zrušiť vylúčenie (alebo zrušiť vyňatie) viacerých užívateľov naraz správnym použitím kombinácie myši a klávesnice na Vašom PC a prehliadača. Vyňatí užívatelia sú zvýraznení.',
+	'USER_BAN'					=> 'Vylúčiť jedno alebo viac používateľských mien',
+	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Povoľte možnosť pre vyňatie vložených používateľov zo všetkých momentálnych vylúčení.',
+	'USER_BAN_EXPLAIN'			=> 'Môžete vylúčiť viac používateľov naraz zadaním každého mena do nového riadku. Použite funkciu <span style="text-decoration: underline;">Nájsť člena</span> pre vyhľadanie a automatické zadanie jedného alebo viac používateľov.',
+	'USER_NO_BANNED'			=> 'Žiadne vylúčené používateľské mená',
+	'USER_UNBAN'				=> 'Zrušiť vylúčenie alebo zrušiť vyňatie používateľských mien',
+	'USER_UNBAN_EXPLAIN'		=> 'Môžete zrušiť vylúčenie (alebo zrušiť vyňatie) viacerých používateľov naraz správnym použitím kombinácie myši a klávesnice na Vašom PC a prehliadača. Vyňatí užívatelia sú zvýraznení.',
 ));

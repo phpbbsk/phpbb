@@ -5,7 +5,7 @@ Nasledujúca správa vám bola odoslaná prostredníctvom administrátora z port
 
 <!-- IF S_IS_REGISTERED -->
 
-Od užívateľa: {FROM_USERNAME}
+Od používateľa: {FROM_USERNAME}
 Z emailovej adresy: {FROM_EMAIL_ADDRESS}
 IP adresy: {FROM_IP_ADDRESS}
 Profil: {U_FROM_PROFILE}

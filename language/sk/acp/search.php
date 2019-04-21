@@ -100,11 +100,11 @@ $lang = array_merge($lang, array(
 	'MAX_SEARCH_CHARS' 						=> 'Maximálny počet znakov pre indexáciu',
 	'MAX_SEARCH_CHARS_EXPLAIN' 				=> 'Len slová, ktoré sa skladajú z menej znakov, ako je nastavené, budú zaindexované.',
 	'MAX_NUM_SEARCH_KEYWORDS' 				=> 'Maximálny počet povolených kľúčových slov',
-	'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN' 		=> 'Maximálny počet slov, ktoré môže užívateľ vyhľadať. Pokiaľ je nastavená 0, nie je žiadné obmedzenie v počte slov.',
+	'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN' 		=> 'Maximálny počet slov, ktoré môže používateľ vyhľadať. Pokiaľ je nastavená 0, nie je žiadné obmedzenie v počte slov.',
 	'MIN_SEARCH_CHARS' 						=> 'Maximálny počet znakov pre indexáciu',
 	'MIN_SEARCH_CHARS_EXPLAIN' 				=> 'Slová s minimálne toľkým počtom znakov budú zaindexované.',
 	'MIN_SEARCH_AUTHOR_CHARS' 				=> 'Minimálny počet znakov v mene autora',
-	'MIN_SEARCH_AUTHOR_CHARS_EXPLAIN' 		=> 'Užívatelia musia vložiť minimálne tento počet znakov pri vyhľadávaní užívateľského mena s použitím zástupných znakov. Pokiaľ je užívateľove meno kratšie, ako je tu nastavený počet znakov, je stále možné vyhľadať jeho príspevky zadaním celého užívateľského mena.',
+	'MIN_SEARCH_AUTHOR_CHARS_EXPLAIN' 		=> 'Užívatelia musia vložiť minimálne tento počet znakov pri vyhľadávaní používateľského mena s použitím zástupných znakov. Pokiaľ je používateľove meno kratšie, ako je tu nastavený počet znakov, je stále možné vyhľadať jeho príspevky zadaním celého používateľského mena.',
 
 	'PROGRESS_BAR' 							=> 'Postup',
 
@@ -132,8 +132,8 @@ $lang = array_merge($lang, array(
 	),
 	'SEARCH_INDEX_CREATED' 					=> 'Všetky príspevky v databáze fóra boli úspešne zaindexované.',
 	'SEARCH_INDEX_REMOVED' 					=> 'Vyhľadávací index tohto backendu bol úspešne odstránený.',
-	'SEARCH_INTERVAL' 						=> 'Ochranný interval pre užívateľov',
-	'SEARCH_INTERVAL_EXPLAIN' 				=> 'Počet sekúnd, ktorý musia užívatelia počkať medzi vyhľadávaniami. Tento interval sa kontroluje zvlášť pre každého užívateľa.',
+	'SEARCH_INTERVAL' 						=> 'Ochranný interval pre používateľov',
+	'SEARCH_INTERVAL_EXPLAIN' 				=> 'Počet sekúnd, ktorý musia užívatelia počkať medzi vyhľadávaniami. Tento interval sa kontroluje zvlášť pre každého používateľa.',
 	'SEARCH_STORE_RESULTS' 					=> 'Dĺžka cache pre výsledky vyhľadávania',
 	'SEARCH_STORE_RESULTS_EXPLAIN' 			=> 'Cacheované výsledky vyhľadávania sa automaticky odstránia po uplynutí tejto doby. Nastavte na 0 ak chcete vypnúť cacheovanie vyhľadávania.',
 	'SEARCH_TYPE' 							=> 'Vyhľadávací backend',
@@ -144,7 +144,7 @@ $lang = array_merge($lang, array(
 	'TOTAL_MATCHES'							=> 'Celkový počet spojení medzi slovami a príspevkami',
 
 	'YES_SEARCH' 							=> 'Povoliť vyhľadávanie',
-	'YES_SEARCH_EXPLAIN' 					=> 'Umožniť užívateľom využívať vyhľadávanie vrátane vyhľadávania užívateľov.',
+	'YES_SEARCH_EXPLAIN' 					=> 'Umožniť používateľom využívať vyhľadávanie vrátane vyhľadávania používateľov.',
 	'YES_SEARCH_UPDATE' 					=> 'Povoliť aktualizáciu indexu',
 	'YES_SEARCH_UPDATE_EXPLAIN' 			=> 'Aktualizuje fulltextové indexy po pridaní príspevku, ignorované pokiaľ je vyhľadávanie vypnuté.',
 ));

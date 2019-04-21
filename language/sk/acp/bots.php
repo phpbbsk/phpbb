@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 // Bot settings
 $lang = array_merge($lang, array(
 	'BOTS'				=> 'Správa botov',
-	'BOTS_EXPLAIN' 		=> '„Bot“, „Spider“ (pavúk) alebo „crawler“ je program bežne používaný vyhľadávačmi na aktualizáciu ich databáz. Vzhľadom k tomu, že len zriedka správne používajú session-y, môžu narušiť počty návštev, zvyšujú záťaž a niekedy sa im nepodarí indexovať stránky správne. Tu môžete definovať špeciálny typ užívateľa na prekonanie týchto problémov.',
+	'BOTS_EXPLAIN' 		=> '„Bot“, „Spider“ (pavúk) alebo „crawler“ je program bežne používaný vyhľadávačmi na aktualizáciu ich databáz. Vzhľadom k tomu, že len zriedka správne používajú session-y, môžu narušiť počty návštev, zvyšujú záťaž a niekedy sa im nepodarí indexovať stránky správne. Tu môžete definovať špeciálny typ používateľa na prekonanie týchto problémov.',
 	'BOT_ACTIVATE' 		=> 'Aktivovať',
 	'BOT_ACTIVE' 		=> 'Aktívny bot',
 	'BOT_ADD'			=> 'Pridať bota',
@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 	'BOT_DEACTIVATE'	=> 'Deaktivovať',
 	'BOT_DELETED'		=> 'Bot bol úspešne odstránený.',
 	'BOT_EDIT'			=> 'Upraviť bota',
-	'BOT_EDIT_EXPLAIN'	=> 'Tu môžete pridávať alebo upravovať existujúcich botov. Môžete definovať reťazec agenta a/alebo jeden alebo viac IP adries (alebo rozsah adries). Buďte opatrní pri definovaní zodpovedajúcich reťazcov agenta alebo adresy. Môžete tiež určiť štýl a jazyk, pod ktorými bot bude používať fórum. To vám umožní znížiť prenesené dáta nastavením jednoduchého štýlu botom. Nezabudnite nastaviť príslušné oprávnenia pre zvláštnu užívateľskú skupinu „Boti“.',
+	'BOT_EDIT_EXPLAIN'	=> 'Tu môžete pridávať alebo upravovať existujúcich botov. Môžete definovať reťazec agenta a/alebo jeden alebo viac IP adries (alebo rozsah adries). Buďte opatrní pri definovaní zodpovedajúcich reťazcov agenta alebo adresy. Môžete tiež určiť štýl a jazyk, pod ktorými bot bude používať fórum. To vám umožní znížiť prenesené dáta nastavením jednoduchého štýlu botom. Nezabudnite nastaviť príslušné oprávnenia pre zvláštnu používateľskú skupinu „Boti“.',
 	'BOT_LANG'			=> 'Jazyk',
 	'BOT_LANG_EXPLAIN'	=> 'Jazyk prezentovaný botom, keď prehliadajú fórum.',
 	'BOT_LAST_VISIT'	=> 'Posledná návšteva',

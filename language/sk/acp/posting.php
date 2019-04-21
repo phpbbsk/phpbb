@@ -74,7 +74,7 @@ $lang = array_merge($lang, array(
 
 	'TOKEN'					=> 'Token',
 	'TOKENS'				=> 'Tokeny',
-	'TOKENS_EXPLAIN'		=> 'Tokeny držia miesto pre budúci užívateľský vstup. Vstup bude spracovaný, len ak bude odpovedať definícií tokenu. Pokiaľ potrebujete, môžete ich číslovať pridaním čísla pred uzatváracou zátvorkou, napr. {TEXT1}, {TEXT2}.<br /><br />V HTML náhrade môžete taktiež použiť akýkoľvek jazykový reťazec, ktorý je vo vašom /language adresári, napríklad:e {L_<em>&lt;NAZOVRETAZCA&gt;</em>}, kde <em>&lt;NAZOVRETAZCA&gt;</em> je názov preloženého reťazca, ktorý chcete pridať. Napríklad, {L_WROTE} bude zobrazené ako „napísal“.<br /><br /><strong>Prosím berte na vedomie, že iba premenné zobrazené nižšie môžu byť použité ako súčasť vlastných BB kódov.</strong>',
+	'TOKENS_EXPLAIN'		=> 'Tokeny držia miesto pre budúci používateľský vstup. Vstup bude spracovaný, len ak bude odpovedať definícií tokenu. Pokiaľ potrebujete, môžete ich číslovať pridaním čísla pred uzatváracou zátvorkou, napr. {TEXT1}, {TEXT2}.<br /><br />V HTML náhrade môžete taktiež použiť akýkoľvek jazykový reťazec, ktorý je vo vašom /language adresári, napríklad:e {L_<em>&lt;NAZOVRETAZCA&gt;</em>}, kde <em>&lt;NAZOVRETAZCA&gt;</em> je názov preloženého reťazca, ktorý chcete pridať. Napríklad, {L_WROTE} bude zobrazené ako „napísal“.<br /><br /><strong>Prosím berte na vedomie, že iba premenné zobrazené nižšie môžu byť použité ako súčasť vlastných BB kódov.</strong>',
 	'TOKEN_DEFINITION'		=> 'Čo to môže byť?',
 	'TOO_MANY_BBCODES'		=> 'Nedajú sa vytvoriť ďalšie BB kódy. Odstráňte jednu, alebo viac BB kódov a skúste to znova.',
 
@@ -210,7 +210,7 @@ $lang = array_merge($lang, array(
 
 // Word censors
 $lang = array_merge($lang, array(
-	'ACP_WORDS_EXPLAIN'		=> 'Z tohto kontrolného panela môžete pridávať, upravovať a odstraňovať slová, ktoré budú na vašich fórach automaticky cenzurované. Ľudia majú povolené registrovať sa s užívateľskými menami, ktoré obsahujú tieto slová. Zástupný znak (*) je možné použiť na nájdenie zhody, napr. *test* sa bude zhodovať so slovom netestovateľný, test* sa bude zhodovať so slovom testovanie, *test sa bude zhodovať so slovom predtest.',
+	'ACP_WORDS_EXPLAIN'		=> 'Z tohto kontrolného panela môžete pridávať, upravovať a odstraňovať slová, ktoré budú na vašich fórach automaticky cenzurované. Ľudia majú povolené registrovať sa s používateľskými menami, ktoré obsahujú tieto slová. Zástupný znak (*) je možné použiť na nájdenie zhody, napr. *test* sa bude zhodovať so slovom netestovateľný, test* sa bude zhodovať so slovom testovanie, *test sa bude zhodovať so slovom predtest.',
 	'ADD_WORD'				=> 'Pridať nové slovo',
 
 	'EDIT_WORD'		=> 'Upraviť cenzurované slovo',
@@ -230,7 +230,7 @@ $lang = array_merge($lang, array(
 
 // Ranks
 $lang = array_merge($lang, array(
-	'ACP_RANKS_EXPLAIN'		=> 'Použitím tohto formulára môžete pridávať, upravovať, zobrazovať a mazať hodnosti.. Môžete tiež vytvoriť zvláštne hodnosti, ktoré môžu byť užívateľom priradené cez správu užívateľov.',
+	'ACP_RANKS_EXPLAIN'		=> 'Použitím tohto formulára môžete pridávať, upravovať, zobrazovať a mazať hodnosti.. Môžete tiež vytvoriť zvláštne hodnosti, ktoré môžu byť používateľom priradené cez správu používateľov.',
 	'ADD_RANK'				=> 'Pridať novú hodnosť',
 
 	'MUST_SELECT_RANK'		=> 'Musíte vybrať hodnosť.',
@@ -252,8 +252,8 @@ $lang = array_merge($lang, array(
 
 // Disallow Usernames
 $lang = array_merge($lang, array(
-	'ACP_DISALLOW_EXPLAIN'	=> 'Tu môžete kontrolovať užívateľské mená, ktoré nebudú povolené na používanie. Nepovolené mená sa dajú definovať pomocou zástupného znaku *.',
-	'ADD_DISALLOW_EXPLAIN'	=> 'Môžete zakázať užívateľské meno pomocou zástupného symbolu * pre zhodu s akýmkoľvek znakom.',
+	'ACP_DISALLOW_EXPLAIN'	=> 'Tu môžete kontrolovať používateľské mená, ktoré nebudú povolené na používanie. Nepovolené mená sa dajú definovať pomocou zástupného znaku *.',
+	'ADD_DISALLOW_EXPLAIN'	=> 'Môžete zakázať používateľské meno pomocou zástupného symbolu * pre zhodu s akýmkoľvek znakom.',
 	'ADD_DISALLOW_TITLE'	=> 'Pridať nepovolené meno',
 
 	'DELETE_DISALLOW_EXPLAIN'	=> 'Odstrániť nepovolené meno môžete kliknutím na meno v zozname a odoslaním.',
@@ -263,7 +263,7 @@ $lang = array_merge($lang, array(
 	'DISALLOW_SUCCESSFUL'		=> 'Nepovolené meno bolo úspešne pridané.',
 
 	'NO_DISALLOWED'				=> 'Žiadne zakázané mená',
-	'NO_USERNAME_SPECIFIED'		=> 'Nevybrali alebo nevložili ste žiadne užívateľské mená.',
+	'NO_USERNAME_SPECIFIED'		=> 'Nevybrali alebo nevložili ste žiadne používateľské mená.',
 ));
 
 // Reasons

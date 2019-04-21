@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'ALWAYS_TODAY'			=> 'Vždy aktuálny dátum',
 
 	'BOOL_ENTRIES_EXPLAIN'	=> 'Vložte svoje možnosti sem',
-	'BOOL_TYPE_EXPLAIN'		=> 'Zvoľte typ, buď zaškrtávacie pole alebo prepínateľné tlačidlo. Zaškrtávacie políčko sa zobrazí, iba ak je vybrané pre daného užívateľa. V tom prípade bude použitá <strong>druhá</strong> jazyková možnosť. Prepínacie tlačítka sa zobrazia vždy bez ohľadu na ich hodnotu.',
+	'BOOL_TYPE_EXPLAIN'		=> 'Zvoľte typ, buď zaškrtávacie pole alebo prepínateľné tlačidlo. Zaškrtávacie políčko sa zobrazí, iba ak je vybrané pre daného používateľa. V tom prípade bude použitá <strong>druhá</strong> jazyková možnosť. Prepínacie tlačítka sa zobrazia vždy bez ohľadu na ich hodnotu.',
 	
 	'CHANGED_PROFILE_FIELD'		=> 'Pole v profile bolo úspešne zmenené',
 	'CHARS_ANY'					=> 'Akýkoľvek znak',
@@ -56,8 +56,8 @@ $lang = array_merge($lang, array(
 	'COLUMNS'					=> 'Stĺpce',
 	'CP_LANG_DEFAULT_VALUE'		=> 'Prednastavená hodnota',
 	'CP_LANG_EXPLAIN'			=> 'Popis poľa',
-	'CP_LANG_EXPLAIN_EXPLAIN'	=> 'Vysvetlenie poľa pre užívateľa',
-	'CP_LANG_NAME'				=> 'Názov/popis poľa zobrazený užívateľovi',
+	'CP_LANG_EXPLAIN_EXPLAIN'	=> 'Vysvetlenie poľa pre používateľa',
+	'CP_LANG_NAME'				=> 'Názov/popis poľa zobrazený používateľovi',
 	'CP_LANG_OPTIONS'			=> 'Možnosti',
 	'CREATE_NEW_FIELD'			=> 'Vytvoriť nové pole',
 	'CUSTOM_FIELDS_NOT_TRANSLATED'	=> 'Minimálne jedno vlastné pole v profile ešte nebolo preložené. Prosíme, vyplňte požadované informácie kliknutím na odkaz „Preložiť“.',
@@ -67,12 +67,12 @@ $lang = array_merge($lang, array(
 	'DEFAULT_VALUE'					=> 'Základná hodnota',
 	'DELETE_PROFILE_FIELD'			=> 'Odstrániť pole v profile',
 	'DELETE_PROFILE_FIELD_CONFIRM'	=> 'Skutočne chcete odstrániť toto pole?',
-	'DISPLAY_AT_PROFILE'			=> 'Zobraziť v užívateľskom kontrolnom paneli',
-	'DISPLAY_AT_PROFILE_EXPLAIN'	=> 'Užívateľ môže meniť údaje v užívateľskom kontrolnom paneli.',
+	'DISPLAY_AT_PROFILE'			=> 'Zobraziť v používateľskom kontrolnom paneli',
+	'DISPLAY_AT_PROFILE_EXPLAIN'	=> 'Používateľ môže meniť údaje v používateľskom kontrolnom paneli.',
 	'DISPLAY_AT_REGISTER'			=> 'Zobraziť pri registrácii',
 	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Pokiaľ je táto možnosť povolená, pole bude zobrazené aj pri registrácii.',
 	'DISPLAY_ON_MEMBERLIST'			=> 'Zobraziť v zozname členov',
-	'DISPLAY_ON_MEMBERLIST_EXPLAIN'	=> 'Ak je táto možnosť povolená, pole bude zobrazené v riadku každého užívateľa v zozname členov.',
+	'DISPLAY_ON_MEMBERLIST_EXPLAIN'	=> 'Ak je táto možnosť povolená, pole bude zobrazené v riadku každého používateľa v zozname členov.',
 	'DISPLAY_ON_PM'					=> 'Zobraziť v súkromnej správe',
 	'DISPLAY_ON_PM_EXPLAIN'			=> 'Ak je táto možnosť povolená, pole bude zobrazené v mini profile pri súkromnej správe.',
 	'DISPLAY_ON_VT'					=> 'Zobrazit v témach',
@@ -81,7 +81,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_PROFILE_FIELD_EXPLAIN'	=> 'Položka bude zobrazená na všetkých miestach, ktoré sú povolené v nastaveniach zaťaženia. Nastavenie tejto možnosti na „nie“ skryje toto pole na stránkach tém, profilov a v zozname členov.',
 	'DROPDOWN_ENTRIES_EXPLAIN'		=> 'Vložte možnosti, každú možnosť na nový riadok.',
 
-	'EDIT_DROPDOWN_LANG_EXPLAIN'	=> 'Majte na vedomí, že môžete meniť texty možností, a tiež pridávať nové možnosti na koniec. Nie je doporučené pridávať nové možnosti medzi už existujúce možnosti, mohlo by to spôsobiť priradenie zlej možnosti užívateľom. Toto by sa taktiež mohlo stať, pokiaľ odstránite niektorú z možností uprostred. Po odstránení možností z konca spôsobí, že užívateľom bude vrátená základná hodnota.',
+	'EDIT_DROPDOWN_LANG_EXPLAIN'	=> 'Majte na vedomí, že môžete meniť texty možností, a tiež pridávať nové možnosti na koniec. Nie je doporučené pridávať nové možnosti medzi už existujúce možnosti, mohlo by to spôsobiť priradenie zlej možnosti používateľom. Toto by sa taktiež mohlo stať, pokiaľ odstránite niektorú z možností uprostred. Po odstránení možností z konca spôsobí, že používateľom bude vrátená základná hodnota.',
 	'EMPTY_FIELD_IDENT'				=> 'Označenie prázdneho poľa',
 	'EMPTY_USER_FIELD_NAME'			=> 'Prosím vložte názov/popis poľa',
 	'ENTRIES'						=> 'Možnosti',
@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 	'FIELD_CONTACT_URL'			=> 'Odkaz kontaktu',
  	'FIELD_DATE'				=> 'Dátum',
 	'FIELD_DESCRIPTION'			=> 'Popis poľa',
-	'FIELD_DESCRIPTION_EXPLAIN'	=> 'Vysvetlenie poľa, ktoré bude zobrazené užívateľom',
+	'FIELD_DESCRIPTION_EXPLAIN'	=> 'Vysvetlenie poľa, ktoré bude zobrazené používateľom',
 	'FIELD_DROPDOWN'			=> 'Rolovacie menu',
 	'FIELD_GOOGLEPLUS'			=> 'Google+',
 	'FIELD_IDENT'				=> 'Označenie poľa',
@@ -100,7 +100,7 @@ $lang = array_merge($lang, array(
 	'FIELD_IDENT_EXPLAIN'		=> 'Označenie poľa je názov, pod ktorým bude pole uložené v databáze a štýloch.',
 	'FIELD_INT'					=> 'Čísla',
 	'FIELD_IS_CONTACT'			=> 'Zobraziť pole ako kontaktné pole',
-	'FIELD_IS_CONTACT_EXPLAIN'	=> 'Kontaktné polia sú zobrazené v sekcii kontaktu na užívateľsom profile a sú zobrazené vedľa mini profilu pri príspevkoch a súkromných správach. Môžete použiť <samp>%s</samp> ako prednadstavenú hodnotu, ktorá bude nahradená hodnotou vyplnenou užívateľom.',
+	'FIELD_IS_CONTACT_EXPLAIN'	=> 'Kontaktné polia sú zobrazené v sekcii kontaktu na používateľsom profile a sú zobrazené vedľa mini profilu pri príspevkoch a súkromných správach. Môžete použiť <samp>%s</samp> ako prednadstavenú hodnotu, ktorá bude nahradená hodnotou vyplnenou používateľom.',
 	'FIELD_LENGTH'				=> 'Dĺžka vstupného poľa',
 	'FIELD_NOT_FOUND'			=> 'Pole profilu nebolo nájdené',
 	'FIELD_STRING'				=> 'Jedno textové pole',
@@ -112,7 +112,7 @@ $lang = array_merge($lang, array(
 	'FIRST_OPTION'				=> 'Prvá možnosť',
 
 	'HIDE_PROFILE_FIELD'			=> 'Skryť pole v profile',
-	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Skryje pole v profile pred všetkými užívateľmi okrem samotného užívateľa, administrátorov a moderátorov, ktorí stále môžu vidieť toto pole. Ak je možnosť Zobraziť v užívateľskom kontrolnom paneli vypnutá, užívateľ nebude môcť vidieť alebo zmeniť toto pole, a tak toto pole budú môcť zmeniť len administrátori.',
+	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Skryje pole v profile pred všetkými používateľmi okrem samotného používateľa, administrátorov a moderátorov, ktorí stále môžu vidieť toto pole. Ak je možnosť Zobraziť v používateľskom kontrolnom paneli vypnutá, používateľ nebude môcť vidieť alebo zmeniť toto pole, a tak toto pole budú môcť zmeniť len administrátori.',
 
 	'INVALID_CHARS_FIELD_IDENT'		=> 'Označenie poľa môže obsahovať iba malé a-z a _',
 	'INVALID_FIELD_IDENT_LEN'		=> 'Označenie poľa môže mať najviac 17 znakov',
@@ -135,7 +135,7 @@ $lang = array_merge($lang, array(
 	'NO_FIELD_ID'				=> 'Nebolo zvolené id poľa',
 	'NO_FIELD_TYPE'				=> 'Nebol zvolený typ poľa',
 	'NO_VALUE_OPTION'			=> 'Nastavenie sa nerovná vloženej hodnote',
-	'NO_VALUE_OPTION_EXPLAIN'	=> 'Hodnota pre neplatný vstup. Ak je pole vyžadované, užívateľ dostane chybovú hlášku ak si vyberie možnosť, ktorá je vybratá tu.',
+	'NO_VALUE_OPTION_EXPLAIN'	=> 'Hodnota pre neplatný vstup. Ak je pole vyžadované, používateľ dostane chybovú hlášku ak si vyberie možnosť, ktorá je vybratá tu.',
 	'NUMBERS_ONLY'				=> 'Iba čísla (0-9)',
 
 	'PROFILE_BASIC_OPTIONS'		=> 'Základné možnosti',
@@ -147,7 +147,7 @@ $lang = array_merge($lang, array(
 	'RADIO_BUTTONS'				=> 'Prepínacie tlačítka',
 	'REMOVED_PROFILE_FIELD'		=> 'Pole v profile úspešne odstránené.',
 	'REQUIRED_FIELD'			=> 'Povinné pole',
-	'REQUIRED_FIELD_EXPLAIN'	=> 'Vynútiť vyplnenie tohto poľa v profile užívateľom alebo administrátorom. Ak je táto možnosť vypnutá pri registrácii, pole bude požadované len ak bude užívateľ upravovať svoj profil.',
+	'REQUIRED_FIELD_EXPLAIN'	=> 'Vynútiť vyplnenie tohto poľa v profile používateľom alebo administrátorom. Ak je táto možnosť vypnutá pri registrácii, pole bude požadované len ak bude používateľ upravovať svoj profil.',
 	'ROWS'						=> 'Riadky',
 
 	'SAVE'							=> 'Uložiť',
@@ -159,7 +159,7 @@ $lang = array_merge($lang, array(
 	'STEP_1_TITLE_CREATE'			=> 'Pridať pole v profile',
 	'STEP_1_TITLE_EDIT'				=> 'Upraviť pole v profile',
 	'STEP_2_EXPLAIN_CREATE'			=> 'Tu môžete definovať niektoré základné nastavenia, ktoré chcete upraviť.',
-	'STEP_2_EXPLAIN_EDIT'			=> 'Tu môžete zmeniť niektoré základné nastavenia.<br /><strong>Berte na vedomie, že zmeny, ktoré robíte s poľami v profile neovplyvnia údaje doposiaľ zadané vašimi užívateľmi.</strong>',
+	'STEP_2_EXPLAIN_EDIT'			=> 'Tu môžete zmeniť niektoré základné nastavenia.<br /><strong>Berte na vedomie, že zmeny, ktoré robíte s poľami v profile neovplyvnia údaje doposiaľ zadané vašimi používateľmi.</strong>',
 	'STEP_2_TITLE_CREATE'			=> 'Špecifické možnosti typu',
 	'STEP_2_TITLE_EDIT'				=> 'Špecifické možnosti typu',
 	'STEP_3_EXPLAIN_CREATE'			=> 'Vzhľadom k tomu, že máte na fóre viac jazykov, musíte vyplniť aj zvyšné položky súvisiace s jazykom. Ak tak neurobíte, budú použité predvolené jazykové nastavenia. Zvyšné jazykové položky budete môcť nataviť aj neskôr.',
@@ -171,7 +171,7 @@ $lang = array_merge($lang, array(
 	'TEXT_DEFAULT_VALUE_EXPLAIN'	=> 'Vložte prednastavený text, ktorý sa má zobraziť. Ak nechcete zobraziť žiadny text, nechajte toto pole prázdne.',
 	'TRANSLATE'						=> 'Preložiť',
 
-	'USER_FIELD_NAME'	=> 'Názov/popis poľa, ktorý sa zobrazí užívateľovi',
+	'USER_FIELD_NAME'	=> 'Názov/popis poľa, ktorý sa zobrazí používateľovi',
 
 	'VISIBILITY_OPTION'				=> 'Možnosti zobrazenia',
 ));

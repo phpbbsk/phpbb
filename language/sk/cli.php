@@ -79,7 +79,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Približný počet záznamov, ktoré sa spracujú ja jednu jednotku času',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Začať reparsovať tam, kde posledné reparsovanie skončilo',
 
-	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'			=> 'Prepočítať stĺpec user_email_hash tabuľky užívateľov.',
+	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'			=> 'Prepočítať stĺpec user_email_hash tabuľky používateľov.',
 
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'					=> 'Nastaví hodnotu konfiguračnej možnosti, len ak je zhodná so súčasnou hodnotou',
 	'CLI_DESCRIPTION_SET_CONFIG'						=> 'Nastaví hodnotu konfiguračnej možnosti',

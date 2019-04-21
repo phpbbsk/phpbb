@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 	'ALREADY_DELETED'			=> 'Táto správa už bola vymazaná.',
 	'ATTACH_DISK_FULL'			=> 'Nie je dostatok miesta na uloženie tejto prílohy.',
 	'ATTACH_QUOTA_REACHED'		=> 'Úložný priestor portálu pre ukladanie príloh bol vyčerpaný.',
-	'ATTACH_SIG'				=> 'Zobraziť v príspevku aj podpis užívateľa (podpis je možné vytvoriť v časti "Nastavenia")',
+	'ATTACH_SIG'				=> 'Zobraziť v príspevku aj podpis používateľa (podpis je možné vytvoriť v časti "Nastavenia")',
 
 	'BBCODE_A_HELP'				=> 'Príloha: [attachment=]nazov_suboru.pripona[/attachment]',
 	'BBCODE_B_HELP'				=> 'Tučný text: [b]text[/b]',
@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_LISTITEM_HELP'		=> 'Položka zoznamu: [*]text',
 	'BBCODE_O_HELP'				=> 'Zotriedený zoznam: napr. [list=1][*]Prvý bod[/list] alebo [list=a][*]Položka a[/list]',
 	'BBCODE_P_HELP'				=> 'Vložiť obrázok: [img]http://adresa_k_obrazku/nazov_obrazku.pripona_obrazku[/img]',
-	'BBCODE_Q_HELP'				=> 'Citovať príspevok iného užívateľa alebo text: [quote]citovaný text[/quote]',
+	'BBCODE_Q_HELP'				=> 'Citovať príspevok iného používateľa alebo text: [quote]citovaný text[/quote]',
 	'BBCODE_S_HELP'				=> 'Farba písma: [color=red]text[/color] alebo [color=#FF0000]text[/color]',
 	'BBCODE_U_HELP'				=> 'Podčiarknutý text: [u]text[/u]',
 	'BBCODE_W_HELP'				=> 'Vložiť odkaz: [url]http://url[/url] alebo [url=http://url]URL text[/url]',
@@ -204,7 +204,7 @@ $lang = array_merge($lang, array(
 	'POLL_FOR'					=> 'Doba trvania',
 	'POLL_FOR_EXPLAIN'			=> 'Vložte 0 ak chcete ponechať hlasovanie natrvalo.',
 	'POLL_MAX_OPTIONS'			=> 'Maximálny počet volieb',
-	'POLL_MAX_OPTIONS_EXPLAIN'	=> 'Číslo vyjadruje počet možností, ktoré môže užívateľ v hlasovaní zvoliť. Minimum je 1. Maximum je počet všetkých hlasovacích otázok/možností.',
+	'POLL_MAX_OPTIONS_EXPLAIN'	=> 'Číslo vyjadruje počet možností, ktoré môže používateľ v hlasovaní zvoliť. Minimum je 1. Maximum je počet všetkých hlasovacích otázok/možností.',
 	'POLL_OPTIONS'				=> 'Hlasovacie otázky',
 	'POLL_OPTIONS_EXPLAIN'		=> array(
 		1	=> 'Môžete napísať len <strong>%d</strong> otázku.',
@@ -277,7 +277,7 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_POLL_OPTIONS'		=> 'Zadali ste príliš mnoho hlasovacích otázok.',
 	'TOO_MANY_SMILIES'			=> 'Vaša správa obsahuje príliš mnoho emotikonov, maximum je %d.',
 	'TOO_MANY_URLS'				=> 'Vaša správa obsahuje príliš mnoho odkazov na iné stránky, maximum je %d.',
-	'TOO_MANY_USER_OPTIONS'		=> 'Nemôžete určiť viac možností hlasovania pre užívateľa než je počet hlasovacích otázok.',
+	'TOO_MANY_USER_OPTIONS'		=> 'Nemôžete určiť viac možností hlasovania pre používateľa než je počet hlasovacích otázok.',
 	'TOPIC_BUMPED'				=> 'Téma bolo preunuté na začiatok zoznamu tém (oživené).',
 
 	'UNAUTHORISED_BBCODE'		=> 'Niektoré tagy BBCode nie je možné použiť (%s).',

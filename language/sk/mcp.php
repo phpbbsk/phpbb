@@ -43,9 +43,9 @@ $lang = array_merge($lang, array(
 	'ADD_FEEDBACK'			=> 'Pridať záznam',
 	'ADD_FEEDBACK_EXPLAIN'	=> 'Ak chcete v tejto súvislosti niečo doplniť vyplňte nasledujúci formulár. Použite prostý text, nepoužívajte HTML ani BBCode.',
 	'ADD_WARNING'			=> 'Pridať výstrahu',
-	'ADD_WARNING_EXPLAIN'	=> 'Ak chcete užívateľovi udeliť výstrahu vyplňte nasledovný formulár. Použite prostý text, nepoužívajte HTML ani BBCode.',
+	'ADD_WARNING_EXPLAIN'	=> 'Ak chcete používateľovi udeliť výstrahu vyplňte nasledovný formulár. Použite prostý text, nepoužívajte HTML ani BBCode.',
 	'ALL_ENTRIES'			=> 'Všetky príspevky',
-	'ALL_NOTES_DELETED'		=> 'Odstránené všetky záznamy užívateľa.',
+	'ALL_NOTES_DELETED'		=> 'Odstránené všetky záznamy používateľa.',
 	'ALL_REPORTS'			=> 'Všetky sťažnosti',
 	'ALREADY_REPORTED'		=> 'Tento príspevok už bol nahlásený.',
 	'ALREADY_REPORTED_PM'	=> 'Táto súkromná správa už bola nahlásená.',
@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 	'APPROVE_TOPICS_CONFIRM'=> 'Ste si istý, že chcete schváliť označené témy?',
 
 	'CANNOT_MOVE_SAME_FORUM'=> 'Nemôžete presunúť tému do fóra, ku ktorému práve patrí.',
-	'CANNOT_WARN_ANONYMOUS'	=> 'Nemôžete udeliť výstrahu neregistorvanému užívateľovi.',
+	'CANNOT_WARN_ANONYMOUS'	=> 'Nemôžete udeliť výstrahu neregistorvanému používateľovi.',
 	'CANNOT_WARN_SELF'		=> 'Nemôžete udeliť výstrahu sami sebe.',
 	'CAN_LEAVE_BLANK'		=> 'Toto môže zostať nevyplnené. Ak ste však nezvolili ani jeden z vyššie dôvodov, je potrebné doplniť do tohoto poľa ďalšie informácie.',
 	'CHANGE_POSTER'			=> 'Zmeniť prispievateľa',
@@ -113,7 +113,7 @@ $lang = array_merge($lang, array(
 	'GLOBAL_ANNOUNCEMENT'	=> 'Oznámenie pre celý portál',
 
 	'IP_INFO'				=> 'Informácie o IP adrese',
-	'IPS_POSTED_FROM'		=> 'IP adresa užívateľa, z ktorej boli príspevky odoslané',
+	'IPS_POSTED_FROM'		=> 'IP adresa používateľa, z ktorej boli príspevky odoslané',
 
 	'LATEST_LOGS'				=> 'Posledných 5 záznamov',
 	'LATEST_REPORTED'			=> 'Posledných 5 sťažností',
@@ -144,14 +144,14 @@ $lang = array_merge($lang, array(
 	'LOOKUP_ALL'				=> 'Vyhľadať všetky IP adresy',
 	'LOOKUP_IP'					=> 'Vyhľadať IP adresu',
 
-	'MARKED_NOTES_DELETED'		=> 'Označené záznamy užívateľa boli odstránené.',
+	'MARKED_NOTES_DELETED'		=> 'Označené záznamy používateľa boli odstránené.',
 
 	'MCP_ADD'						=> 'Udeliť výstrahu',
 
 	'MCP_BAN'					=> 'Udelovanie zákazov',
 	'MCP_BAN_EMAILS'			=> 'Udeliť zákaz e-mailovým adresám',
 	'MCP_BAN_IPS'				=> 'Udeliť zákaz IP adresám',
-	'MCP_BAN_USERNAMES'			=> 'Udeliť zákaz užívateľom',
+	'MCP_BAN_USERNAMES'			=> 'Udeliť zákaz používateľom',
 
 	'MCP_LOGS'						=> 'Záznam činností moderátorov',
 	'MCP_LOGS_FRONT'				=> 'Hlavná strana',
@@ -180,9 +180,9 @@ $lang = array_merge($lang, array(
 	'MCP_MAKE_NORMALS'				=> 'Zmeniť označené témy na “Obyčajnú tému”',
 	'MCP_MAKE_NORMALS_CONFIRM'		=> 'Ste si istý, že chcete zmeniť vybrané témy na Štandardné témy?',
 
-	'MCP_NOTES'						=> 'Záznamy užívateľa',
+	'MCP_NOTES'						=> 'Záznamy používateľa',
 	'MCP_NOTES_FRONT'				=> 'Hlavná strana',
-	'MCP_NOTES_USER'				=> 'Detaily užívateľa',
+	'MCP_NOTES_USER'				=> 'Detaily používateľa',
 
 	'MCP_POST_REPORTS'				=> 'Sťažnosti napísané k tomuto príspevku',
 
@@ -211,13 +211,13 @@ $lang = array_merge($lang, array(
 	'MCP_QUEUE_DELETED_TOPICS'				=> 'Odstránené témy',
 	'MCP_QUEUE_DELETED_TOPICS_EXPLAIN'		=> 'Toto je zoznam odstránených tém. Tu ich môžete obnoviť alebo natrvalo zmazať.',
 
-	'MCP_VIEW_USER'			=> 'Zobraziť výstrahy užívateľa',
+	'MCP_VIEW_USER'			=> 'Zobraziť výstrahy používateľa',
 
 	'MCP_WARN'				=> 'Výstrahy',
 	'MCP_WARN_FRONT'		=> 'Hlavná strana',
 	'MCP_WARN_LIST'			=> 'Zoznam výstrah',
 	'MCP_WARN_POST'			=> 'Výstrahu udeliť za konkrétny príspevok',
-	'MCP_WARN_USER'			=> 'Udeliť užívateľovi výstrahu',
+	'MCP_WARN_USER'			=> 'Udeliť používateľovi výstrahu',
 
 	'MERGE_POSTS_CONFIRM'	=> 'Ste si istý, že chcete presunúť vybrané príspevky?',
 	'MERGE_TOPIC_EXPLAIN'	=> 'Použitím nasledovného formulára môžete presunúť označené príspevky do inej témy. Hierarchia príspevkov zostane zachovaná a budú zobrazené ako by ich užívatelia odslali v cieľovej téme.<br />Vložte ID cieľovej témy alebo použite “Vybrať tému” k nájdeniu témy, do ktorej majú byť príspevky vložené.',
@@ -234,17 +234,17 @@ $lang = array_merge($lang, array(
 	'MOVE_TOPICS'			=> 'Presunúť označené témy',
 	'MOVE_TOPICS_CONFIRM'	=> 'Ste si istý, že chcete presunúť vybrané témy do nového fóra?',
 
-	'NOTIFY_POSTER_APPROVAL'		=> 'Upozorniť užívateľa o schválení?',
-	'NOTIFY_POSTER_DISAPPROVAL'		=> 'Upozorniť užívateľa o zamietnutí?',
-	'NOTIFY_USER_WARN'				=> 'Upozorniť užívateľa o udelení výstrahy?',
+	'NOTIFY_POSTER_APPROVAL'		=> 'Upozorniť používateľa o schválení?',
+	'NOTIFY_POSTER_DISAPPROVAL'		=> 'Upozorniť používateľa o zamietnutí?',
+	'NOTIFY_USER_WARN'				=> 'Upozorniť používateľa o udelení výstrahy?',
 	'NOT_MODERATOR'					=> 'Nie ste moderátorom tohoto fóra.',
 	'NO_DESTINATION_FORUM'			=> 'Zvoľte cieľové fórum.',
 	'NO_DESTINATION_FORUM_FOUND'	=> 'Žiadne cieľové fórum nie je dostupné.',
 	'NO_ENTRIES'					=> 'Žiadne záznamy.',
-	'NO_FEEDBACK'					=> 'Žiadna spätná väzba pre tohoto užívateľa.',
+	'NO_FEEDBACK'					=> 'Žiadna spätná väzba pre tohoto používateľa.',
 	'NO_FINAL_TOPIC_SELECTED'		=> 'Musíte zvoliť cieľovú tému.',
 	'NO_MATCHES_FOUND'				=> 'Nenašli sa žiadne zhody.',
-	'NO_POST'						=> 'Musíte označiť príspevok, za ktorý chcete udeliť užívateľovi výstrahu.',
+	'NO_POST'						=> 'Musíte označiť príspevok, za ktorý chcete udeliť používateľovi výstrahu.',
 	'NO_POST_REPORT'				=> 'Na tento príspevok nebola nahlásená sťažnosť.',
 	'NO_POST_SELECTED'				=> 'Musíte označiť aspoň jeden príspevok.',
 	'NO_POSTS_DELETED'				=> 'Žiadne odstránené príspevky.',
@@ -293,8 +293,8 @@ $lang = array_merge($lang, array(
 	'POST_RESTORED_SUCCESS'		=> 'Tento príspevok bol úspešne obnovený.',
 	'POST_UNLOCKED_SUCCESS'		=> 'Príspevok bol úspešne odomknutý.',
 
-	'READ_USERNOTES'			=> 'Záznamy užívateľa',
-	'READ_WARNINGS'				=> 'Výstrahy užívateľa',
+	'READ_USERNOTES'			=> 'Záznamy používateľa',
+	'READ_WARNINGS'				=> 'Výstrahy používateľa',
 	'REPORTER'					=> 'Oznámil',
 	'REPORTED'					=> 'Nahlásené',
 	'REPORTED_BY'				=> 'Nahlásil',
@@ -343,7 +343,7 @@ $lang = array_merge($lang, array(
 	'SELECT_MERGE'						=> 'Vybrať pre zlúčenie',
 	'SELECT_TOPICS_FROM'				=> 'Vybrať témy od',
 	'SELECT_TOPIC'						=> 'Vybrať tému',
-	'SELECT_USER'						=> 'Vybrať užívateľa',
+	'SELECT_USER'						=> 'Vybrať používateľa',
 	'SORT_ACTION'						=> 'Záznamu',
 	'SORT_DATE'							=> 'Dátumu',
 	'SORT_IP'							=> 'IP adresy',
@@ -403,16 +403,16 @@ $lang = array_merge($lang, array(
 	'UNLOCK_TOPICS_CONFIRM'			=> 'Ste si istý, že chcete odomknúť všetky označené témy?',
 	'USER_CANNOT_POST'				=> 'V tomto fóre nemôžete odosielať príspevky.',
 	'USER_CANNOT_REPORT'			=> 'Nemôžete odosielať sťažnosti na príspevky v tomto fóre.',
-	'USER_FEEDBACK_ADDED'			=> 'Spätná väzba užívateľovi úspešne vložená.',
-	'USER_WARNING_ADDED'			=> 'Výstraha užívateľovi úspešnš udelená.',
+	'USER_FEEDBACK_ADDED'			=> 'Spätná väzba používateľovi úspešne vložená.',
+	'USER_WARNING_ADDED'			=> 'Výstraha používateľovi úspešnš udelená.',
 
 	'VIEW_DETAILS'			=> 'Zobraziť detaily',
 	'VIEW_PM'				=> 'Zobraziť súkromnú správu',
 	'VIEW_POST'				=> 'Zobraziť príspevok',
 
 	'WARNED_USERS'			=> 'Užívatelia s výstrahou',
-	'WARNED_USERS_EXPLAIN'	=> 'Toto je zoznam užívateľov s udelenou výstrahou, ktorej doba platnosti ešte neskončila.',
-	'WARNING_PM_BODY'		=> 'Z dôvodu porušenia pravidiel portálu vám bola udelená výstraha.[quote]%s[/quote]V prípade, že sa bude situácia opakovať, môže vám byť udelený zákaz vstupu na tento portál. V prípade, že chcete vzniesť námietku k uvedenej výstrahe, kontaktujte užívateľa, ktorý vám výstrahu udelil.',
+	'WARNED_USERS_EXPLAIN'	=> 'Toto je zoznam používateľov s udelenou výstrahou, ktorej doba platnosti ešte neskončila.',
+	'WARNING_PM_BODY'		=> 'Z dôvodu porušenia pravidiel portálu vám bola udelená výstraha.[quote]%s[/quote]V prípade, že sa bude situácia opakovať, môže vám byť udelený zákaz vstupu na tento portál. V prípade, že chcete vzniesť námietku k uvedenej výstrahe, kontaktujte používateľa, ktorý vám výstrahu udelil.',
 	'WARNING_PM_SUBJECT'	=> 'Výstraha',
 	'WARNING_POST_DEFAULT'	=> 'Táto výstraha vám bola udelená v súvislosti s príspevkom, ktorý ste zverejnili na tomto portále: %s .',
 	'NO_WARNINGS'	=> 'Neexistujú žiadne výstrahy',

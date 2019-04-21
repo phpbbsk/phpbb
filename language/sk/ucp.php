@@ -43,18 +43,18 @@ $lang = array_merge($lang, array(
 	<br />
 	Naše fórum je založené na systéme phpBB (ďalej len “oni”, “im”, “ich”, “phpBB software”, “www.phpbb.com”, “phpBB Group”, “phpBB tímy”), čo je elektronický konferenčný systém vydávaný pod “<a href="http://opensource.org/licenses/gpl-2.0.php">General Public License</a>” (ďalej len “GPL”), a ktorý je dostupný na <a href="https://www.phpbb.com/">www.phpbb.com</a>. Softvér phpBB  umožňuje internetové diskusie a GPL mu striktne zakazuje určovať čo môžme a/alebo nemôžme v rámci povoleného obsahu a/alebo správy. Pre ďalšie informácie o phpBB, navštívte, prosím: <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.<br />
 	<br />
-	Ďalej súhlasíte s tým, že nebudete odosielať žiadne urážlivé, obscénne, vulgárne, ohováracie, nenávistné, výhražné, sexuálne orientované príspevky alebo posielať akýkoľvek iný materiál, ktorý môže porušovať ktorékoľvek zákony krajiny, v ktorej sa nachádzate Vy, či v ktorej sa nachádza “%1$s” alebo medzinárodné právo. Takéto konanie môže viesť k okamžitému a trvalému vylúčeniu, s upozornením Vášho poskytovateľa internetového pripojenia, ak sa budeme domnievať, že to bude od nás požadované. IP adresa všetkých Vašich príspevkov je zaznamenávaná na pomoc vo vymožiteľnosti týchto podmienok. Taktiež súhlasíte s tým, že “%1$s” má právo kedykoľvek odstrániť, upraviť, presunúť alebo uzamknúť ktorúkoľvek tému, ktorá by porušovala tieto podmienky. Ako užívateľ, súhlasíte s ukladaním do databázy akejkoľvek informácie, ktorú vložíte. Hoci táto informácia nebude zverejnená/poskytnutá žiadnej tretej strane bez Vášho súhlasu, ani “%1$s” ani phpBB nenesú zodpovednosť za akýkoľvek pokus o prienik (hacking), ktorý môže viesť k zneužitiu týchto údajov.
+	Ďalej súhlasíte s tým, že nebudete odosielať žiadne urážlivé, obscénne, vulgárne, ohováracie, nenávistné, výhražné, sexuálne orientované príspevky alebo posielať akýkoľvek iný materiál, ktorý môže porušovať ktorékoľvek zákony krajiny, v ktorej sa nachádzate Vy, či v ktorej sa nachádza “%1$s” alebo medzinárodné právo. Takéto konanie môže viesť k okamžitému a trvalému vylúčeniu, s upozornením Vášho poskytovateľa internetového pripojenia, ak sa budeme domnievať, že to bude od nás požadované. IP adresa všetkých Vašich príspevkov je zaznamenávaná na pomoc vo vymožiteľnosti týchto podmienok. Taktiež súhlasíte s tým, že “%1$s” má právo kedykoľvek odstrániť, upraviť, presunúť alebo uzamknúť ktorúkoľvek tému, ktorá by porušovala tieto podmienky. Ako používateľ, súhlasíte s ukladaním do databázy akejkoľvek informácie, ktorú vložíte. Hoci táto informácia nebude zverejnená/poskytnutá žiadnej tretej strane bez Vášho súhlasu, ani “%1$s” ani phpBB nenesú zodpovednosť za akýkoľvek pokus o prienik (hacking), ktorý môže viesť k zneužitiu týchto údajov.
 	',
 
 	'PRIVACY_POLICY'		=> 'Tieto zásady podrobne vysvetľujú ako “%1$s” spolu s pridruženými spoločnosťami (ďalej len “my”, “nás”, “náš”, “%1$s”, “%2$s”) a phpBB (ďalej len “oni”, “ich”, “im”, “phpBB softvér”, “www.phpbb.com”, “phpBB Group”, “phpBB tímy”) používajú akékoľvek údaje zhromaždené počas akéhokoľvek spojenia s Vami (ďalej len “Vaše údaje”).<br />
 	<br />
-	Vaše údaje sú zhromažďované dvomi spôsobmi. Najskôr, prehliadanie “%1$s” spôsobí, že phpBB softvér vytvorí určitý počet cookies, čo sú malé textové súbory, ktoré sú stiahnuté do Vášho PC na miesto, kde Váš internetový prehliadač ukladá dočasné súbory. Prvé dve cookies obsahujú len informáciu na identifikáciu užívateľa (ďalej len “užívateľovo id”) a informáciu na identifikáciu anonymného spojenia (ďalej len “id spojenia”), ktoré Vám automaticky priradí phpBB softvér. Tretí cookie bude vytvorený vtedy, keď zobrazíte témy na “%1$s” a tento je použitý na rozpoznanie, ktoré témy už boli zobrazené, čím sa zvýši komfort Vášho prehliadania.<br />
+	Vaše údaje sú zhromažďované dvomi spôsobmi. Najskôr, prehliadanie “%1$s” spôsobí, že phpBB softvér vytvorí určitý počet cookies, čo sú malé textové súbory, ktoré sú stiahnuté do Vášho PC na miesto, kde Váš internetový prehliadač ukladá dočasné súbory. Prvé dve cookies obsahujú len informáciu na identifikáciu používateľa (ďalej len “používateľovo id”) a informáciu na identifikáciu anonymného spojenia (ďalej len “id spojenia”), ktoré Vám automaticky priradí phpBB softvér. Tretí cookie bude vytvorený vtedy, keď zobrazíte témy na “%1$s” a tento je použitý na rozpoznanie, ktoré témy už boli zobrazené, čím sa zvýši komfort Vášho prehliadania.<br />
 	<br />
-	Môžme tiež vytvárať cookies, ktoré sú mimo phpBB softvéru, počas prehliadania “%1$s”, avšak tieto sú mimo rámec tohto dokumentu, ktorého cieľom je pokryť stránky vytvárané prostredníctvom phpBB softvéru. Druhý spôsob, ktorým zhromažďujeme Vaše údaje, je prostredníctvom toho, čo nám sami odošlete. Toto môže byť, avšak nielen: odoslaním ako anonymný užívateľ (ďalej len “anonymné príspevky”), registrovaný na “%1$s” (ďalej len “Vaše konto”) a Vami odoslané príspevky po registrácii a počas prihlásenia (ďalej len “Vaše príspevky”).<br />
+	Môžme tiež vytvárať cookies, ktoré sú mimo phpBB softvéru, počas prehliadania “%1$s”, avšak tieto sú mimo rámec tohto dokumentu, ktorého cieľom je pokryť stránky vytvárané prostredníctvom phpBB softvéru. Druhý spôsob, ktorým zhromažďujeme Vaše údaje, je prostredníctvom toho, čo nám sami odošlete. Toto môže byť, avšak nielen: odoslaním ako anonymný používateľ (ďalej len “anonymné príspevky”), registrovaný na “%1$s” (ďalej len “Vaše konto”) a Vami odoslané príspevky po registrácii a počas prihlásenia (ďalej len “Vaše príspevky”).<br />
 	<br />
-	Vaše konto bude bezpodmienečne obsahovať minimálne jednoznačne identifikovateľné meno (ďalej len “Vaše užívateľské meno”), osobné heslo pre prihlásenie sa na Vaše konto  (ďalej len “Vaše heslo”) a osobnú, platnú e-mailovú adresu (ďalej len “Váš e-mail”). Vaše údaje pre Vaše konto na “%1$s” sú chránené zákonom na ochranu údajov a dát, ktoré sú v platnosti v krajine kde sme umiestnení. Akýkoľvek údaj navyše Vášho užívateľského mena, Vášho hesla a Vášho e-mailu, ktorý je požadovaný “%1$s” počas registrácie vybočujú z toho, čo považujeme za povinné a čo za dobrovoľné. Vo všetkých prípadoch, máte možnosť určiť, ktorý údaj Vášho konta bude verejne zobrazený. Okrem toho, vo Vašom konte, máte možnosť zvoliť si alebo zrušiť možnosť automaticky generovaných e-mailov prostredníctvom phpBB softvéru.<br />
+	Vaše konto bude bezpodmienečne obsahovať minimálne jednoznačne identifikovateľné meno (ďalej len “Vaše používateľské meno”), osobné heslo pre prihlásenie sa na Vaše konto  (ďalej len “Vaše heslo”) a osobnú, platnú e-mailovú adresu (ďalej len “Váš e-mail”). Vaše údaje pre Vaše konto na “%1$s” sú chránené zákonom na ochranu údajov a dát, ktoré sú v platnosti v krajine kde sme umiestnení. Akýkoľvek údaj navyše Vášho používateľského mena, Vášho hesla a Vášho e-mailu, ktorý je požadovaný “%1$s” počas registrácie vybočujú z toho, čo považujeme za povinné a čo za dobrovoľné. Vo všetkých prípadoch, máte možnosť určiť, ktorý údaj Vášho konta bude verejne zobrazený. Okrem toho, vo Vašom konte, máte možnosť zvoliť si alebo zrušiť možnosť automaticky generovaných e-mailov prostredníctvom phpBB softvéru.<br />
 	<br />
-	Vaše heslo je šifrované (jednosmerný hash), takže je zabezpečené. Napriek tomu, je odporúčané, aby ste nepoužívali rovnaké heslo na rôznych internetových stránkach. Vaše heslo je možnosťou pre prístup k Vášmu kontu na “%1$s”, takže si ho, prosím, chráňte. Nik v spojitosti s “%1$s”, phpBB alebo akoukoľvek 3. stranou, nie je za žiadnych okolností oprávnený žiadať od Vás Vaše heslo. V prípade, že zabudnete svoje heslo na prístup k Vášmu kontu, môžete použiť funkciu “Zabudol som svoje heslo”, ktorá je dostupná v rámci phpBB softvéru. Tento proces bude od Vás vyžadovať vloženie Vášho užívateľského mena a Vášho e-mailu, potom phpBB softvér vygeneruje nové heslo, ktoré Vám znovu umožní prístup k Vášmu kontu.<br />
+	Vaše heslo je šifrované (jednosmerný hash), takže je zabezpečené. Napriek tomu, je odporúčané, aby ste nepoužívali rovnaké heslo na rôznych internetových stránkach. Vaše heslo je možnosťou pre prístup k Vášmu kontu na “%1$s”, takže si ho, prosím, chráňte. Nik v spojitosti s “%1$s”, phpBB alebo akoukoľvek 3. stranou, nie je za žiadnych okolností oprávnený žiadať od Vás Vaše heslo. V prípade, že zabudnete svoje heslo na prístup k Vášmu kontu, môžete použiť funkciu “Zabudol som svoje heslo”, ktorá je dostupná v rámci phpBB softvéru. Tento proces bude od Vás vyžadovať vloženie Vášho používateľského mena a Vášho e-mailu, potom phpBB softvér vygeneruje nové heslo, ktoré Vám znovu umožní prístup k Vášmu kontu.<br />
 	',
 ));
 
@@ -63,7 +63,7 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_ACTIVE'				=> 'Váš účet bol aktivovaný, ďakujeme za registráciu.',
 	'ACCOUNT_ACTIVE_ADMIN'			=> 'Váš účet bol práve aktivovaný.',
 	'ACCOUNT_ACTIVE_PROFILE'		=> 'Váš účet bol úspešne znovu aktivovaný.',
-	'ACCOUNT_ADDED'					=> 'Ďakujeme za registráciu, váš účet bol vytvorený a aktivovaný. Teraz sa môžete prihlásiť zadaním zvoleného užívateľského mena a hesla. Na vami zadanú emailovú adresu bola zároveň odoslaná uvítacia správa, v budúcnosti bude akákoľvek komunikácia s vami prostredníctvom emailu vedená práve z adresy, ktorá je uvedená ako adresa odosielateľa. Skontrolujte si prosím doručenú poštu vašej emailovej schránky. Pokiaľ spomenutý email nenájdete, je možné, že váš poštový server označil poštu ako spam, skontrolujte si preto prosím, priečinok SPAM.',
+	'ACCOUNT_ADDED'					=> 'Ďakujeme za registráciu, váš účet bol vytvorený a aktivovaný. Teraz sa môžete prihlásiť zadaním zvoleného používateľského mena a hesla. Na vami zadanú emailovú adresu bola zároveň odoslaná uvítacia správa, v budúcnosti bude akákoľvek komunikácia s vami prostredníctvom emailu vedená práve z adresy, ktorá je uvedená ako adresa odosielateľa. Skontrolujte si prosím doručenú poštu vašej emailovej schránky. Pokiaľ spomenutý email nenájdete, je možné, že váš poštový server označil poštu ako spam, skontrolujte si preto prosím, priečinok SPAM.',
 	'ACCOUNT_COPPA'					=> 'Váš účet bol vytvorený, ale čaká na aktiváciu. Ďalšie pokyny boli odoslané na váš emailový účet, skontrolujte si emailovú schránku. Pokiaľ spomenutý email nenájdete, je možné, že váš poštový server označil poštu ako spam, skontrolujte si preto prosím, priečinok SPAM.',
 	'ACCOUNT_EMAIL_CHANGED'			=> 'Váš účet bol aktualizovaný. Tento portál však pri zmene emailovej adresy vyžaduje reaktiváciu účtu. Aktivačný kľúč vám bol odoslaný na novú emailovú adresu, prosím skontrolujte si emailovú schránku. Pokiaľ spomenutý email nenájdete, je možné, že váš poštový server označil poštu ako spam, skontrolujte si preto prosím, priečinok SPAM.',
 	'ACCOUNT_EMAIL_CHANGED_ADMIN'	=> 'Váš účet bol aktualizovaný. Tento portál však pri zmene emailovej adresy vyžaduje reaktiváciu účtu administrátorom portálu. Administrátorom bola odoslaná žiadosť o reaktiváciu účtu, o výsledkoch budete čoskoro informovaný emailom. Pokiaľ spomenutý email nenájdete, je možné, že váš poštový server označil poštu ako spam, skontrolujte si preto prosím, priečinok SPAM.',
@@ -74,14 +74,14 @@ $lang = array_merge($lang, array(
 	'ADD'							=> 'Pridať',
 	'ADD_BCC'						=> 'Pridať [Skryte]',
 	'ADD_FOES'						=> 'Pridať medzi ignorovaných',
-	'ADD_FOES_EXPLAIN'				=> 'Môžete pridať viacero užívateľských mien. Každé uveďte na samostatnom riadku',
+	'ADD_FOES_EXPLAIN'				=> 'Môžete pridať viacero používateľských mien. Každé uveďte na samostatnom riadku',
 	'ADD_FOLDER'					=> 'Pridať priečinok',
 	'ADD_FRIENDS'					=> 'Pridať medzi priateľov',
-	'ADD_FRIENDS_EXPLAIN'			=> 'Môžete pridať viacero užívateľských mien. Každé uveďte na samostatnom riadku',
+	'ADD_FRIENDS_EXPLAIN'			=> 'Môžete pridať viacero používateľských mien. Každé uveďte na samostatnom riadku',
 	'ADD_NEW_RULE'					=> 'Pridať nové pravidlo',
 	'ADD_RULE'						=> 'Pridať pravidlo',
 	'ADD_TO'						=> 'Pridať',
-	'ADD_USERS_UCP_EXPLAIN'			=> 'Tu môžete pridať nových užívateľov do skupiny. Môžete rozhodnúť o tom, či táto skupina bude východiskovou skupinou pre označených užívateľov. Každé užívateľské meno uveďte na samostatnom riadku.',
+	'ADD_USERS_UCP_EXPLAIN'			=> 'Tu môžete pridať nových používateľov do skupiny. Môžete rozhodnúť o tom, či táto skupina bude východiskovou skupinou pre označených používateľov. Každé používateľské meno uveďte na samostatnom riadku.',
 	'ADMIN_EMAIL'					=> 'Prijímať e-maily od administrátorov',
 	'AGREE'							=> 'Súhlasím s týmito podmienkami',
 	'ALLOW_PM'						=> 'Umožniť členom portálu posielať mi súkromné správy',
@@ -148,8 +148,8 @@ $lang = array_merge($lang, array(
 	'CREATE_FOLDER'				=> 'Pridať priečinok…',
 	'CURRENT_IMAGE'				=> 'Súčasný obrázok',
 	'CURRENT_PASSWORD'			=> 'Súčasné heslo',
-	'CURRENT_PASSWORD_EXPLAIN'	=> 'Ak chcete zmeniť užívateľské meno alebo email, musíte zadať vaše súčasné heslo.',
-	'CURRENT_CHANGE_PASSWORD_EXPLAIN' => 'Ak chcete zmeniť užívateľské meno, heslo alebo email, musíte zadať vaše súčasné heslo.',
+	'CURRENT_PASSWORD_EXPLAIN'	=> 'Ak chcete zmeniť používateľské meno alebo email, musíte zadať vaše súčasné heslo.',
+	'CURRENT_CHANGE_PASSWORD_EXPLAIN' => 'Ak chcete zmeniť používateľské meno, heslo alebo email, musíte zadať vaše súčasné heslo.',
 	'CUR_PASSWORD_EMPTY'		=> 'Neuviedli ste vaše súčasné heslo.',
 	'CUR_PASSWORD_ERROR'		=> 'Heslo, ktoré ste vložili je nesprávne.',
 	'CUSTOM_DATEFORMAT'			=> 'Voliteľné…',
@@ -228,7 +228,7 @@ $lang = array_merge($lang, array(
 	'FIELD_INVALID_VALUE'				=> 'Pole “%s” obsahuje neplatnú hodnotu.',
 
 	'FOE_MESSAGE'				=> 'Správy od ignorovaných',
-	'FOES_EXPLAIN'				=> 'Príspevky od týchto užívateľov nebudú zobrazené, môžu vám však stále posielať súkromné správy. Medzi ignorovaných nemôžete pridať administrátorov a moderátorov portálu.',
+	'FOES_EXPLAIN'				=> 'Príspevky od týchto používateľov nebudú zobrazené, môžu vám však stále posielať súkromné správy. Medzi ignorovaných nemôžete pridať administrátorov a moderátorov portálu.',
 	'FOES_UPDATED'				=> 'Zoznam ignorovaných bol aktualizovaný.',
 	'FOLDER_ADDED'				=> 'Priečinok úspešne pridaný.',
 	'FOLDER_MESSAGE_STATUS'		=> array(
@@ -276,7 +276,7 @@ $lang = array_merge($lang, array(
 	'IF_FOLDER_FULL'			=> 'Ak je priečinok plný',
 	'IMPORTANT_NEWS'			=> 'Dôležité oznámenia',
 	'INVALID_USER_BIRTHDAY'			=> 'Dátum narodenia nie je platný.',
-	'INVALID_CHARS_USERNAME'	=> 'Užívateľské meno obsahuje nepovolené znaky.',
+	'INVALID_CHARS_USERNAME'	=> 'Používateľské meno obsahuje nepovolené znaky.',
 	'INVALID_EMOJIS_USERNAME'	=> 'Používateľské meno obsahuje nepovolené znaky (emoji).',
 	'INVALID_CHARS_NEW_PASSWORD'=> 'Heslo neobsahuje požadované znaky.',
 	'ITEMS_REQUIRED'			=> 'Položky označené * sú povinné a musia byť vyplnené.',
@@ -349,7 +349,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_QUOTE'							=> 'Niekto použije citáciu môjho príspevku',
 	'NOTIFICATION_TYPE_REPORT'							=> 'Niekto odošle sťažnosť na môj príspevok',
 	'NOTIFICATION_TYPE_TOPIC'							=> 'Niekto vytvorí tému vo fóre, ktoré sledujem',
-	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Užívateľ vyžaduje aktiváciu účtu',
+	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Používateľ vyžaduje aktiváciu účtu',
 
 	'NOTIFY_METHOD'					=> 'Metóda upozornenia',
 	'NOTIFY_METHOD_BOTH'			=> 'Oba spôsoby',
@@ -357,12 +357,12 @@ $lang = array_merge($lang, array(
 	'NOTIFY_METHOD_EXPLAIN'			=> 'Metóda posielania správ cez tento portál.',
 	'NOTIFY_METHOD_IM'				=> 'Len Jabber',
 	'NOTIFY_ON_PM'					=> 'Poslať upozornenie po príchode novej súkromnej správy',
-	'NOT_ADDED_FRIENDS_ANONYMOUS'	=> 'Anonymného užívateľa nie je možné pridať medzi priateľov.',
+	'NOT_ADDED_FRIENDS_ANONYMOUS'	=> 'Anonymného používateľa nie je možné pridať medzi priateľov.',
 	'NOT_ADDED_FRIENDS_BOTS'		=> 'Bot nie je možné pridať medzi priateľov.',
 	'NOT_ADDED_FRIENDS_FOES'		=> 'Ignorovaných nie je možné pridať medzi priateľov.',
 	'NOT_ADDED_FRIENDS_SELF'		=> 'Nemôžete pridať samých seba medzi priateľov.',
 	'NOT_ADDED_FOES_MOD_ADMIN'		=> 'Administrátorov a moderátorov nemôžete pridať medzi ignorovaných.',
-	'NOT_ADDED_FOES_ANONYMOUS'		=> 'Anonymného užívateľa nie je možné pridať medzi ignorovaných.',
+	'NOT_ADDED_FOES_ANONYMOUS'		=> 'Anonymného používateľa nie je možné pridať medzi ignorovaných.',
 	'NOT_ADDED_FOES_BOTS'			=> 'Bot nie je možné pridať medzi ignorovaných.',
 	'NOT_ADDED_FOES_FRIENDS'		=> 'Priateľov nemôžete pridať medzi ignorovaných, musíte ich najprv odstrániť zo zoznamu priateľov.',
 	'NOT_ADDED_FOES_SELF'			=> 'Nemôžete pridať samých seba medzi ignorovaných.',
@@ -394,7 +394,7 @@ $lang = array_merge($lang, array(
 	'NO_BOOKMARKS'				=> 'Nemáte žiadne záložky.',
 	'NO_BOOKMARKS_SELECTED'		=> 'Nemáte žiadne záložky.',
 	'NO_EDIT_READ_MESSAGE'		=> 'Táto súkromná správa už nemôže byť upravená, pretože už bola prečítaná.',
-	'NO_EMAIL_USER'				=> 'Užívateľ/e-mailová adresa nenájdená.',
+	'NO_EMAIL_USER'				=> 'Používateľ/e-mailová adresa nenájdená.',
 	'EMAIL_NOT_UNIQUE'			=> 'Email, ktorý ste zadali, používa viacero používateľov. Musíte zadať aj používateľské meno.',
 	'NO_FOES'					=> 'Nemáte žiadných nepriateľov',
 	'NO_FRIENDS'				=> 'Nemáte žiadných priateľov',
@@ -423,15 +423,15 @@ $lang = array_merge($lang, array(
 	'PASSWORD_ACTIVATED'		=> 'Nové heslo bolo aktivované.',
 	'PASSWORD_UPDATED_IF_EXISTED'	=> 'Ak váš účet existuje, poslali sme na váš email nové heslo. Ak email nedostanete, môže to byť preto, že ste zabanovaný, váš účet nie je aktivovaný alebo nemáte oprávnenie zmeniť si heslo. Kontaktujte administrátora ak niektorá z týchto podmienok platí. Taktiež si nezabudnite skontrolovať aj priečinok spam.',
 	'PERMISSIONS_RESTORED'		=> 'Pôvodné oprávnenia úspešne obnovené.',
-	'PERMISSIONS_TRANSFERRED'	=> 'Oprávnenia <strong>%s</strong> dočasne prenesené, teraz si môžete prezerať portál s týmito oprávneniami.<br />Svoje pôvodné oprávnenia dostanete naspäť po ukončení kontroly prenesených užívateľských práv.',
+	'PERMISSIONS_TRANSFERRED'	=> 'Oprávnenia <strong>%s</strong> dočasne prenesené, teraz si môžete prezerať portál s týmito oprávneniami.<br />Svoje pôvodné oprávnenia dostanete naspäť po ukončení kontroly prenesených používateľských práv.',
 	'PM_DISABLED'				=> 'Odosielanie správ bolo zakázané administrátormi portálu.',
 	'PM_FROM'					=> 'Od',
-	'PM_FROM_REMOVED_AUTHOR'	=> 'Táto správa bola odoslaná užívateľom, ktorý už nie je členom.',
+	'PM_FROM_REMOVED_AUTHOR'	=> 'Táto správa bola odoslaná používateľom, ktorý už nie je členom.',
 	'PM_ICON'					=> 'ikona SS',
 	'PM_INBOX'					=> 'Prijaté',
 	'PM_MARK_ALL_READ'			=> 'Označiť všetky správy ako prečítané',
 	'PM_MARK_ALL_READ_SUCCESS'	=> 'Všetky súkromné správy v tomto priečinku boli označené ako prečítané',
-	'PM_NO_USERS'				=> 'Užívateľ nenájdený.',
+	'PM_NO_USERS'				=> '/oužívateľ nenájdený.',
 	'PM_OUTBOX'					=> 'Odoslané (neprečítané)',
 	'PM_SENTBOX'				=> 'Odoslané správy',
 	'PM_SUBJECT'				=> 'Predmet správy',
@@ -562,7 +562,7 @@ $lang = array_merge($lang, array(
 	'UCP_PROFILE_SIGNATURE'		=> 'Upraviť podpis',
 	'UCP_PROFILE_AUTOLOGIN_KEYS'=> 'Správca automatických prihlásení',
 
-	'UCP_USERGROUPS'			=> 'Nastavenia skupín užívateľov',
+	'UCP_USERGROUPS'			=> 'Nastavenia skupín používateľov',
 	'UCP_USERGROUPS_MEMBER'		=> 'Upraviť členstvo',
 	'UCP_USERGROUPS_MANAGE'		=> 'Správca skupín',
 
@@ -570,7 +570,7 @@ $lang = array_merge($lang, array(
 	'UCP_REGISTER_DISABLE'			=> 'Ospravedlňujeme sa, ale registrácie nových účtov na tento portál sú momentálne zastavené.',
 	'UCP_REMIND'					=> 'Odoslať heslo',
 	'UCP_RESEND'					=> 'Odoslať aktivačný email',
-	'UCP_WELCOME'					=> 'Vitajte v sekcii vlastných nastavení. Tu môžete zobraziť a upravovať rôzne nastavenia, vaše registračné údaje, profil, ktorý bude zobrazený ostatným užívateľom portálu, spravovať zoznam priateľov a ignorovaných užívateľov portálu, spravovať upozornenia, prílohy, sledované témy a pod.',
+	'UCP_WELCOME'					=> 'Vitajte v sekcii vlastných nastavení. Tu môžete zobraziť a upravovať rôzne nastavenia, vaše registračné údaje, profil, ktorý bude zobrazený ostatným používateľom portálu, spravovať zoznam priateľov a ignorovaných používateľov portálu, spravovať upozornenia, prílohy, sledované témy a pod.',
 	'UCP_ZEBRA'						=> 'Priatelia &amp; Ignorovaní',
 	'UCP_ZEBRA_FOES'				=> 'Spravovať zoznam ignorovaných',
 	'UCP_ZEBRA_FRIENDS'				=> 'Spravovať zoznam priateľov',
@@ -580,15 +580,15 @@ $lang = array_merge($lang, array(
 	'UPLOAD_AVATAR_FILE'			=> 'Nahrať',
 	'UPLOAD_AVATAR_URL'				=> 'Získať z adresy',
 	'UPLOAD_AVATAR_URL_EXPLAIN'		=> 'Vložte odkaz na obrázok avataru. Obrázok bude skopírovaný na tento portál.',
-	'USERNAME_ALPHA_ONLY_EXPLAIN'	=> 'Užívateľské meno musí mať najmenej %1$s a maximálne %2$s, pričom môžu byť použité len alfanumerické znaky.',
-	'USERNAME_ALPHA_SPACERS_EXPLAIN'=> 'Užívateľské meno musí mať najmenej %1$s a najviac %2$s, pričom môžu byť použité alfanumerické znaky, medzery alebo znaky -+_[]',
-	'USERNAME_ASCII_EXPLAIN'		=> 'Užívateľské meno musí mať najmenej %1$s a najviac %2$s, pričom môžu byť použité len znaky ASCI, žiadne špeciáláne znaky.',
-	'USERNAME_LETTER_NUM_EXPLAIN'	=> 'Užívateľské meno musí mať najmenej %1$s a najviac %2$s, pričom môžu byť použité len písmená alebo číslice.',
-	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'=> 'Užívateľské meno musí mať najmenej %1$s a najviac %2$s, pričom môžu byť použité len písmená, číslice, medzery alebo znaky -+_[].',
+	'USERNAME_ALPHA_ONLY_EXPLAIN'	=> 'Používateľské meno musí mať najmenej %1$s a maximálne %2$s, pričom môžu byť použité len alfanumerické znaky.',
+	'USERNAME_ALPHA_SPACERS_EXPLAIN'=> 'Používateľské meno musí mať najmenej %1$s a najviac %2$s, pričom môžu byť použité alfanumerické znaky, medzery alebo znaky -+_[]',
+	'USERNAME_ASCII_EXPLAIN'		=> 'Používateľské meno musí mať najmenej %1$s a najviac %2$s, pričom môžu byť použité len znaky ASCI, žiadne špeciáláne znaky.',
+	'USERNAME_LETTER_NUM_EXPLAIN'	=> 'Používateľské meno musí mať najmenej %1$s a najviac %2$s, pričom môžu byť použité len písmená alebo číslice.',
+	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'=> 'Používateľské meno musí mať najmenej %1$s a najviac %2$s, pričom môžu byť použité len písmená, číslice, medzery alebo znaky -+_[].',
 	'USERNAME_CHARS_ANY_EXPLAIN'	=> 'Dĺžka musí byť najmenej %1$s a najviac %2$s.',
-	'USERNAME_TAKEN_USERNAME'		=> 'Zadané užívateľské meno sa už používa, vložte prosím alternatívu.',
-	'USERNAME_DISALLOWED_USERNAME'	=> 'Zadané užívateľské meno nie je možné použiť alebo obsahuje nepovolené slovo. Zvolte si iné.',
-	'USER_NOT_FOUND_OR_INACTIVE'	=> 'Zadané užívateľské mená neboli nájdené alebo ich účty nie sú aktivované.',
+	'USERNAME_TAKEN_USERNAME'		=> 'Zadané používateľské meno sa už používa, vložte prosím alternatívu.',
+	'USERNAME_DISALLOWED_USERNAME'	=> 'Zadané používateľské meno nie je možné použiť alebo obsahuje nepovolené slovo. Zvolte si iné.',
+	'USER_NOT_FOUND_OR_INACTIVE'	=> 'Zadané používateľské mená neboli nájdené alebo ich účty nie sú aktivované.',
 
 	'VIEW_AVATARS'				=> 'Zobrazovať avatary',
 	'VIEW_EDIT'					=> 'Zobraziť/Upraviť',
@@ -622,9 +622,9 @@ $lang = array_merge($lang, array(
 
 	'YOUR_DETAILS'				=> 'Aktivita',
 	'YOUR_FOES'					=> 'Ignorovaní',
-	'YOUR_FOES_EXPLAIN'			=> 'Ak chcete odstrániť užívateľa zo zonamu označte ho a kliknite na "Odoslať".',
+	'YOUR_FOES_EXPLAIN'			=> 'Ak chcete odstrániť používateľa zo zonamu označte ho a kliknite na "Odoslať".',
 	'YOUR_FRIENDS'				=> 'Priatelia',
-	'YOUR_FRIENDS_EXPLAIN'		=> 'Ak chcete odstrániť užívateľa zo zonamu označte ho a kliknite na "Odoslať".',
+	'YOUR_FRIENDS_EXPLAIN'		=> 'Ak chcete odstrániť používateľa zo zonamu označte ho a kliknite na "Odoslať".',
 	'YOUR_WARNINGS'				=> 'Udelené výstrahy',
 
 	'PM_ACTION' => array(
@@ -649,7 +649,7 @@ $lang = array_merge($lang, array(
 		'ENDS_WITH'		=> 'končí na',
 		'IS_FRIEND'		=> 'je priateľom',
 		'IS_FOE'		=> 'je ignorovaným',
-		'IS_USER'		=> 'je užívateľom',
+		'IS_USER'		=> 'je používateľom',
 		'IS_GROUP'		=> 'je v skupine',
 		'ANSWERED'		=> 'je zodpovedaná',
 		'FORWARDED'		=> 'je preposlaná',
@@ -657,7 +657,7 @@ $lang = array_merge($lang, array(
 		'TO_ME'			=> 'mne',
 	),
 
-	'GROUPS_EXPLAIN'	=> 'Užívateľské skupiny umožňujú administrátorom spravovať užívateľov. Každý užívatel má svoju východiskovú skupinu. Tá definuje napr. ako bude užívateľ zobrazený voči ostatním užívateľom, akú bude mať farbu mena, avatar, hodnosť, a pod. Zmeniť východiskovú skupinu je možné, pokiaľ to administrátor dovolí v nastaveniach portálu. Je tiež možné vstúpiť/vystúpiť alebo požiadať o členstvo v iných skupinách. Skupiny tiež definujú úroveň oprávnení, čo povoľuje alebo zakazuje užívateľom využívať rôzne funkcie portálu.',
+	'GROUPS_EXPLAIN'	=> 'Používateľské skupiny umožňujú administrátorom spravovať používateľov. Každý užívatel má svoju východiskovú skupinu. Tá definuje napr. ako bude používateľ zobrazený voči ostatním používateľom, akú bude mať farbu mena, avatar, hodnosť, a pod. Zmeniť východiskovú skupinu je možné, pokiaľ to administrátor dovolí v nastaveniach portálu. Je tiež možné vstúpiť/vystúpiť alebo požiadať o členstvo v iných skupinách. Skupiny tiež definujú úroveň oprávnení, čo povoľuje alebo zakazuje používateľom využívať rôzne funkcie portálu.',
 	'GROUP_LEADER'		=> 'Vedúci',
 	'GROUP_MEMBER'		=> 'Člen',
 	'GROUP_PENDING'		=> 'Čaká na prijatie',

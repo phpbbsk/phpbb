@@ -64,7 +64,7 @@ $lang = array_merge($lang, array(
 		<li>Databázový server alebo DSN - adresa databázového serveru.</li>
 		<li>Port databázového serveru - port k pripojeniu na databázu (vo väčšine prípadov ho nebude treba).</li>
 		<li>Názov databázy - názov databázy uloženej na serveri.</li>
-		<li>Užívateľské meno a heslo databázy - prístupové údaje ku databáze.</li>
+		<li>Používateľské meno a heslo databázy - prístupové údaje ku databáze.</li>
 	</ul>
 
 	<p><strong>Poznámka:</strong> pokiaľ inštalujete a používate SQLite, mali by ste zadať úplnú cestu k databáze do DSN poľa a nechať pole pre meno a heslo prázdne. Z bezpečnostných dôvodov by ste mali zaistiť, že súbor databázy bude uložený na mieste, ktoré nie je prístupné z webu.</p>
@@ -145,7 +145,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_PASSWORD'			=> 'Heslo administrátora',
 	'ADMIN_PASSWORD_CONFIRM'	=> 'Heslo administrátora pre potvrdenie',
 	'ADMIN_PASSWORD_EXPLAIN'	=> 'Heslo musí mať minimálne 6 a maximálne 30 znakov.',
-	'ADMIN_USERNAME'			=> 'Užívateľské meno administrátora',
+	'ADMIN_USERNAME'			=> 'Používateľské meno administrátora',
 	'ADMIN_USERNAME_EXPLAIN'	=> 'Meno musí mať minimálne 3 a maximálne 20 znakov.',
 
 	// Errors
@@ -153,8 +153,8 @@ $lang = array_merge($lang, array(
 	'INST_ERR_PASSWORD_MISMATCH'	=> 'Zadané heslá sa nezhodujú.',
 	'INST_ERR_PASSWORD_TOO_LONG'	=> 'Heslo je príliš dlhé. Heslo môže mať maximálne 30 znakov.',
 	'INST_ERR_PASSWORD_TOO_SHORT'	=> 'Heslo je príliš krátke. Heslo musí mať minimálne 6 znakov.',
-	'INST_ERR_USER_TOO_LONG'		=> 'Užívateľské meno je príliš dlhé. Užívateľské meno môže mať maximálne 20 znakov.',
-	'INST_ERR_USER_TOO_SHORT'		=> 'Užívateľské meno je príliš krátke. Užívateľské meno musí mať minimálne 2 znaky.',
+	'INST_ERR_USER_TOO_LONG'		=> 'Ppoužívateľské meno je príliš dlhé. používateľské meno môže mať maximálne 20 znakov.',
+	'INST_ERR_USER_TOO_SHORT'		=> 'Ppoužívateľské meno je príliš krátke. používateľské meno musí mať minimálne 2 znaky.',
 
 	//
 	// Board data
@@ -179,7 +179,7 @@ $lang = array_merge($lang, array(
 	'DB_PORT_EXPLAIN'			=> 'Nechajte toto políčko prázdne, pokiaľ je port iný, ako je štandartný.',
 	'DB_PASSWORD'			=> 'Heslo databázy',
 	'DB_NAME'				=> 'Meno databázy',
-	'DB_USERNAME'			=> 'Užívateľské meno databázy',
+	'DB_USERNAME'			=> 'Používateľské meno databázy',
 	'DATABASE_VERSION'		=> 'Verzia databázy',
 	'TABLE_PREFIX'			=> 'Predpona tabuliek v databáze',
 	'TABLE_PREFIX_EXPLAIN'	=> 'Predpona musí začínať písmenom a môže obsahovať iba písmená, číslice a podtržník.',
@@ -494,7 +494,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	// Common converter messages
 	'CONVERT_NOT_EXIST'			=> 'Zvolený konvertor neexistuje',
-	'DEV_NO_TEST_FILE'			=> 'Nebola zadaná žiadna hodnota pre premennú test_file v konvertore. Pokiaľ ste užívateľ tohto konvertoru, mali by ste toto nahlásiť autorovi tohto modulu. Pokiaľ ste autor tohto modulu musíte špecifikovať súbor, ktorý existuje v zdrojovom fóre, pre overenie cesty k nemu.',
+	'DEV_NO_TEST_FILE'			=> 'Nebola zadaná žiadna hodnota pre premennú test_file v konvertore. Pokiaľ ste používateľ tohto konvertoru, mali by ste toto nahlásiť autorovi tohto modulu. Pokiaľ ste autor tohto modulu musíte špecifikovať súbor, ktorý existuje v zdrojovom fóre, pre overenie cesty k nemu.',
 	'COULD_NOT_FIND_PATH'		=> 'Nedá sa nájsť cesta k bývalému fóru. Skontrolujte vaše nastavenia a skúste znovu.<br />» Zadaná cesta bola %s',
 	'CONFIG_PHPBB_EMPTY'		=> 'Konfiguračná premenná phpBB3 “%s” je prázdna.',
 
@@ -576,9 +576,9 @@ $lang = array_merge($lang, array(
 	'CONV_ERROR_COULD_NOT_READ'			=> 'Nedá sa získať prístu k (nedá sa čítať) “%s”.',
 	'CONV_ERROR_GROUP_ACCESS'			=> 'Nedajú sa získať oprávnenia skupín.',
 	'CONV_ERROR_INCONSISTENT_GROUPS'	=> 'Bola zistená nestálosť v tabuľke skupín add_bots() - musíte pridať všetky špeciálne skupiny, pokiaľ to budete robiť ručne.',
-	'CONV_ERROR_INSERT_BOT'				=> 'Nedá sa vložiť bot do tabuľky užívateľov.',
+	'CONV_ERROR_INSERT_BOT'				=> 'Nedá sa vložiť bot do tabuľky používateľov.',
 	'CONV_ERROR_INSERT_BOTGROUP'		=> 'Nedá sa vložiť bot do tabuľky botov.',
-	'CONV_ERROR_INSERT_USER_GROUP'		=> 'Nedá sa vložiť užívateľ do user_group tabuľky.',
+	'CONV_ERROR_INSERT_USER_GROUP'		=> 'Nedá sa vložiť používateľ do user_group tabuľky.',
 	'CONV_ERROR_MESSAGE_PARSER'			=> 'Chyba v parseri správ',
 	'CONV_ERROR_NO_AVATAR_PATH'			=> 'Poznámka pre vývojárov: musíte špecifikovať $convertor[\'avatar_path\'] pre použitie %s.',
 	'CONV_ERROR_NO_FORUM_PATH'			=> 'Relatívna cesta k zdrojovému fóru nebola špecifikovaná.',
@@ -591,7 +591,7 @@ $lang = array_merge($lang, array(
 	'CONV_ERROR_PM_COUNT'				=> 'Nedá sa vybrať zložka pre súčet súkromných správ.',
 	'CONV_ERROR_REPLACE_CATEGORY'		=> 'Nedá sa vložiť nové fórum nahradzujúce starú kategóriu.',
 	'CONV_ERROR_REPLACE_FORUM'			=> 'Nedá sa vložiť nové fórum nahradzujúce staré fórum.',
-	'CONV_ERROR_USER_ACCESS'			=> 'Nedajú sa získať informácie o oprávneniach užívateľov.',
+	'CONV_ERROR_USER_ACCESS'			=> 'Nedajú sa získať informácie o oprávneniach používateľov.',
 	'CONV_ERROR_WRONG_GROUP'			=> 'Zlá skupina “%1$s” definovaná v %2$s.',
 	'CONV_OPTIONS_BODY'					=> 'Táto stránka zhromažďuje všetky dáta nutné pre prístup k zdrojovému fóru. Vyplňte údaje databázy starého fóra, konvertor nebude v pôvodnej databáze nič meniť. Zdrojové fórum by malo byť vypnuté pre zaistenie konzistentného prechodu.',
 	'CONV_SAVED_MESSAGES'				=> 'Uložené správy',

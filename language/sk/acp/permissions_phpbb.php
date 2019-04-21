@@ -67,8 +67,8 @@ $lang = array_merge($lang, array(
 
 // User Permissions
 $lang = array_merge($lang, array(
-	'ACL_U_VIEWPROFILE'	=> 'Môže zobraziť profily, zoznam členov a zoznam on-line užívateľov',
-	'ACL_U_CHGNAME'		=> 'Môže meniť užívateľské meno',
+	'ACL_U_VIEWPROFILE'	=> 'Môže zobraziť profily, zoznam členov a zoznam on-line používateľov',
+	'ACL_U_CHGNAME'		=> 'Môže meniť používateľské meno',
 	'ACL_U_CHGPASSWD'	=> 'Môže meniť heslo',
 	'ACL_U_CHGEMAIL'	=> 'Môže meniť e-mailovú adresu',
 	'ACL_U_CHGAVATAR'	=> 'Môže meniť avatar',
@@ -82,7 +82,7 @@ $lang = array_merge($lang, array(
 	'ACL_U_SIG'			=> 'Môže použiť podpis',
 
 	'ACL_U_SENDPM'		=> 'Môže posielať súkromné správy',
-	'ACL_U_MASSPM'		=> 'Môže posielať správy viacerým užívateľom',
+	'ACL_U_MASSPM'		=> 'Môže posielať správy viacerým používateľom',
 	'ACL_U_MASSPM_GROUP'=> 'Môže posielať správy skupinám',
 	'ACL_U_READPM'		=> 'Môže čítať súkromné správy',
 	'ACL_U_PM_EDIT'		=> 'Môže upravovať vlastné súkromné správy',
@@ -101,7 +101,7 @@ $lang = array_merge($lang, array(
 	'ACL_U_SENDIM'		=> 'Môže posielať instantné správy',
 	'ACL_U_IGNOREFLOOD'	=> 'Môže ignorovať časové obmedzenia',
 	'ACL_U_HIDEONLINE'	=> 'Môže skryť online stav',
-	'ACL_U_VIEWONLINE'	=> 'Môže vidieť skrytých online užívateľov',
+	'ACL_U_VIEWONLINE'	=> 'Môže vidieť skrytých online používateľov',
 	'ACL_U_SEARCH'		=> 'Môže vyhľadávať na fóre',
 ));
 
@@ -181,8 +181,8 @@ $lang = array_merge($lang, array(
 	'ACL_A_BBCODE'		=> 'Môže definovať BB kódy',
 	'ACL_A_ATTACH'		=> 'Môže meniť nastavenia ohľadom príloh',
 
-	'ACL_A_USER'		=> 'Môže spravovať užívateľov<br /><em>Toto zahŕňa aj zobrazenie user agenta prehliadača, v zozname Kto je online.</em>',
-	'ACL_A_USERDEL'		=> 'Môže mazať/prečisťovať užívateľov',
+	'ACL_A_USER'		=> 'Môže spravovať používateľov<br /><em>Toto zahŕňa aj zobrazenie user agenta prehliadača, v zozname Kto je online.</em>',
+	'ACL_A_USERDEL'		=> 'Môže mazať/prečisťovať používateľov',
 	'ACL_A_GROUP'		=> 'Môže spravovať skupiny',
 	'ACL_A_GROUPADD'	=> 'Môže pridávať nové skupiny',
 	'ACL_A_GROUPDEL'	=> 'Môže mazať skupiny',
@@ -193,11 +193,11 @@ $lang = array_merge($lang, array(
 
 	'ACL_A_VIEWAUTH'	=> 'Môže zobrazovať masky oprávnení',
 	'ACL_A_AUTHGROUPS'	=> 'Môže meniť oprávnenia pre jednotlivé skupiny',
-	'ACL_A_AUTHUSERS'	=> 'Môže meniť oprávnenia pre jednotlivých užívateľov',
+	'ACL_A_AUTHUSERS'	=> 'Môže meniť oprávnenia pre jednotlivých používateľov',
 	'ACL_A_FAUTH'		=> 'Môže meniť oprávnenia fór',
 	'ACL_A_MAUTH'		=> 'Môže meniť moderátorské oprávnenia',
 	'ACL_A_AAUTH'		=> 'Môže meniť administrátorské oprávnenia',
-	'ACL_A_UAUTH'		=> 'Môže meniť užívateľské oprávnenia',
+	'ACL_A_UAUTH'		=> 'Môže meniť používateľské oprávnenia',
 	'ACL_A_ROLES'		=> 'Môže spravovať roly',
 	'ACL_A_SWITCHPERM'	=> 'Môže používať oprávnenia ostatných',
 

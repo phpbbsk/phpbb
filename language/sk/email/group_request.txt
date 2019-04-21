@@ -1,4 +1,4 @@
-Subject: Požiadavka na vstup do užívateľskej skupiny
+Subject: Požiadavka na vstup do používateľskej skupiny
 
 Dobrý deň {USERNAME},
 

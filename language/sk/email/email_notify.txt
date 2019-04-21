@@ -2,7 +2,7 @@ Subject: "{SITENAME}" - email od priateľa
 
 Dobrý deň {TO_USERNAME},
 
-Tento email bol užívateľom {FROM_USERNAME} odoslaný z portálu "{SITENAME}". {FROM_USERNAME} si myslí, že by vás mohla zaujímať téma:
+Tento email bol používateľom {FROM_USERNAME} odoslaný z portálu "{SITENAME}". {FROM_USERNAME} si myslí, že by vás mohla zaujímať téma:
 
 {TOPIC_NAME}
 

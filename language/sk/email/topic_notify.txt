@@ -3,7 +3,7 @@ List-Unsubscribe: <{U_STOP_WATCHING_TOPIC}>
 
 Dobrý deň {USERNAME},
 
-Táto správa vám bola doručená pretože sledujete tému "{TOPIC_TITLE}" na "{SITENAME}". V tejto téme bol od vašej poslednej návštevy uverejnený nový príspevok<!-- IF AUTHOR_NAME != '' --> od užívateľa {AUTHOR_NAME}<!-- ENDIF -->.
+Táto správa vám bola doručená pretože sledujete tému "{TOPIC_TITLE}" na "{SITENAME}". V tejto téme bol od vašej poslednej návštevy uverejnený nový príspevok<!-- IF AUTHOR_NAME != '' --> od používateľa {AUTHOR_NAME}<!-- ENDIF -->.
 
 Odkaz na najnovšie príspevky:
 {U_NEWEST_POST}

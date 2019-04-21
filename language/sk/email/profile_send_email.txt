@@ -5,7 +5,7 @@ Táto správa bola odoslaná od {FROM_USERNAME} prostredníctvom vášho účtu 
 
 {BOARD_CONTACT}
 
-Nasleduje celá správa. Prosím berte na vedomie, že ak použijete "Odpovedať" vaša správa bude odoslaná tomuto užívateľovi {FROM_USERNAME}.
+Nasleduje celá správa. Prosím berte na vedomie, že ak použijete "Odpovedať" vaša správa bude odoslaná tomuto používateľovi {FROM_USERNAME}.
 
 Obsah správy:
 ~~~~~~~~~~~~~
