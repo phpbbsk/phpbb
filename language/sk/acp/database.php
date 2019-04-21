@@ -39,14 +39,15 @@ if (empty($lang) || !is_array($lang))
 
 // Database Backup/Restore
 $lang = array_merge($lang, array(
-	'ACP_BACKUP_EXPLAIN'	=> 'Tu môžete zálohovať všetky dáta spojene s vašim phpBB fórom. Vytvorený archív môžete uložiť do adresára <samp>store/</samp> alebo ho rovno stiahnuť. V závoslosti od nastavenia vášho servera budete môcť komprimovať súbor do rôznych formátov.',
+	'ACP_BACKUP_EXPLAIN'	=> 'Tu môžete zálohovať všetky dáta spojene s vašim phpBB fórom. Vytvorený archív bude uložený do adresára <samp>store/</samp>. V závoslosti od nastavenia vášho servera budete môcť komprimovať súbor do rôznych formátov.',
 	'ACP_RESTORE_EXPLAIN'	=> 'Toto vykoná plnú obnovu všetkých phpBB tabuliek z uloženého súboru. Ak to váš server podporuje, môžete použiť gzip-om alebo bzip2-om komprimovaný textový súbor, ktorý bude automaticky rozbalený. <strong>POZOR</strong> Týmto krokom prepíšete všetky existujúce dáta. Obnova môže trvať dlhú dobu, takže prosíme, neopúšťajte túto stránku, pokiaľ nebude hotová. Zálohy sú uložená v adresári <samp>store/</samp> a je predpokladané, že sú vygenerované zálohovacou funkcionalitou phpBB. Použitie záloh, ktoré neboli vytvorené vstavaným systémom môžu, ale nemusia fungovať.',
 
-	'BACKUP_DELETE'		=> 'Súbor zálohy bol úspešne odstránený.',
-	'BACKUP_INVALID'	=> 'Vybraný súbor na zálohu je nesprávny.',
-	'BACKUP_OPTIONS'	=> 'Možnosti zálohy',
-	'BACKUP_SUCCESS'	=> 'Súbor zálohy bol úspešne vytvorený.',
-	'BACKUP_TYPE'		=> 'Typ zálohy',
+	'BACKUP_DELETE'			=> 'Súbor zálohy bol úspešne odstránený.',
+	'BACKUP_INVALID'		=> 'Vybraný súbor na zálohu je nesprávny.',
+	'BACKUP_NOT_SUPPORTED'	=> 'Vybraý súbor zálohy nie je podporovaný',
+	'BACKUP_OPTIONS'		=> 'Možnosti zálohy',
+	'BACKUP_SUCCESS'		=> 'Súbor zálohy bol úspešne vytvorený.',
+	'BACKUP_TYPE'			=> 'Typ zálohy',
 
 	'DATABASE'			=> 'Nástroje databázy',
 	'DATA_ONLY'			=> 'Iba dáta',

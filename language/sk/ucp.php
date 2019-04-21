@@ -277,6 +277,7 @@ $lang = array_merge($lang, array(
 	'IMPORTANT_NEWS'			=> 'Dôležité oznámenia',
 	'INVALID_USER_BIRTHDAY'			=> 'Dátum narodenia nie je platný.',
 	'INVALID_CHARS_USERNAME'	=> 'Užívateľské meno obsahuje nepovolené znaky.',
+	'INVALID_EMOJIS_USERNAME'	=> 'Používateľské meno obsahuje nepovolené znaky (emoji).',
 	'INVALID_CHARS_NEW_PASSWORD'=> 'Heslo neobsahuje požadované znaky.',
 	'ITEMS_REQUIRED'			=> 'Položky označené * sú povinné a musia byť vyplnené.',
 
@@ -307,6 +308,7 @@ $lang = array_merge($lang, array(
 	'MESSAGE_EDITED'				=> 'Správa úspešne upravená.',
 	'MESSAGE_HISTORY'				=> 'História správ',
 	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Autor túto správu zmazal.',
+	'MESSAGE_REPORTED_MESSAGE'		=> 'Nahlásená správa',
 	'MESSAGE_SENT_ON'				=> 'dňa',
 	'MESSAGE_STORED'				=> 'Táto správa bola úspešne odoslaná.',
 	'MESSAGE_TO'					=> 'komu',

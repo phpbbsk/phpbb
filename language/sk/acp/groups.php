@@ -113,6 +113,7 @@ $lang = array_merge($lang, array(
 	'GROUP_USERS_ADDED'				=> 'Noví užívatelia boli úspešne pridaní do skupiny.',
 	'GROUP_USERS_EXIST'				=> 'Označení členovia už sú členmi.',
 	'GROUP_USERS_REMOVE'			=> 'Užívatelia boli vymazaní a nové predvolené nastavenia boli úspešne nastavené.',
+	'GROUP_USERS_INVALID'			=> 'Do skupiny neboli pridaní žiadni používatelia, keďže tieto používateľské mená neexistujú: %s',
 	
 	'LEGEND_EXPLAIN'				=> 'These are the groups which are displayed in the group legend:',
 	'LEGEND_SETTINGS'				=> 'Legend settings',

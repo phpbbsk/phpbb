@@ -150,6 +150,7 @@ $lang = array_merge($lang, array(
 	'LOAD_DRAFT_EXPLAIN'		=> 'Tu si môžete vybrať koncept, ktorý chcete pred zverejnením alebo odoslaním upraviť. Váš súčasný stav úprav textu alebo rozpísaný text príspevku alebo správy bude stratený. Zobraziť, upraviť alebo mazať koncepty, môžete v časti "Moje nastavenia".',
 	'LOGIN_EXPLAIN_BUMP'		=> 'Musíte byť prihlásený, ak chcete oživiť tému v tomto fóre.',
 	'LOGIN_EXPLAIN_DELETE'		=> 'Musíte byť prihlásený, ak chcete mazať príspevky v tomto fóre.',
+	'LOGIN_EXPLAIN_SOFT_DELETE'	=> 'Musíte byť prihlásený, ak chcete odstrániť príspevky v tomto fóre.',
 	'LOGIN_EXPLAIN_POST'		=> 'Musíte byť prihlásený, ak chcete založiť tému v tomto fóre.',
 	'LOGIN_EXPLAIN_QUOTE'		=> 'Musíte byť prihlásený, ak chcete citovať príspevky v tomto fóre.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'Musíte byť prihlásený, ak chcete písať príspevky v tomto fóre.',

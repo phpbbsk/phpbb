@@ -804,6 +804,10 @@ $lang = array_merge($lang, array(
 	'TOPIC_REVIEW'		=> 'Prehľad témy',
 	'TOPIC_TITLE'		=> 'Názov témy',
 	'TOPIC_UNAPPROVED'	=> 'Uverejnenie tejto témy bolo zamietnuté.',
+	'TOPIC_UNAPPROVED_FORUM'	=> array(
+		1	=> 'Téma čaká na schválenie',
+		2	=> 'Niekoľko tém čaká na schválenie',
+	),
 	'TOPIC_DELETED'		=> 'Táto téma bola vymazaná.',
 	'TOTAL_ATTACHMENTS'	=> 'príloha(y)',
 	'TOTAL_LOGS'		=> array(

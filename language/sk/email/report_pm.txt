@@ -1,4 +1,4 @@
-Subject: Sťažnosť na súkromnú správu - "{TOPIC_TITLE}"
+Subject: Sťažnosť na súkromnú správu - "{SUBJECT}"
 
 Dobrý deň {USERNAME},
 
