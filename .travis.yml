@@ -32,4 +32,4 @@ install:
   - composer install --no-interaction --prefer-source
 
 script:
-  - php vendor/bin/PhpbbTranslationValidator.php validate --phpbb-version=$PHPBB_VERSION $PHPBB_LANGUAGE --display-notices
+  - php vendor/bin/translation.php validate --phpbb-version=$PHPBB_VERSION $PHPBB_LANGUAGE --display-notices

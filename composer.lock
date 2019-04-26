@@ -47,16 +47,16 @@
         },
         {
             "name": "phpbb/translation-validator",
-            "version": "1.5.0",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpbb/phpbb-translation-validator.git",
-                "reference": "8b63f9eb8986bfe5c0fec49b2894f9d68f058f4a"
+                "reference": "811ed55292ea0fab366cd99bec7b5b43a9afe8fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpbb/phpbb-translation-validator/zipball/8b63f9eb8986bfe5c0fec49b2894f9d68f058f4a",
-                "reference": "8b63f9eb8986bfe5c0fec49b2894f9d68f058f4a",
+                "url": "https://api.github.com/repos/phpbb/phpbb-translation-validator/zipball/811ed55292ea0fab366cd99bec7b5b43a9afe8fe",
+                "reference": "811ed55292ea0fab366cd99bec7b5b43a9afe8fe",
                 "shasum": ""
             },
             "require": {
@@ -69,6 +69,9 @@
             "require-dev": {
                 "phpunit/phpunit": "~5.7"
             },
+            "bin": [
+                "translation.php"
+            ],
             "type": "library",
             "autoload": {
                 "classmap": [
@@ -96,7 +99,7 @@
             ],
             "description": "A language package validator for phpBB language packs. Language packs are required to pass the validator when submitted to the language pack database.",
             "homepage": "https://github.com/phpbb/phpbb-translation-validator",
-            "time": "2019-04-16T18:25:54+00:00"
+            "time": "2019-04-26T07:06:31+00:00"
         },
         {
             "name": "psr/log",
