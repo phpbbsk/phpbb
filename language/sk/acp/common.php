@@ -326,6 +326,7 @@ $lang = array_merge($lang, array(
 	'TOTAL_SIZE'			=> 'Celková veľkosť',
 
 	'UCP'					=> 'Používateľský ovládací panel',
+	'URL_INVALID'			=> 'URL adresa zadaná pre nastavenie “%1$s” je neplatná.',
 	'USERNAMES_EXPLAIN'		=> 'Vložte každé používateľské meno na nový riadok',
 	'USER_CONTROL_PANEL'	=> 'Používateľský ovládací panel',
 
