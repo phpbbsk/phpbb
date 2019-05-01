@@ -2,13 +2,8 @@
 # Git should ignore. Files already tracked by Git are not affected.
 # http://git-scm.com/docs/gitignore
 
-# Dev tools
-/.travis.yml
-/composer.json
-/README.md
-
 # Composer
-/vendor
+vendor
 composer.phar
 
 # Operating systems
