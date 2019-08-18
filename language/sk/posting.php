@@ -44,6 +44,7 @@ $lang = array_merge($lang, array(
 	'ADD_POLL'					=> 'Hlasovanie',
 	'ADD_POLL_EXPLAIN'			=> 'Ak nechcete pridať hlasovanie, nasledujúce položky nechajte prázdne (nevyplňujte).',
 	'ALREADY_DELETED'			=> 'Táto správa už bola vymazaná.',
+	'ATTACH_COMMENT_NO_EMOJIS'	=> 'Popis prílohy obsahuje zakázané znaky (emoji).',
 	'ATTACH_DISK_FULL'			=> 'Nie je dostatok miesta na uloženie tejto prílohy.',
 	'ATTACH_QUOTA_REACHED'		=> 'Úložný priestor portálu pre ukladanie príloh bol vyčerpaný.',
 	'ATTACH_SIG'				=> 'Zobraziť v príspevku aj podpis používateľa (podpis je možné vytvoriť v časti "Nastavenia")',

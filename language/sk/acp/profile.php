@@ -112,7 +112,7 @@ $lang = array_merge($lang, array(
 	'FIRST_OPTION'				=> 'Prvá možnosť',
 
 	'HIDE_PROFILE_FIELD'			=> 'Skryť pole v profile',
-	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Skryje pole v profile pred všetkými používateľmi okrem samotného používateľa, administrátorov a moderátorov, ktorí stále môžu vidieť toto pole. Ak je možnosť Zobraziť v používateľskom kontrolnom paneli vypnutá, používateľ nebude môcť vidieť alebo zmeniť toto pole, a tak toto pole budú môcť zmeniť len administrátori.',
+	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Skryje pole pred všetkými používateľmi okrem administrátorov a moderátorov, ktorí toto pole budú stále môcť vidieť. Ak je možnosť Zobraziť v používateľskom kontrolnom paneli vypnutá, používateľ nebude môcť vidieť alebo zmeniť toto pole, a tak toto pole budú môcť zmeniť len administrátori.',
 
 	'INVALID_CHARS_FIELD_IDENT'		=> 'Označenie poľa môže obsahovať iba malé a-z a _',
 	'INVALID_FIELD_IDENT_LEN'		=> 'Označenie poľa môže mať najviac 17 znakov',

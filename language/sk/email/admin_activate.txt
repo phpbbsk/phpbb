@@ -7,7 +7,7 @@ Dobrý deň,
 Odkaz na profil používateľa:
 {U_USER_DETAILS}
 
-Aktivácia účtu používateľa:
+Účet môžete okamžite aktivovať kliknutím na tento odkaz:
 {U_ACTIVATE}
 
 {EMAIL_SIG}

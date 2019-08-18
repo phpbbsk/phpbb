@@ -98,6 +98,7 @@ $lang = array_merge($lang, array(
 	'FORUM_LINK_TRACK_EXPLAIN'			=> 'Sleduje, koľkokrát bolo kliknuté na odkaz.',
 	'FORUM_NAME'						=> 'Názov fóra',
 	'FORUM_NAME_EMPTY'					=> 'Musíte zadať názov pre toto fórum.',
+	'FORUM_NAME_EMOJI'					=> 'Názov fóra, ktorý ste zadali je neplatný.<br>Obsahuje nasledujúce nepodporované znaky:<br>%s',
 	'FORUM_PARENT'						=> 'Nadradené fórum',
 	'FORUM_PASSWORD'					=> 'Heslo fóra',
 	'FORUM_PASSWORD_CONFIRM'			=> 'Potvrďte heslo fóra',

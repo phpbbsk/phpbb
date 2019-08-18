@@ -82,8 +82,8 @@ $lang = array_merge($lang, array(
 	'ACL_U_SIG'			=> 'Môže použiť podpis',
 
 	'ACL_U_SENDPM'		=> 'Môže posielať súkromné správy',
-	'ACL_U_MASSPM'		=> 'Môže posielať správy viacerým používateľom',
-	'ACL_U_MASSPM_GROUP'=> 'Môže posielať správy skupinám',
+	'ACL_U_MASSPM'		=> 'Môže posielať súkromné správy viacerým používateľom',
+	'ACL_U_MASSPM_GROUP'=> 'Môže posielať súkromné správy skupinám',
 	'ACL_U_READPM'		=> 'Môže čítať súkromné správy',
 	'ACL_U_PM_EDIT'		=> 'Môže upravovať vlastné súkromné správy',
 	'ACL_U_PM_DELETE'	=> 'Môže odstrániť súkromné správy z vlastnej zložky',
