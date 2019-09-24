@@ -53,7 +53,7 @@ $lang = array_merge($lang, [
 	'INHERITING_FROM'							=> 'Dedí z',
 	'INSTALL_STYLE'								=> 'Inštálácia štýlu',
 	'INSTALL_STYLES'							=> 'Inštalácia štýlov',
-	'INSTALL_STYLES_EXPLAIN'					=> 'Tu si môžete nainštalovať nové štýly.<br />Ak nemôžete nájsť váš určitý štýl v zozname nižšie, skontrolujte, či štýl je už nainštalovaný. Ak nie je nainštalovaný, skontrolujte, či je správne nahraný.',
+	'INSTALL_STYLES_EXPLAIN'					=> 'Tu si môžete nainštalovať nové štýly.<br>Ak nemôžete nájsť váš určitý štýl v zozname nižšie, skontrolujte, či štýl je už nainštalovaný. Ak nie je nainštalovaný, skontrolujte, či je správne nahraný.',
 	'INVALID_STYLE_ID'							=> 'Neplatné ID štýlu.',
 
 	'NO_MATCHING_STYLES_FOUND'					=> 'Žiadne štýly zodpovedajúce vášmu dotazu.',
