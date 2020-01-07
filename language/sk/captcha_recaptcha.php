@@ -44,10 +44,10 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_INCORRECT'			=> 'Zadaný overovací kód je nesprávny',
 	'RECAPTCHA_NOSCRIPT'			=> 'Prosíme, povoľte vo vašom prehliadači JavaScript, aby sa vám mohlo zobraziť overenie.',
 	
-	'RECAPTCHA_PUBLIC'				=> 'Verejný reCaptcha kľúč',
-	'RECAPTCHA_PUBLIC_EXPLAIN' 		=> 'Váš verejný reCaptcha kľúč. Kľúče možno získať na <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-	'RECAPTCHA_PRIVATE'				=> 'Súkromný reCaptcha kľúč',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Váš súkromný reCaptcha kľúč. Kľúče možno získať na <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_PUBLIC'				=> 'Kľúč stránky',
+	'RECAPTCHA_PUBLIC_EXPLAIN' 		=> 'Váš kľúč stránky. Kľúče možno získať na <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>. Prosíme, použite typ reCAPTCHA v2 &gt; Invisible reCAPTCHA.',
+	'RECAPTCHA_PRIVATE'				=> 'Tajný kľúč',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Váš tajný kľúč. Kľúče možno získať na <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>. Prosíme, použite typ reCAPTCHA v2 &gt; Invisible reCAPTCHA.',
 	
-	'RECAPTCHA_EXPLAIN'				=> 'Snažíme sa zamedziť automatizovaným registráciám, preto je potrebné, aby ste do rámčekov vpísali obe slová.',
+	'RECAPTCHA_INVISIBLE'			=> 'Táto CAPTCHA je v skutočnosti neviditeľná. Pre jej overenie sa pozrite do pravého dolného rohu. Mali by ste tam vidieť malú ikonku.',
 ));

@@ -282,7 +282,6 @@ $lang = array_merge($lang, array(
 	'TOPIC_BUMPED'				=> 'Téma bolo preunuté na začiatok zoznamu tém (oživené).',
 
 	'UNAUTHORISED_BBCODE'		=> 'Niektoré tagy BBCode nie je možné použiť (%s).',
-	'UNGLOBALISE_EXPLAIN'		=> 'Ak chcete túto tému zobraziť ako bežnú tému, musíte zvoliť fórum, v ktorom má byť táto téma umiestnená. Oznámenia pre celý portál sa zobrazujú vo všetkých fórach portálu.',
 	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'Vaša správa obsahuje nepovolené znaky:<br />%s',
 	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'Predmet obsahuje nepovolené znaky:<br />%s',
 	'UPDATE_COMMENT'			=> 'Aktualizovať komentár',

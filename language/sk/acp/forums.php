@@ -130,7 +130,9 @@ $lang = array_merge($lang, array(
 	'GENERAL_FORUM_SETTINGS'	=> 'Všeobecné nastavenia fóra',
 
 	'LINK'						=> 'Odkaz',
-	'LIST_INDEX'				=> 'Zobraziť subfórum v legende nadradeného fóra',
+	'LIMIT_SUBFORUMS'			=> 'Limitovať legendu iba na priame subfóra',
+	'LIMIT_SUBFORUMS_EXPLAIN'	=> 'Limituje zoznam subfór iba na tie sobfóra, ktoré sú priamym potomkom aktuálneho fóra. Ak túto možnosť zakážete a zároveň bude povolené „Vypísať subfóra v legende“, zobrazia sa všetky subfóra.',
+ 	'LIST_INDEX'				=> 'Zobraziť subfórum v legende nadradeného fóra',
 	'LIST_INDEX_EXPLAIN'		=> 'Zobrazí toto fórum na index-e a všade inde ako odkaz v legende jeho nadradeného fóra, ak je možnosť „Vypísať subfóra v legende“ v nadradenom fóre povolená.',
 	'LIST_SUBFORUMS'			=> 'Vypísať subfóra v legende',
 	'LIST_SUBFORUMS_EXPLAIN'	=> 'Zobrazí subfóra tohto fóra na index-e a všade inde ako odkaz v legende, ak je možnosť „Zobraziť subfórum v legende nadradeného fóra“ povolená.',

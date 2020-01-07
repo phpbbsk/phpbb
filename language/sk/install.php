@@ -71,7 +71,7 @@ $lang = array_merge($lang, array(
 
 	<p>phpBB3.1 môžete spustiť na týchto databázach:</p>
 	<ul>
-		<li>MySQL 3.23 alebo vyšší (MySQLi je podporované)</li>
+		<li>MySQL 4.1.3 alebo vyšší (MySQLi je podporované)</li>
 		<li>PostgreSQL 8.3+</li>
 		<li>SQLite 3.6.15+</li>
 		<li>MS SQL Server 2000 alebo vyšší (priamo alebo cez ODBC)</li>
@@ -106,7 +106,7 @@ $lang = array_merge($lang, array(
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'Verzia PHP',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB vyžaduje verziu PHP 5.4.0 alebo vyššiu.',
+	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB vyžaduje verziu PHP 7.1.3 alebo vyššiu.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'PHP funkcia getimagesize() je nevyhnutná',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> 'Aby phpBB pracovalo správne, funkcia getimagesize musí byť dostupná.',
 	'PCRE_UTF_SUPPORT'					=> 'Podpora PCRE UTF-8',
@@ -187,7 +187,6 @@ $lang = array_merge($lang, array(
 	// Database options
 	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ via ODBC',
 	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ Native ]',
-	'DB_OPTION_MYSQL'		=> 'MySQL',
 	'DB_OPTION_MYSQLI'		=> 'MySQL s rozšírením MySQLi',
 	'DB_OPTION_ORACLE'		=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
@@ -566,7 +565,7 @@ $lang = array_merge($lang, array(
 	
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'Konverzia je kompletná',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'Úspešne ste konvertovali vaše fórum na phpBB 3.2. Teraz sa môžete prihlásiť a <a href="../">používať vaše fórum</a>. Prosíme, uistite sa, že nastavenia boli správne prenesené ešte predtým, ako sprístupníte fórum vymazaním inštalačného adresára. Pamätajte na to, že pomoc s používaním phpBB je dostupná online cez <a href="https://www.phpbb.com/support/docs/en/3.2/ug/">dokumentáciu</a> a <a href="https://www.phpbb.com/community/viewforum.php?f=466">fóra podpory</a>.',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'Úspešne ste konvertovali vaše fórum na phpBB 3.3. Teraz sa môžete prihlásiť a <a href="../">používať vaše fórum</a>. Prosíme, uistite sa, že nastavenia boli správne prenesené ešte predtým, ako sprístupníte fórum vymazaním inštalačného adresára. Pamätajte na to, že pomoc s používaním phpBB je dostupná online cez <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">dokumentáciu</a> a <a href="https://www.phpbb.com/community/viewforum.php?f=661">fóra podpory</a>.',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'FTP upload je povolený na starom fóre. Vypnete prosím túto možnosť a skontrolujte či existuje platná zložka pre upload. Potom skopírujte všetky prílohy do tejto, z webu prístupnej zložky. Keď to urobíte reštartujte konvertor.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Nie sú dostupné žiadne konfiguračné informácie pre prechod.',

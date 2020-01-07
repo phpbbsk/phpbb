@@ -79,8 +79,6 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Približný počet záznamov, ktoré sa spracujú ja jednu jednotku času',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Začať reparsovať tam, kde posledné reparsovanie skončilo',
 
-	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'			=> 'Prepočítať stĺpec user_email_hash tabuľky používateľov.',
-
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'					=> 'Nastaví hodnotu konfiguračnej možnosti, len ak je zhodná so súčasnou hodnotou',
 	'CLI_DESCRIPTION_SET_CONFIG'						=> 'Nastaví hodnotu konfiguračnej možnosti',
 
@@ -131,7 +129,6 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_ENABLED' 			=> 'Povolené',
 
 	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Bezpečne opravené štruktúry stromov fór a modulov.',
-	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Všetky hashe e-mailov úspešne prepočítané.',
 	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Úspešne aktualizované heslá použitím bcrypt.',
 
 	'CLI_MIGRATION_NAME'					=> 'Názov migrácie, vrátane menného priestoru (pre predídenie problémov, použite lomítko namiesto obráteného lomítka).',

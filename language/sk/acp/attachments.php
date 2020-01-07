@@ -69,7 +69,6 @@ $lang = array_merge($lang, array(
 	'ATTACH_QUOTA_EXPLAIN'				=> 'Maximálne miesto na disku vyhradené pre prílohy súkromných správ (údaj pre celé fórum). Ak je 0, miesto je neobmedzené.',
 	'ATTACH_TO_POST'					=> 'Pripojiť súbor k správe',
 
-	'CAT_FLASH_FILES' 			=> 'Flashové súbory',
 	'CAT_IMAGES' 				=> 'Obrázky',
 	'CHECK_CONTENT' 			=> 'Skontrolovať prílohy',
 	'CHECK_CONTENT_EXPLAIN' 	=> 'Niektoré prehliadače môžu byť oklamané nesprávnymi mimetype-y pre prílohy. Toto nastavenie zaručí, že budu vyradené.',
@@ -100,7 +99,6 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_ARCHIVES' 			=> 'Archívy',
 	'EXT_GROUP_DOCUMENTS' 			=> 'Dokumenty',
 	'EXT_GROUP_DOWNLOADABLE_FILES' 	=> 'Súbory na stiahnutie',
-	'EXT_GROUP_FLASH_FILES' 		=> 'Flashové súbory',
 	'EXT_GROUP_IMAGES' 				=> 'Obrázky',
 	'EXT_GROUP_PLAIN_TEXT' 			=> 'Text',
 

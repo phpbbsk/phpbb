@@ -227,16 +227,6 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Späť',
 
-	'CANNOT_CHANGE_FILE_GROUP'	=> 'Nie je možné zmeniť skupinu pre tento súbor',
-	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Nie je možné zmeniť oprávnenia tohto súboru',
-	'CANNOT_COPY_FILES'		=> 'Nie je možné kopírovať súbory',
-	'CANNOT_CREATE_SYMLINK'	=> 'Nie je možné vytvoriť odkaz na súbor',
-	'CANNOT_DELETE_FILES'	=> 'Nie je možné odstrániť súbory zo systému',
-	'CANNOT_DUMP_FILE'		=> 'Nie je možné vypísať súbor',
-	'CANNOT_MIRROR_DIRECTORY'	=> 'Nie je možné zrkadliť adresár',
-	'CANNOT_RENAME_FILE'	=> 'Nie je možné premenovať súbor zo systému',
-	'CANNOT_TOUCH_FILES'	=> 'Nie je možné zistiť, či súbor existuje',
-
 	'CONTAINER_EXCEPTION' => 'V phpBB nastala chyba pri vytváraní kontajnera kvôli nainštalovanému rozšíreniu. Preventívne boli dočasne deaktivované všetky rozšírenia. Prosíme, skúste prečistiť cache. Všetky rozšírenia budú automaticky aktivované akonáhle sa chyba vyrieši. Ak táto chyba pretrváva, prosíme, navštívte <a href="https://www.phpbb.com/support">phpBB.com</a> (v Angličtine) a požiadajte o pomoc.',
 	'EXCEPTION' => 'Exception',
 
@@ -374,7 +364,7 @@ $lang = array_merge($lang, array(
 	'DATABASE_SERVER_INFO'	=> 'Databázový server',
 	'DATABASE_SIZE'			=> 'Veľkosť databázy',
 
-	// Enviroment configuration checks, mbstring related
+	// Environment configuration checks, mbstring related
 	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'Funkcia zaťaženia nie je nastavená správne.',
 	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> musí byť nastavená na 0 alebo 4. Aktuálnu hodnotu môžete skontrolovať na stránke s <samp>PHP informáciami</samp>.',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'Transparentné kódovanie znakov nie je nastavené správne.',

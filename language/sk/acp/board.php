@@ -53,7 +53,9 @@ $lang = array_merge($lang, array(
 	'DISABLE_BOARD_EXPLAIN'			=> 'Týmto zneprístupníte fórum pre používateľov. Môžete tiež vložiť krátku (255 znakovú) správu, ktorá sa bude zobrazovať.',
 	'DISPLAY_LAST_SUBJECT'			=> 'Display subject of last added post on forum list',
 	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> 'The subject of the last added post will be displayed in the forum list with a hyperlink to the post. Subjects from password protected forums and forums in which user doesn’t have read access are not shown.',
-	'GUEST_STYLE'					=> 'Guest style',
+	'DISPLAY_UNAPPROVED_POSTS'		=> 'Zobraziť neschválené príspevky autorom',
+	'DISPLAY_UNAPPROVED_POSTS_EXPLAIN'	=> 'Autori môžu vidieť svoje neschválené príspevky. To neplatí pri hosťovských príspevkoch.',
+ 	'GUEST_STYLE'					=> 'Guest style',
 	'GUEST_STYLE_EXPLAIN'			=> 'The board style for guests.',
 	'OVERRIDE_STYLE'				=> 'Nahradiť používateľom zvolený vzhľad',
 	'OVERRIDE_STYLE_EXPLAIN'		=> 'Použije prednastavený vzhľad namiesto používateľom zvoleného.',
@@ -440,7 +442,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
 	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Tajný kľúč',
 
-	'APACHE_SETUP_BEFORE_USE'					=> 'Pred zapnutím tejto metódy overovania v phpBB, musíte najskôr nastaviť apache overovanie. Majte pri tom na pamäti, že používateľské meno pre apache overovanie musí byť rovnaké, ako vaš phpBB používateľské meno.',
+	'APACHE_SETUP_BEFORE_USE'					=> 'Pred zapnutím tejto metódy overovania v phpBB, musíte najskôr nastaviť apache overovanie. Majte pri tom na pamäti, že používateľské meno pre apache overovanie musí byť rovnaké, ako vaš phpBB používateľské meno. Apache overenie môže byť použité iba s mod_php (nie s verziou CGI).',
 
 	'LDAP'							=> 'LDAP',
 	'LDAP_DN'						=> 'LDAP základ <var>dn</var>',

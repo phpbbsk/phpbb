@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'ACP_BBCODES_EXPLAIN'		=> 'BB kódy sú zvláštna implementácia jazyka HTML, ktorá poskytuje väčšiu kontrolu nad tým, čo a ako je zobrazené. Z tejto stránky môžete pridávať, odstraňovať alebo upravovať vlastné BB kódy.',
 	'ADD_BBCODE'				=> 'Pridať nový BB kód',
 
-	'BBCODE_DANGER'				=> 'BB kód, ktorý sa snažíte pridať vyzerá tak, že používa {TEXT} v HTML atribúte. Toto je možná bezpečnostná chyba XSS. Namiesto toho radšej skúste použiť viac obmedzené {SIMPLETEXT} alebo {INTTEXT}. Pokračujte iba ak rozumiete rizikám a považujete použitie {TEXT} ako nenahraditeľné riešenie.',
+	'BBCODE_DANGER'				=> 'BB kód, ktorý sa snažíte pridať vyzerá nebezpečne. Ak BB kód používa {TEXT} v citlivom kontexte, skúste použiť obmedzujúcejší typ. Pokračujte iba ak rozumiete rizikám.',
 	'BBCODE_DANGER_PROCEED'		=> 'Pokračovať', //'I understand the risk',
 
 	'BBCODE_ADDED'				=> 'BB kód úspešne pridaný.',
@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_INVALID_TAG_NAME'	=> 'BB kód s týmto názvom už existuje.',
 	'BBCODE_INVALID'			=> 'Váš BB kód je poskladaný v chybnej forme.',
-	'BBCODE_OPEN_ENDED_TAG'		=> 'Váš BB kód musí obsahovať štartovaciu aj zakončovaciu značku.',
+	'BBCODE_INVALID_TEMPLATE'	=> 'Šablóna vášho BB kódu je neplatná.',
 	'BBCODE_TAG'				=> 'Značka',
 	'BBCODE_TAG_TOO_LONG'		=> 'Vybraný názov značky je príliš dlhý.',
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'Definícia vašej značky je príliš dlhá, skráťte ju prosím.',
@@ -79,13 +79,13 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_BBCODES'		=> 'Nedajú sa vytvoriť ďalšie BB kódy. Odstráňte jednu, alebo viac BB kódov a skúste to znova.',
 
 	'tokens'	=>	array(
-		'TEXT'			=> 'Akýkošvek text, vrátane cudzích znakov, čísiel, atď. Nemali by ste používať túto premennú v HTML tagoch. Miesto toho skúste použiť IDENTIFIER, INTTEXT alebo SIMPLETEXT.',
+		'TEXT'			=> 'Akýkoľvek text, vrátane cudzích znakov, čísiel, atď. Nemali by ste používať túto premennú v HTML tagoch. Miesto toho skúste použiť IDENTIFIER, INTTEXT alebo SIMPLETEXT.',
 		'SIMPLETEXT'	=> 'Znaky z latinskej abecedy (A-Z), čísla, medzery, čiarky, bodky, mínus, plus, pomlčka a podtrhovník',
 		'INTTEXT'		=> 'Unicode znaky, čísla, medzery, čiarky, bodky, mínusy, plusy, pomĺčky a podtrhovníky.',
 		'IDENTIFIER'	=> 'Znaky z latinskej abecedy (A-Z), čísla, pomlčka a podčiarknutie',
 		'NUMBER'		=> 'Akákoľvek rada číslic',
 		'EMAIL'			=> 'Platná e-mailová adresa',
-		'URL'			=> 'Platná URL, používajúca akýkoľvek protokol (http, ftp, atď... nedá sa zneužiť pre JavaScriptové útoky). Pokiaľ nie je zvolený žiadny, protokol „http://“ je pripojený na začiatok reťazca.',
+		'URL'			=> 'Platná URL, používajúca akýkoľvek povolený protokol (http, ftp, atď... nedá sa zneužiť pre JavaScriptové útoky). Pokiaľ nie je zvolený žiadny, protokol „http://“ je pripojený na začiatok reťazca.',
 		'LOCAL_URL'		=> 'Lokálna URL adresa. Zadaná URL musí byť relatívna k stránke s témou a nesmie obsahovať definíciu protokolu alebo názov servera, pretože adresy majú prefix “%s”',
 		'RELATIVE_URL'	=> 'Relatívna adresa. Môžete ju použiť ale buďťe opatrný: celá adresa je valídna relatívna adresa. Ak chcete použiť relatívnu adresu fóra, použite token LOCAL_URL.',
 		'COLOR'			=> 'HTML farba, buď v číselnom formáte <samp>#FF1234</samp> alebo ako <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS farba</a> ako <samp>fuchsia</samp> alebo <samp>InactiveBorder</samp>'
