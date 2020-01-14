@@ -57,7 +57,6 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_INVALID_TAG_NAME'	=> 'BB kód s týmto názvom už existuje.',
 	'BBCODE_INVALID'			=> 'Váš BB kód je poskladaný v chybnej forme.',
-	'BBCODE_OPEN_ENDED_TAG'		=> 'Váš BB kód musí obsahovať štartovaciu aj zakončovaciu značku.',
 	'BBCODE_TAG'				=> 'Značka',
 	'BBCODE_TAG_TOO_LONG'		=> 'Vybraný názov značky je príliš dlhý.',
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'Definícia vašej značky je príliš dlhá, skráťte ju prosím.',
@@ -79,13 +78,13 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_BBCODES'		=> 'Nedajú sa vytvoriť ďalšie BB kódy. Odstráňte jednu, alebo viac BB kódov a skúste to znova.',
 
 	'tokens'	=>	array(
-		'TEXT'			=> 'Akýkošvek text, vrátane cudzích znakov, čísiel, atď. Nemali by ste používať túto premennú v HTML tagoch. Miesto toho skúste použiť IDENTIFIER, INTTEXT alebo SIMPLETEXT.',
+		'TEXT'			=> 'Akýkoľvek text, vrátane cudzích znakov, čísiel, atď.',
 		'SIMPLETEXT'	=> 'Znaky z latinskej abecedy (A-Z), čísla, medzery, čiarky, bodky, mínus, plus, pomlčka a podtrhovník',
 		'INTTEXT'		=> 'Unicode znaky, čísla, medzery, čiarky, bodky, mínusy, plusy, pomĺčky a podtrhovníky.',
 		'IDENTIFIER'	=> 'Znaky z latinskej abecedy (A-Z), čísla, pomlčka a podčiarknutie',
 		'NUMBER'		=> 'Akákoľvek rada číslic',
 		'EMAIL'			=> 'Platná e-mailová adresa',
-		'URL'			=> 'Platná URL, používajúca akýkoľvek protokol (http, ftp, atď... nedá sa zneužiť pre JavaScriptové útoky). Pokiaľ nie je zvolený žiadny, protokol „http://“ je pripojený na začiatok reťazca.',
+		'URL'			=> 'Platná URL, používajúca akýkoľvek povolený protokol (http, ftp, atď... nedá sa zneužiť pre JavaScriptové útoky). Pokiaľ nie je zvolený žiadny, protokol „http://“ je pripojený na začiatok reťazca.',
 		'LOCAL_URL'		=> 'Lokálna URL adresa. Zadaná URL musí byť relatívna k stránke s témou a nesmie obsahovať definíciu protokolu alebo názov servera, pretože adresy majú prefix “%s”',
 		'RELATIVE_URL'	=> 'Relatívna adresa. Môžete ju použiť ale buďťe opatrný: celá adresa je valídna relatívna adresa. Ak chcete použiť relatívnu adresu fóra, použite token LOCAL_URL.',
 		'COLOR'			=> 'HTML farba, buď v číselnom formáte <samp>#FF1234</samp> alebo ako <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS farba</a> ako <samp>fuchsia</samp> alebo <samp>InactiveBorder</samp>'

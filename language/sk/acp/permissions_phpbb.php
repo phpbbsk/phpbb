@@ -80,6 +80,7 @@ $lang = array_merge($lang, array(
 	'ACL_U_SAVEDRAFTS'	=> 'Môže ukladať koncepty',
 	'ACL_U_CHGCENSORS'	=> 'Môže vypnúť cenzúru slov',
 	'ACL_U_SIG'			=> 'Môže použiť podpis',
+	'ACL_U_EMOJI'		=> 'Can use emoji and rich text characters in topic title',
 
 	'ACL_U_SENDPM'		=> 'Môže posielať súkromné správy',
 	'ACL_U_MASSPM'		=> 'Môže posielať súkromné správy viacerým používateľom',
