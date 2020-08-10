@@ -511,13 +511,13 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_ADD_ADMIN_GLOBAL_A_'		=> '<strong>Pridaní alebo upravení Administrátori</strong><br />» %s',
 	'LOG_ACL_ADD_MOD_GLOBAL_M_'			=> '<strong>Pridaní alebo upravení Globálni Moderátori</strong><br />» %s',
 
-	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>Pridaný alebo upravený prístup používateľa k fóru</strong> od %1$s<br />» %2$s',
-	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>Pridaný alebo upravený prístup používateľa k moderovaniu fóra</strong> od %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>Pridaný alebo upravený prístup skupiny k fóru</strong> od %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>Pridaný alebo upravený prístup skupiny k moderovaniu fóra</strong> od %1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>Pridaný alebo upravený prístup používateľa k fóru</strong> do %1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>Pridaný alebo upravený prístup používateľa k moderovaniu fóra</strong> do %1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>Pridaný alebo upravený prístup skupiny k fóru</strong> do %1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>Pridaný alebo upravený prístup skupiny k moderovaniu fóra</strong> do %1$s<br />» %2$s',
 
-	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>Pridaní alebo upravení Moderátori</strong> od %1$s<br />» %2$s',
-	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>Pridané alebo upravené oprávnenia k fóru</strong> od %1$s<br />» %2$s',
+	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>Pridaní alebo upravení Moderátori</strong> pre %1$s<br />» %2$s',
+	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>Pridané alebo upravené oprávnenia k fóru</strong> pre %1$s<br />» %2$s',
 
 	'LOG_ACL_DEL_ADMIN_GLOBAL_A_'		=> '<strong>Odstránení Administrátori</strong><br />» %s',
 	'LOG_ACL_DEL_MOD_GLOBAL_M_'			=> '<strong>Odstránení Globálni Moderátori</strong><br />» %s',
