@@ -93,6 +93,7 @@ $lang = array_merge($lang, array(
 	'RESULT_DAYS'			=> 'Vo výsledkoch zobraziť len príspevky za',
 	'RESULT_SORT'			=> 'Zoradiť výsledky podľa',
 	'RETURN_FIRST'			=> 'Zobraziť prvých',
+	'RETURN_FIRST_EXPLAIN'	=> 'Nastavte na 0 pre zobrazenie celého obsahu príspevkov.',
 	'GO_TO_SEARCH_ADV'	=> 'Rozšírené vyhľadávanie',
 
 	'SEARCHED_FOR'				=> 'Pužitý hľadaný výraz',

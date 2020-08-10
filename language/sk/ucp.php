@@ -180,7 +180,6 @@ $lang = array_merge($lang, array(
 	'DEMOTE_SELECTED'			=> 'Zbaviť sa vedenia v označených skupinách',
 	'DISABLE_CENSORS'			=> 'Povoliť cenzúru slov',
 	'DISPLAY_GALLERY'			=> 'Zobraziť galériu',
-	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Zadaná e-mailová doména nemá platný MX záznam.',
 	'DOWNLOADS'					=> 'Stiahnuté',
 	'DRAFTS_DELETED'			=> 'Všetky označené koncepty boli úspešne vymazané.',
 	'DRAFTS_EXPLAIN'			=> 'Tu môžete zobraziť, upravovať alebo mazať vaše uložené koncepty.',

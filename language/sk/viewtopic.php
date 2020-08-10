@@ -50,8 +50,6 @@ $lang = array_merge($lang, array(
 	'BUMPED_BY'				=> 'Naposledy oživil %1$s - %2$s.',
 	'BUMP_TOPIC'			=> 'Oživiť tému',
 
-	'CODE'					=> 'Kód',
-
 	'DELETE_TOPIC'			=> 'Vymazať tému',
 	'DELETED_INFORMATION'	=> 'Vymazal %1$s on %2$s',
 	'DISAPPROVE'					=> 'Nesúhlasím',
@@ -101,7 +99,6 @@ $lang = array_merge($lang, array(
 
 	'QUICK_MOD'				=> 'Rýchle nástroje',
 	'QUICKREPLY'			=> 'Rýchla odpoveď',
-	'QUOTE'					=> 'Citovať príspevok',
 
 	'REPLY_TO_TOPIC'		=> 'Odpovedať k tejto téme',
 	'RESTORE'				=> 'Obnoviť',

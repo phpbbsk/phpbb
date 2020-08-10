@@ -152,5 +152,4 @@ $lang = array_merge($lang, array(
 	'VIEW_SKYPE_PROFILE'	=> 'Zobraziť Skype profil',
 	'VIEW_TWITTER_PROFILE'	=> 'Zobraziť Twitter profil',
 	'VIEW_YOUTUBE_CHANNEL'	=> 'Zobraziť kanál YouTube',
-	'VIEW_GOOGLEPLUS_PROFILE' => 'Zobraziť Google+ profil',
 ));

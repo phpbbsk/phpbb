@@ -50,6 +50,8 @@ $lang = array_merge($lang, array(
 	'CONTINUE_INDEXING_EXPLAIN'				=> 'Bol zahájený proces vytvorenia vyhľadávacieho indexu. Pre opätovné sprístupnenie vyhľadávania musíte túto operáciu dokončiť, alebo zrušiť.',
 	'CREATE_INDEX' 							=> 'Vytvoriť index',
 
+	'DEFAULT_SEARCH_RETURN_CHARS'			=> 'Predvolený počet vrátených znakov',
+	'DEFAULT_SEARCH_RETURN_CHARS_EXPLAIN'	=> 'Predvolený počet znakov, ktoré budú zobrazené počas vyhľadávania. Hodnota 0 vráti celý text príspevku.',
 	'DELETE_INDEX' 							=> 'Zmazať index',
 	'DELETING_INDEX_IN_PROGRESS' 			=> 'Prebieha mazanie indexu',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN' 	=> 'Vyhľadávací backend práve prečisťuje svoj index. Toto môže trvať niekoľko minút.',

@@ -110,6 +110,10 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE' 			=> 'Rozmery pre odkaz k obrázku',
 	'IMAGE_LINK_SIZE_EXPLAIN' 	=> 'Zobraziť obrázok ako textový odkaz, ak sú jeho rozmery väčšie ako nastavený limit. Pre vypnutie tejto funkcie, nastavte hodnoty - 0px na 0px.',
+	'IMAGE_QUALITY'				=> 'Kvalita nahraných obrázkových príloh (iba JPEG)',
+	'IMAGE_QUALITY_EXPLAIN'		=> 'Zadajte hodnotu medzi 50% (menšia veľkosť súboru) a 90% (vyššia kvalita). Kvalita vyššia ako 90% zväčšuje veľkosť súboru a je zakázaná. Nastavenie sa aplikuje ak sú maximálne rozmery obrázka nastavené na inú hodnotu ako 0px na 0px.',
+	'IMAGE_STRIP_METADATA'		=> 'Odstrániť metadáta obrázka (iba JPEG)',
+	'IMAGE_STRIP_METADATA_EXPLAIN'	=> 'Odstráni Exif metadáta, t.j. meno autora, GPS súradnice a detaily fotoaparátu. Nastavenie sa aplikuje ak sú maximálne rozmery obrázka nastavené na inú hodnotu ako 0px na 0px.',
 
 	'MAX_ATTACHMENTS' 				=> 'Maximálny počet príloh na jeden príspevok',
 	'MAX_ATTACHMENTS_PM' 			=> 'Maximálny počet príloh na jednu súkromnú správu',
@@ -128,6 +132,8 @@ $lang = array_merge($lang, array(
 	'NOT_ASSIGNED' 				=> 'Nepriradené',
 	'NO_ATTACHMENTS'			=> 'Pre tento časový úsek neboli nájdené žiadne prílohy.',
 	'NO_EXT_GROUP' 				=> 'Žiadna',
+	'NO_EXT_GROUP_ALLOWED_PM'	=> 'Pre súkromné správy neexistujú žiadne <a href="%s">povolené skupiny prípon</a>.',
+	'NO_EXT_GROUP_ALLOWED_POST'	=> 'Pre príspevky neexistujú žiadne <a href="%s">povolené skupiny prípon</a>.',
 	'NO_EXT_GROUP_NAME' 		=> 'Nebolo vložené meno skupiny.',
 	'NO_EXT_GROUP_SPECIFIED' 	=> 'Nebola určená žiadna skupina.',
 	'NO_FILE_CAT' 				=> 'Žiadna',

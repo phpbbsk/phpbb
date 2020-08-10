@@ -94,7 +94,6 @@ $lang = array_merge($lang, array(
 	'FIELD_DESCRIPTION'			=> 'Popis poľa',
 	'FIELD_DESCRIPTION_EXPLAIN'	=> 'Vysvetlenie poľa, ktoré bude zobrazené používateľom',
 	'FIELD_DROPDOWN'			=> 'Rolovacie menu',
-	'FIELD_GOOGLEPLUS'			=> 'Google+',
 	'FIELD_IDENT'				=> 'Označenie poľa',
 	'FIELD_IDENT_ALREADY_EXIST'	=> 'Vybrané označenie poľa už existuje, vyberte prosím iné označenie.',
 	'FIELD_IDENT_EXPLAIN'		=> 'Označenie poľa je názov, pod ktorým bude pole uložené v databáze a štýloch.',

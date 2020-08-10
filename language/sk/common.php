@@ -171,6 +171,7 @@ $lang = array_merge($lang, array(
 	),
 	'COLLAPSE_VIEW'			=> 'Rozbaliť',
 	'CLOSE_WINDOW'			=> 'Zavrieť okno',
+	'CODE'					=> 'Kód',
 	'COLOUR_SWATCH'			=> 'Paleta farieb',
 	'COLON'					=> ':',
 	'COMMA_SEPARATOR'		=> ', ',	// Comma used to join lists into a single string, use localised comma if appropriate, eg: Ideographic or Arabic
@@ -208,6 +209,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_MESSAGES'		=> 'Zobraziť správy za',
 	'DISPLAY_POSTS'			=> 'Zobraziť príspevky za',
 	'DISPLAY_TOPICS'		=> 'Zobraziť témy za',
+	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Zadaná emailová adresa nemá platný MX záznam.',
 	'DOWNLOADED'			=> 'Stiahnuté',
 	'DOWNLOADING_FILE'		=> 'Sťahujem súbor',
 	'DOWNLOAD_COUNTS'		=> array(
@@ -313,7 +315,6 @@ $lang = array_merge($lang, array(
 	'GB'						=> 'GB',
 	'GIB'						=> 'GiB',
 	'GO'						=> 'Vykonaj',
-	'GOOGLEPLUS'				=> 'Google+',
 	'GOTO_FIRST_POST'			=> 'Preskočiť na prvý príspevok',
 	'GOTO_LAST_POST'			=> 'Preskočiť na posledný príspevok',
 	'GOTO_PAGE'					=> 'Preskočiť na stranu',
@@ -640,6 +641,9 @@ $lang = array_merge($lang, array(
 	'POST_UNAPPROVED'		=> 'Uverejnenie tohoto príspevku bolo zamietnuté.',
 	'POST_UNAPPROVED_EXPLAIN'	=> 'Tento príspevok nebude viditeľný ostatným používateľom kým ho moderátor neschváli.',
 	'POWERED_BY'			=> 'Založené na %s',
+
+	'QUOTE'					=> 'Citovať príspevok',
+
 	'PREVIEW'				=> 'Náhľad',
 	'PREVIOUS'				=> 'Predchádzajúci',	// Used in pagination
 	'PREVIOUS_STEP'			=> 'Predchádzajúci krok',

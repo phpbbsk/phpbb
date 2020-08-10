@@ -36,6 +36,8 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
+	'CLI_APCU_CACHE_NOTICE'				=> 'APCu cache musí byť vyčistené cez Administračný kontrolný panel.',
+
 	'CLI_CONFIG_CANNOT_CACHED'			=> 'Nastavte túto možnosť, pokiaľ se konfiguracia mení príliš často na to, aby sa oplatilo ju držať v medzipamäti..',
 	'CLI_CONFIG_CURRENT'				=> 'Súčasná konfiguračná hodnota, použite 0 a 1 k určeniu bivalencie',
 	'CLI_CONFIG_DELETE_SUCCESS'			=> 'Konfigurácia %s úspešne vymazaná.',
