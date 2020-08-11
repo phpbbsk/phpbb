@@ -1,16 +1,12 @@
 language: php
 
 php:
-  - 7.1
   - 7.2
-
-matrix:
-  fast_finish: true
 
 env:		
   global:		
-    - PHPBB_BRANCH="3.2.x"		
-    - PHPBB_VERSION="3.2"		
+    - PHPBB_BRANCH="3.3.x"		
+    - PHPBB_VERSION="3.3"		
     - PHPBB_LANGUAGE="sk"
 
 sudo: false
