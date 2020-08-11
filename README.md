@@ -1,12 +1,8 @@
-# Slovak Language Pack for [phpBB](https://www.phpbb.com/) 3.2
+# Slovak Language Pack for [phpBB](https://www.phpbb.com/)
 [![Build Status](https://travis-ci.org/phpbbsk/phpbb.svg?branch=3.2.x)](https://travis-ci.org/phpbbsk/phpbb)
 
-Slovak language pack to localise the phpBB 3.2 forum software.
+Slovak language pack to localise the phpBB forum software.
 
-## Information
-
-Includes the following Slovak locales compatible with:
-
-- [phpBB 3.2.8](https://github.com/phpbb/phpbb/tree/3.2.x)
+Always use translation downloaded from [the official CDB](https://www.phpbb.com/customise/db/translation/slovak/).
 
 Released under the GNU General Public License 2.0. Please see the [license terms](language/sk/LICENSE).
