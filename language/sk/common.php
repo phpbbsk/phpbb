@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'USER_LANG'			=> 'sk-SK',
 
 	// You can define different rules for the determination of plural forms here.
-	// See https://area51.phpbb.com/docs/dev/32x/language/plurals.html for more information
+	// See https://area51.phpbb.com/docs/dev/3.3.x/language/plurals.html for more information
 	// or ask the translation manager for help.
 	'PLURAL_RULE'		=> 8,
 
@@ -111,6 +111,8 @@ $lang = array_merge($lang, array(
 	'AVATAR_NOT_UPLOADED'			=> 'Obrázok profilu nemôže byť odovzdaný.',
 	'AVATAR_NO_TEMP_DIR'			=> 'Adresár pre dočasné súbory neexistuje alebo nie je zapisovateľný.',
 	'AVATAR_NO_SIZE'				=> 'Nebolo možné získať rozmery obrázku. Zadajte ich ručne.',
+	'AVATAR_NO_UPLOAD_DIR'			=> 'Cesta na uloženie avataru neexistuje alebo nie je zapisovateľná.',
+	'AVATAR_NO_UPLOAD_PATH'			=> 'Nahrávanie avataru je povolené, ale cesta do adresára, kde sa budú ukladať nie je nastavená.',
 	'AVATAR_PARTIAL_UPLOAD'			=> 'Vybratý súbor bol odovzdaný len čiastočne.',
 	'AVATAR_PHP_SIZE_NA'			=> 'Súbor s avatarom je príliš veľký.<br />Nie je možné zistiť povolený limit veľkosti zo súboru php.ini.',
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Súbor s avatarom je príliš veľký. Limit je %1$d %2$s.<br />Toto je hodnota nastavená systémom.',
@@ -504,6 +506,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_REFERENCE'			=> '"%1$s"',
 	'NOTIFICATION_REASON'				=> '<em>Dôvod:</em> %1$s.',
 	'NOTIFICATION_REPORT_PM'			=> '<strong>Odoslaná sťažnosť na súkromnú správu</strong> používateľom %1$s:',
+	'NOTIFICATION_REPORT_PM_CLOSED'		=> '<strong>Sťažnosť na súkromnú správu bola uzavretá</strong> by %1$s:',
 	'NOTIFICATION_REPORT_POST'			=> '<strong>Odoslaná sťažnosť na uverejnený príspevok</strong> používateľom %1$s:',
 	'NOTIFICATION_REPORT_CLOSED'		=> '<strong>Sťažnosť uzavretá</strong> používateľom %1$s v:',
 	'NOTIFICATION_TOPIC'				=> '<strong>Nové téma</strong> od používateľa %1$s:',

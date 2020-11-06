@@ -236,6 +236,7 @@ $lang = array_merge($lang, array(
 	'CRON_NO_SUCH_TASK'		=> 'Nie je možné nájsť cron “%s”.',
 	'CRON_NO_TASK'			=> 'Momentálne nepotrebuje bežať žiadna cron úloha.',
 	'CRON_NO_TASKS'			=> 'Nenašli sa žiadne cron úlohy.',
+	'CSV_INVALID'			=> 'Poskytnuté nastavenie “%1$s” oddelené čiarkou nie je platné. Hodnoty musia byť oddelené iba čiarkou a nesmú obsahovať žiadne oddeľujúce znaky pred ani po hodnote.',
 	'CURRENT_VERSION'		=> 'Aktuálna verzia',
 
 	'DEACTIVATE'				=> 'Deaktivovať',
@@ -317,6 +318,7 @@ $lang = array_merge($lang, array(
 
 	'UCP'					=> 'Používateľský ovládací panel',
 	'URL_INVALID'			=> 'URL adresa zadaná pre nastavenie “%1$s” je neplatná.',
+	'URL_SCHEME_INVALID'	=> 'Poskytnutá schéma “%2$s” v čiarkou oddelenom nastavení “%1$s” nie je platná. Schéma musí začínať znakom z latinky a zvyšné znaky musia byť alfanumerické, pomĺčky alebo bodky.',
 	'USERNAMES_EXPLAIN'		=> 'Vložte každé používateľské meno na nový riadok',
 	'USER_CONTROL_PANEL'	=> 'Používateľský ovládací panel',
 

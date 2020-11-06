@@ -1,0 +1,13 @@
+Subject: Sťažnosť na súkromnú správu vyriešená - "{SUBJECT}"
+
+Dobrý deň {USERNAME},
+
+Táto správa vám bola doručená pretože sťažnosť na súkromnú správu "{SUBJECT}" od "{AUTHOR_NAME}" na "{SITENAME}" bola vyriešená moderátormi alebo administrátormi fóra. Sťažnosť bola následne uzavretá. Ak máte v tejto súvislosti nejaké otázky, kontaktujte prosím {CLOSER_NAME} odoslaním súkromnej správy.
+
+Vami nahlásenú súkromnú správu môžete vidieť po kliknutí na tento odkaz:
+
+{U_VIEW_MESSAGE}
+
+Požiadali ste, aby sme vás o tejto udalosti informovali. Pamätajte, že sa kedykoľvek môžete rozhodnúť notifikácie o uzatvorených sťažnostiach na súkromné správy vypnúť zmenou nastavení vo vašom profile.
+
+{EMAIL_SIG}

@@ -156,6 +156,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_QUOTE'		=> 'Musíte byť prihlásený, ak chcete citovať príspevky v tomto fóre.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'Musíte byť prihlásený, ak chcete písať príspevky v tomto fóre.',
 
+	'MAX_ATTACHMENT_FILESIZE'	=> 'Maximálna veľkosť jednej prílohy: %s.',
 	'MAX_FONT_SIZE_EXCEEDED'	=> 'Môžete použiť maximálne %d ako definovanie veľosti písma.',
 	'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
 		1	=> 'Súbory typu flash môžu mať výšku maximálne %d pixel.',

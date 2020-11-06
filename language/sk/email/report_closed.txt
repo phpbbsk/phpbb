@@ -2,6 +2,12 @@ Subject: Sťažnosť vyriešená - "{POST_SUBJECT}"
 
 Dobrý deň {USERNAME},
 
-Táto správa vám bola doručená pretože sťažnosť na príspevok "{POST_SUBJECT}" v "{TOPIC_TITLE}" na "{SITENAME}" bola vyriešená moderátormi alebo administrátormi fóra. Sťažnosť bude následne uzavretá. Ak máte v tejto súvislosti nejaké otázky, kontaktujte prosím {CLOSER_NAME} odoslaním súkromnej správy.
+Táto správa vám bola doručená pretože sťažnosť na príspevok "{POST_SUBJECT}" od "{AUTHOR_NAME}" v "{TOPIC_TITLE}" na "{SITENAME}" bola vyriešená moderátormi alebo administrátormi fóra. Sťažnosť bude následne uzavretá. Ak máte v tejto súvislosti nejaké otázky, kontaktujte prosím {CLOSER_NAME} odoslaním súkromnej správy.
+
+Vami nahlásený príspevok môžete vidieť po kliknutí na tento odkaz:
+
+{U_VIEW_POST}
+
+Požiadali ste, aby sme vás o tejto udalosti informovali. Pamätajte, že sa kedykoľvek môžete rozhodnúť notifikácie o uzatvorených sťažnostiach vypnúť zmenou nastavení vo vašom profile.
 
 {EMAIL_SIG}

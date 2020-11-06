@@ -113,6 +113,8 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'phpBB nebude fungovať, ak vaše PHP nie je kompilované s podporou UTF-8 s rozšírením PCRE.',
 	'PHP_JSON_SUPPORT'					=> 'Podpora PHP JSON',
 	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'Aby phpBB pracovalo správne, rozšírenie PHP JSON musí byť dostupné.',
+	'PHP_MBSTRING_SUPPORT'				=> 'Podpora PHP mbstring',
+	'PHP_MBSTRING_SUPPORT_EXPLAIN'		=> 'Aby phpBB pracovalo správne, rozšírenie PHP mbstring musí byť dostupné.',
 	'PHP_XML_SUPPORT'					=> 'Podpora PHP XML/DOM',
 	'PHP_XML_SUPPORT_EXPLAIN'			=> 'Aby phpBB pracovalo správne, rozšírenie PHP XML/DOM musí byť dostupné.',
 	'PHP_SUPPORTED_DB'					=> 'Podporované typy databáz',
@@ -238,7 +240,7 @@ $lang = array_merge($lang, array(
 	'CONFIG_SITE_DESC'				=> 'Tu bude krátky popis vášho fóra',
 	'CONFIG_SITENAME'				=> 'vaša_doména.sk',
 
-	'DEFAULT_INSTALL_POST'			=> 'Toto je príklad ako budú vyzerať príspevky vo vašom phpBB3 fóre. Môžete upraviť alebo zmazať tento príspevok, alebo rovno celú tému, alebo dokonca celé toto fórum, pretože sa zdá, že všetko funguje ako má!',
+	'DEFAULT_INSTALL_POST'			=> '<t>Toto je príklad ako budú vyzerať príspevky vo vašom phpBB3 fóre. Môžete upraviť alebo zmazať tento príspevok, alebo rovno celú tému, alebo dokonca celé toto fórum, pretože sa zdá, že všetko funguje ako má!</t>',
 
 	'FORUMS_FIRST_CATEGORY'			=> 'Vaša prvá kategória',
 	'FORUMS_TEST_FORUM_DESC'		=> 'Popis vášho prvého fóra.',
