@@ -372,9 +372,11 @@ $lang = array_merge($lang, array(
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'Transparentné kódovanie znakov nie je nastavené správne.',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> musí byť nastavená na 0. Aktuálnu hodnotu môžete skontrolovať na stránke s <samp>PHP informáciami</samp>.',
 	'ERROR_MBSTRING_HTTP_INPUT'						=> 'Konverzia vstupných HTTP znakov nie je nastavené správne.',
-	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> musí byť nastavená na <samp>pass</samp>. Aktuálnu hodnotu môžete skontrolovať na stránke s <samp>PHP informáciami</samp>.',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> musí ostať prázdne. Aktuálnu hodnotu môžete skontrolovať na stránke s <samp>PHP informáciami</samp>.',
 	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'Konverzia výstupných HTTP znakov nie je nastavené správne.',
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> musí byť nastavená na <samp>pass</samp>. Aktuálnu hodnotu môžete skontrolovať na stránke s <samp>PHP informáciami</samp>.',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> musí ostať prázdne. Aktuálnu hodnotu môžete skontrolovať na stránke s <samp>PHP informáciami</samp>.',
+	'ERROR_DEFAULT_CHARSET'							=> 'Základná znaková sada je správne nakonfigurovaná',
+	'ERROR_DEFAULT_CHARSET_EXPLAIN'					=> '<var>default_charset</var> musí byť nastavené na <samp>UTF-8</samp>. Aktuálnu hodnotu môžete skontrolovať na stránke s <samp>PHP informáciami</samp>.',
 
 	'FILES_PER_DAY'		=> 'Príloh za deň',
 	'FORUM_STATS'		=> 'Štatistiky fóra',

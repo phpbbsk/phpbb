@@ -22,7 +22,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	// Find the language/country code on https://developers.google.com/recaptcha/docs/language
 	// If no code exists for your language you can use "en" or leave the string empty
 	'RECAPTCHA_LANG'				=> 'sk',
@@ -74,4 +74,5 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_V3_THRESHOLD_REPORT'				=> 'Prah citlivosti pre nahlásenie príspevku',
 	'RECAPTCHA_V3_THRESHOLDS'					=> 'Prahy citlivosti',
 	'RECAPTCHA_V3_THRESHOLDS_EXPLAIN'			=> 'reCAPTCHA v3 vracia skóre (<samp>1.0</samp> je vysoko pravdepodobne dobrý úmysel, <samp>0.0</samp> je veľmi pravdepodobne bot). Tu môžete nastaviť minimálne skóre pre každú akciu.',
-));
+	'EMPTY_RECAPTCHA_V3_REQUEST_METHOD'			=> 'reCAPTCHA v3 musí vedieť, ktorú metódu chcete použiť počas kontroly formuára.',
+]);
